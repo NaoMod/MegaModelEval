@@ -146,10 +146,17 @@ async def main():
     # Track usage for each tool
     tool_counts = {name: 0 for name in tool_names}
     
-    # Use ALL workflows (all 4 patterns)
-    selected_workflows = workflows.copy()
-    random.shuffle(selected_workflows)
-    print(f"\nUsing all workflows: {len(selected_workflows)}")
+    # Shuffle each category independently for variety
+    random.shuffle(apply_apply)
+    random.shuffle(apply_get)
+    random.shuffle(get_get)
+    random.shuffle(get_apply)
+    
+    # Calculate how many of each pattern we need for equal distribution
+    per_pattern = remainder_needed // 4
+    extra = remainder_needed % 4  # Handle remainder
+    
+    print(f"\nBalanced generation: {per_pattern} per pattern (+{extra} extra distributed)")
 
     # Load existing remainder progress if available
     remainder_instructions = []
@@ -162,10 +169,43 @@ async def main():
         except Exception as e:
             print(f"Could not load previous remainder progress: {e}")
 
-    # Continue generating until TARGET is reached, allowing repeated workflows
-    workflow_idx = 0
+    # Count existing patterns in remainder
+    pattern_counts = {"apply>apply": 0, "apply>get": 0, "get>get": 0, "get>apply": 0}
+    for item in remainder_instructions:
+        p = item.get("pattern", "")
+        if p in pattern_counts:
+            pattern_counts[p] += 1
+    
+    print(f"Existing pattern distribution: {pattern_counts}")
+
+    # Create pattern queues with their workflows
+    pattern_queues = {
+        "apply>apply": {"workflows": apply_apply, "idx": 0},
+        "apply>get": {"workflows": apply_get, "idx": 0},
+        "get>get": {"workflows": get_get, "idx": 0},
+        "get>apply": {"workflows": get_apply, "idx": 0},
+    }
+    
+    # Round-robin through patterns to ensure equal distribution
+    pattern_order = ["apply>apply", "apply>get", "get>get", "get>apply"]
+    pattern_idx = 0
+    
     while len(remainder_instructions) < remainder_needed:
-        workflow = selected_workflows[workflow_idx % len(selected_workflows)]
+        # Pick the pattern with the least count (to balance)
+        current_pattern = min(pattern_order, key=lambda p: pattern_counts[p])
+        queue = pattern_queues[current_pattern]
+        
+        if not queue["workflows"]:
+            print(f"Warning: No workflows available for pattern {current_pattern}")
+            pattern_order.remove(current_pattern)
+            if not pattern_order:
+                break
+            continue
+        
+        # Get next workflow from this pattern (cycling through)
+        workflow = queue["workflows"][queue["idx"] % len(queue["workflows"])]
+        queue["idx"] += 1
+        
         try:
             result = generate_dataset_for_regression_testing(
                 tools=[],
@@ -181,22 +221,28 @@ async def main():
                         continue
                     if any(existing.get("instruction") == instr_text for existing in all_instructions):
                         continue
-                    # Allow repeated instructions in remainder_instructions
+                    if any(existing.get("instruction") == instr_text for existing in remainder_instructions):
+                        continue
+                    # Add pattern info and append
+                    item["pattern"] = current_pattern
                     remainder_instructions.append(item)
+                    pattern_counts[current_pattern] += 1
                     for t in workflow:
                         if t in tool_counts:
                             tool_counts[t] += 1
                     pct = ((generated_count + len(remainder_instructions)) / TARGET) * 100
-                    preview = instr_text[:70].replace("\n", " ")
-                    print(f"{generated_count + len(remainder_instructions)}/{TARGET} ({pct:.1f}%) - {preview}... [{workflow[0]} & {workflow[1]}: {tool_counts[workflow[0]]}, {tool_counts[workflow[1]]}]")
+                    preview = instr_text[:60].replace("\n", " ")
+                    print(f"{generated_count + len(remainder_instructions)}/{TARGET} ({pct:.1f}%) [{current_pattern}] - {preview}...")
                     break
                 if (generated_count + len(remainder_instructions)) % 10 == 0:
                     save_remainder(remainder_instructions)
+                    print(f"  Pattern dist: {pattern_counts}")
             await asyncio.sleep(0.4)
         except Exception as e:
             print(f"Error processing workflow {workflow}: {e}")
             await asyncio.sleep(1.5)
-        workflow_idx += 1
+        
+        pattern_idx = (pattern_idx + 1) % len(pattern_order)
 
     save_remainder(remainder_instructions)
     print(f"\nDone. Generated {len(remainder_instructions)} Table multi-tool instructions.")
