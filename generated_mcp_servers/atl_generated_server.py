@@ -382,53 +382,45 @@ TRANSFORMATIONS = [
 
 SERVER_BASE = "http://localhost:8080"
 
-import asyncio
-import subprocess
-
-mcp = FastMCP(...)  # existing object, assumed to be initialized elsewhere
-
-def make_apply_tool(t_name, desc):
-    @mcp.tool(name=f"apply_{t_name}_tool", description=desc)
-    async def tool_func(file_content: str) -> str:
-        url = f"{SERVER_BASE}/transformation/{t_name}/apply"
-        try:
-            process = await asyncio.create_subprocess_shell(
-                f'curl -X POST -F "file=@-" {url}',
-                stdin=subprocess.PIPE,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE
-            )
-            stdout, stderr = await process.communicate(input=file_content.encode())
-            if process.returncode != 0:
-                raise Exception(f"Error applying transformation {t_name}: {stderr.decode()}")
-            return stdout.decode()
-        except Exception as e:
-            return str(e)
-    return tool_func
-
-def make_list_tool(t_name, desc):
-    @mcp.tool(name=f"list_transformation_{t_name}_tool", description=desc)
-    async def list_tool() -> str:
-        url = f"{SERVER_BASE}/transformation/{t_name}"
-        try:
-            process = await asyncio.create_subprocess_shell(
-                f'curl -X GET {url}',
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE
-            )
-            stdout, stderr = await process.communicate()
-            if process.returncode != 0:
-                raise Exception(f"Error listing transformation {t_name}: {stderr.decode()}")
-            return stdout.decode()
-        except Exception as e:
-            return str(e)
-    return list_tool
-
 for t in TRANSFORMATIONS:
-    name = t["name"]
-    description = f"Transformation Tool for {name}"
-    make_apply_tool(name, description)
-    make_list_tool(name, description)
+    t_name = t["name"]
+    description = f"Transformation tool for {t_name}"
+
+    def make_apply_tool(transformation_name, desc):
+        @mcp.tool(name=f"apply_{transformation_name}_tool", description=desc)
+        async def apply_tool(file_path: str) -> str:
+            import subprocess
+            cmd = [
+                "curl",
+                "-X", "POST",
+                f"{SERVER_BASE}/transformation/{transformation_name}/apply",
+                "-F", f"IN=@{file_path}"
+            ]
+            try:
+                result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+                return result.stdout
+            except subprocess.CalledProcessError as e:
+                return f"Error applying {transformation_name}: {e.stderr}"
+        return apply_tool
+
+    def make_get_tool(transformation_name, desc):
+        @mcp.tool(name=f"list_transformation_{transformation_name}_tool", description=desc)
+        async def list_tool() -> str:
+            import subprocess
+            url = f"{SERVER_BASE}/transformation/{transformation_name}"
+            cmd = ["curl", "-X", "GET", url]
+            try:
+                result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+                return result.stdout
+            except subprocess.CalledProcessError as e:
+                return f"Error listing {transformation_name}: {e.stderr}"
+        return list_tool
+
+    # For each transformation, create apply and list tools if operations include 'apply' and 'get'
+    if "apply" in t["operations"]:
+        make_apply_tool(t_name, description)
+    if "get" in t["operations"]:
+        make_get_tool(t_name, description)
 
 if __name__ == "__main__":
     app = FastAPI()

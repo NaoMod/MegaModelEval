@@ -96,7 +96,7 @@ CRITICAL Requirements:
    ```
    def make_apply_tool(t_name, desc):
        @mcp.tool(name=f"apply_{{t_name}}_tool", description=desc)
-       async def tool_func(file_content: str) -> str:
+       async def tool_func(file_path: str) -> str:
            # implementation
            return result
        return tool_func
@@ -105,6 +105,7 @@ CRITICAL Requirements:
        make_apply_tool(t["name"], f"Apply {{t['name']}} transformation")
    ```
 6. Use async def, subprocess.run with curl, try/except for errors
+7. The apply tool should take file_path as parameter and use curl with -F 'IN=@{{file_path}}' format
 7. The loop pattern should work for any number of transformations
 
 Output ONLY the Python code (TRANSFORMATIONS list + for loop with factory functions), no markdown, no explanation."""
