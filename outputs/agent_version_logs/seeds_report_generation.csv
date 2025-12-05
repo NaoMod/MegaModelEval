@@ -1,0 +1,6 @@
+Instruction_ID,Instruction,Missing_Tools,Score
+4,What transformation can I use to convert MySQL schemas to KM3 format?,list_transformation_MySQL2KM3_tool,0.00
+11,Compare the configurations of the Mantis2XML and MySQL2KM3 transformations,list_transformation_MySQL2KM3_tool,0.50
+15,Transform the KM3 model /atl_zoo/KM32EMF/Sample-KM3.xmi to DSL and then compare the configurations o...,list_transformation_MySQL2KM3_tool,0.50
+19,Show me the transformation that transforms this file /Users/zakariahachm/Downloads/atl_zoo/SoftwareQ...,list_transformation_Mantis2XML_tool,0.50
+ALL_MISSING_TOOLS,Unique missing tools across all failures,list_transformation_Mantis2XML_tool | list_transformation_MySQL2KM3_tool,

@@ -1,0 +1,1139 @@
+[
+  {
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model.",
+    "pattern": "apply",
+    "expected_apis": [
+      "XML2RSS.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+        }
+      },
+      {
+        "tool_name": "apply_XML2RSS_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi",
+          "output_model": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML2RSS.xmi"
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML2RSS.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_XML2RSS_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_XML2RSS_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model': '/Users/z...L/Exemple1-XML2RSS.xmi'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Transform a SimpleClass model /Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi into a SimpleRDBMS model.",
+    "pattern": "apply",
+    "expected_apis": [
+      "SimpleClass2SimpleRDBMS.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi",
+          "output_model_path": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass_SimpleRDBMS.xmi",
+          "log": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_SimpleClass2SimpleRDBMS_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "path": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/",
+          "artifact_name_filter": "Sample-SimpleClass_SimpleRDBMS.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_SimpleClass2SimpleRDBMS_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': '/Us...RDBMS.xmi', 'log': True}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_SimpleClass2SimpleRDBMS_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'SimpleClass2SimpleRDBMS\\':\\n{\"name\":\"SimpleClass2SimpleRDBMS\",\"atlFile\":\"./SimpleClass2SimpleRDBMS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./SimpleClass.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./SimpleRDBMS.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-SimpleClass.xmi\"],\"target\":[\"./Sample-SimpleRDBMS.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'SimpleClass2SimpleRDBMS\\':\\n{\"name\":\"SimpleClass2SimpleRDBMS\",\"atlFile\":\"./SimpleClass2SimpleRDBMS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./SimpleClass.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./SimpleRDBMS.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-SimpleClass.xmi\"],\"target\":[\"./Sample-SimpleRDBMS.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Transform the KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi into a DOT model",
+    "pattern": "apply",
+    "expected_apis": [
+      "KM32DOT.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32DOT_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_KM32DOT_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi",
+          "output_model_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.dot",
+          "transformation_type": "KM3_to_DOT"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32DOT_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DOT\\':\\n{\"name\":\"KM32DOT\",\"atlFile\":\"./KM32DOT/Transformations/KM32DOT.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32DOT\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM32DOT/Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM32DOT/Metamodels/DOT.ecore\"}],\"sample_models\":[{\"source\":[\"./KM32DOT/Models/KM3-KM3.xmi\"],\"target\":[\"./KM32DOT/Models/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DOT\\':\\n{\"name\":\"KM32DOT\",\"atlFile\":\"./KM32DOT/Transformations/KM32DOT.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32DOT\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM32DOT/Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM32DOT/Metamodels/DOT.ecore\"}],\"sample_models\":[{\"source\":[\"./KM32DOT/Models/KM3-KM3.xmi\"],\"target\":[\"./KM32DOT/Models/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DOT_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32DOT_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': '/Us...ion_type': 'KM3_to_DOT'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Transform the Mantis model at ./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi into an XML model.",
+    "pattern": "apply",
+    "expected_apis": [
+      "Mantis2XML.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_Mantis2XML_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi",
+          "target_format": "XML"
+        }
+      },
+      {
+        "tool_name": "apply_Mantis2XML_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi",
+          "output_model_path": "./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xml",
+          "transformation_name": "Mantis2XML"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_Mantis2XML_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Mantis2XML\\':\\n{\"name\":\"Mantis2XML\",\"atlFile\":\"./transformations/Mantis2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./metamodels/Mantis.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./modelsExamples/MantisExample.xmi\"],\"target\":[\"./modelsExamples/MantisXMLExample.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Mantis2XML\\':\\n{\"name\":\"Mantis2XML\",\"atlFile\":\"./transformations/Mantis2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./metamodels/Mantis.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./modelsExamples/MantisExample.xmi\"],\"target\":[\"./modelsExamples/MantisXMLExample.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_Mantis2XML_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_Mantis2XML_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': './a...ion_name': 'Mantis2XML'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "List me the details of the transformation from an XML model to an RSS model.",
+    "pattern": "get",
+    "expected_apis": [
+      "XML2RSS.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "source_model": "XML",
+          "target_model": "RSS"
+        }
+      },
+      {
+        "tool_name": "apply_XML2RSS_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_uri": "sample_input.xml",
+          "output_model_uri": "sample_output.rss",
+          "validate": true
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_XML2RSS_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_XML2RSS_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_uri': 'samp....rss', 'validate': True}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Show the details of the transformation from KM3 model to OWL model.",
+    "pattern": "get",
+    "expected_apis": [
+      "KM32OWL.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32OWL_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "km3_model_path": "models/source.km3",
+          "owl_model_path": "models/output.owl",
+          "detail_level": "full"
+        }
+      },
+      {
+        "tool_name": "apply_KM32OWL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "km3_model_path": "models/source.km3",
+          "owl_model_path": "models/output.owl",
+          "transformation": "KM3ToOWL",
+          "generate_report": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_KM32Problem_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "owl_model_path": "models/output.owl",
+          "report_path": "reports/owl_km3_problem_report.txt"
+        }
+      },
+      {
+        "tool_name": "list_transformation_RedundantInheritance_with_context_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "owl_model_path": "models/output.owl",
+          "include_context": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_PrimaryKey_with_context_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "owl_model_path": "models/output.owl",
+          "include_context": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_Partial2totalRoleA_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "owl_model_path": "models/output.owl"
+        }
+      },
+      {
+        "tool_name": "list_transformation_Partial2totalRoleB_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "owl_model_path": "models/output.owl"
+        }
+      },
+      {
+        "tool_name": "list_transformation_MySQL2KM3_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "mysql_schema_path": "schemas/source.sql",
+          "km3_model_path": "models/source.km3"
+        }
+      },
+      {
+        "tool_name": "list_transformation_DSL2KM3_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "dsl_model_path": "dsl/source.dsl",
+          "km3_model_path": "models/source.km3"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32OWL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32OWL\\':\\n{\"name\":\"KM32OWL\",\"atlFile\":\"./Transformations/KM32OWL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32OWL\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/OWL.ecore\"}],\"sample_models\":[{\"source\":[\"./Samples/KM3-KM3.xmi\"],\"target\":[\"./Samples/OWL-OWL.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32OWL\\':\\n{\"name\":\"KM32OWL\",\"atlFile\":\"./Transformations/KM32OWL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32OWL\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/OWL.ecore\"}],\"sample_models\":[{\"source\":[\"./Samples/KM3-KM3.xmi\"],\"target\":[\"./Samples/OWL-OWL.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32OWL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32OWL_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'km3_model_path': 'model...'generate_report': True}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_KM32Problem_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32Problem\\':\\n{\"name\":\"KM32Problem\",\"atlFile\":\"./Transfos/KM32Problem.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32Problem\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/Problem.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/test-KM3.xmi\"],\"target\":[\"./Models/problem.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32Problem\\':\\n{\"name\":\"KM32Problem\",\"atlFile\":\"./Transfos/KM32Problem.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32Problem\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/Problem.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/test-KM3.xmi\"],\"target\":[\"./Models/problem.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_RedundantInheritance_with_context_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'RedundantInheritance_with_context\\':\\n{\"name\":\"RedundantInheritance_with_context\",\"atlFile\":\"./with_context/RedundantInheritance.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./with_context/InputModels/example-KM3.xmi\"],\"target\":[\"./with_context/OutputModels/example-KM3target.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'RedundantInheritance_with_context\\':\\n{\"name\":\"RedundantInheritance_with_context\",\"atlFile\":\"./with_context/RedundantInheritance.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./with_context/InputModels/example-KM3.xmi\"],\"target\":[\"./with_context/OutputModels/example-KM3target.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_PrimaryKey_with_context_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PrimaryKey_with_context\\':\\n{\"name\":\"PrimaryKey_with_context\",\"atlFile\":\"./with_context/PrimaryKey.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./with_context/build_example.xml\"],\"target\":[\"./target.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PrimaryKey_with_context\\':\\n{\"name\":\"PrimaryKey_with_context\",\"atlFile\":\"./with_context/PrimaryKey.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./with_context/build_example.xml\"],\"target\":[\"./target.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_Partial2totalRoleA_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Partial2totalRoleA\\':\\n{\"name\":\"Partial2totalRoleA\",\"atlFile\":\"./MakingPartialRolesTotalA/with_context/Partial2totalRole.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi\"],\"target\":[\"\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Partial2totalRoleA\\':\\n{\"name\":\"Partial2totalRoleA\",\"atlFile\":\"./MakingPartialRolesTotalA/with_context/Partial2totalRole.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi\"],\"target\":[\"\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_Partial2totalRoleB_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Partial2totalRoleB\\':\\n{\"name\":\"Partial2totalRoleB\",\"atlFile\":\"./MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi\"],\"target\":[\"\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Partial2totalRoleB\\':\\n{\"name\":\"Partial2totalRoleB\",\"atlFile\":\"./MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi\"],\"target\":[\"\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_MySQL2KM3_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'MySQL2KM3\\':\\n{\"name\":\"MySQL2KM3\",\"atlFile\":\"./Transfos/MySQL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-MySQL.xmi\"],\"target\":[\"euro2004-KM3.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'MySQL2KM3\\':\\n{\"name\":\"MySQL2KM3\",\"atlFile\":\"./Transfos/MySQL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-MySQL.xmi\"],\"target\":[\"euro2004-KM3.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_DSL2KM3_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'DSL2KM3\\':\\n{\"name\":\"DSL2KM3\",\"atlFile\":\"./MetamodelBridge/Transfo/DSL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/DSL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'DSL2KM3\\':\\n{\"name\":\"DSL2KM3\",\"atlFile\":\"./MetamodelBridge/Transfo/DSL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/DSL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Apply the transformation /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi to get a Relational model.",
+    "pattern": "apply",
+    "expected_apis": [
+      "Class2Relational.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_Class2Relational_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "transformation_name": "Class2Relational",
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"
+        }
+      },
+      {
+        "tool_name": "apply_Class2Relational_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi",
+          "output_model_path": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class_relational.xmi"
+        }
+      },
+      {
+        "tool_name": "list_transformation_Class2Relational_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class_relational.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_Class2Relational_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Class2Relational\\':\\n{\"name\":\"Class2Relational\",\"atlFile\":\"./ATLFile/Class2Relational.atl\",\"libraries\":[{\"name\":\"strings\",\"path\":\"../strings.asm\"}],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Class2Relational\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Class/Class.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Relational/Relational.ecore\"}],\"sample_models\":[{\"source\":[\"./Class.xmi\"],\"target\":[\"./Class/outClassXMI.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Class2Relational\\':\\n{\"name\":\"Class2Relational\",\"atlFile\":\"./ATLFile/Class2Relational.atl\",\"libraries\":[{\"name\":\"strings\",\"path\":\"../strings.asm\"}],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Class2Relational\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Class/Class.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Relational/Relational.ecore\"}],\"sample_models\":[{\"source\":[\"./Class.xmi\"],\"target\":[\"./Class/outClassXMI.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_Class2Relational_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_Class2Relational_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': '/Us...l/Class_relational.xmi'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_Class2Relational_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Class2Relational\\':\\n{\"name\":\"Class2Relational\",\"atlFile\":\"./ATLFile/Class2Relational.atl\",\"libraries\":[{\"name\":\"strings\",\"path\":\"../strings.asm\"}],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Class2Relational\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Class/Class.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Relational/Relational.ecore\"}],\"sample_models\":[{\"source\":[\"./Class.xmi\"],\"target\":[\"./Class/outClassXMI.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Class2Relational\\':\\n{\"name\":\"Class2Relational\",\"atlFile\":\"./ATLFile/Class2Relational.atl\",\"libraries\":[{\"name\":\"strings\",\"path\":\"../strings.asm\"}],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Class2Relational\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Class/Class.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Relational/Relational.ecore\"}],\"sample_models\":[{\"source\":[\"./Class.xmi\"],\"target\":[\"./Class/outClassXMI.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Retrieve the details of the PNML to XML transformation.",
+    "pattern": "get",
+    "expected_apis": [
+      "PNML2XML.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_PNML2XML_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "transformation_name": "PNML2XML",
+          "detail": "full"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_PNML2XML_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PNML2XML\\':\\n{\"name\":\"PNML2XML\",\"atlFile\":\"./Transformations/PNML2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PNML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/XML2PNML_example.xmi\"],\"target\":[\"./Models/target5.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PNML2XML\\':\\n{\"name\":\"PNML2XML\",\"atlFile\":\"./Transformations/PNML2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PNML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/XML2PNML_example.xmi\"],\"target\":[\"./Models/target5.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Apply the transformation to a Metrics model from the source model /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi.",
+    "pattern": "apply",
+    "expected_apis": [
+      "KM32Metrics.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_KM32Metrics_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "source_model": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi",
+          "destination_model": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3-transformed.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_KM32Metrics_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32Metrics_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'source_model': '/Users/...M3-KM3-transformed.xmi'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Display the details of the transformation from a Make model to an Ant model.",
+    "pattern": "get",
+    "expected_apis": [
+      "Make2Ant.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_Make2Ant_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "transformation_name": "Make2Ant"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_Make2Ant_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Make2Ant\\':\\n{\"name\":\"Make2Ant\",\"atlFile\":\"./Transfos/Make2Ant.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Make2Ant\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MM/Make.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MM/Ant.ecore\"}],\"sample_models\":[{\"source\":[\"./example/makeFileMake.xmi\"],\"target\":[\"./example/antFile.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Make2Ant\\':\\n{\"name\":\"Make2Ant\",\"atlFile\":\"./Transfos/Make2Ant.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Make2Ant\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MM/Make.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MM/Ant.ecore\"}],\"sample_models\":[{\"source\":[\"./example/makeFileMake.xmi\"],\"target\":[\"./example/antFile.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi to a DSL model and then retrieve the configuration of the transformation that maps an XML document for RSS output.",
+    "pattern": "apply>get",
+    "expected_apis": [
+      "KM32DSL.apply",
+      "XML2RSS.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "list_all": true,
+          "filter": null
+        }
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_KM3_model_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi",
+          "output_DSL_model_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi",
+          "transformation_name": "KM3_to_DSL"
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "list_all": true,
+          "focus": "RSS",
+          "description": "Discover XML to DSL transformations relevant to RSS output to retrieve the transformation configuration."
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32DSL_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_KM3_model_path': ...ion_name': 'KM3_to_DSL'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2DSL\\':\\n{\"name\":\"XML2DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/XML2DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi\"],\"target\":[\"/MetamodelBridge/Models/SimpleExample/DSL2EMF/target3.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2DSL\\':\\n{\"name\":\"XML2DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/XML2DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi\"],\"target\":[\"/MetamodelBridge/Models/SimpleExample/DSL2EMF/target3.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Apply KM3-to-DSL to /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\n\nApply MySQL-to-KM3 to /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi",
+    "pattern": "apply>apply",
+    "expected_apis": [
+      "KM32DSL.apply",
+      "MySQL2KM3.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi",
+          "output_model_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi",
+          "transformation_profile": "KM3-to-DSL"
+        }
+      },
+      {
+        "tool_name": "apply_MySQL2KM3_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi",
+          "output_model_path": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-KM3.xmi",
+          "transformation_profile": "MySQL-to-KM3"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32DSL_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': '/Us..._profile': 'KM3-to-DSL'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "apply_MySQL2KM3_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_MySQL2KM3_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': '/Us...rofile': 'MySQL-to-KM3'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Retrieve the configuration of the KM3-to-EMF transformation.\n- Apply the KM3-to-DSL transformation to the KM3 model at '/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi' with the configuration from step 1.",
+    "pattern": "get>apply",
+    "expected_apis": [
+      "KM32EMF.get_tool",
+      "KM32DSL.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32EMF_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "km3_model_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi",
+          "transformation_config_id": "KM3_to_EMF_config_from_step1",
+          "output_model_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32EMF_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32EMF\\':\\n{\"name\":\"KM32EMF\",\"atlFile\":\"./KM32EMF.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32EMF\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./EMF.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-KM3.xmi\"],\"target\":[\"\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32EMF\\':\\n{\"name\":\"KM32EMF\",\"atlFile\":\"./KM32EMF.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32EMF\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./EMF.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-KM3.xmi\"],\"target\":[\"\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32DSL_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'km3_model_path': '/User...impleExampleMM-DSL.xmi'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Apply the KM3-to-DSL transformation to the model at '/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi'.\n- Get the configuration that transform the file to a DOt model.",
+    "pattern": "apply>get",
+    "expected_apis": [
+      "KM32DSL.apply",
+      "KM32DOT.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_KM3_model": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi",
+          "output_model": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi"
+        }
+      },
+      {
+        "tool_name": "list_transformation_KM32DOT_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "km3_input_model": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+        }
+      },
+      {
+        "tool_name": "apply_KM32DOT_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "km3_input_model": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi",
+          "transformation_config_id": "KM3_to_DOT_default_config",
+          "output_dot_model": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DOT.dot"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32DSL_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_KM3_model': '/Use...impleExampleMM-DSL.xmi'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_KM32DOT_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DOT\\':\\n{\"name\":\"KM32DOT\",\"atlFile\":\"./KM32DOT/Transformations/KM32DOT.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32DOT\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM32DOT/Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM32DOT/Metamodels/DOT.ecore\"}],\"sample_models\":[{\"source\":[\"./KM32DOT/Models/KM3-KM3.xmi\"],\"target\":[\"./KM32DOT/Models/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DOT\\':\\n{\"name\":\"KM32DOT\",\"atlFile\":\"./KM32DOT/Transformations/KM32DOT.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32DOT\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM32DOT/Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM32DOT/Metamodels/DOT.ecore\"}],\"sample_models\":[{\"source\":[\"./KM32DOT/Models/KM3-KM3.xmi\"],\"target\":[\"./KM32DOT/Models/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DOT_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32DOT_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'km3_input_model': '/Use...impleExampleMM-DOT.dot'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Apply to EMF model the model '/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi'.\n- Get the configuration of the PathExp to TextualPathExp transformation.",
+    "pattern": "apply>get",
+    "expected_apis": [
+      "KM32EMF.apply",
+      "PathExp2TextualPathExp.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_KM32EMF_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi",
+          "output_model_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi.transformed.emf"
+        }
+      },
+      {
+        "tool_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "transformation_name": "PathExp2TextualPathExp"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_KM32EMF_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32EMF_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': '/Us...M3.xmi.transformed.emf'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PathExp2TextualPathExp\\':\\n{\"name\":\"PathExp2TextualPathExp\",\"atlFile\":\"./ATL/PathExp2TextualPathExp.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PathExp.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/TextualPathExp.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/pathexp-example.xmi\"],\"target\":[\"./Models/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PathExp2TextualPathExp\\':\\n{\"name\":\"PathExp2TextualPathExp\",\"atlFile\":\"./ATL/PathExp2TextualPathExp.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PathExp.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/TextualPathExp.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/pathexp-example.xmi\"],\"target\":[\"./Models/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Step 1: Apply /Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi to EMF model\n- Step 2: Get configuration for the XML-to-MySQL transformation",
+    "pattern": "apply>get",
+    "expected_apis": [
+      "KM32EMF.apply",
+      "XML2MySQL.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_KM32EMF_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "km3_xmi_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2MySQL_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "transformation_name": "XML2MySQL"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_KM32EMF_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_KM32EMF_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'km3_xmi_path': '/Users/...KM32EMF/Sample-KM3.xmi'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2MySQL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2MySQL\\':\\n{\"name\":\"XML2MySQL\",\"atlFile\":\"./Transfos/XML2MySQL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-XML.xmi\"],\"target\":[\"euro2004-MySQL.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2MySQL\\':\\n{\"name\":\"XML2MySQL\",\"atlFile\":\"./Transfos/XML2MySQL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-XML.xmi\"],\"target\":[\"euro2004-MySQL.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Get the configuration of the PNML to XML transformation\n- Apply the SimpleClass to SimpleRDBMS transformation to the path '/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi'",
+    "pattern": "get>apply",
+    "expected_apis": [
+      "PNML2XML.get_tool",
+      "SimpleClass2SimpleRDBMS.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_PNML2XML_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_SimpleClass2SimpleRDBMS_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_PNML2XML_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PNML2XML\\':\\n{\"name\":\"PNML2XML\",\"atlFile\":\"./Transformations/PNML2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PNML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/XML2PNML_example.xmi\"],\"target\":[\"./Models/target5.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PNML2XML\\':\\n{\"name\":\"PNML2XML\",\"atlFile\":\"./Transformations/PNML2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PNML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/XML2PNML_example.xmi\"],\"target\":[\"./Models/target5.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_SimpleClass2SimpleRDBMS_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'SimpleClass2SimpleRDBMS\\':\\n{\"name\":\"SimpleClass2SimpleRDBMS\",\"atlFile\":\"./SimpleClass2SimpleRDBMS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./SimpleClass.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./SimpleRDBMS.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-SimpleClass.xmi\"],\"target\":[\"./Sample-SimpleRDBMS.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'SimpleClass2SimpleRDBMS\\':\\n{\"name\":\"SimpleClass2SimpleRDBMS\",\"atlFile\":\"./SimpleClass2SimpleRDBMS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./SimpleClass.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./SimpleRDBMS.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-SimpleClass.xmi\"],\"target\":[\"./Sample-SimpleRDBMS.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_SimpleClass2SimpleRDBMS_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': '/Us...Sample-SimpleClass.xmi'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Show me the configuration settings of the transformation that converts a KM3 model to a DSL model and then show me the configuration settings of the transformation that converts an XML model to a GeoTrans model.",
+    "pattern": "get>get",
+    "expected_apis": [
+      "KM32DSL.get_tool",
+      "XML2GeoTrans.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_XML2GeoTrans_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2GeoTrans_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2GeoTrans\\':\\n{\"name\":\"XML2GeoTrans\",\"atlFile\":\"./ATLFile/XML2GeoTrans.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Geometry\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./GeoTrans/GeoTrans.ecore\"}],\"sample_models\":[{\"source\":[\"./TransfoCommands.xmi\"],\"target\":[\"./target3.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2GeoTrans\\':\\n{\"name\":\"XML2GeoTrans\",\"atlFile\":\"./ATLFile/XML2GeoTrans.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Geometry\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./GeoTrans/GeoTrans.ecore\"}],\"sample_models\":[{\"source\":[\"./TransfoCommands.xmi\"],\"target\":[\"./target3.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Show me the configuration settings of the transformation that converts KM3 to DSL.\n- Show me the configuration settings of the transformation that converts PathExp to TextualPathExp.",
+    "pattern": "get>get",
+    "expected_apis": [
+      "KM32DSL.get_tool",
+      "PathExp2TextualPathExp.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PathExp2TextualPathExp\\':\\n{\"name\":\"PathExp2TextualPathExp\",\"atlFile\":\"./ATL/PathExp2TextualPathExp.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PathExp.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/TextualPathExp.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/pathexp-example.xmi\"],\"target\":[\"./Models/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PathExp2TextualPathExp\\':\\n{\"name\":\"PathExp2TextualPathExp\",\"atlFile\":\"./ATL/PathExp2TextualPathExp.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PathExp.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/TextualPathExp.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/pathexp-example.xmi\"],\"target\":[\"./Models/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: get KM3-to-EMF transformation configuration\n\nStep 2: apply /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi; target: XML model",
+    "pattern": "get>apply",
+    "expected_apis": [
+      "KM32EMF.get_tool",
+      "PNML2XML.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32EMF_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_XML2PNML_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "input_model_path": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi",
+          "output_model_path": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example_output.xml",
+          "transformation": "XML2PNML"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32EMF_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32EMF\\':\\n{\"name\":\"KM32EMF\",\"atlFile\":\"./KM32EMF.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32EMF\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./EMF.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-KM3.xmi\"],\"target\":[\"\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32EMF\\':\\n{\"name\":\"KM32EMF\",\"atlFile\":\"./KM32EMF.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32EMF\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./EMF.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-KM3.xmi\"],\"target\":[\"\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_XML2PNML_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text=\"Error executing tool apply_XML2PNML_transformation_tool: 1 validation error for apply_transformationArguments\\nfile_path\\n  Field required [type=missing, input_value={'input_model_path': '/Us...sformation': 'XML2PNML'}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\", annotations=None, meta=None)]",
+          "structuredContent": null,
+          "isError": true
+        }
+      }
+    ]
+  }
+]

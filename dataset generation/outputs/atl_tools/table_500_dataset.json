@@ -1,0 +1,5002 @@
+[
+  {
+    "pattern": "apply",
+    "instruction": "Apply MSOfficeExcel_SpreadsheetMLSimplified model from Table model to /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at '/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi' into MSOfficeExcel_SpreadsheetMLSimplified",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model to MSOfficeExcel_SpreadsheetMLSimplified model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model to MSOfficeExcel_SpreadsheetMLSimplified at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model from /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model from '/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi' to an MSOfficeExcel_SpreadsheetMLSimplified model; source type: Table; target type: MSOfficeExcel_SpreadsheetMLSimplified.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model from /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to the MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply MSOfficeExcel_SpreadsheetMLSimplified to /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi from Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model from '/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi' into a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model from /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to the MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply MSOfficeExcel_SpreadsheetMLSimplified to the Table model located at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at '/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi' into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into MSOfficeExcel_SpreadsheetMLSimplified.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to MSOfficeExcel_SpreadsheetMLSimplified.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model to MSOfficeExcel_SpreadsheetMLSimplified model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model to MSOfficeExcel_SpreadsheetMLSimplified model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model to the MSOfficeExcel_SpreadsheetMLSimplified model using input /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply MSOfficeExcel_SpreadsheetMLSimplified to the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to MSOfficeExcel_SpreadsheetMLSimplified.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi as MSOfficeExcel_SpreadsheetMLSimplified.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table2SpreadsheetMLSimplified (target: MSOfficeExcel_SpreadsheetMLSimplified) to /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply MSOfficeExcel_SpreadsheetMLSimplified from Table model to /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply MSOfficeExcel_SpreadsheetMLSimplified to the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model from /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to the MSOfficeExcel_SpreadsheetMLSimplified target type.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to the MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply a Table-to-MSOfficeExcel_SpreadsheetMLSimplified mapping from the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi into a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model to MSOfficeExcel_SpreadsheetMLSimplified model at /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation from a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the JavaSource-to-Table transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the metadata for the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the configuration details for the JavaSource-to-Table transformation",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of a transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation that converts a JavaSource model into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide details about the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model (source: JavaSource; target: Table).",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from the JavaSource model to the Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from JavaSource to Table, with source JavaSource model and target Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a JavaSource model into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a JavaSource model into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Explain the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a Measure model into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Measure model to Table model, including the source and target types.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the Measure2Table transformation, source model: Measure, target model: Table.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the Measure2Table transformation that converts a Measure model into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the Measure2Table transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the Measure-to-Table transformation (source model: Measure model; target model: Table model).",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Measure model to a Table model, including source and target types.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Measure model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Measure model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the Table2SVGPieChart transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation between Table model and SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the transformation details from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the Table-to-SVGPieChart transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details for the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details about the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation that converts a Table model into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details for the Table2SVGPieChart transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts the Table model to the SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the Table-to-SVGPieChart transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a Table model into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from the Table model to the SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation Table2SVGPieChart from Table model to SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply transformation from Measure to Table to the model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi to Table model from Measure model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi from Measure to Table.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Measure-to-Table transformation to /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into the Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply a Measure-to-Table transformation to the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi \u2014 Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the Measure model /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Measure-to-Table transformation to the source model /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi as a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Measure-to-Table transformation on the source file '/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi' (source: Measure model, target: Table model)",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Apply /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi to Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model to /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the Measure model located at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi with source model Measure and target model Table",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Measure2Table from Measure to Table model at /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi (source: Measure; target: Table)",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model /Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Measure2Table/models/example-Measure.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into a SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to SVGPieChart model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into a SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi to a SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to SVGPieChart model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi to an SVGPieChart model from a Table source.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into a SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from Table to SVGPieChart on /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model to SVGPieChart model using /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to SVGPieChart transformation to /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply from Table model to SVGPieChart model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to SVGPieChart transformation to /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table-to-SVGPieChart transformation from Table to SVGPieChart using /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to SVGPieChart for the model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply SVGPieChart to a Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into a SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert Table model to SVGPieChart at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into a SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply SVGPieChart to /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply SVGPieChart model to /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi from Table",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply a transformation from a Table source model to an SVGPieChart target model using /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into a SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at '/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi' into an SVGPieChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into a SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into a SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to SVGPieChart transformation for /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi into an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi to an SVGPieChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGPieChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGPieChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi from JavaSource.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply from JavaSource to Table on /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table transformation from JavaSource to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply JavaSource to Table model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model from JavaSource to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table from JavaSource to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from JavaSource to Table to the model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi from JavaSource to Table",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi, from JavaSource to Table",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table from JavaSource to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model from the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi from JavaSource.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model located at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi, converting JavaSource to Table.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model transformation to the JavaSource input file at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model transformation from JavaSource to Table using '/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi'.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi; source model: JavaSource; target model: Table",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model transformation to the JavaSource input model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi; source: JavaSource, target: Table",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details for the transformation that converts a Table model into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List details for the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the Table-to-SVGBarChart transformation from the Table model to the SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table to SVGBarChart, with the source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List details for the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to SVGBarChart model, with source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from the Table model to the SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Reveal details about the Table model to SVGBarChart model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from the Table model to the SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Explain the details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from the Table model to the SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation from Table model to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a Table model into a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the Table2SpreadsheetMLSimplified transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a Table model to a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the transformation details from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the configuration details for the Table2SpreadsheetMLSimplified transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model, including source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide details of the transformation that converts a Table model into a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "View the details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from the Table model to the MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details for the transformation from the Table model to the MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified, with source at ./examples/input.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model, including source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details for the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Table model to a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Table model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve metadata for the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from the Table model to the HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a Table model into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Inspect the details of the transformation from the Table model to the HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that converts a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that converts a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that maps a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve metadata for the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the Table2TabularHTML transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from the Table model to the HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve metadata for the transformation from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a Table model into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation to convert a Table model to an HTML model using /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model '/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi' into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation of the source Table model at '/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi' into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert Table model to HTML model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from a Table model to an HTML model using the source located at '/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi'.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi from Table model to HTML model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table-to-HTML transformation on the source Table model at '/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi' to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table-to-HTML transformation for the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi to an HTML model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply transformation from source Table model to target HTML model (target type HTML) at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply to /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi, from Table model to HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply a Table model to /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi as an HTML model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at '/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi' into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply HTML to /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi, from a Table model to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply to /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi with source type Table and target type HTML",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply HTML model from Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table to HTML model from /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi to an HTML model; source type: Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at '/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi' into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply HTML model transformation from the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table-to-HTML transformation for the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply a transformation from a Table source model to an HTML target model for the file at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Apply from Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi to HTML model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi into an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the HTML model from the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from a Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi to an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2TabularHTML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2TabularHTML/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to SVGBarChart from Table",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from Table to SVGBarChart to the model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply from Table source model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to SVGBarChart target model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model from /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi from Table to SVGBarChart",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from a Table model to an SVGBarChart model with file '/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi'.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model in /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the conversion from a Table model to an SVGBarChart model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply from Table model to SVGBarChart model using /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table to SVGBarChart transformation for source /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi from Table to SVGBarChart.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Table-to-SVGBarChart transformation to /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi as an SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from a Table model to an SVGBarChart model via /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi; source model: Table; target model: SVGBarChart.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Table model /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi to SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi, source: Table, target: SVGBarChart",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi into an SVGBarChart model.",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SVGBarChart.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2SVGBarChart/models/example-Table.xmi"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5002 @@
+[
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a SimpleClass model /Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi into a SimpleRDBMS model.",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi into a DOT model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Mantis model at ./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi into an XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List me the details of the transformation from an XML model to an RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from KM3 model to OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi to get a Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the PNML to XML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation to a Metrics model from the source model /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Make model to an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a source model /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi into a PNML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a Maven model located at /Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi into an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Grafcet model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi into PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the PetriNet-to-XML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation from PetriNet model to PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the transformation from XML model to Make model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Families model to Persons model.",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a source model KM3 to a graph representation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a KM3 model to a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the TextualPathExp model from /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi to a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List details of the transformation from UMLDI model to Amble model.",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the KM32EMF transformation details for KM3 to EMF.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi into a Make model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a source model /Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi into an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from XML model to MySQL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the transformation from the source model /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi to the DSL model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the Grafcet2PetriNet transformation that converts Grafcet model into PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this PetriNet model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi into a PNML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a source model /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi to its DSL representation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from KM3 model to Metrics model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the Make-to-Ant transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform XML model to Make model and write to /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply KM3 to KM3 model from /Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi into a Book model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi into PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from ATOM model to RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from PathExp to TextualPathExp.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the XML model to WSDL model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2WSDL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply B model from A model to /Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "A2B.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the METAH2ACME transformation from METAH to ACME.",
+    "relevant_apis": [
+      {
+        "api_name": "METAH2ACME.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List details about the transformation from TextualPathExp model to PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi into a Book model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/R2ML2OCL/build1.xmi into an r2ml model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/R2ML2OCL/build1.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform the PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi into a PathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the KM32Problem transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Problem.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the transformation from a Maven model to an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What information exists about the transformation from ATOM model to RSS model?",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details for the transformation from a TextualPathExp model to a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from PetriNet model to PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi to Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi into a DSL model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the /Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi model into a WSDL model.",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform XML model /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi to PetriNet",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the DSL model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from XML model to DSL model with source and target types.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from XML to Ant model, including the source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the PNML to PetriNet transformation details.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi into an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from XML model to RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from KM3 model to DSL model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the METAH model at /Users/zakariahachm/Downloads/atl_zoo/METAH2ACME/MODELS/example-METAH.xmi into an ACME model.",
+    "relevant_apis": [
+      {
+        "api_name": "METAH2ACME.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/METAH2ACME/MODELS/example-METAH.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from Make model to Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from UMLDI model to Amble model.",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.xmi into Grafcet model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a DSL model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XSLT model at /Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XSLT/test-XSLT.xmi into XQuery model",
+    "relevant_apis": [
+      {
+        "api_name": "XSLT2XQuery.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XSLT/test-XSLT.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-XML.xmi into a MySQL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a TextualPathExp model to a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi into B model",
+    "relevant_apis": [
+      {
+        "api_name": "A2B.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation from Mantis model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi into a Metrics model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from XML model to RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the PetriNet model to PNML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the KM3-to-DSL transformation, including source KM3 models and target DSL models.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the KM32DSL transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Mantis model at /Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi into an XML model",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at '/Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi' into a GeoTrans model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply SimpleRDBMS to the SimpleClass model at /Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the PetriNet2Grafcet transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PathExp model /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi to PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a PetriNet model to an XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PNML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi to XML model",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts an Ant model to a MavenMaven model",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model at /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi into KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Make model /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi into Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply PathExp to TextualPathExp transformation on /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/Geometry/cube.xmi into a DXF model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DXF.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Geometry/cube.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts an XML model to an XSLT model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2XSLT.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi into a Book model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a JavaSource model to a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi into an Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the PetriNet-to-PNML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PNML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi into a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details for the PetriNet-to-PathExp transformation from PetriNet model to PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that converts an XML model to a DXF model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DXF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation that converts an XML model to an r2ml model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List me the details of the transformation from PNML model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the KM3-to-DSL transformation (source: KM3, target: DSL).",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi into the Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform XML model /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi into an Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a TextualPathExp model to a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  }, 
+  {
+    "pattern": "apply",
+    "instruction": "Transform this PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.xmi into a Grafcet model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the XML to Ant transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform XML model at /Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi into a KML model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2KML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation that maps JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this XML model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi into a DSL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this XML model /Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi into a WSDL model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from KM3 model to EMF model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from PetriNet model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the MavenMaven model /Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi into Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the KM3-to-DOT transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the METAH to ACME transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "METAH2ACME.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-XML.xmi into a MySQL model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XSLT/test-XSLT.xmi into XQuery model.",
+    "relevant_apis": [
+      {
+        "api_name": "XSLT2XQuery.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XSLT/test-XSLT.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from XML model to PNML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Ant model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation that converts a KM3 model into a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.xmi to Grafcet model ",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from an XML model to a Book model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml into an MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi into a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi into the Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi into a WSDL model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Mantis model at /Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi into an XML model",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the KM3 to KM3target transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XSLT model at /Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XSLT/test-XSLT.xmi into an XQuery model",
+    "relevant_apis": [
+      {
+        "api_name": "XSLT2XQuery.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XSLT/test-XSLT.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PathExp model /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi into a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this MySQL model /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi into KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from KM3 model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform XML model at ./examples/input.xmi into an r2ml model (source: XML; target: r2ml).",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from XML model to DXF model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DXF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi into an EMF model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from XML model to KML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2KML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the KM32OWL transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this XML model /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply XML to PetriNet model /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Mantis model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PathExp model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a KM3 model into a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model  /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi into a Relational model",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi into RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi into a Publication model.",
+    "relevant_apis": [
+      {
+        "api_name": "Book2Publication.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts an XML model to a Make model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the R2ML2WSDL transformation from R2ML model to WSDL model.",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi into a KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that maps an XML model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this model /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi into Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the XML-to-Ant transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi into a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of transformation METAH2ACME from METAH model to ACME model.",
+    "relevant_apis": [
+      {
+        "api_name": "METAH2ACME.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation that converts an XML model into an RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from KM3 model to Problem model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Problem.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the XML-to-PNML transformation that converts an XML model into a PNML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from a MySQL model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Families model at /Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi into a Persons model",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi into WSDL model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a MySQL model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from XML model to DXF model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DXF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi to Problem model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Problem.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that maps a PathExp model to a TextualPathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from KM3 model to KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the  model at /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Ant model at /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi into a MavenMaven model",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply KM3 model transformation to the MySQL model at /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PNML model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this XML model /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi to Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from PetriNet model to Grafcet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Book model at /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi into a Publication model.",
+    "relevant_apis": [
+      {
+        "api_name": "Book2Publication.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation that converts an XML model to an r2ml model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the TextualPathExp model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi into a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a KM3 model into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the transformation from XML model to XSLT model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2XSLT.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply R2ML to WSDL model to /Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from an R2ML model to a WSDL model.",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply PathExp to PetriNet on /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi into a DSL model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from an XSLT model to an XQuery model, with source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "XSLT2XQuery.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from XML model to Book model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the Mantis model to XML model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this XML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi to PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform DSL model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi to KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a KM3 model to a DOT model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the transformation from PetriNet model to PNML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from Make to Ant.",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Make model to Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi into an Amble model.",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform XML model into WSDL model at /Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "XML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the PetriNet2XML transformation: source PetriNet model, target XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi into KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the transformation that converts a KM3 model to a Metrics model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.get_tool",
+        "arguments": "" 
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply SimpleClass to SimpleRDBMS model at /Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform METAH model at /Users/zakariahachm/Downloads/atl_zoo/METAH2ACME/MODELS/example-METAH.xmi into ACME model",
+    "relevant_apis": [
+      {
+        "api_name": "METAH2ACME.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/METAH2ACME/MODELS/example-METAH.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from an XML model to an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the TextualPathExp model at '/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi' into a PathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/R2ML2OCL/build1.xmi into an r2ml model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/R2ML2OCL/build1.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi into a KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the UMLDI-to-Amble transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Families model /Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi into a Persons model.",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi into an Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts an A model into a B model.",
+    "relevant_apis": [
+      {
+        "api_name": "A2B.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the Grafcet-to-PetriNet transformation from Grafcet to PetriNet.",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply KM3 model from /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi to Metrics model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the KM32EMF transformation from KM3 to EMF models.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the MySQL model at /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model  '/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XML/tr.xsl-XML.xmi' into an XSLT model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2XSLT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XML/tr.xsl-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply XML to Make model on /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a PathExp model to a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation from XML model to MySQL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Apply transformation to XML model for /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the XML-to-KML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2KML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Class model to Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model (source) to KM3 model (target) on /Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from XML model to Make model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/Geometry/cube.xmi into a DXF model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DXF.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Geometry/cube.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the A model at /Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi into a B model",
+    "relevant_apis": [
+      {
+        "api_name": "A2B.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts an XML model into an r2ml model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a DSL model into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the A model at /Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi into the B model",
+    "relevant_apis": [
+      {
+        "api_name": "A2B.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Families model at /Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi into a Persons model",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation that converts an Ant model into an XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from SimpleClass model to SimpleRDBMS model.",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the TextualPathExp model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi into a PathExp model .",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UMLDI model at '/Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi' into an Amble model.",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from PathExp to PetriNet.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the KM3-to-EMF transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi to DOT model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform XSLT model at /Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XSLT/test-XSLT.xmi to XQuery model",
+    "relevant_apis": [
+      {
+        "api_name": "XSLT2XQuery.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XSLT/test-XSLT.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from Families model to Persons model.",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from XSLT model to XQuery model.",
+    "relevant_apis": [
+      {
+        "api_name": "XSLT2XQuery.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the XML model /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi to a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from PetriNet model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi to PathExp.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi into a Metrics model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Grafcet model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-XML.xmi into a MySQL model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi to a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a PNML model into a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the Maven2Ant transformation",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi from JavaSource model to Table model",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Book model at /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi to Publication model",
+    "relevant_apis": [
+      {
+        "api_name": "Book2Publication.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a DSL model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts an XML model to a GeoTrans model, including the source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml into MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details about the R2ML to WSDL transformation (source model: R2ML; target model: WSDL).",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform DSL model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi to KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the XML2PetriNet transformation (source: XML model; target: PetriNet model).",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi into a KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi into PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Class model to Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from XML model to DSL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from ATOM model to RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi into a GeoTrans model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from an ATOM model to an RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi into a Metrics model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the PNML-to-XML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that converts an XML model to a GeoTrans model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the Grafcet-to-PetriNet transformation details for Grafcet models to PetriNet models.",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that converts an XML model to a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a KM3 model to a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of Partial2totalRoleA, a KM3 model to KM3target model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi into an EMF model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml into MSOfficeExcel_SpreadsheetMLSimplified model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a MavenMaven model to an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from KM3 model to KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details about the transformation from XML model to WSDL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2WSDL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts XML models to DSL models.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi to PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the Ant model to MavenMaven model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from XML model to PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from XSLT model to XQuery model.",
+    "relevant_apis": [
+      {
+        "api_name": "XSLT2XQuery.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the PetriNet-to-PNML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from XML model to MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a KM3 model into a Problem model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Problem.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UMLDI model at /Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi into an Amble model",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply XML-to-PNML transformation to convert the XML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi into a PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi into a Book model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a PetriNet model to a PNML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Mantis model to an XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from XML model to KML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2KML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the KM3 to KM3target model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the XML-to-MySQL transformation from XML model to MySQL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from Book model to Publication model.",
+    "relevant_apis": [
+      {
+        "api_name": "Book2Publication.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the PNML-to-XML transformation, including the source PNML model and the target XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List details for the transformation from XML model to Make model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the DSL2KM3 transformation that converts a DSL model into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Mantis-to-XML transformation to /Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi as an XML model",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the SimpleClass to SimpleRDBMS transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the Ant-to-MavenMaven transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Grafcet model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi to a GeoTrans model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform the model /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi into a DSL model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the KM3-to-DOT transformation details.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details for the XML2DXF transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DXF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi into a Make model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi to a Persons model",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi into a Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details for the transformation from a Families model to a Persons model.",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply XML model to PNML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Ant model at /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi into an XML model",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PetriNet model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi into PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from XML model to WSDL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2WSDL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Get details of the transformation from XML model to DSL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the PetriNet2Grafcet transformation from a PetriNet model to a Grafcet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from the ATOM model to the RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi into an XML model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts an Ant model to a MavenMaven model.",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform this XML model at /Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi into GeoTrans model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the METAH model at /Users/zakariahachm/Downloads/atl_zoo/METAH2ACME/MODELS/example-METAH.xmi into an ACME model.",
+    "relevant_apis": [
+      {
+        "api_name": "METAH2ACME.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/METAH2ACME/MODELS/example-METAH.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the A model at /Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi into a B model",
+    "relevant_apis": [
+      {
+        "api_name": "A2B.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/ListMetamodelRefactoring/SampleModels/RootA.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from KM3 model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts KM3 model into Metrics model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply KM3 model to KM3 model on /Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Families model to a Persons model.",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the PNML2PetriNet transformation from PNML to PetriNet.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PNML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Class model to a Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from KM3 model to KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation that converts an XML model to a PNML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Make model at /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi into the Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi Ant model to XML model",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the PNML to XML transformation from PNML model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi into a Problem model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Problem.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi into a Make model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi into a DOT model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PNML model into a PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the KM3 to KM3target transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the XML2GeoTrans transformation from XML model to GeoTrans model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply PetriNet model /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi to PathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a PathExp model into a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model at /Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml into KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PathExp model /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from an XML model to a Book model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UMLDI model /Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi into an Amble model",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi into a PathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-XML.xmi into a MySQL model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.apply", 
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from an XML model to an r2ml model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the KM3-to-Metrics transformation, including its source KM3 model and target Metrics model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply GeoTrans model to /Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Geometry/TransfoCommands.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform XML model to WSDL model at /Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "XML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2WSDL/xml2wsdl_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.xmi into Grafcet model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/Grafcet2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts an XML model to a DXF model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DXF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a PetriNet model to a Grafcet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a MavenMaven model to an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the R2ML model at /Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi into a WSDL model",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model ./examples/input.xmi into an r2ml model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from XML model to Make model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model located at /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi into a DOT model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Ant model at /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi into a MavenMaven model",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the ATOM model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi into an RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from PathExp model to TextualPathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform  /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi to XML model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation that converts a Families model into a Persons model.",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation that converts a KM3 model into a DOT model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi into RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi into XML model",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi to Amble model",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from XML model to Book model, including the source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 input model at /Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi into a KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the JavaSource model at /Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/JavaSource2Table/javaSource-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Ant-to-XML transformation to /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml into KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation that converts XML models to PNML models.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve metadata for the transformation from SimpleClass model to SimpleRDBMS model.",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the SimpleClass model /Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi into a SimpleRDBMS model.",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Ant model at /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi into a MavenMaven model.",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi into a PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the KM3-to-KM3target transformation details (source: KM3 model; target: KM3target model).",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this XML model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi into a DSL model (XML to DSL).",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation from XML model to XSLT model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2XSLT.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Apply DSL to KM3 model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this model at /Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XML/tr.xsl-XML.xmi into an XSLT model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2XSLT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XML/tr.xsl-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a Book model to a Publication model.",
+    "relevant_apis": [
+      {
+        "api_name": "Book2Publication.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Ant model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 source model at /Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml into KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi into a DOT model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi into a PathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from KM3 to Problem model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Problem.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi into a KML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2KML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from KM3 model to EMF model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this XML model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi to PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the TextualPathExp model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi into a PathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform XML model /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from Book model to Publication model.",
+    "relevant_apis": [
+      {
+        "api_name": "Book2Publication.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Class model at /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi into a Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply transformation from Ant to MavenMaven on /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the XML-to-KML transformation (XML source, KML target).",
+    "relevant_apis": [
+      {
+        "api_name": "XML2KML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi into a DOT model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DOT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply KM3 to the MySQL model at /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from XML model to GeoTrans model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2GeoTrans.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from XML model to MySQL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XML/tr.xsl-XML.xmi into an XSLT model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2XSLT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XML/tr.xsl-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi from Make model to Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Get details of the transformation that converts a PetriNet model to a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this XML model /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi to Book model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/XML/inputModelXML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi into a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Families model at /Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi into a Persons model.",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi into a KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi into an EMF model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from JavaSource model to Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XML/tr.xsl-XML.xmi into an XSLT model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2XSLT.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/XSLT2XQuery/XML/tr.xsl-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from KM3 model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Class model at /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi into a Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model at /Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi into KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform KM3 model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi into a DSL model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What are the details of the transformation from a Class model to a Relational model?",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Class model to Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "A2B.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply ATOM model to RSS model for /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "ATOM2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi into a DSL model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Make model at /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi into an Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the transformation that converts an XML model into a MySQL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the KM3-to-OWL transformation that converts KM3 models to OWL models.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply KM3 to KM3target at /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a PetriNet model into a PNML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2PetriNet_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details for the transformation from XML model to SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from KM3 to EMF.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the PetriNet-to-Grafcet transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from Families model to Persons model.",
+    "relevant_apis": [
+      {
+        "api_name": "Families2Persons.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the KM32Problem transformation from KM3 model to Problem model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Problem.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi into a SimpleRDBMS model",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply MavenMaven to Ant model /Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from KM3 model to KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Ant model to XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the XSLT2XQuery transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "XSLT2XQuery.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi into a Metrics model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation that converts an R2ML to a WSDL model.",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from PathExp model to PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the PNML to XML transformation: source model PNML; target model XML.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What details exist for the PathExp to TextualPathExp transformation?",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from Class model to Relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What are the available details for the Ant2Maven transformation (Ant model -> MavenMaven model)?",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from XML to PetriNet.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from a TextualPathExp model to a PathExp model, with source type TextualPathExp and target type PathExp.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from a MavenMaven model to an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi into an XML model",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi into KM3target model",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from XML model to PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform PathExp model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi into a TextualPathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Grafcet model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from XML model to r2ml model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2R2ML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PathExp model at '/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi' into a TextualPathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PNML model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi into a PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PetriNet2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi into an EMF model",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation that converts an XML model into a Make model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Make.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a MySQL model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the KM3 to Metrics transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi into a KML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2KML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the R2ML model at '/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi' into a WSDL model",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/WSDL2R2ML/outModels/XML2R2ML/xml2r2ml_model.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What are the available details for the XML2PetriNet transformation from XML to PetriNet?",
+    "relevant_apis": [
+      {
+        "api_name": "XML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at '/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi' into an EMF model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32EMF.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the Book-to-Publication transformation from Book model to Publication model.",
+    "relevant_apis": [
+      {
+        "api_name": "Book2Publication.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Apply to MavenMaven model from Ant model at /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from PathExp model to TextualPathExp model, with source PathExp and target TextualPathExp.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from an R2ML model to a WSDL model.",
+    "relevant_apis": [
+      {
+        "api_name": "R2ML2WSDL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from an XML model to an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the SimpleClass to SimpleRDBMS transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from XML model to KML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2KML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the PNML-to-PetriNet transformation that converts a PNML model to a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the KM3 to KM3target transformation details, including the source KM3 model type and the target KM3target model type.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleB.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Ant model /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi into XML model",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the METAH model at /Users/zakariahachm/Downloads/atl_zoo/METAH2ACME/MODELS/example-METAH.xmi into an ACME model.",
+    "relevant_apis": [
+      {
+        "api_name": "METAH2ACME.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/METAH2ACME/MODELS/example-METAH.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the XML-to-MySQL transformation: XML model to MySQL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2MySQL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Mantis model at /Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi into an XML model",
+    "relevant_apis": [
+      {
+        "api_name": "Mantis2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details for the PrimaryKey_with_context transformation (KM3 model to KM3 model).",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the KM3-to-OWL transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Transform PNML model /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi to XML model",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details about the transformation from XML model to DSL model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from XML model to Book model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the TextualPathExp model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi into a PathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a TextualPathExp model to a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this UMLDI model /Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi into an Amble model",
+    "relevant_apis": [
+      {
+        "api_name": "Uml2Amble.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Uml2Amble/UMLDI.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from KM3 model to DSL model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "- Apply Metrics model to this model /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the XML-to-RSS transformation from XML models to RSS models.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the Make-to-Ant transformation (source: Make model, target: Ant model).",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the KM32Metrics transformation from KM3 model to Metrics model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32Metrics.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the XML model to DSL model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DSL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the transformation from PetriNet to Grafcet.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2Grafcet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve metadata about the transformation from a PathExp model to a TextualPathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2TextualPathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Ant to MavenMaven model on /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "Ant2Maven.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that converts a PNML model to an XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi to a DSL model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply XML to MSOfficeExcel_SpreadsheetMLSimplified for the model at /Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml",
+    "relevant_apis": [
+      {
+        "api_name": "XML2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MicrosoftOfficeExcelInjector/modelsExamples/ExcelXMLFileExample.xml"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Fetch details of the transformation from MySQL model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "MySQL2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi into a PathExp model",
+    "relevant_apis": [
+      {
+        "api_name": "TextualPathExp2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/textualpathexp-example.xmi"
+      }
+    ]
+  }
+]

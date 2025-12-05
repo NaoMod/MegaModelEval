@@ -1,0 +1,282 @@
+[
+  {
+    "pattern": "get>get",
+    "instruction": "Fetch the configuration of the transformation from SimpleClass to SimpleRDBMS, then Display the configuration of the transformation from XML to PetriNet.",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "XML2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>apply",
+    "instruction": "- get the configuration of the Grafcet to PetriNet transformation\n- apply the Families to Persons transformation to /Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi to a Persons model",
+    "relevant_apis": [
+      {
+        "api_name": "Grafcet2PetriNet.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "Families2Persons.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Families2Persons/sample-Families.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>get",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi to Relational model.\nRetrieve the configuration for the mapping from Java source to table.",
+    "relevant_apis": [
+      {
+        "api_name": "Class2Relational.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"
+      },
+      {
+        "api_name": "JavaSource2Table.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>apply",
+    "instruction": "1) Retrieve configuration for the Partial to totalRoleB transformation\n2) Apply to /Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi; target model: totalRoleB",
+    "relevant_apis": [
+      {
+        "api_name": "RedundantInheritance_with_context.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "Partial2totalRoleB.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal/MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "call>get",
+    "instruction": "Show me the configuration settings of the current session and then show me the configuration settings of the transformation from a Table to TabularHTML",
+    "relevant_apis": [
+      {
+        "api_name": "get_session_info",
+        "arguments": ""
+      },
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "call>apply",
+    "instruction": "- List features of the XML-to-PNML transformation\n- Apply /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi to PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": ""
+      },
+      {
+        "api_name": "XML2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "call>apply",
+    "instruction": "1) List features\n2) Apply /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi to RSS model",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": ""
+      },
+      {
+        "api_name": "ATOM2RSS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/ATOM/Exemple-ATOM.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>get",
+    "instruction": "Transform ./examples/input.xmi to MOF model and Get the configuration details for the mapping from XML to MySQL",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      },
+      {
+        "api_name": "XML2MySQL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply>get",
+    "instruction": "1) Apply /Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi to SpreadsheetMLSimplified\n2) Get configuration for the mapping from SpreadsheetMLSimplified to Relational",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Table2MicrosoftOfficeExcel/modelsExamples/TableModelExample.xmi"
+      },
+      {
+        "api_name": "Class2Relational.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply>get",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi; TARGET: SimpleRDBMS\nGet the XML output configuration for the subsequent transformation",
+    "relevant_apis": [
+      {
+        "api_name": "SimpleClass2SimpleRDBMS.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+      },
+      {
+        "api_name": "Ant2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>apply",
+    "instruction": "- Get configuration for the transformation from XML to RSS.\n- Apply to '/Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi' Target model: Problem.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2RSS.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "KM32Problem.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get>get",
+    "instruction": "Retrieve the configuration of the transformation that converts Partial to totalRoleA.\nRetrieve the configuration of the transformation that converts Ant to XML.",
+    "relevant_apis": [
+      {
+        "api_name": "Partial2totalRoleA.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "Ant2XML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>get",
+    "instruction": "Show me the configuration of the transformation that converts XML to Book.\nShow me the configuration of the transformation that converts Table to TabularHTML.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2Book.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "Table2TabularHTML.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>get",
+    "instruction": "Retrieve the configuration of the transformation that converts a PetriNet to PNML.\nRetrieve the configuration of the transformation that converts a PathExp to PetriNet.",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2PNML.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "PathExp2PetriNet.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>apply",
+    "instruction": "- Get the configuration for the Maven-to-Ant transformation.\n- Apply on /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. Target: Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "get>apply",
+    "instruction": "Retrieve configuration for the XML-to-DXF transformation.\nApply /Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi to KML model.",
+    "relevant_apis": [
+      {
+        "api_name": "XML2DXF.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "XML2KML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get>get",
+    "instruction": "Show me the configuration settings of the transformation that converts a Book into a Publication. Show me the configuration settings of the transformation that converts an A into a B.",
+    "relevant_apis": [
+      {
+        "api_name": "Book2Publication.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "A2B.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>get",
+    "instruction": "- Show me the configuration settings of the transformation from Measure to Table\n- Show me the configuration settings of the transformation from PetriNet to PathExp",
+    "relevant_apis": [
+      {
+        "api_name": "Measure2Table.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "PetriNet2PathExp.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>get",
+    "instruction": "Show me the configuration settings of the transformation from KM3 to DSL.\nShow me the configuration settings of the transformation from KM3 to a Problem model.",
+    "relevant_apis": [
+      {
+        "api_name": "KM32DSL.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "KM32Problem.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get>apply",
+    "instruction": "get the configuration of the transformation that converts a Table to SpreadsheetMLSimplified.\napply the XML to Ant transformation to /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi; TARGET: Ant model",
+    "relevant_apis": [
+      {
+        "api_name": "Table2SpreadsheetMLSimplified.get_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "XML2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi"
+      }
+    ]
+  }
+]

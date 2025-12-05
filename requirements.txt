@@ -1,0 +1,22 @@
+langchain
+langchain-community
+langsmith
+langchain_ollama
+langgraph
+tqdm
+pandas
+matplotlib
+fastapi
+mcp
+langchain-mcp-adapters
+# Added for OpenAI support
+langchain-openai
+python-dotenv
+docarray
+# Added for dataset analysis
+nltk
+scikit-learn
+scipy
+seaborn
+umap-learn
+openai

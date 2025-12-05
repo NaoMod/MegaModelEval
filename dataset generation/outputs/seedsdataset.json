@@ -1,0 +1,185 @@
+[
+  
+  {
+    "pattern": "apply",
+    "instruction": "Apply Mantis2XML to /atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi",
+    "level": 1,
+    "relevant_apis": [
+      {"api_name": "Mantis2XML.apply", "arguments": "/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi"}
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the configuration settings for the PNML2XML transformation",
+    "level": 1,
+    "relevant_apis": [
+      {"api_name": "PNML2XML.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model /atl_zoo/KM32EMF/Sample-KM3.xmi into a DSL model",
+    "level": 2,
+    "relevant_apis": [
+      {"api_name": "KM32DSL.apply", "arguments": "/atl_zoo/KM32EMF/Sample-KM3.xmi"}
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What transformation can I use to convert MySQL schemas to KM3 format?",
+    "level": 2,
+    "relevant_apis": [
+      {"api_name": "MySQL2KM3.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this model  /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi to Relational model",
+    "level": 3,
+    "relevant_apis": [
+      {"api_name": "Class2Relational.apply", "arguments": " /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"}
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List me the details of the transformation that transforms this file  /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi to Relational model",
+    "level": 3,
+    "relevant_apis": [
+      {"api_name": "Class2Relational.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What are the available details for the Class2Relational transformation?",
+    "level": 1,
+    "relevant_apis": [
+      {"api_name": "Class2Relational.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the metadata for the PNML2XML conversion tool",
+    "level": 1,
+    "relevant_apis": [
+      {"api_name": "PNML2XML.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Give me information about transformations that produce XML output from an Ant model",
+    "level": 2,
+    "relevant_apis": [
+      {"api_name": "Ant2XML.get_tool", "arguments": ""}
+    ]
+  },
+
+  
+  {
+    "pattern": "get, apply",
+    "instruction": "First show me the configuration of Class2Relational and then transform /atl_zoo/PNML2XML/modelsExamples/PetriNet2.xmi using PNML2XML transformation",
+    "level": 1,
+    "relevant_apis": [
+      {"api_name": "Class2Relational.get_tool", "arguments": ""},
+      {"api_name": "PNML2XML.apply", "arguments": "/atl_zoo/PNML2XML/modelsExamples/PetriNet2.xmi"}
+    ]
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Compare the configurations of the Mantis2XML and MySQL2KM3 transformations",
+    "level": 1,
+    "relevant_apis": [
+      {"api_name": "Mantis2XML.get_tool", "arguments": ""},
+      {"api_name": "MySQL2KM3.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform /atl_zoo/KM32EMF/Sample-KM3.xmi with KM32DSL and then check the PNML2XML configuration",
+    "level": 1,
+    "relevant_apis": [
+      {"api_name": "KM32DSL.apply", "arguments": "/atl_zoo/KM32EMF/Sample-KM3.xmi"},
+      {"api_name": "PNML2XML.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform /atl_zoo/Ant2Maven/Examples/input/Ant/build.xmi using Ant2Maven and then transform /atl_zoo/BibTeX2DocBook/samples/sample1.xmi using BibTeX2DocBook",
+    "level": 1,
+    "relevant_apis": [
+      {"api_name": "Ant2Maven.apply", "arguments": "/atl_zoo/Ant2Maven/Examples/input/Ant/build.xmi"},
+      {"api_name": "BibTeX2DocBook.apply", "arguments": "/atl_zoo/BibTeX2DocBook/samples/sample1.xmi"}
+    ]
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Show me the configuration settings of the transformation that transforms a Class into a Relational model and then transform /atl_zoo/PNML2XML/modelsExamples/PetriNet2.xmi from a PNML model to a XML model",
+    "level": 2,
+    "relevant_apis": [
+      {"api_name": "Class2Relational.get_tool", "arguments": ""},
+      {"api_name": "PNML2XML.apply", "arguments": "/atl_zoo/PNML2XML/modelsExamples/PetriNet2.xmi"}
+    ]
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the KM3 model /atl_zoo/KM32EMF/Sample-KM3.xmi to DSL and then compare the configurations of the transformation that transforms a MySQL into a KM3",
+    "level": 2,
+    "relevant_apis": [
+      {"api_name": "KM32DSL.apply", "arguments": "/atl_zoo/KM32EMF/Sample-KM3.xmi"},
+      {"api_name": "MySQL2KM3.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the Book model /Publication/outputModelPublication.xmi to a Publication model and then transform the Family model /atl_zoo/BibTeX2DocBook/samples/sample1.xmi to a Persons model",
+    "level": 2,
+    "relevant_apis": [
+      {"api_name": "Book2Publication.apply", "arguments": "/Publication/outputModelPublication.xmi"},
+      {"api_name": "BibTeX2DocBook.apply", "arguments": "/atl_zoo/BibTeX2DocBook/samples/sample1.xmi"}
+    ]
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the configuration settings of the transformation that transforms a Class into a Relational and then show me the configuration settings of the transformation that transforms a Ant into a Maven",
+    "level": 2,
+    "relevant_apis": [
+      {"api_name": "Class2Relational.get_tool", "arguments": ""},
+      {"api_name": "Ant2Maven.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform this model /Users/zakariahachm/Downloads/llm-agents-mde/src/examples/class.xmi to Relational model and then transform this model /Users/zakariahachm/Downloads/llm-agents-mde/src/examples/petrinet.xmi to XML model",
+    "level": 3,
+    "relevant_apis": [
+      {"api_name": "Class2Relational.apply", "arguments": "/Users/zakariahachm/Downloads/llm-agents-mde/src/examples/class.xmi"},
+      {"api_name": "PNML2XML.apply", "arguments": "/Users/zakariahachm/Downloads/llm-agents-mde/src/examples/petrinet.xmi"}
+    ]
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Show me the transformation that transforms this file /Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi to XML model then transform this model /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi to Maven model",
+    "level": 3,
+    "relevant_apis": [
+      {"api_name": "Mantis2XML.get_tool", "arguments": ""},
+      {"api_name": "Ant2Maven.apply", "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1.xmi"}
+    ]
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the transformation that transforms this file /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi to Relational model then show me the transformation that transforms this file /Users/zakariahachm/Downloads/llm-agents-mde/src/examples/bibtex.xmi to a Book model",
+    "level": 3,
+    "relevant_apis": [
+      {"api_name": "Class2Relational.get_tool", "arguments": ""},
+      {"api_name": "BibTeX2Book.get_tool", "arguments": ""}
+    ]
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform this model /MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi to DSL model then show me the transformation that transforms this file /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi to KM3 model",
+    "level": 3,
+    "relevant_apis": [
+      {"api_name": "XML2DL.apply", "arguments": "/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi"},
+      {"api_name": "MySQL2KM3.get_tool", "arguments": ""}
+    ]
+  }
+]

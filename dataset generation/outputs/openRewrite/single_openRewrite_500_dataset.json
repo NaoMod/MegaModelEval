@@ -1,0 +1,5002 @@
+[
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <root-project-path> to Spring Boot 3.3 via the latest release recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/my-app to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./projects/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./workspace/my-app to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./workspace/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/root to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./path/to/root"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./ to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./projects/my-app to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./projects/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migration on the root project at ./path/to/project to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./path/to/project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./path/to/root to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./path/to/root"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./path/to/your-app to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./path/to/your-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/my-service to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./projects/my-service"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/my-app to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./projects/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/root to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./path/to/root"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./projects/ecommerce-platform to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./projects/ecommerce-platform"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at <root-project-path> to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./path/to/root to Spring Boot 3.3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_springboot_3_3_recipe_tool",
+        "arguments": "./path/to/root"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./workspace/my-app to Spring Boot 3.5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": "./workspace/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Spring Boot 2.x to 3.x migration to the project at ./workspace/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/spring-boot-app from Spring Boot 2.x to Spring Boot 3.5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": "./projects/spring-boot-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Spring Boot 3 migration to the root project at <path-to-root-project>",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at the root path to Spring Boot 3.5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at <path> from Spring Boot 2.x to Spring Boot 3.5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migration on the root project path, e.g., ./my-springboot-app.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": "./my-springboot-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <root-project-path> from Spring Boot 2.x to Spring Boot 3.5 with the automated migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Spring Boot 2.x to 3 migration to the root project at ./path/to/root",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply a migration recipe to the root project path at ./workspace/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the migration to Spring Boot 3.5 on the root project path ./workspace/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./root-project from Spring Boot 2.x to 3.5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": "./root-project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <root-path> from Spring Boot 2.x to Spring Boot 3.5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Spring Boot 2.x project at ./path/to/root to Spring Boot 3.5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": "./path/to/root"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migration on the root project path ./workspace/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot2_to_springboot3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project to Java 17; build.gradle path: ./projects/legacy-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the build.gradle file at ./path/to/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply Java 17 migration to the build.gradle at ./projects/legacy-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Java codebase at ./projects/my-app/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java 17 migration to the build.gradle at ./path/to/your-project/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./path/to/your-project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/my-app/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java 17 migration to the build.gradle file at ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/build.gradle to Java 17 with the Java 17 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate ./projects/legacy-app/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/build.gradle to Java 17.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java 17 migration to the build.gradle at ./workspace/app-service/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_17_recipe_tool",
+        "arguments": "./workspace/app-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "View the details of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "What are the details of migration to Java 25?",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details for the migrate_to_java_25 recipe: scope and prerequisites.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the scope and impact of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the migration to Java 25 and its typical changes.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details for Java 25 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the key changes of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_25 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_25_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_micronaut2_to_micronaut3 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details for migrating Micronaut 2 to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the Micronaut 2 to Micronaut 3 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "What does the migrate_micronaut2_to_micronaut3 recipe do?",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Display the details for the migrate_micronaut2_to_micronaut3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Summarize the details of the migration from Micronaut 2 to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show details for the migrate_micronaut2_to_micronaut3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details about the migration from Micronaut 2 to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the Micronaut 2 to Micronaut 3 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Get details for the migrate_micronaut2_to_micronaut3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_micronaut2_to_micronaut3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "View the details of the migrate_micronaut2_to_micronaut3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Display the details for the migrate_micronaut2_to_micronaut3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details of the Micronaut 2 to Micronaut 3 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the Micronaut 2 to Micronaut 3 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut2_to_micronaut3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_springboot_3_3 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details for the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the migrate_to_springboot_3_3 recipe, including its purpose, the changes it performs, and any prerequisites.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_springboot_3_3 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the Spring Boot 3.3 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Display the migrate_to_springboot_3_3 recipe details.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Get the details of the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details for the migrate_to_springboot_3_3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_springboot_3_3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Java 8/11 project at ./path/to/build.gradle to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "/11"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Java project at ./path/to/build.gradle to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate to Java 21; build.gradle path: ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java 21 migration to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate ./path/to/build.gradle to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Java 8/11 project at ./projects/my-app/build.gradle to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "/11"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the migrate_to_java_21 recipe to ./path/to/your/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./path/to/your/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migrate_to_java_21 recipe on ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/build.gradle to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at the specified build.gradle path to Java 21.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project to Java 21, build.gradle path: ./path/to/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java 21 migration to the build.gradle file at ./path/to/your/project/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_21_recipe_tool",
+        "arguments": "./path/to/your/project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the JUnit 4 to JUnit 5 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_junit4_to_junit5 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details of the migration from JUnit4 to JUnit5.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_junit4_to_junit5 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the purpose, outcomes, and configuration options of the JUnit 4 to JUnit 5 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the JUnit4-to-JUnit5 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the migrate_junit4_to_junit5 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_junit4_to_junit5_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <ROOT_PATH> from Quarkus 1.x to Quarkus 2.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Quarkus 1.x to 2.x migration to the root project at ./path/to/your-project",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Quarkus project at ./projects/my-quarkus-app from 1.x to 2.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": "./projects/my-quarkus-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migration from Quarkus 1.x to Quarkus 2.x on the root project at ./projects/my-quarkus-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-quarkus-app to Quarkus 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": "./projects/legacy-quarkus-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./path/to/root-project to Quarkus 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": "./path/to/root-project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./workspace/my-quarkus-app to Quarkus 2 with the migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": "./workspace/my-quarkus-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./apps/legacy-quarkus-1 to Quarkus 2 through the migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": "./apps/legacy-quarkus-1"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Quarkus 1.x project at <root-project-path> to Quarkus 2.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Quarkus 1.x project at <project-root> to Quarkus 2.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Quarkus 1.x root project at <path-to-root-project> to Quarkus 2.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Quarkus 1.x project at ./path/to/root-project to Quarkus 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": "./path/to/root-project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at <path> from Quarkus 1.x to Quarkus 2.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <root-project-path> from Quarkus 1.x to Quarkus 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/quarkus-app from Quarkus 1.x to Quarkus 2.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_quarkus1_to_quarkus2_recipe_tool",
+        "arguments": "./projects/quarkus-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details for the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "View the fix_static_analysis_issues recipe details and configuration options.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix for static analysis issues.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the purpose and scope of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_static_analysis_issues recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_static_analysis_issues_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the manage_maven_dependencies recipe to ./path/to/your-project/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./path/to/your-project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the manage_maven_dependencies recipe on ./your-project/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./your-project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the dependency management recipe to the build.gradle at ./projects/ecommerce-platform/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./projects/ecommerce-platform/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the dependency-management recipe on ./path/to/your/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./path/to/your/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the dependency management recipe to the build.gradle file at ./projects/your-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./projects/your-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply a Maven dependencies recipe to ./workspace/my-service/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./workspace/my-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the dependency management recipe to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the dependency management recipe to ./path/to/your/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./path/to/your/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Resolve Maven dependency conflicts in the project at ./workspace/your-service/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./workspace/your-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Resolve dependency conflicts in ./workspace/payment-service/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./workspace/payment-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Maven dependency-management recipe to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the manage_maven_dependencies recipe to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the dependency-management recipe to the build.gradle file at ./path/to/your/project/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./path/to/your/project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the dependency management recipe to the build.gradle at ./project/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_manage_maven_dependencies_recipe_tool",
+        "arguments": "./project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Hamcrest to AssertJ in the root project at ./project-root",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migration on the root project path ./my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the tests from Hamcrest to AssertJ in the project root at ./path-to-project.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": "./path-to-project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Hamcrest-to-AssertJ migration recipe to the project root at ./projects/my-application",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Hamcrest to AssertJ in the root project at ./projects/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Hamcrest to AssertJ in the project root at ./projects/my-service.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": "./projects/my-service"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Hamcrest to AssertJ for the project at ./projects/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Hamcrest assertions to AssertJ across the root project at ./path/to/your-project",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Hamcrest to AssertJ in the root project at ./",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Hamcrest to AssertJ in the root project at ./workspace/my-service",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./<root-project-path> from Hamcrest to AssertJ.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": "./<root-project-path>"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Hamcrest-to-AssertJ migration to the root project at ./projects/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the migration on the root project path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Hamcrest to AssertJ in the root project at ./path/to/your/project.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_hamcrest_to_assertj_recipe_tool",
+        "arguments": "./path/to/your/project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details for the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the details of the Java 21 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details for the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details for the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Get details for the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Obtain the Java 21 migration recipe details.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Display the details for the Java 21 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details for the migrate_to_java_21 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_21_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the purpose and scope of the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Inspect the Java 17 migration details for changes and compatibility notes.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for Java 17 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details for the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details of the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Display the details of the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Review the Java 17 migration recipe details, including prerequisites, changes, and testing considerations.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "View the details for the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_17 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details for the Java 17 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_to_java_17_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot1_to_springboot2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the steps for the migration from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me details for the migration from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migration from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details for the Spring Boot 1 to Spring Boot 2 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the Spring Boot 1 to 2 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the key changes and recommended steps for upgrading from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot1_to_springboot2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the Spring Boot 1.x to 2.x migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot1_to_springboot2 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details about the Spring Boot 1 to Spring Boot 2 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the migrate_springboot1_to_springboot2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot1_to_springboot2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot1_to_springboot2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot1_to_springboot2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Get details for a specific OpenRewrite recipe by name.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the recipe by its name.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details of a specific recipe by its name.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the Log4j-to-SLF4J migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details of the migrate_to_java_17 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details of a recipe by name.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the recipe named <recipe_name>.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details of a specific OpenRewrite recipe by name.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the full details of the named recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Identify the full details of the recipe named <name>.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_to_java_17 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details for the <recipe_name> recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for a specific recipe by name.",
+    "relevant_apis": [
+      {
+        "api_name": "get_recipe_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the migrate_quarkus1_to_quarkus2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the migration recipe from Quarkus 1 to Quarkus 2.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the details of the Quarkus 1 to Quarkus 2 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_quarkus1_to_quarkus2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details about the Quarkus 1 to Quarkus 2 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the Quarkus 1 to Quarkus 2 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_quarkus1_to_quarkus2 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Provide the details for the migrate_quarkus1_to_quarkus2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show details for the Quarkus 1 to Quarkus 2 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Display the Quarkus 1 to Quarkus 2 migration details.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Obtain details for the migrate_quarkus1_to_quarkus2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the Quarkus 1 to Quarkus 2 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_quarkus1_to_quarkus2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_quarkus1_to_quarkus2 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_quarkus1_to_quarkus2_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_log4j_to_slf4j recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the log4j-to-slf4j migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the behavior of the Log4j-to-SLF4J migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the log4j-to-slf4j migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details for the Log4j to SLF4J migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_log4j_to_slf4j recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the Log4j to SLF4J migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Query details about log4j to slf4j migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_log4j_to_slf4j recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_log4j_to_slf4j recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_log4j_to_slf4j recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_log4j_to_slf4j recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the Log4j-to-SLF4J migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the details of the log4j-to-slf4j migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_log4j_to_slf4j_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Display details of the Maven dependency management recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the capabilities, configuration options, and expected results of the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details for the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show details of the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Inspect the manage_maven_dependencies recipe details and options.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details for the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details of the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details for the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the manage_maven_dependencies recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_manage_maven_dependencies_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3 project at ./path/to/project to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": "./path/to/project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3.x project at ./projects/my-app to Micronaut 4.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": "./projects/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./workspace/micronaut-app to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": "./workspace/micronaut-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3 project at ./projects/my-service to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": "./projects/my-service"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3.x project at <root-project-path> to Micronaut 4.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3.x project at ./path/to/your/project to Micronaut 4.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": "./path/to/your/project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Execute the migration for the root project at ./path/to/your/root-project",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <root-project-path> from Micronaut 3.x to Micronaut 4.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <root-project-path> to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3.x project at <root-project-path> to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3 project at the root path ./path/to/project to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": "./path/to/project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3.x project at ./workspace/app to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": "./workspace/app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3.x project to Micronaut 4.x at ./path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": "./path"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 3 project at <root-project-path> to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut3_to_micronaut4_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Provide details about the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the behavior of the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the behavior of the SLF4J parameterized logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the details of the recipe for SLF4J parameterized logging.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details for the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the use_slf4j_parameterized_logging recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_use_slf4j_parameterized_logging_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details for the Spring Boot 2 to Spring Boot 3 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the migrate_springboot2_to_springboot3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot2_to_springboot3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show details about the migrate_springboot2_to_springboot3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot2_to_springboot3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot2_to_springboot3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the migration details from Spring Boot 2 to Spring Boot 3.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details about prerequisites, applicability, and changes for the migrate_springboot2_to_springboot3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot2_to_springboot3 recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details of the Spring Boot 2 to 3 upgrade recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_springboot2_to_springboot3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the Spring Boot 2 to Spring Boot 3 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details of the Spring Boot 2 to 3 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details for the migrate_springboot2_to_springboot3 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_springboot2_to_springboot3_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migration on ./projects/ecommerce-platform/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./projects/ecommerce-platform/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate from JUnit 4 to JUnit 5 in the project via the build.gradle at ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate JUnit 4 to JUnit 5 for the build file at ./path/to/your/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./path/to/your/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./workspace/my-service/build.gradle from JUnit 4 to JUnit 5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./workspace/my-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate ./projects/my-app/build.gradle to JUnit 5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./workspace/app/build.gradle from JUnit 4 to JUnit 5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./workspace/app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the build.gradle at ./path/to/build.gradle from JUnit 4 to JUnit 5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the JUnit 4-to-5 migration to the project at ./workspace/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./workspace/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate JUnit 4 to JUnit 5 in the build.gradle at ./path/to/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the JUnit 4 to 5 migration to the build.gradle path at ./path/to/your/project/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./path/to/your/project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the JUnit 4 to JUnit 5 migration recipe to ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate ./workspace/billing-service/build.gradle from JUnit 4 to JUnit 5.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./workspace/billing-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate to JUnit 5 from JUnit 4 in the project at ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the JUnit 4-to-5 migration to ./projects/legacy-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_junit4_to_junit5_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details of the package rename refactoring recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details about the package-rename refactor recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the capabilities and configuration options of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the function of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the capabilities and limitations of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch details for the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Obtain details about the package rename refactor.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the refactor_package_rename recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_refactor_package_rename_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Upgrade the project at ./path/to/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java 25 migration recipe to <path>/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate ./path/to/your/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./path/to/your/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./workspace/my-service/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./workspace/my-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate to Java 25 on ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java 25 migration to the build.gradle file at ./path/to/your-project/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./path/to/your-project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Upgrade the build.gradle at ./projects/my-app/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <build.gradle path> to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java 25 migration to the build.gradle file at the target project path, for example ./projects/ecommerce-platform/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./projects/ecommerce-platform/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the build.gradle file at ./path/to/project/build.gradle to Java 25.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_to_java_25_recipe_tool",
+        "arguments": "./path/to/project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the migrate_micronaut3_to_micronaut4 recipe's purpose, inputs, and outputs.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details for the migrate_micronaut3_to_micronaut4 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the migrate_micronaut3_to_micronaut4 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details of the Micronaut 3 to Micronaut 4 migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_micronaut3_to_micronaut4 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_micronaut3_to_micronaut4 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "What does the migrate_micronaut3_to_micronaut4 recipe do?",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_micronaut3_to_micronaut4 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Request the details of the Micronaut 3 to Micronaut 4 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve the details of the Micronaut 3 to Micronaut 4 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve details for the migration from Micronaut 3 to Micronaut 4.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the migrate_micronaut3_to_micronaut4 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Explain the details of Micronaut 3 to Micronaut 4 migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_micronaut3_to_micronaut4 recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_micronaut3_to_micronaut4_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the SLF4J parameterized logging refactor to the root project path ./<root-project>",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply SLF4J parameterized logging to the root project at ./projects/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the SLF4J parameterized logging recipe to the root of your project at ./path/to/your/project",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply SLF4J parameterized logging to the root project at <root-path>.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Refactor all logging statements in the root project at <root-project-path> to SLF4J parameterized logging.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the SLF4J parameterized logging recipe to the root project at ./",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Refactor logging statements in the project at <root-project-path> into SLF4J parameterized logging",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the parameterized logging recipe to the root project at ./path/to/your/project.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": "./path/to/your/project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the SLF4J parameterized logging recipe to the root project path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the SLF4J parameterized logging refactor to <root_project_path>.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply parameterized logging to the root project at ./projects/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Refactor SLF4J logging statements to parameterized form in the root project at ./path/to/your-project",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Refactor logging statements to SLF4J parameterized logging in the root project path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the SLF4J parameterized logging recipe to <root_project_path>",
+    "relevant_apis": [
+      {
+        "api_name": "apply_use_slf4j_parameterized_logging_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Micronaut 2.x to 3.x migration to the root project at ./path/to/your-project",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <root-project-path> from Micronaut 2.x to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 2.x project at <root-path> to Micronaut 3.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 2.x project at <root-path> to Micronaut 3.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./my-micronaut-app from Micronaut 2.x to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": "./my-micronaut-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the migration recipe to the root project path (e.g., ./my-app).",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": "./my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 2.x project at <root-project-path> to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 2 project at ./projects/micronaut-app to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": "./projects/micronaut-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./projects/micronaut-app from Micronaut 2.x to Micronaut 3.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": "./projects/micronaut-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 2.x project at ./projects/my-mn2-app to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": "./projects/my-mn2-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 2 project at ./projects/myapp to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": "./projects/myapp"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Micronaut 2.x project at ./path/to/root-project to Micronaut 3.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": "./path/to/root-project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at <root-project-path> from Micronaut 2.x to Micronaut 3.x.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at the root path from Micronaut 2 to Micronaut 3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_micronaut2_to_micronaut3_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Rename the Java package from com.old to com.new in the project at ./projects/my-app via a YAML recipe: old_package_name=com.old, new_package_name=com.new.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": "./projects/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Rename the package from OLD_PACKAGE to NEW_PACKAGE in ROOT_PROJECT_PATH, with automatic updates to dependent code.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Rename the Java package {old_package_name} to {new_package_name} in the project at {root_project_path}.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Rename the package from old_package_name to new_package_name across the project at root_path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Rename the package from old_package_name to new_package_name across the project at root_project_path via a declarative YAML recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the package-rename recipe to <root_project_path> from <old_package_name> to <new_package_name>.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Initiate a package-rename on the project at <root_path> from <old_package_name> to <new_package_name>.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply a declarative YAML recipe for Java package migration from old_package_name to new_package_name in the root project path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the package-rename recipe to <root_path> with old_package_name=<old> and new_package_name=<new>.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Rename old_package_name to new_package_name in the project at <root_path>.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Execute a declarative YAML recipe for package path migration from old_package_name to new_package_name in the root project at root_project_path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Java package rename recipe to ./projects/my-app with old_package_name=com.example.old and new_package_name=com.example.new",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": "./projects/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Rename the Java package from old_package_name to new_package_name in the root path ./path/to/project with the YAML refactor recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": "./path/to/project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the package-rename recipe to <root_project_path> with old_package_name=<old_package_name> and new_package_name=<new_package_name>.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_refactor_package_rename_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the fix_checkstyle_violations recipe to ./workspace/api-gateway/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./workspace/api-gateway/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Checkstyle violations fix to ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Fix all the Checkstyle violations in the project at ./workspace/api-gateway/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./workspace/api-gateway/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run an automated code-style cleanup on ./path/to/your-service/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./path/to/your-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Fix all the Checkstyle violations in the project at ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the formatting fix to the build.gradle file at ./path/to/your/project/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./path/to/your/project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply automated reformatting to the build.gradle file at ./path/to/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Checkstyle fix to ./projects/my-app/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Checkstyle violations recipe to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Fix the Checkstyle violations in the build.gradle file at ./workspace/api-gateway/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./workspace/api-gateway/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Checkstyle fixes to the build.gradle at ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the fix for Checkstyle violations to ./path/to/your/project/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./path/to/your/project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Fix the Checkstyle violations in the build.gradle file at the specified path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the fix on ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_checkstyle_violations_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Inspect the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the recipe that fixes checkstyle violations.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Retrieve full details of the fix_checkstyle_violations recipe, including its purpose, inputs, and typical usage.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Get details for the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show details for the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_checkstyle_violations recipe",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the fix_checkstyle_violations recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_fix_checkstyle_violations_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the fix_static_analysis_issues recipe to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the fix_static_analysis_issues recipe to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Fix static analysis issues in ./workspace/payment-service/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./workspace/payment-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply remediation for static analysis issues to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the static analysis remediation recipe to the build.gradle at ./workspace/payment-service/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./workspace/payment-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the fix_static_analysis_issues recipe on ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the fix_static_analysis_issues recipe to ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the remediation for static analysis issues on ./workspace/billing-service/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./workspace/billing-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the static analysis remediation recipe on ./workspace/billing-service/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./workspace/billing-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Fix all static analysis issues in the project at ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Fix common static analysis issues in the build.gradle at ./path/to/your/project/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./path/to/your/project/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the static-analysis remediation to ./workspace/billing-service/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./workspace/billing-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the static analysis fixes to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the fix_static_analysis_issues recipe to ./projects/ecommerce-platform/build.gradle.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_fix_static_analysis_issues_recipe_tool",
+        "arguments": "./projects/ecommerce-platform/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the build.gradle at ./workspace/your-service/build.gradle from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./workspace/your-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./workspace/billing-service/build.gradle from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./workspace/billing-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project from Spring Boot 1 to Spring Boot 2 at ./path/to/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the Spring Boot 1 project to Spring Boot 2 at ./projects/legacy-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the build.gradle file at ./path/to/build.gradle from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the Spring Boot 1-to-2 migration to ./projects/my-app/build.gradle",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/my-app/build.gradle from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./path/to/build.gradle to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./path/to/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate ./projects/my-app/build.gradle to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app/build.gradle from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./projects/legacy-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at the build.gradle path from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./workspace/order-service/build.gradle from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./workspace/order-service/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate ./projects/my-app/build.gradle from Spring Boot 1 to Spring Boot 2.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_springboot1_to_springboot2_recipe_tool",
+        "arguments": "./projects/my-app/build.gradle"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the migration recipe for Log4j to SLF4J on the root project at ./workspace/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Log4j (1.x or 2.x) to SLF4J for the root project at ./path/to/root-project",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project's Log4j logging to SLF4J in the root project at ./projects/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migration to SLF4J from Log4j on the root project path, e.g., ./my-service",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./projects/my-app to SLF4J from Log4j.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": "./projects/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./path/to/your-project from Log4j to SLF4J.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": "./path/to/your-project"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at ./projects/legacy-app from Log4j to SLF4J.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": "./projects/legacy-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the project at <root-project-path> from Log4j to SLF4J.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Run the migration on the root project path ./root-project",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate the root project at ./workspace/billing-service from Log4j to SLF4J",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": "./workspace/billing-service"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the migration from Log4j to SLF4J to the root project path.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate Log4j to SLF4J in the project root at ./apps/my-service",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Migrate to SLF4J from Log4j for the project at ./projects/my-app",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_application",
+    "instruction": "Apply the migration to the project root at ./projects/my-app.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_migrate_log4j_to_slf4j_recipe_tool",
+        "arguments": "./projects/my-app"
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Display the details of the migrate_hamcrest_to_assertj recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_hamcrest_to_assertj recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the Hamcrest-to-AssertJ migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_hamcrest_to_assertj recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show the details of the hamcrest-to-assertj migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_hamcrest_to_assertj recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the Hamcrest-to-AssertJ migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the migrate_hamcrest_to_assertj recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Show me the details of the Hamcrest-to-AssertJ migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the Hamcrest-to-AssertJ migration.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Get details for the migrate_hamcrest_to_assertj recipe, including its purpose, inputs, and expected outcomes.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "What are the details of the Hamcrest-to-AssertJ migration?",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Describe the details of the migration from Hamcrest to AssertJ.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "recipe_info",
+    "instruction": "Fetch the details of the hamcrest-to-assertj migration recipe.",
+    "relevant_apis": [
+      {
+        "api_name": "get_migrate_hamcrest_to_assertj_details_tool",
+        "arguments": ""
+      }
+    ]
+  }
+]

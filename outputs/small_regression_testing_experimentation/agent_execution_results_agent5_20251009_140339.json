@@ -1,0 +1,985 @@
+[
+  {
+    "instruction": "Transform the XML model at /Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi into an RSS model.",
+    "pattern": "apply",
+    "expected_apis": [
+      "XML2RSS.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_XML2RSS_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM/XML/Exemple1-XML.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_XML2RSS_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation XML2RSS applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<RSS xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"RSS\" version=\"0.91\">\\n  <channel title=\"Atoute.org\" link=\"http://www.atoute.org/\" description=\"\" language=\"\" copyright=\"\" managingEditor=\"\" webmaster=\"\" generator=\"\" docs=\"\" rating=\"\" pubDate=\"\" lastBuildDate=\"\">\\n    <items title=\"La page du m&#xe9;decin\" link=\"http://www.atoute.org/page_du_medecin/spe/mg/mg_1024.htm\" description=\"\" author=\"\" comments=\"\" guid=\"\"/>\\n    <items title=\"Outils de recherche pour professionnels\" link=\"http://www.atoute.org/medecine_pro.htm\" description=\"\" author=\"\" comments=\"\" guid=\"\"/>\\n    <items title=\"Dictionnaires m&#xe9;dicaux\" link=\"http://www.atoute.org/dictionnaire_medical.htm\" description=\"\" author=\"\" comments=\"\" guid=\"\"/>\\n  </channel>\\n</RSS>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation XML2RSS applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<RSS xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"RSS\" version=\"0.91\">\\n  <channel title=\"Atoute.org\" link=\"http://www.atoute.org/\" description=\"\" language=\"\" copyright=\"\" managingEditor=\"\" webmaster=\"\" generator=\"\" docs=\"\" rating=\"\" pubDate=\"\" lastBuildDate=\"\">\\n    <items title=\"La page du m&#xe9;decin\" link=\"http://www.atoute.org/page_du_medecin/spe/mg/mg_1024.htm\" description=\"\" author=\"\" comments=\"\" guid=\"\"/>\\n    <items title=\"Outils de recherche pour professionnels\" link=\"http://www.atoute.org/medecine_pro.htm\" description=\"\" author=\"\" comments=\"\" guid=\"\"/>\\n    <items title=\"Dictionnaires m&#xe9;dicaux\" link=\"http://www.atoute.org/dictionnaire_medical.htm\" description=\"\" author=\"\" comments=\"\" guid=\"\"/>\\n  </channel>\\n</RSS>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Transform a SimpleClass model /Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi into a SimpleRDBMS model.",
+    "pattern": "apply",
+    "expected_apis": [
+      "SimpleClass2SimpleRDBMS.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation SimpleClass2SimpleRDBMS applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"SimpleRDBMS\">\\n  <Table name=\"Person\" pkey=\"/0/@cols.0\">\\n    <fkeys references=\"/3\" cols=\"/0/@cols.1 /0/@cols.2\"/>\\n    <fkeys references=\"/0\" cols=\"/0/@cols.3\"/>\\n    <fkeys references=\"/3\" cols=\"/0/@cols.4 /0/@cols.5\"/>\\n    <fkeys references=\"/2\" cols=\"/0/@cols.6 /0/@cols.7\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"studiesIn_faculty_name\" type=\"String\"/>\\n    <cols name=\"studiesIn_name\" type=\"String\"/>\\n    <cols name=\"supervisor_name\" type=\"String\"/>\\n    <cols name=\"works_for_faculty_name\" type=\"String\"/>\\n    <cols name=\"works_for_name\" type=\"String\"/>\\n    <cols name=\"performsTask_name\" type=\"String\"/>\\n    <cols name=\"performsTask_number\" type=\"Integer\"/>\\n    <cols name=\"address_city\" type=\"String\"/>\\n    <cols name=\"address_street\" type=\"String\"/>\\n    <cols name=\"address_postcode\" type=\"String\"/>\\n  </Table>\\n  <Table name=\"Document\" pkey=\"/1/@cols.0\">\\n    <fkeys references=\"/0\" cols=\"/1/@cols.1\"/>\\n    <cols name=\"number\" type=\"Integer\"/>\\n    <cols name=\"author_name\" type=\"String\"/>\\n    <cols name=\"content\" type=\"String\"/>\\n  </Table>\\n  <Table name=\"Task\" pkey=\"/2/@cols.0 /2/@cols.1\">\\n    <fkeys references=\"/1\" cols=\"/2/@cols.2\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"number\" type=\"Integer\"/>\\n    <cols name=\"description_number\" type=\"Integer\"/>\\n  </Table>\\n  <Table name=\"Organization\" pkey=\"/3/@cols.0 /3/@cols.1\">\\n    <fkeys references=\"/0\" cols=\"/3/@cols.2\"/>\\n    <fkeys references=\"/0\" cols=\"/3/@cols.3\"/>\\n    <cols name=\"faculty_name\" type=\"String\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"manager_name\" type=\"String\"/>\\n    <cols name=\"faculty_dean_name\" type=\"String\"/>\\n    <cols name=\"faculty_address_city\" type=\"String\"/>\\n    <cols name=\"faculty_address_street\" type=\"String\"/>\\n    <cols name=\"faculty_address_postcode\" type=\"String\"/>\\n    <cols name=\"address_city\" type=\"String\"/>\\n    <cols name=\"address_street\" type=\"String\"/>\\n    <cols name=\"address_postcode\" type=\"String\"/>\\n  </Table>\\n</xmi:XMI>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation SimpleClass2SimpleRDBMS applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"SimpleRDBMS\">\\n  <Table name=\"Person\" pkey=\"/0/@cols.0\">\\n    <fkeys references=\"/3\" cols=\"/0/@cols.1 /0/@cols.2\"/>\\n    <fkeys references=\"/0\" cols=\"/0/@cols.3\"/>\\n    <fkeys references=\"/3\" cols=\"/0/@cols.4 /0/@cols.5\"/>\\n    <fkeys references=\"/2\" cols=\"/0/@cols.6 /0/@cols.7\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"studiesIn_faculty_name\" type=\"String\"/>\\n    <cols name=\"studiesIn_name\" type=\"String\"/>\\n    <cols name=\"supervisor_name\" type=\"String\"/>\\n    <cols name=\"works_for_faculty_name\" type=\"String\"/>\\n    <cols name=\"works_for_name\" type=\"String\"/>\\n    <cols name=\"performsTask_name\" type=\"String\"/>\\n    <cols name=\"performsTask_number\" type=\"Integer\"/>\\n    <cols name=\"address_city\" type=\"String\"/>\\n    <cols name=\"address_street\" type=\"String\"/>\\n    <cols name=\"address_postcode\" type=\"String\"/>\\n  </Table>\\n  <Table name=\"Document\" pkey=\"/1/@cols.0\">\\n    <fkeys references=\"/0\" cols=\"/1/@cols.1\"/>\\n    <cols name=\"number\" type=\"Integer\"/>\\n    <cols name=\"author_name\" type=\"String\"/>\\n    <cols name=\"content\" type=\"String\"/>\\n  </Table>\\n  <Table name=\"Task\" pkey=\"/2/@cols.0 /2/@cols.1\">\\n    <fkeys references=\"/1\" cols=\"/2/@cols.2\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"number\" type=\"Integer\"/>\\n    <cols name=\"description_number\" type=\"Integer\"/>\\n  </Table>\\n  <Table name=\"Organization\" pkey=\"/3/@cols.0 /3/@cols.1\">\\n    <fkeys references=\"/0\" cols=\"/3/@cols.2\"/>\\n    <fkeys references=\"/0\" cols=\"/3/@cols.3\"/>\\n    <cols name=\"faculty_name\" type=\"String\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"manager_name\" type=\"String\"/>\\n    <cols name=\"faculty_dean_name\" type=\"String\"/>\\n    <cols name=\"faculty_address_city\" type=\"String\"/>\\n    <cols name=\"faculty_address_street\" type=\"String\"/>\\n    <cols name=\"faculty_address_postcode\" type=\"String\"/>\\n    <cols name=\"address_city\" type=\"String\"/>\\n    <cols name=\"address_street\" type=\"String\"/>\\n    <cols name=\"address_postcode\" type=\"String\"/>\\n  </Table>\\n</xmi:XMI>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Transform the KM3 model /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi into a DOT model",
+    "pattern": "apply",
+    "expected_apis": [
+      "KM32DOT.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32DOT_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_KM32DOT_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32DOT_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DOT\\':\\n{\"name\":\"KM32DOT\",\"atlFile\":\"./KM32DOT/Transformations/KM32DOT.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32DOT\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM32DOT/Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM32DOT/Metamodels/DOT.ecore\"}],\"sample_models\":[{\"source\":[\"./KM32DOT/Models/KM3-KM3.xmi\"],\"target\":[\"./KM32DOT/Models/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DOT\\':\\n{\"name\":\"KM32DOT\",\"atlFile\":\"./KM32DOT/Transformations/KM32DOT.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32DOT\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM32DOT/Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM32DOT/Metamodels/DOT.ecore\"}],\"sample_models\":[{\"source\":[\"./KM32DOT/Models/KM3-KM3.xmi\"],\"target\":[\"./KM32DOT/Models/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DOT_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32DOT applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DOT\">\\n  <Graph name=\"KM3 Model in DOT\" type=\"digraph\" rankDir=\"BT\" labeljust=\"l\" labelloc=\"t\" compound=\"true\" nodeSeparation=\"0.75\">\\n    <nodes xsi:type=\"SubGraph\" name=\"cluster_PrimitiveTypes\" color=\"black\" labelloc=\"t\">\\n      <label xsi:type=\"SimpleLabel\" content=\"PrimitiveTypes\"/>\\n      <nodes xsi:type=\"Node\" name=\"Boolean\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nBoolean|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Integer\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nInteger|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"String\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nString|}\"/>\\n        </shape>\\n      </nodes>\\n    </nodes>\\n    <nodes xsi:type=\"SubGraph\" name=\"cluster_KM3\" color=\"black\" labelloc=\"t\">\\n      <label xsi:type=\"SimpleLabel\" content=\"KM3\"/>\\n      <nodes xsi:type=\"Node\" name=\"LocatedElement\" referredBy=\"/1 /15\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{/LocatedElement/|location : String| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"ModelElement\" refers=\"/24 /1\" referredBy=\"/2 /5 /8 /14\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{/ModelElement/|name : String| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Classifier\" refers=\"/2\" referredBy=\"/3 /4 /6 /7 /20\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Classifier| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"DataType\" refers=\"/3\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{DataType| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Enumeration\" refers=\"/4\" referredBy=\"/27\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Enumeration| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"EnumLiteral\" refers=\"/27 /5\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{EnumLiteral| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"TemplateParameter\" refers=\"/6\" referredBy=\"/16\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{TemplateParameter| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Class\" refers=\"/16 /18 /7\" referredBy=\"/18 /30 /36\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Class|isAbstract : Boolean| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"TypedElement\" refers=\"/20 /8\" referredBy=\"/9 /12 /13\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{TypedElement|lower : Integer\\\\nupper : Integer\\\\nisOrdered : Boolean\\\\nisUnique : Boolean| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"StructuralFeature\" refers=\"/30 /33 /9\" referredBy=\"/10 /11 /33\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{StructuralFeature| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Attribute\" refers=\"/10\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Attribute| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Reference\" refers=\"/22 /11\" referredBy=\"/22\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Reference|isContainer : Boolean| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Operation\" refers=\"/36 /12\" referredBy=\"/39\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Operation| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Parameter\" refers=\"/39 /13\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Parameter| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Package\" refers=\"/42 /14\" referredBy=\"/24\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Package| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Metamodel\" refers=\"/15\" referredBy=\"/42\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Metamodel| | }\"/>\\n        </shape>\\n      </nodes>\\n    </nodes>\\n  </Graph>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.1\" toNode=\"/0/@nodes.1/@nodes.0\" constraint=\"true\" group=\"LocatedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.2\" toNode=\"/0/@nodes.1/@nodes.1\" constraint=\"true\" group=\"ModelElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.3\" toNode=\"/0/@nodes.1/@nodes.2\" constraint=\"true\" group=\"Classifier\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.4\" toNode=\"/0/@nodes.1/@nodes.2\" constraint=\"true\" group=\"Classifier\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.5\" toNode=\"/0/@nodes.1/@nodes.1\" constraint=\"true\" group=\"ModelElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.6\" toNode=\"/0/@nodes.1/@nodes.2\" constraint=\"true\" group=\"Classifier\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.7\" toNode=\"/0/@nodes.1/@nodes.2\" constraint=\"true\" group=\"Classifier\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.8\" toNode=\"/0/@nodes.1/@nodes.1\" constraint=\"true\" group=\"ModelElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.9\" toNode=\"/0/@nodes.1/@nodes.8\" constraint=\"true\" group=\"TypedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.10\" toNode=\"/0/@nodes.1/@nodes.9\" constraint=\"true\" group=\"StructuralFeature\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.11\" toNode=\"/0/@nodes.1/@nodes.9\" constraint=\"true\" group=\"StructuralFeature\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.12\" toNode=\"/0/@nodes.1/@nodes.8\" constraint=\"true\" group=\"TypedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.13\" toNode=\"/0/@nodes.1/@nodes.8\" constraint=\"true\" group=\"TypedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.14\" toNode=\"/0/@nodes.1/@nodes.1\" constraint=\"true\" group=\"ModelElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.15\" toNode=\"/0/@nodes.1/@nodes.0\" constraint=\"true\" group=\"LocatedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.7\" toNode=\"/0/@nodes.1/@nodes.6\" constraint=\"true\" group=\"TemplateParameter\" minlen=\"2\" headlabel=\"/17\">\\n    <arrowHead name=\"vee\" clipping=\"none\"/>\\n    <arrowTail name=\"diamond\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"parameters[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.7\" toNode=\"/0/@nodes.1/@nodes.7\" group=\"Class\" minlen=\"2\" headlabel=\"/19\">\\n    <arrowHead name=\"vee\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"supertypes[*]\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.8\" toNode=\"/0/@nodes.1/@nodes.2\" group=\"Classifier\" minlen=\"2\" headlabel=\"/21\">\\n    <arrowHead name=\"vee\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"type\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.11\" toNode=\"/0/@nodes.1/@nodes.11\" group=\"Reference\" minlen=\"2\" headlabel=\"/23\">\\n    <arrowHead name=\"vee\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"opposite[0-1]\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.1\" toNode=\"/0/@nodes.1/@nodes.14\" constraint=\"true\" group=\"Package\" minlen=\"2\" headlabel=\"/25\" taillabel=\"/26\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"package\"/>\\n  <SimpleLabel content=\"contents[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.5\" toNode=\"/0/@nodes.1/@nodes.4\" constraint=\"true\" group=\"Enumeration\" minlen=\"2\" headlabel=\"/28\" taillabel=\"/29\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"enum\"/>\\n  <SimpleLabel content=\"literals[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.9\" toNode=\"/0/@nodes.1/@nodes.7\" constraint=\"true\" group=\"Class\" minlen=\"2\" headlabel=\"/31\" taillabel=\"/32\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"owner\"/>\\n  <SimpleLabel content=\"structuralFeatures[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.9\" toNode=\"/0/@nodes.1/@nodes.9\" group=\"StructuralFeature\" minlen=\"2\" headlabel=\"/34\" taillabel=\"/35\">\\n    <arrowHead name=\"none\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"derivedFrom[*]\"/>\\n  <SimpleLabel content=\"subsetOf[*]\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.12\" toNode=\"/0/@nodes.1/@nodes.7\" constraint=\"true\" group=\"Class\" minlen=\"2\" headlabel=\"/37\" taillabel=\"/38\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"owner\"/>\\n  <SimpleLabel content=\"operations[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.13\" toNode=\"/0/@nodes.1/@nodes.12\" constraint=\"true\" group=\"Operation\" minlen=\"2\" headlabel=\"/40\" taillabel=\"/41\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"owner\"/>\\n  <SimpleLabel content=\"parameters[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.14\" toNode=\"/0/@nodes.1/@nodes.15\" constraint=\"true\" group=\"Metamodel\" minlen=\"2\" headlabel=\"/43\" taillabel=\"/44\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"metamodel\"/>\\n  <SimpleLabel content=\"contents[*]{ordered}\"/>\\n</xmi:XMI>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32DOT applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DOT\">\\n  <Graph name=\"KM3 Model in DOT\" type=\"digraph\" rankDir=\"BT\" labeljust=\"l\" labelloc=\"t\" compound=\"true\" nodeSeparation=\"0.75\">\\n    <nodes xsi:type=\"SubGraph\" name=\"cluster_PrimitiveTypes\" color=\"black\" labelloc=\"t\">\\n      <label xsi:type=\"SimpleLabel\" content=\"PrimitiveTypes\"/>\\n      <nodes xsi:type=\"Node\" name=\"Boolean\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nBoolean|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Integer\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nInteger|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"String\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nString|}\"/>\\n        </shape>\\n      </nodes>\\n    </nodes>\\n    <nodes xsi:type=\"SubGraph\" name=\"cluster_KM3\" color=\"black\" labelloc=\"t\">\\n      <label xsi:type=\"SimpleLabel\" content=\"KM3\"/>\\n      <nodes xsi:type=\"Node\" name=\"LocatedElement\" referredBy=\"/1 /15\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{/LocatedElement/|location : String| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"ModelElement\" refers=\"/24 /1\" referredBy=\"/2 /5 /8 /14\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{/ModelElement/|name : String| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Classifier\" refers=\"/2\" referredBy=\"/3 /4 /6 /7 /20\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Classifier| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"DataType\" refers=\"/3\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{DataType| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Enumeration\" refers=\"/4\" referredBy=\"/27\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Enumeration| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"EnumLiteral\" refers=\"/27 /5\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{EnumLiteral| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"TemplateParameter\" refers=\"/6\" referredBy=\"/16\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{TemplateParameter| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Class\" refers=\"/16 /18 /7\" referredBy=\"/18 /30 /36\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Class|isAbstract : Boolean| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"TypedElement\" refers=\"/20 /8\" referredBy=\"/9 /12 /13\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{TypedElement|lower : Integer\\\\nupper : Integer\\\\nisOrdered : Boolean\\\\nisUnique : Boolean| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"StructuralFeature\" refers=\"/30 /33 /9\" referredBy=\"/10 /11 /33\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{StructuralFeature| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Attribute\" refers=\"/10\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Attribute| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Reference\" refers=\"/22 /11\" referredBy=\"/22\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Reference|isContainer : Boolean| }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Operation\" refers=\"/36 /12\" referredBy=\"/39\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Operation| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Parameter\" refers=\"/39 /13\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Parameter| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Package\" refers=\"/42 /14\" referredBy=\"/24\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Package| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Metamodel\" refers=\"/15\" referredBy=\"/42\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{Metamodel| | }\"/>\\n        </shape>\\n      </nodes>\\n    </nodes>\\n  </Graph>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.1\" toNode=\"/0/@nodes.1/@nodes.0\" constraint=\"true\" group=\"LocatedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.2\" toNode=\"/0/@nodes.1/@nodes.1\" constraint=\"true\" group=\"ModelElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.3\" toNode=\"/0/@nodes.1/@nodes.2\" constraint=\"true\" group=\"Classifier\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.4\" toNode=\"/0/@nodes.1/@nodes.2\" constraint=\"true\" group=\"Classifier\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.5\" toNode=\"/0/@nodes.1/@nodes.1\" constraint=\"true\" group=\"ModelElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.6\" toNode=\"/0/@nodes.1/@nodes.2\" constraint=\"true\" group=\"Classifier\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.7\" toNode=\"/0/@nodes.1/@nodes.2\" constraint=\"true\" group=\"Classifier\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.8\" toNode=\"/0/@nodes.1/@nodes.1\" constraint=\"true\" group=\"ModelElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.9\" toNode=\"/0/@nodes.1/@nodes.8\" constraint=\"true\" group=\"TypedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.10\" toNode=\"/0/@nodes.1/@nodes.9\" constraint=\"true\" group=\"StructuralFeature\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.11\" toNode=\"/0/@nodes.1/@nodes.9\" constraint=\"true\" group=\"StructuralFeature\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.12\" toNode=\"/0/@nodes.1/@nodes.8\" constraint=\"true\" group=\"TypedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.13\" toNode=\"/0/@nodes.1/@nodes.8\" constraint=\"true\" group=\"TypedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.14\" toNode=\"/0/@nodes.1/@nodes.1\" constraint=\"true\" group=\"ModelElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.15\" toNode=\"/0/@nodes.1/@nodes.0\" constraint=\"true\" group=\"LocatedElement\" minlen=\"2\">\\n    <arrowHead name=\"normal\" isPlain=\"true\"/>\\n  </DirectedArc>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.7\" toNode=\"/0/@nodes.1/@nodes.6\" constraint=\"true\" group=\"TemplateParameter\" minlen=\"2\" headlabel=\"/17\">\\n    <arrowHead name=\"vee\" clipping=\"none\"/>\\n    <arrowTail name=\"diamond\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"parameters[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.7\" toNode=\"/0/@nodes.1/@nodes.7\" group=\"Class\" minlen=\"2\" headlabel=\"/19\">\\n    <arrowHead name=\"vee\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"supertypes[*]\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.8\" toNode=\"/0/@nodes.1/@nodes.2\" group=\"Classifier\" minlen=\"2\" headlabel=\"/21\">\\n    <arrowHead name=\"vee\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"type\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.11\" toNode=\"/0/@nodes.1/@nodes.11\" group=\"Reference\" minlen=\"2\" headlabel=\"/23\">\\n    <arrowHead name=\"vee\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"opposite[0-1]\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.1\" toNode=\"/0/@nodes.1/@nodes.14\" constraint=\"true\" group=\"Package\" minlen=\"2\" headlabel=\"/25\" taillabel=\"/26\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"package\"/>\\n  <SimpleLabel content=\"contents[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.5\" toNode=\"/0/@nodes.1/@nodes.4\" constraint=\"true\" group=\"Enumeration\" minlen=\"2\" headlabel=\"/28\" taillabel=\"/29\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"enum\"/>\\n  <SimpleLabel content=\"literals[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.9\" toNode=\"/0/@nodes.1/@nodes.7\" constraint=\"true\" group=\"Class\" minlen=\"2\" headlabel=\"/31\" taillabel=\"/32\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"owner\"/>\\n  <SimpleLabel content=\"structuralFeatures[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.9\" toNode=\"/0/@nodes.1/@nodes.9\" group=\"StructuralFeature\" minlen=\"2\" headlabel=\"/34\" taillabel=\"/35\">\\n    <arrowHead name=\"none\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"derivedFrom[*]\"/>\\n  <SimpleLabel content=\"subsetOf[*]\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.12\" toNode=\"/0/@nodes.1/@nodes.7\" constraint=\"true\" group=\"Class\" minlen=\"2\" headlabel=\"/37\" taillabel=\"/38\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"owner\"/>\\n  <SimpleLabel content=\"operations[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.13\" toNode=\"/0/@nodes.1/@nodes.12\" constraint=\"true\" group=\"Operation\" minlen=\"2\" headlabel=\"/40\" taillabel=\"/41\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"owner\"/>\\n  <SimpleLabel content=\"parameters[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.1/@nodes.14\" toNode=\"/0/@nodes.1/@nodes.15\" constraint=\"true\" group=\"Metamodel\" minlen=\"2\" headlabel=\"/43\" taillabel=\"/44\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"metamodel\"/>\\n  <SimpleLabel content=\"contents[*]{ordered}\"/>\\n</xmi:XMI>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Transform the Mantis model at ./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi into an XML model.",
+    "pattern": "apply",
+    "expected_apis": [
+      "Mantis2XML.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_Mantis2XML_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_Mantis2XML_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_Mantis2XML_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Mantis2XML\\':\\n{\"name\":\"Mantis2XML\",\"atlFile\":\"./transformations/Mantis2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./metamodels/Mantis.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./modelsExamples/MantisExample.xmi\"],\"target\":[\"./modelsExamples/MantisXMLExample.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Mantis2XML\\':\\n{\"name\":\"Mantis2XML\",\"atlFile\":\"./transformations/Mantis2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/SoftwareQualityControl2MantisBTFile\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./metamodels/Mantis.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./modelsExamples/MantisExample.xmi\"],\"target\":[\"./modelsExamples/MantisXMLExample.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_Mantis2XML_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Error: File not found at ./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Error: File not found at ./atl_zoo/SoftwareQualityControl2MantisBTFile/modelsExamples/MantisExample.xmi'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "List me the details of the transformation from an XML model to an RSS model.",
+    "pattern": "get",
+    "expected_apis": [
+      "XML2RSS.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_XML2RSS_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2RSS\\':\\n{\"name\":\"XML2RSS\",\"atlFile\":\"./ATLTransformations/XML2RSS.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/RSS2ATOM\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./RSS/RSS.ecore\"}],\"sample_models\":[{\"source\":[\"./XML//Exemple1-XML.xmi\"],\"target\":[\"./XML/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Show the details of the transformation from KM3 model to OWL model.",
+    "pattern": "get",
+    "expected_apis": [
+      "KM32OWL.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32OWL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_KM32Problem_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_PrimaryKey_with_context_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_Partial2totalRoleA_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_Partial2totalRoleB_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_RedundantInheritance_with_context_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_DSL2KM3_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_MySQL2KM3_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32OWL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32OWL\\':\\n{\"name\":\"KM32OWL\",\"atlFile\":\"./Transformations/KM32OWL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32OWL\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/OWL.ecore\"}],\"sample_models\":[{\"source\":[\"./Samples/KM3-KM3.xmi\"],\"target\":[\"./Samples/OWL-OWL.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32OWL\\':\\n{\"name\":\"KM32OWL\",\"atlFile\":\"./Transformations/KM32OWL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32OWL\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/OWL.ecore\"}],\"sample_models\":[{\"source\":[\"./Samples/KM3-KM3.xmi\"],\"target\":[\"./Samples/OWL-OWL.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_KM32Problem_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32Problem\\':\\n{\"name\":\"KM32Problem\",\"atlFile\":\"./Transfos/KM32Problem.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32Problem\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/Problem.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/test-KM3.xmi\"],\"target\":[\"./Models/problem.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32Problem\\':\\n{\"name\":\"KM32Problem\",\"atlFile\":\"./Transfos/KM32Problem.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32Problem\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/Problem.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/test-KM3.xmi\"],\"target\":[\"./Models/problem.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_PrimaryKey_with_context_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PrimaryKey_with_context\\':\\n{\"name\":\"PrimaryKey_with_context\",\"atlFile\":\"./with_context/PrimaryKey.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./with_context/build_example.xml\"],\"target\":[\"./target.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PrimaryKey_with_context\\':\\n{\"name\":\"PrimaryKey_with_context\",\"atlFile\":\"./with_context/PrimaryKey.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./with_context/build_example.xml\"],\"target\":[\"./target.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_Partial2totalRoleA_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Partial2totalRoleA\\':\\n{\"name\":\"Partial2totalRoleA\",\"atlFile\":\"./MakingPartialRolesTotalA/with_context/Partial2totalRole.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi\"],\"target\":[\"\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Partial2totalRoleA\\':\\n{\"name\":\"Partial2totalRoleA\",\"atlFile\":\"./MakingPartialRolesTotalA/with_context/Partial2totalRole.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./MakingPartialRolesTotalA/with_context/InputModels/example-KM3.xmi\"],\"target\":[\"\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_Partial2totalRoleB_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Partial2totalRoleB\\':\\n{\"name\":\"Partial2totalRoleB\",\"atlFile\":\"./MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi\"],\"target\":[\"\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Partial2totalRoleB\\':\\n{\"name\":\"Partial2totalRoleB\",\"atlFile\":\"./MakingPartialRolesTotalB/with_context/PartialRolesTotalB.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MakePartialRoleTotal\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MakingPartialRolesTotalA/with_context/KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./MakingPartialRolesTotalB/with_context/InputModels/exampleB-KM3.xmi\"],\"target\":[\"\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_RedundantInheritance_with_context_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'RedundantInheritance_with_context\\':\\n{\"name\":\"RedundantInheritance_with_context\",\"atlFile\":\"./with_context/RedundantInheritance.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./with_context/InputModels/example-KM3.xmi\"],\"target\":[\"./with_context/OutputModels/example-KM3target.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'RedundantInheritance_with_context\\':\\n{\"name\":\"RedundantInheritance_with_context\",\"atlFile\":\"./with_context/RedundantInheritance.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./KM3target.ecore\"}],\"sample_models\":[{\"source\":[\"./with_context/InputModels/example-KM3.xmi\"],\"target\":[\"./with_context/OutputModels/example-KM3target.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_DSL2KM3_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'DSL2KM3\\':\\n{\"name\":\"DSL2KM3\",\"atlFile\":\"./MetamodelBridge/Transfo/DSL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/DSL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'DSL2KM3\\':\\n{\"name\":\"DSL2KM3\",\"atlFile\":\"./MetamodelBridge/Transfo/DSL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/DSL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_MySQL2KM3_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'MySQL2KM3\\':\\n{\"name\":\"MySQL2KM3\",\"atlFile\":\"./Transfos/MySQL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-MySQL.xmi\"],\"target\":[\"euro2004-KM3.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'MySQL2KM3\\':\\n{\"name\":\"MySQL2KM3\",\"atlFile\":\"./Transfos/MySQL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-MySQL.xmi\"],\"target\":[\"euro2004-KM3.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Apply the transformation /Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi to get a Relational model.",
+    "pattern": "apply",
+    "expected_apis": [
+      "Class2Relational.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_Class2Relational_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_Class2Relational_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/Class2Relational/Class.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_Class2Relational_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Class2Relational\\':\\n{\"name\":\"Class2Relational\",\"atlFile\":\"./ATLFile/Class2Relational.atl\",\"libraries\":[{\"name\":\"strings\",\"path\":\"../strings.asm\"}],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Class2Relational\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Class/Class.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Relational/Relational.ecore\"}],\"sample_models\":[{\"source\":[\"./Class.xmi\"],\"target\":[\"./Class/outClassXMI.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Class2Relational\\':\\n{\"name\":\"Class2Relational\",\"atlFile\":\"./ATLFile/Class2Relational.atl\",\"libraries\":[{\"name\":\"strings\",\"path\":\"../strings.asm\"}],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Class2Relational\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Class/Class.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Relational/Relational.ecore\"}],\"sample_models\":[{\"source\":[\"./Class.xmi\"],\"target\":[\"./Class/outClassXMI.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_Class2Relational_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation Class2Relational applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"Relational\">\\n  <Table name=\"Family\" key=\"/0/@col.0\">\\n    <col name=\"objectId\" keyOf=\"/0\" type=\"/3\"/>\\n    <col name=\"name\" type=\"/2\"/>\\n  </Table>\\n  <Table name=\"Person\" key=\"/1/@col.0\">\\n    <col name=\"objectId\" keyOf=\"/1\" type=\"/3\"/>\\n    <col name=\"firstName\" type=\"/2\"/>\\n    <col name=\"closestFriendId\" type=\"/3\"/>\\n  </Table>\\n  <Type name=\"String\"/>\\n  <Type name=\"Integer\"/>\\n  <Table name=\"Person_emailAddresses\">\\n    <col name=\"personId\" type=\"/3\"/>\\n    <col name=\"emailAddresses\" type=\"/2\"/>\\n  </Table>\\n  <Table name=\"Family_members\">\\n    <col name=\"familyId\" type=\"/3\"/>\\n    <col name=\"membersId\" type=\"/3\"/>\\n  </Table>\\n</xmi:XMI>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation Class2Relational applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"Relational\">\\n  <Table name=\"Family\" key=\"/0/@col.0\">\\n    <col name=\"objectId\" keyOf=\"/0\" type=\"/3\"/>\\n    <col name=\"name\" type=\"/2\"/>\\n  </Table>\\n  <Table name=\"Person\" key=\"/1/@col.0\">\\n    <col name=\"objectId\" keyOf=\"/1\" type=\"/3\"/>\\n    <col name=\"firstName\" type=\"/2\"/>\\n    <col name=\"closestFriendId\" type=\"/3\"/>\\n  </Table>\\n  <Type name=\"String\"/>\\n  <Type name=\"Integer\"/>\\n  <Table name=\"Person_emailAddresses\">\\n    <col name=\"personId\" type=\"/3\"/>\\n    <col name=\"emailAddresses\" type=\"/2\"/>\\n  </Table>\\n  <Table name=\"Family_members\">\\n    <col name=\"familyId\" type=\"/3\"/>\\n    <col name=\"membersId\" type=\"/3\"/>\\n  </Table>\\n</xmi:XMI>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Retrieve the details of the PNML to XML transformation.",
+    "pattern": "get",
+    "expected_apis": [
+      "PNML2XML.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_PNML2XML_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_PNML2XML_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PNML2XML\\':\\n{\"name\":\"PNML2XML\",\"atlFile\":\"./Transformations/PNML2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PNML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/XML2PNML_example.xmi\"],\"target\":[\"./Models/target5.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PNML2XML\\':\\n{\"name\":\"PNML2XML\",\"atlFile\":\"./Transformations/PNML2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PNML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/XML2PNML_example.xmi\"],\"target\":[\"./Models/target5.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Apply the transformation to a Metrics model from the source model /Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi.",
+    "pattern": "apply",
+    "expected_apis": [
+      "KM32Metrics.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32Metrics_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_KM32Metrics_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics/Models/KM3-KM3.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32Metrics_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32Metrics\\':\\n{\"name\":\"KM32Metrics\",\"atlFile\":\"./Transfos/KM32Metrics.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/Metrics.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/KM3-KM3.xmi\"],\"target\":[\"./Models/KM3-Metrics.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32Metrics\\':\\n{\"name\":\"KM32Metrics\",\"atlFile\":\"./Transfos/KM32Metrics.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32Metrics\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/Metrics.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/KM3-KM3.xmi\"],\"target\":[\"./Models/KM3-Metrics.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32Metrics_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32Metrics applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"Metrics\">\\n  <IntegerMetric context=\"Model\" label=\"Number of classes\" data=\"16\"/>\\n  <IntegerMetric context=\"Model\" label=\"Number of associations\" data=\"11\"/>\\n  <IntegerMetric context=\"Model\" label=\"Maximal depth of heritance\" data=\"4\"/>\\n  <IntegerMetric context=\"Model\" label=\"Number of inheritance trees\" data=\"1\"/>\\n  <IntegerMetric context=\"Model\" label=\"Number of inheritance graphs\" data=\"1\"/>\\n  <IntegerMetric context=\"Class LocatedElement\" label=\"Number of own attributes\" data=\"3\"/>\\n  <IntegerMetric context=\"Class LocatedElement\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class LocatedElement\" label=\"Total number of attributes\" data=\"3\"/>\\n  <IntegerMetric context=\"Class LocatedElement\" label=\"Total number of references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class ModelElement\" label=\"Number of own attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class ModelElement\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class ModelElement\" label=\"Total number of attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class ModelElement\" label=\"Total number of references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Classifier\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Classifier\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Classifier\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Classifier\" label=\"Total number of references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class DataType\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class DataType\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class DataType\" label=\"Total number of attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class DataType\" label=\"Total number of references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Enumeration\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Enumeration\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Enumeration\" label=\"Total number of attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Enumeration\" label=\"Total number of references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class EnumLiteral\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class EnumLiteral\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class EnumLiteral\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class EnumLiteral\" label=\"Total number of references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class TemplateParameter\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class TemplateParameter\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class TemplateParameter\" label=\"Total number of attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class TemplateParameter\" label=\"Total number of references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Class\" label=\"Number of own attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Class\" label=\"Number of own references\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Class\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Class\" label=\"Total number of references\" data=\"4\"/>\\n  <IntegerMetric context=\"Class TypedElement\" label=\"Number of own attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class TypedElement\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class TypedElement\" label=\"Total number of attributes\" data=\"5\"/>\\n  <IntegerMetric context=\"Class TypedElement\" label=\"Total number of references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class StructuralFeature\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class StructuralFeature\" label=\"Number of own references\" data=\"3\"/>\\n  <IntegerMetric context=\"Class StructuralFeature\" label=\"Total number of attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class StructuralFeature\" label=\"Total number of references\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Attribute\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Attribute\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Attribute\" label=\"Total number of attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Attribute\" label=\"Total number of references\" data=\"3\"/>\\n  <IntegerMetric context=\"Class Reference\" label=\"Number of own attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Reference\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Reference\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Reference\" label=\"Total number of references\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Operation\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Operation\" label=\"Number of own references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class Operation\" label=\"Total number of attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Operation\" label=\"Total number of references\" data=\"3\"/>\\n  <IntegerMetric context=\"Class Parameter\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Parameter\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Parameter\" label=\"Total number of attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Parameter\" label=\"Total number of references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class Package\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Package\" label=\"Number of own references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class Package\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Package\" label=\"Total number of references\" data=\"3\"/>\\n  <IntegerMetric context=\"Class Metamodel\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Metamodel\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Metamodel\" label=\"Total number of attributes\" data=\"3\"/>\\n  <IntegerMetric context=\"Class Metamodel\" label=\"Total number of references\" data=\"1\"/>\\n</xmi:XMI>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32Metrics applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"Metrics\">\\n  <IntegerMetric context=\"Model\" label=\"Number of classes\" data=\"16\"/>\\n  <IntegerMetric context=\"Model\" label=\"Number of associations\" data=\"11\"/>\\n  <IntegerMetric context=\"Model\" label=\"Maximal depth of heritance\" data=\"4\"/>\\n  <IntegerMetric context=\"Model\" label=\"Number of inheritance trees\" data=\"1\"/>\\n  <IntegerMetric context=\"Model\" label=\"Number of inheritance graphs\" data=\"1\"/>\\n  <IntegerMetric context=\"Class LocatedElement\" label=\"Number of own attributes\" data=\"3\"/>\\n  <IntegerMetric context=\"Class LocatedElement\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class LocatedElement\" label=\"Total number of attributes\" data=\"3\"/>\\n  <IntegerMetric context=\"Class LocatedElement\" label=\"Total number of references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class ModelElement\" label=\"Number of own attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class ModelElement\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class ModelElement\" label=\"Total number of attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class ModelElement\" label=\"Total number of references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Classifier\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Classifier\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Classifier\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Classifier\" label=\"Total number of references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class DataType\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class DataType\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class DataType\" label=\"Total number of attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class DataType\" label=\"Total number of references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Enumeration\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Enumeration\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Enumeration\" label=\"Total number of attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Enumeration\" label=\"Total number of references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class EnumLiteral\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class EnumLiteral\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class EnumLiteral\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class EnumLiteral\" label=\"Total number of references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class TemplateParameter\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class TemplateParameter\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class TemplateParameter\" label=\"Total number of attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class TemplateParameter\" label=\"Total number of references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Class\" label=\"Number of own attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Class\" label=\"Number of own references\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Class\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Class\" label=\"Total number of references\" data=\"4\"/>\\n  <IntegerMetric context=\"Class TypedElement\" label=\"Number of own attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class TypedElement\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class TypedElement\" label=\"Total number of attributes\" data=\"5\"/>\\n  <IntegerMetric context=\"Class TypedElement\" label=\"Total number of references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class StructuralFeature\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class StructuralFeature\" label=\"Number of own references\" data=\"3\"/>\\n  <IntegerMetric context=\"Class StructuralFeature\" label=\"Total number of attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class StructuralFeature\" label=\"Total number of references\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Attribute\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Attribute\" label=\"Number of own references\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Attribute\" label=\"Total number of attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Attribute\" label=\"Total number of references\" data=\"3\"/>\\n  <IntegerMetric context=\"Class Reference\" label=\"Number of own attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Reference\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Reference\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Reference\" label=\"Total number of references\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Operation\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Operation\" label=\"Number of own references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class Operation\" label=\"Total number of attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Operation\" label=\"Total number of references\" data=\"3\"/>\\n  <IntegerMetric context=\"Class Parameter\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Parameter\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Parameter\" label=\"Total number of attributes\" data=\"4\"/>\\n  <IntegerMetric context=\"Class Parameter\" label=\"Total number of references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class Package\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Package\" label=\"Number of own references\" data=\"2\"/>\\n  <IntegerMetric context=\"Class Package\" label=\"Total number of attributes\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Package\" label=\"Total number of references\" data=\"3\"/>\\n  <IntegerMetric context=\"Class Metamodel\" label=\"Number of own attributes\" data=\"0\"/>\\n  <IntegerMetric context=\"Class Metamodel\" label=\"Number of own references\" data=\"1\"/>\\n  <IntegerMetric context=\"Class Metamodel\" label=\"Total number of attributes\" data=\"3\"/>\\n  <IntegerMetric context=\"Class Metamodel\" label=\"Total number of references\" data=\"1\"/>\\n</xmi:XMI>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Display the details of the transformation from a Make model to an Ant model.",
+    "pattern": "get",
+    "expected_apis": [
+      "Make2Ant.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_Make2Ant_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_Make2Ant_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'Make2Ant\\':\\n{\"name\":\"Make2Ant\",\"atlFile\":\"./Transfos/Make2Ant.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Make2Ant\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MM/Make.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MM/Ant.ecore\"}],\"sample_models\":[{\"source\":[\"./example/makeFileMake.xmi\"],\"target\":[\"./example/antFile.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'Make2Ant\\':\\n{\"name\":\"Make2Ant\",\"atlFile\":\"./Transfos/Make2Ant.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Make2Ant\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./MM/Make.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./MM/Ant.ecore\"}],\"sample_models\":[{\"source\":[\"./example/makeFileMake.xmi\"],\"target\":[\"./example/antFile.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Transform the KM3 model at /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi to a DSL model and then retrieve the configuration of the transformation that maps an XML document for RSS output.",
+    "pattern": "apply>get",
+    "expected_apis": [
+      "KM32DSL.apply",
+      "XML2RSS.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32DSL applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<DomainModel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DSL\" name=\"SimpleExample\" identity=\"10000000-0000-0000-0000-000000000001\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n  <classifiers xsi:type=\"Class\" name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000002\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptB\" identity=\"10000000-0000-0000-0000-000000000003\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptC\" identity=\"10000000-0000-0000-0000-000000000004\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"BReferencesC\" identity=\"10000000-0000-0000-0000-000000000005\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <properties name=\"Property\" identity=\"10000000-0000-0000-0000-000000000018\" type=\"//@types.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptB\" identity=\"10000000-0000-0000-0000-000000000006\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Bs\" identity=\"10000000-0000-0000-0000-000000000007\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.1\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000008\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptC\" identity=\"10000000-0000-0000-0000-000000000009\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Cs\" identity=\"10000000-0000-0000-0000-000000000010\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.2\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000011\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptBtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000012\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000013\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000014\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.1\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptCtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000015\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000016\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000017\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.2\"/>\\n  </classifiers>\\n  <types xsi:type=\"SimpleType\" name=\"String\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Integer\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Boolean\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Double\"/>\\n</DomainModel>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32DSL applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<DomainModel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DSL\" name=\"SimpleExample\" identity=\"10000000-0000-0000-0000-000000000001\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n  <classifiers xsi:type=\"Class\" name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000002\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptB\" identity=\"10000000-0000-0000-0000-000000000003\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptC\" identity=\"10000000-0000-0000-0000-000000000004\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"BReferencesC\" identity=\"10000000-0000-0000-0000-000000000005\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <properties name=\"Property\" identity=\"10000000-0000-0000-0000-000000000018\" type=\"//@types.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptB\" identity=\"10000000-0000-0000-0000-000000000006\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Bs\" identity=\"10000000-0000-0000-0000-000000000007\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.1\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000008\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptC\" identity=\"10000000-0000-0000-0000-000000000009\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Cs\" identity=\"10000000-0000-0000-0000-000000000010\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.2\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000011\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptBtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000012\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000013\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000014\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.1\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptCtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000015\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000016\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000017\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.2\"/>\\n  </classifiers>\\n  <types xsi:type=\"SimpleType\" name=\"String\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Integer\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Boolean\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Double\"/>\\n</DomainModel>\\n'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2DSL\\':\\n{\"name\":\"XML2DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/XML2DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi\"],\"target\":[\"/MetamodelBridge/Models/SimpleExample/DSL2EMF/target3.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2DSL\\':\\n{\"name\":\"XML2DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/XML2DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-XML.xmi\"],\"target\":[\"/MetamodelBridge/Models/SimpleExample/DSL2EMF/target3.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Apply KM3-to-DSL to /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\n\nApply MySQL-to-KM3 to /Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi",
+    "pattern": "apply>apply",
+    "expected_apis": [
+      "KM32DSL.apply",
+      "MySQL2KM3.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_MySQL2KM3_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_MySQL2KM3_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3/Models/euro2004-MySQL.xmi"
+        }
+      },
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_MySQL2KM3_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'MySQL2KM3\\':\\n{\"name\":\"MySQL2KM3\",\"atlFile\":\"./Transfos/MySQL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-MySQL.xmi\"],\"target\":[\"euro2004-KM3.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'MySQL2KM3\\':\\n{\"name\":\"MySQL2KM3\",\"atlFile\":\"./Transfos/MySQL2KM3.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/KM3.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-MySQL.xmi\"],\"target\":[\"euro2004-KM3.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_MySQL2KM3_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation MySQL2KM3 applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<Metamodel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"KM3\" location=\"\">\\n  <contents location=\"\" name=\"euro2004\">\\n    <contents xsi:type=\"Class\" location=\"\" name=\"cities\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"city_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"stadium_id\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.3\" opposite=\"//@contents.0/@contents.3/@structuralFeatures.7\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"clubs\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"club_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"countries\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"country_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"flag\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"tests\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.10\" opposite=\"//@contents.0/@contents.10/@structuralFeatures.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"stadiums\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"stadium_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"capacity\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"owner\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"architect\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"opened\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"city_id\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.0\" opposite=\"//@contents.0/@contents.0/@structuralFeatures.2\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"coaches\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"coach_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.9\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"birth_date\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"goals\">\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"match\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.6\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"time\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"added_time\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"extra_time\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"goal_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"player\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.7\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"own_goal\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.11\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"penalty\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.11\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"matches\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"match_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team_1\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.9\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team_2\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.9\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"referee\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.8\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"stadium\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.3\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"man_of_the_match\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.7\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"stage\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.12\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"date\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"players\">\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.9\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"num_in_team\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"current_club\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"player_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"position\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.13\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"birth_date\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"tests\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.10\" opposite=\"//@contents.0/@contents.10/@structuralFeatures.2\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"referees\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"referee_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"country\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.2\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"birth_date\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"profession\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"teams\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"team_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"country\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.2\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"group\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.14\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"tests\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.10\" opposite=\"//@contents.0/@contents.10/@structuralFeatures.0\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"tests\">\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team_id\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.9\" opposite=\"//@contents.0/@contents.9/@structuralFeatures.4\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"country\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.2\" opposite=\"//@contents.0/@contents.2/@structuralFeatures.3\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"player\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.7\" opposite=\"//@contents.0/@contents.7/@structuralFeatures.8\"/>\\n    </contents>\\n    <contents xsi:type=\"Enumeration\" location=\"\" name=\"Enum_1\">\\n      <literals location=\"\" name=\"n\"/>\\n      <literals location=\"\" name=\"y\"/>\\n    </contents>\\n    <contents xsi:type=\"Enumeration\" location=\"\" name=\"Enum_3\">\\n      <literals location=\"\" name=\"Group\"/>\\n      <literals location=\"\" name=\"Quarter-final\"/>\\n      <literals location=\"\" name=\"Semi-final\"/>\\n      <literals location=\"\" name=\"Final\"/>\\n    </contents>\\n    <contents xsi:type=\"Enumeration\" location=\"\" name=\"Enum_4\">\\n      <literals location=\"\" name=\"GK\"/>\\n      <literals location=\"\" name=\"DF\"/>\\n      <literals location=\"\" name=\"MD\"/>\\n      <literals location=\"\" name=\"FW\"/>\\n    </contents>\\n    <contents xsi:type=\"Enumeration\" location=\"\" name=\"Enum_2\">\\n      <literals location=\"\" name=\"A\"/>\\n      <literals location=\"\" name=\"B\"/>\\n      <literals location=\"\" name=\"C\"/>\\n      <literals location=\"\" name=\"D\"/>\\n    </contents>\\n  </contents>\\n  <contents location=\"\" name=\"PrimitiveTypes\">\\n    <contents xsi:type=\"DataType\" location=\"\" name=\"Integer\"/>\\n    <contents xsi:type=\"DataType\" location=\"\" name=\"String\"/>\\n  </contents>\\n</Metamodel>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation MySQL2KM3 applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<Metamodel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"KM3\" location=\"\">\\n  <contents location=\"\" name=\"euro2004\">\\n    <contents xsi:type=\"Class\" location=\"\" name=\"cities\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"city_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"stadium_id\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.3\" opposite=\"//@contents.0/@contents.3/@structuralFeatures.7\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"clubs\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"club_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"countries\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"country_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"flag\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"tests\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.10\" opposite=\"//@contents.0/@contents.10/@structuralFeatures.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"stadiums\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"stadium_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"capacity\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"owner\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"architect\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"opened\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"city_id\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.0\" opposite=\"//@contents.0/@contents.0/@structuralFeatures.2\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"coaches\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"coach_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.9\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"birth_date\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"goals\">\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"match\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.6\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"time\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"added_time\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"extra_time\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"goal_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"player\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.7\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"own_goal\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.11\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"penalty\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.11\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"matches\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"match_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team_1\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.9\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team_2\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.9\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"referee\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.8\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"stadium\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.3\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"man_of_the_match\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.7\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"stage\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.12\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"date\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"players\">\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.9\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"num_in_team\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"current_club\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"player_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"position\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.13\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"birth_date\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"tests\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.10\" opposite=\"//@contents.0/@contents.10/@structuralFeatures.2\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"referees\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"referee_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"country\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.2\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"name\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"birth_date\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"profession\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"teams\">\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"team_id\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.0\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"country\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.2\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"group\" lower=\"1\" upper=\"1\" type=\"//@contents.0/@contents.14\"/>\\n      <structuralFeatures xsi:type=\"Attribute\" location=\"\" name=\"photo\" lower=\"1\" upper=\"1\" type=\"//@contents.1/@contents.1\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"tests\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.10\" opposite=\"//@contents.0/@contents.10/@structuralFeatures.0\"/>\\n    </contents>\\n    <contents xsi:type=\"Class\" location=\"\" name=\"tests\">\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"team_id\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.9\" opposite=\"//@contents.0/@contents.9/@structuralFeatures.4\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"country\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.2\" opposite=\"//@contents.0/@contents.2/@structuralFeatures.3\"/>\\n      <structuralFeatures xsi:type=\"Reference\" location=\"\" name=\"player\" lower=\"0\" upper=\"-1\" type=\"//@contents.0/@contents.7\" opposite=\"//@contents.0/@contents.7/@structuralFeatures.8\"/>\\n    </contents>\\n    <contents xsi:type=\"Enumeration\" location=\"\" name=\"Enum_1\">\\n      <literals location=\"\" name=\"n\"/>\\n      <literals location=\"\" name=\"y\"/>\\n    </contents>\\n    <contents xsi:type=\"Enumeration\" location=\"\" name=\"Enum_3\">\\n      <literals location=\"\" name=\"Group\"/>\\n      <literals location=\"\" name=\"Quarter-final\"/>\\n      <literals location=\"\" name=\"Semi-final\"/>\\n      <literals location=\"\" name=\"Final\"/>\\n    </contents>\\n    <contents xsi:type=\"Enumeration\" location=\"\" name=\"Enum_4\">\\n      <literals location=\"\" name=\"GK\"/>\\n      <literals location=\"\" name=\"DF\"/>\\n      <literals location=\"\" name=\"MD\"/>\\n      <literals location=\"\" name=\"FW\"/>\\n    </contents>\\n    <contents xsi:type=\"Enumeration\" location=\"\" name=\"Enum_2\">\\n      <literals location=\"\" name=\"A\"/>\\n      <literals location=\"\" name=\"B\"/>\\n      <literals location=\"\" name=\"C\"/>\\n      <literals location=\"\" name=\"D\"/>\\n    </contents>\\n  </contents>\\n  <contents location=\"\" name=\"PrimitiveTypes\">\\n    <contents xsi:type=\"DataType\" location=\"\" name=\"Integer\"/>\\n    <contents xsi:type=\"DataType\" location=\"\" name=\"String\"/>\\n  </contents>\\n</Metamodel>\\n'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32DSL applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<DomainModel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DSL\" name=\"SimpleExample\" identity=\"10000000-0000-0000-0000-000000000001\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n  <classifiers xsi:type=\"Class\" name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000002\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptB\" identity=\"10000000-0000-0000-0000-000000000003\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptC\" identity=\"10000000-0000-0000-0000-000000000004\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"BReferencesC\" identity=\"10000000-0000-0000-0000-000000000005\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <properties name=\"Property\" identity=\"10000000-0000-0000-0000-000000000018\" type=\"//@types.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptB\" identity=\"10000000-0000-0000-0000-000000000006\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Bs\" identity=\"10000000-0000-0000-0000-000000000007\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.1\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000008\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptC\" identity=\"10000000-0000-0000-0000-000000000009\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Cs\" identity=\"10000000-0000-0000-0000-000000000010\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.2\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000011\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptBtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000012\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000013\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000014\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.1\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptCtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000015\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000016\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000017\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.2\"/>\\n  </classifiers>\\n  <types xsi:type=\"SimpleType\" name=\"String\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Integer\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Boolean\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Double\"/>\\n</DomainModel>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32DSL applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<DomainModel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DSL\" name=\"SimpleExample\" identity=\"10000000-0000-0000-0000-000000000001\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n  <classifiers xsi:type=\"Class\" name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000002\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptB\" identity=\"10000000-0000-0000-0000-000000000003\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptC\" identity=\"10000000-0000-0000-0000-000000000004\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"BReferencesC\" identity=\"10000000-0000-0000-0000-000000000005\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <properties name=\"Property\" identity=\"10000000-0000-0000-0000-000000000018\" type=\"//@types.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptB\" identity=\"10000000-0000-0000-0000-000000000006\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Bs\" identity=\"10000000-0000-0000-0000-000000000007\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.1\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000008\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptC\" identity=\"10000000-0000-0000-0000-000000000009\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Cs\" identity=\"10000000-0000-0000-0000-000000000010\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.2\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000011\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptBtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000012\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000013\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000014\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.1\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptCtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000015\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000016\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000017\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.2\"/>\\n  </classifiers>\\n  <types xsi:type=\"SimpleType\" name=\"String\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Integer\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Boolean\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Double\"/>\\n</DomainModel>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Retrieve the configuration of the KM3-to-EMF transformation.\n- Apply the KM3-to-DSL transformation to the KM3 model at '/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi' with the configuration from step 1.",
+    "pattern": "get>apply",
+    "expected_apis": [
+      "KM32EMF.get_tool",
+      "KM32DSL.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32EMF_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi",
+          "transformation_config": "<KM3_to_EMF_config_from_step1>"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32EMF_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32EMF\\':\\n{\"name\":\"KM32EMF\",\"atlFile\":\"./KM32EMF.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32EMF\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./EMF.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-KM3.xmi\"],\"target\":[\"\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32EMF\\':\\n{\"name\":\"KM32EMF\",\"atlFile\":\"./KM32EMF.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32EMF\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./EMF.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-KM3.xmi\"],\"target\":[\"\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32DSL applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<DomainModel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DSL\" name=\"SimpleExample\" identity=\"10000000-0000-0000-0000-000000000001\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n  <classifiers xsi:type=\"Class\" name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000002\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptB\" identity=\"10000000-0000-0000-0000-000000000003\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptC\" identity=\"10000000-0000-0000-0000-000000000004\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"BReferencesC\" identity=\"10000000-0000-0000-0000-000000000005\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <properties name=\"Property\" identity=\"10000000-0000-0000-0000-000000000018\" type=\"//@types.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptB\" identity=\"10000000-0000-0000-0000-000000000006\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Bs\" identity=\"10000000-0000-0000-0000-000000000007\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.1\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000008\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptC\" identity=\"10000000-0000-0000-0000-000000000009\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Cs\" identity=\"10000000-0000-0000-0000-000000000010\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.2\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000011\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptBtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000012\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000013\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000014\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.1\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptCtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000015\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000016\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000017\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.2\"/>\\n  </classifiers>\\n  <types xsi:type=\"SimpleType\" name=\"String\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Integer\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Boolean\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Double\"/>\\n</DomainModel>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32DSL applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<DomainModel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DSL\" name=\"SimpleExample\" identity=\"10000000-0000-0000-0000-000000000001\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n  <classifiers xsi:type=\"Class\" name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000002\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptB\" identity=\"10000000-0000-0000-0000-000000000003\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptC\" identity=\"10000000-0000-0000-0000-000000000004\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"BReferencesC\" identity=\"10000000-0000-0000-0000-000000000005\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <properties name=\"Property\" identity=\"10000000-0000-0000-0000-000000000018\" type=\"//@types.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptB\" identity=\"10000000-0000-0000-0000-000000000006\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Bs\" identity=\"10000000-0000-0000-0000-000000000007\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.1\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000008\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptC\" identity=\"10000000-0000-0000-0000-000000000009\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Cs\" identity=\"10000000-0000-0000-0000-000000000010\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.2\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000011\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptBtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000012\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000013\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000014\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.1\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptCtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000015\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000016\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000017\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.2\"/>\\n  </classifiers>\\n  <types xsi:type=\"SimpleType\" name=\"String\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Integer\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Boolean\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Double\"/>\\n</DomainModel>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Apply the KM3-to-DSL transformation to the model at '/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi'.\n- Get the configuration that transform the file to a DOt model.",
+    "pattern": "apply>get",
+    "expected_apis": [
+      "KM32DSL.apply",
+      "KM32DOT.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+        }
+      },
+      {
+        "tool_name": "apply_KM32DOT_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_KM32DSL_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32DSL applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<DomainModel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DSL\" name=\"SimpleExample\" identity=\"10000000-0000-0000-0000-000000000001\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n  <classifiers xsi:type=\"Class\" name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000002\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptB\" identity=\"10000000-0000-0000-0000-000000000003\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptC\" identity=\"10000000-0000-0000-0000-000000000004\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"BReferencesC\" identity=\"10000000-0000-0000-0000-000000000005\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <properties name=\"Property\" identity=\"10000000-0000-0000-0000-000000000018\" type=\"//@types.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptB\" identity=\"10000000-0000-0000-0000-000000000006\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Bs\" identity=\"10000000-0000-0000-0000-000000000007\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.1\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000008\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptC\" identity=\"10000000-0000-0000-0000-000000000009\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Cs\" identity=\"10000000-0000-0000-0000-000000000010\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.2\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000011\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptBtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000012\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000013\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000014\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.1\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptCtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000015\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000016\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000017\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.2\"/>\\n  </classifiers>\\n  <types xsi:type=\"SimpleType\" name=\"String\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Integer\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Boolean\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Double\"/>\\n</DomainModel>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32DSL applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<DomainModel xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DSL\" name=\"SimpleExample\" identity=\"10000000-0000-0000-0000-000000000001\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n  <classifiers xsi:type=\"Class\" name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000002\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptB\" identity=\"10000000-0000-0000-0000-000000000003\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"ConceptC\" identity=\"10000000-0000-0000-0000-000000000004\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\"/>\\n  <classifiers xsi:type=\"Class\" name=\"BReferencesC\" identity=\"10000000-0000-0000-0000-000000000005\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <properties name=\"Property\" identity=\"10000000-0000-0000-0000-000000000018\" type=\"//@types.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptB\" identity=\"10000000-0000-0000-0000-000000000006\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Bs\" identity=\"10000000-0000-0000-0000-000000000007\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.1\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000008\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptAhasConceptC\" identity=\"10000000-0000-0000-0000-000000000009\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\" isEmbedding=\"true\">\\n    <roles name=\"Cs\" identity=\"10000000-0000-0000-0000-000000000010\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.0\" type=\"//@classifiers.2\"/>\\n    <roles name=\"ConceptA\" identity=\"10000000-0000-0000-0000-000000000011\" min=\"1\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.0\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptBtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000012\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000013\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.1\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000014\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.1\"/>\\n  </classifiers>\\n  <classifiers xsi:type=\"Relationship\" name=\"ConceptCtoBReferencesC\" identity=\"10000000-0000-0000-0000-000000000015\" namespace=\"SimpleExample.DomainModel\" isLoaded=\"true\">\\n    <roles name=\"ReferringBs\" identity=\"10000000-0000-0000-0000-000000000016\" min=\"0\" max=\"0\" isUnbounded=\"true\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.2\" type=\"//@classifiers.3\"/>\\n    <roles name=\"ReferencedC\" identity=\"10000000-0000-0000-0000-000000000017\" min=\"0\" max=\"1\" accepts=\"all\" isOrdered=\"true\" source=\"//@classifiers.3\" type=\"//@classifiers.2\"/>\\n  </classifiers>\\n  <types xsi:type=\"SimpleType\" name=\"String\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Integer\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Boolean\"/>\\n  <types xsi:type=\"SimpleType\" name=\"Double\"/>\\n</DomainModel>\\n'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32DOT_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32DOT applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DOT\">\\n  <Graph name=\"KM3 Model in DOT\" type=\"digraph\" rankDir=\"BT\" labeljust=\"l\" labelloc=\"t\" compound=\"true\" nodeSeparation=\"0.75\">\\n    <nodes xsi:type=\"SubGraph\" name=\"cluster_SimpleExample\" color=\"black\" labelloc=\"t\">\\n      <label xsi:type=\"SimpleLabel\" content=\"SimpleExample\"/>\\n      <nodes xsi:type=\"Node\" name=\"ConceptA\" referredBy=\"/1 /4\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{ConceptA| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"ConceptB\" refers=\"/1\" referredBy=\"/7\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{ConceptB| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"ConceptC\" refers=\"/4\" referredBy=\"/10\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{ConceptC| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"BReferencesC\" refers=\"/7 /10\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{BReferencesC|Property : String| }\"/>\\n        </shape>\\n      </nodes>\\n    </nodes>\\n    <nodes xsi:type=\"SubGraph\" name=\"cluster_PrimitiveTypes\" color=\"black\" labelloc=\"t\">\\n      <label xsi:type=\"SimpleLabel\" content=\"PrimitiveTypes\"/>\\n      <nodes xsi:type=\"Node\" name=\"String\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nString|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Integer\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nInteger|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Boolean\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nBoolean|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Double\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nDouble|}\"/>\\n        </shape>\\n      </nodes>\\n    </nodes>\\n  </Graph>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.0/@nodes.1\" toNode=\"/0/@nodes.0/@nodes.0\" constraint=\"true\" group=\"ConceptA\" minlen=\"2\" headlabel=\"/2\" taillabel=\"/3\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"ConceptA{ordered}\"/>\\n  <SimpleLabel content=\"Bs[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.0/@nodes.2\" toNode=\"/0/@nodes.0/@nodes.0\" constraint=\"true\" group=\"ConceptA\" minlen=\"2\" headlabel=\"/5\" taillabel=\"/6\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"ConceptA{ordered}\"/>\\n  <SimpleLabel content=\"Cs[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.0/@nodes.3\" toNode=\"/0/@nodes.0/@nodes.1\" group=\"ConceptB\" minlen=\"2\" headlabel=\"/8\" taillabel=\"/9\">\\n    <arrowHead name=\"none\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"ReferringBs[*]{ordered}\"/>\\n  <SimpleLabel content=\"ReferencedC[0-1]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.0/@nodes.3\" toNode=\"/0/@nodes.0/@nodes.2\" group=\"ConceptC\" minlen=\"2\" headlabel=\"/11\" taillabel=\"/12\">\\n    <arrowHead name=\"none\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"ReferencedC[0-1]{ordered}\"/>\\n  <SimpleLabel content=\"ReferringBs[*]{ordered}\"/>\\n</xmi:XMI>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32DOT applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"DOT\">\\n  <Graph name=\"KM3 Model in DOT\" type=\"digraph\" rankDir=\"BT\" labeljust=\"l\" labelloc=\"t\" compound=\"true\" nodeSeparation=\"0.75\">\\n    <nodes xsi:type=\"SubGraph\" name=\"cluster_SimpleExample\" color=\"black\" labelloc=\"t\">\\n      <label xsi:type=\"SimpleLabel\" content=\"SimpleExample\"/>\\n      <nodes xsi:type=\"Node\" name=\"ConceptA\" referredBy=\"/1 /4\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{ConceptA| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"ConceptB\" refers=\"/1\" referredBy=\"/7\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{ConceptB| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"ConceptC\" refers=\"/4\" referredBy=\"/10\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{ConceptC| | }\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"BReferencesC\" refers=\"/7 /10\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{BReferencesC|Property : String| }\"/>\\n        </shape>\\n      </nodes>\\n    </nodes>\\n    <nodes xsi:type=\"SubGraph\" name=\"cluster_PrimitiveTypes\" color=\"black\" labelloc=\"t\">\\n      <label xsi:type=\"SimpleLabel\" content=\"PrimitiveTypes\"/>\\n      <nodes xsi:type=\"Node\" name=\"String\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nString|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Integer\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nInteger|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Boolean\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nBoolean|}\"/>\\n        </shape>\\n      </nodes>\\n      <nodes xsi:type=\"Node\" name=\"Double\">\\n        <shape xsi:type=\"RecordNodeShape\" name=\"record\">\\n          <label xsi:type=\"SimpleLabel\" content=\"{&amp;#171;DataType&amp;#187;\\\\nDouble|}\"/>\\n        </shape>\\n      </nodes>\\n    </nodes>\\n  </Graph>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.0/@nodes.1\" toNode=\"/0/@nodes.0/@nodes.0\" constraint=\"true\" group=\"ConceptA\" minlen=\"2\" headlabel=\"/2\" taillabel=\"/3\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"ConceptA{ordered}\"/>\\n  <SimpleLabel content=\"Bs[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.0/@nodes.2\" toNode=\"/0/@nodes.0/@nodes.0\" constraint=\"true\" group=\"ConceptA\" minlen=\"2\" headlabel=\"/5\" taillabel=\"/6\">\\n    <arrowHead name=\"diamond\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"ConceptA{ordered}\"/>\\n  <SimpleLabel content=\"Cs[*]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.0/@nodes.3\" toNode=\"/0/@nodes.0/@nodes.1\" group=\"ConceptB\" minlen=\"2\" headlabel=\"/8\" taillabel=\"/9\">\\n    <arrowHead name=\"none\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"ReferringBs[*]{ordered}\"/>\\n  <SimpleLabel content=\"ReferencedC[0-1]{ordered}\"/>\\n  <DirectedArc style=\"none\" fromNode=\"/0/@nodes.0/@nodes.3\" toNode=\"/0/@nodes.0/@nodes.2\" group=\"ConceptC\" minlen=\"2\" headlabel=\"/11\" taillabel=\"/12\">\\n    <arrowHead name=\"none\" clipping=\"none\"/>\\n    <arrowTail name=\"none\" clipping=\"none\"/>\\n  </DirectedArc>\\n  <SimpleLabel content=\"ReferencedC[0-1]{ordered}\"/>\\n  <SimpleLabel content=\"ReferringBs[*]{ordered}\"/>\\n</xmi:XMI>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Apply to EMF model the model '/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi'.\n- Get the configuration of the PathExp to TextualPathExp transformation.",
+    "pattern": "apply>get",
+    "expected_apis": [
+      "KM32EMF.apply",
+      "PathExp2TextualPathExp.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_KM32EMF_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PathExp2TextualPathExp\\':\\n{\"name\":\"PathExp2TextualPathExp\",\"atlFile\":\"./ATL/PathExp2TextualPathExp.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PathExp.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/TextualPathExp.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/pathexp-example.xmi\"],\"target\":[\"./Models/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PathExp2TextualPathExp\\':\\n{\"name\":\"PathExp2TextualPathExp\",\"atlFile\":\"./ATL/PathExp2TextualPathExp.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PathExp.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/TextualPathExp.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/pathexp-example.xmi\"],\"target\":[\"./Models/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_KM32EMF_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32EMF applied successfully:\\nError applying transformation', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32EMF applied successfully:\\nError applying transformation'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Step 1: Apply /Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi to EMF model\n- Step 2: Get configuration for the XML-to-MySQL transformation",
+    "pattern": "apply>get",
+    "expected_apis": [
+      "KM32EMF.apply",
+      "XML2MySQL.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "apply_KM32EMF_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2MySQL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "apply_KM32EMF_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation KM32EMF applied successfully:\\nError applying transformation', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation KM32EMF applied successfully:\\nError applying transformation'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2MySQL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2MySQL\\':\\n{\"name\":\"XML2MySQL\",\"atlFile\":\"./Transfos/XML2MySQL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-XML.xmi\"],\"target\":[\"euro2004-MySQL.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2MySQL\\':\\n{\"name\":\"XML2MySQL\",\"atlFile\":\"./Transfos/XML2MySQL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/MySQL2KM3\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/MySQL.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/euro2004-XML.xmi\"],\"target\":[\"euro2004-MySQL.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Get the configuration of the PNML to XML transformation\n- Apply the SimpleClass to SimpleRDBMS transformation to the path '/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi'",
+    "pattern": "get>apply",
+    "expected_apis": [
+      "PNML2XML.get_tool",
+      "SimpleClass2SimpleRDBMS.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_PNML2XML_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/SimpleClass2SimpleRDBMS/Sample-SimpleClass.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_PNML2XML_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PNML2XML\\':\\n{\"name\":\"PNML2XML\",\"atlFile\":\"./Transformations/PNML2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PNML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/XML2PNML_example.xmi\"],\"target\":[\"./Models/target5.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PNML2XML\\':\\n{\"name\":\"PNML2XML\",\"atlFile\":\"./Transformations/PNML2XML.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PNML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/XML.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/XML2PNML_example.xmi\"],\"target\":[\"./Models/target5.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation SimpleClass2SimpleRDBMS applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"SimpleRDBMS\">\\n  <Table name=\"Person\" pkey=\"/0/@cols.0\">\\n    <fkeys references=\"/3\" cols=\"/0/@cols.1 /0/@cols.2\"/>\\n    <fkeys references=\"/0\" cols=\"/0/@cols.3\"/>\\n    <fkeys references=\"/3\" cols=\"/0/@cols.4 /0/@cols.5\"/>\\n    <fkeys references=\"/2\" cols=\"/0/@cols.6 /0/@cols.7\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"studiesIn_faculty_name\" type=\"String\"/>\\n    <cols name=\"studiesIn_name\" type=\"String\"/>\\n    <cols name=\"supervisor_name\" type=\"String\"/>\\n    <cols name=\"works_for_faculty_name\" type=\"String\"/>\\n    <cols name=\"works_for_name\" type=\"String\"/>\\n    <cols name=\"performsTask_name\" type=\"String\"/>\\n    <cols name=\"performsTask_number\" type=\"Integer\"/>\\n    <cols name=\"address_city\" type=\"String\"/>\\n    <cols name=\"address_street\" type=\"String\"/>\\n    <cols name=\"address_postcode\" type=\"String\"/>\\n  </Table>\\n  <Table name=\"Document\" pkey=\"/1/@cols.0\">\\n    <fkeys references=\"/0\" cols=\"/1/@cols.1\"/>\\n    <cols name=\"number\" type=\"Integer\"/>\\n    <cols name=\"author_name\" type=\"String\"/>\\n    <cols name=\"content\" type=\"String\"/>\\n  </Table>\\n  <Table name=\"Task\" pkey=\"/2/@cols.0 /2/@cols.1\">\\n    <fkeys references=\"/1\" cols=\"/2/@cols.2\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"number\" type=\"Integer\"/>\\n    <cols name=\"description_number\" type=\"Integer\"/>\\n  </Table>\\n  <Table name=\"Organization\" pkey=\"/3/@cols.0 /3/@cols.1\">\\n    <fkeys references=\"/0\" cols=\"/3/@cols.2\"/>\\n    <fkeys references=\"/0\" cols=\"/3/@cols.3\"/>\\n    <cols name=\"faculty_name\" type=\"String\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"manager_name\" type=\"String\"/>\\n    <cols name=\"faculty_dean_name\" type=\"String\"/>\\n    <cols name=\"faculty_address_city\" type=\"String\"/>\\n    <cols name=\"faculty_address_street\" type=\"String\"/>\\n    <cols name=\"faculty_address_postcode\" type=\"String\"/>\\n    <cols name=\"address_city\" type=\"String\"/>\\n    <cols name=\"address_street\" type=\"String\"/>\\n    <cols name=\"address_postcode\" type=\"String\"/>\\n  </Table>\\n</xmi:XMI>\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation SimpleClass2SimpleRDBMS applied successfully:\\n<?xml version=\"1.0\" encoding=\"ASCII\"?>\\n<xmi:XMI xmi:version=\"2.0\" xmlns:xmi=\"http://www.omg.org/XMI\" xmlns=\"SimpleRDBMS\">\\n  <Table name=\"Person\" pkey=\"/0/@cols.0\">\\n    <fkeys references=\"/3\" cols=\"/0/@cols.1 /0/@cols.2\"/>\\n    <fkeys references=\"/0\" cols=\"/0/@cols.3\"/>\\n    <fkeys references=\"/3\" cols=\"/0/@cols.4 /0/@cols.5\"/>\\n    <fkeys references=\"/2\" cols=\"/0/@cols.6 /0/@cols.7\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"studiesIn_faculty_name\" type=\"String\"/>\\n    <cols name=\"studiesIn_name\" type=\"String\"/>\\n    <cols name=\"supervisor_name\" type=\"String\"/>\\n    <cols name=\"works_for_faculty_name\" type=\"String\"/>\\n    <cols name=\"works_for_name\" type=\"String\"/>\\n    <cols name=\"performsTask_name\" type=\"String\"/>\\n    <cols name=\"performsTask_number\" type=\"Integer\"/>\\n    <cols name=\"address_city\" type=\"String\"/>\\n    <cols name=\"address_street\" type=\"String\"/>\\n    <cols name=\"address_postcode\" type=\"String\"/>\\n  </Table>\\n  <Table name=\"Document\" pkey=\"/1/@cols.0\">\\n    <fkeys references=\"/0\" cols=\"/1/@cols.1\"/>\\n    <cols name=\"number\" type=\"Integer\"/>\\n    <cols name=\"author_name\" type=\"String\"/>\\n    <cols name=\"content\" type=\"String\"/>\\n  </Table>\\n  <Table name=\"Task\" pkey=\"/2/@cols.0 /2/@cols.1\">\\n    <fkeys references=\"/1\" cols=\"/2/@cols.2\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"number\" type=\"Integer\"/>\\n    <cols name=\"description_number\" type=\"Integer\"/>\\n  </Table>\\n  <Table name=\"Organization\" pkey=\"/3/@cols.0 /3/@cols.1\">\\n    <fkeys references=\"/0\" cols=\"/3/@cols.2\"/>\\n    <fkeys references=\"/0\" cols=\"/3/@cols.3\"/>\\n    <cols name=\"faculty_name\" type=\"String\"/>\\n    <cols name=\"name\" type=\"String\"/>\\n    <cols name=\"manager_name\" type=\"String\"/>\\n    <cols name=\"faculty_dean_name\" type=\"String\"/>\\n    <cols name=\"faculty_address_city\" type=\"String\"/>\\n    <cols name=\"faculty_address_street\" type=\"String\"/>\\n    <cols name=\"faculty_address_postcode\" type=\"String\"/>\\n    <cols name=\"address_city\" type=\"String\"/>\\n    <cols name=\"address_street\" type=\"String\"/>\\n    <cols name=\"address_postcode\" type=\"String\"/>\\n  </Table>\\n</xmi:XMI>\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Show me the configuration settings of the transformation that converts a KM3 model to a DSL model and then show me the configuration settings of the transformation that converts an XML model to a GeoTrans model.",
+    "pattern": "get>get",
+    "expected_apis": [
+      "KM32DSL.get_tool",
+      "XML2GeoTrans.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_XML2GeoTrans_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_XML2GeoTrans_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'XML2GeoTrans\\':\\n{\"name\":\"XML2GeoTrans\",\"atlFile\":\"./ATLFile/XML2GeoTrans.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Geometry\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./GeoTrans/GeoTrans.ecore\"}],\"sample_models\":[{\"source\":[\"./TransfoCommands.xmi\"],\"target\":[\"./target3.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'XML2GeoTrans\\':\\n{\"name\":\"XML2GeoTrans\",\"atlFile\":\"./ATLFile/XML2GeoTrans.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/Geometry\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./XML.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./GeoTrans/GeoTrans.ecore\"}],\"sample_models\":[{\"source\":[\"./TransfoCommands.xmi\"],\"target\":[\"./target3.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "- Show me the configuration settings of the transformation that converts KM3 to DSL.\n- Show me the configuration settings of the transformation that converts PathExp to TextualPathExp.",
+    "pattern": "get>get",
+    "expected_apis": [
+      "KM32DSL.get_tool",
+      "PathExp2TextualPathExp.get_tool"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32DSL_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32DSL\\':\\n{\"name\":\"KM32DSL\",\"atlFile\":\"./MetamodelBridge/Transfo/KM32DSL.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/DSLBridge\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/DSL.ecore\"}],\"sample_models\":[{\"source\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-KM3.xmi\"],\"target\":[\"./MetamodelBridge/Models/SimpleExample/DSL2EMF/target2.xmi\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'PathExp2TextualPathExp\\':\\n{\"name\":\"PathExp2TextualPathExp\",\"atlFile\":\"./ATL/PathExp2TextualPathExp.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PathExp.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/TextualPathExp.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/pathexp-example.xmi\"],\"target\":[\"./Models/target1.xmi\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'PathExp2TextualPathExp\\':\\n{\"name\":\"PathExp2TextualPathExp\",\"atlFile\":\"./ATL/PathExp2TextualPathExp.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./Metamodels/PathExp.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./Metamodels/TextualPathExp.ecore\"}],\"sample_models\":[{\"source\":[\"./Models/pathexp-example.xmi\"],\"target\":[\"./Models/target1.xmi\"]}]}'}",
+          "isError": false
+        }
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: get KM3-to-EMF transformation configuration\n\nStep 2: apply /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi; target: XML model",
+    "pattern": "get>apply",
+    "expected_apis": [
+      "KM32EMF.get_tool",
+      "PNML2XML.apply"
+    ],
+    "plan_steps": [
+      {
+        "tool_name": "list_transformation_KM32EMF_tool",
+        "server_name": "atl_server",
+        "parameters": {}
+      },
+      {
+        "tool_name": "apply_XML2PNML_transformation_tool",
+        "server_name": "atl_server",
+        "parameters": {
+          "file_path": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi"
+        }
+      }
+    ],
+    "execution_results": [
+      {
+        "tool_name": "list_transformation_KM32EMF_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation \\'KM32EMF\\':\\n{\"name\":\"KM32EMF\",\"atlFile\":\"./KM32EMF.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32EMF\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./EMF.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-KM3.xmi\"],\"target\":[\"\"]}]}', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation \\'KM32EMF\\':\\n{\"name\":\"KM32EMF\",\"atlFile\":\"./KM32EMF.atl\",\"libraries\":[],\"folderPath\":\"/Users/zakariahachm/Downloads/atl_zoo/KM32EMF\",\"compiler\":\"EMFVM\",\"description\":\"\",\"enabled\":true,\"input_metamodels\":[{\"name\":\"IN\",\"path\":\"./KM3.ecore\"}],\"output_metamodels\":[{\"name\":\"OUT\",\"path\":\"./EMF.ecore\"}],\"sample_models\":[{\"source\":[\"./Sample-KM3.xmi\"],\"target\":[\"\"]}]}'}",
+          "isError": false
+        }
+      },
+      {
+        "tool_name": "apply_XML2PNML_transformation_tool",
+        "success": true,
+        "error": "",
+        "result": {
+          "meta": null,
+          "content": "[TextContent(type='text', text='Transformation XML2PNML applied successfully:\\n', annotations=None, meta=None)]",
+          "structuredContent": "{'result': 'Transformation XML2PNML applied successfully:\\n'}",
+          "isError": false
+        }
+      }
+    ]
+  }
+]

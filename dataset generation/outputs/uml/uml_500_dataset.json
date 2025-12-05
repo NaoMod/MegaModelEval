@@ -1,0 +1,5002 @@
+[
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML to MOF transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the UML-to-MOF transformation, with a UML source model and a MOF target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation that maps a UML model to an MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the UML-to-MOF model-to-model transformation that converts a UML model into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML to MOF.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a UML model to an MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a UML model into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the UML-to-MOF transformation from a UML model to an MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What details are available for the UML2MOF transformation?",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the UML-to-MOF transformation, source: UML model; target: MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the UML2MOF transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the UML-to-MOF transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the UML-to-MOF transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details about the transformation that converts a UML model into an MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML-to-MOF transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a UML model into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML-to-MOF model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model from ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model './examples/input.xmi' into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at './examples/input.xmi' into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi to MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform './examples/input.xmi' UML model to MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply OWL model to ./examples/input.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at ./examples/input.xmi into OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model from ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi to OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at './examples/input.xmi' into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi into OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UMLDI model ./examples/input.xmi into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UMLDI model at ./examples/input.xmi into an SVG graphic",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi to SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform './examples/input.xmi' (UML XMI) to an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the UML model ./examples/input.xmi to an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UMLDI model ./examples/input.xmi into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML DI model ./examples/input.xmi into SVG",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an SVG diagram",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Diagram Interchange (UMLDI) model at ./examples/input.xmi into an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi to SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the input XMI model at ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi into SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML XMI input model at ./examples/input.xmi into an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML DI model ./examples/input.xmi into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply SVG from UMLDI to ./examples/input.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform ./examples/input.xmi to MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Diagram Interchange (UMLDI) model located at ./examples/input.xmi into an SVG file.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an SVG diagram",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML DI model at './examples/input.xmi' into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform ./examples/input.xmi from a UMLDI model into an SVG diagram",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML diagram model at ./examples/input.xmi into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UMLDI model at ./examples/input.xmi into an SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the UMLDI model at ./examples/input.xmi into an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML diagram model ./examples/input.xmi into SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML DI model './examples/input.xmi' into an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation from UML diagram model to SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a UML model to an SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that maps a UML diagram model to an SVG model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from a UML diagram model to an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation mapping a UML model to an SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from UML model to UML model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML model to SVG.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a UML model to an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that maps a UML model to an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from model to model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a source model to a target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML diagram model to SVG diagram model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a source model to a target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a UML diagram model into an SVG diagram model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a UML diagram model to an SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a UML model into an SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UMLDI to SVG.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a UML diagram model to an SVG diagram model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a UMLDI model to an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML model to SVG (source: UML model; target: SVG).",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details for the transformation that converts UML Diagram Interchange models to SVG diagrams.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a UML diagram model to an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation that converts a UML model into an SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML diagram to SVG.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a UMLDI model into an SVG model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the input and output models of the transformation from a UML model to an SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the UMLDI2SVG transformation, including the source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a UML diagram model into an SVG representation.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe how the transformation converts a UML model into an SVG diagram.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from UMLDI to SVG.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Apply the transformation from UML model to SVG model at ./examples/input.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLDI2SVG.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the Model-to-Model transformation from source Model to target Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the UML2Measure transformation (source: model; target: model).",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from source model to target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation between the source model and the target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details about the transformation from a UML model to a UML model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Model to Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the model-to-model transformation (source: model; target: model).",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a source model into a target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from Model to Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a UML model to a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the UML2Measure transformation from model to model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from model to model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation from source model to target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that maps a model to a model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a source model into a target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a UML model to a target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a source model to a target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from Model to Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from Model to Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation from a UML model to a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a source model to a target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Inspect the details of the transformation from UML model to Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the UML2Measure transformation from Model to Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from model to model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that maps a UML model to a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from UML model to Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the model-to-model transformation from source model to target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the UML2Measure transformation from a UML model to a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display available details for the UML2Measure transformation from a model to a model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML2Measure transformation from model to model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a Model to a Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi into JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi into JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model from ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model from './examples/input.xmi' into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model from ./examples/input.xmi to JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at './examples/input.xmi' into the JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at ./examples/input.xmi into JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply UML to JAVA model from ./examples/input.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi into JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at ./examples/input.xmi into JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at './examples/input.xmi' into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi to a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the UML to KM3 transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the UML model to KM3 model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a UML model into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Explain details of the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "What are the details of the transformation from UML model to KM3 model?",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from UML models to KM3 models.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the UML-to-KM3 transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML-to-KM3 transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the UML-to-KM3 transformation, with the source model UML and the target model KM3.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML-to-KM3 transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML to KM3.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a UML model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a UML model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML-to-KM3 transformation (source: UML model; target: KM3 model).",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the UML to KM3 transformation from a UML model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the UML-to-KM3 transformation, with source as UML model and target as KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML model to KM3 model, including the source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a UML model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the UML model to KM3 model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List details of the UML2KM3 transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a UML model to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the UML2KM3 transformation details: source UML model, target KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML model to KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation that converts a UML model into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from a UML class diagram model to a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation that converts a UML class diagram to a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from a UML class diagram to a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML class diagram to UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a UML class diagram model to a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from UML class diagram to UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a UML class diagram to a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation that converts a UML class diagram model into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML class diagram to UML profile transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a UML class diagram to a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML class diagram model to UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation from UML class diagrams to UML profiles.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a UML class diagram to a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a UML class diagram into a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from a UML class diagram model to a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML Class Diagram to UML Profile",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation converting a UML Class Diagram into a UML Profile, including input and output model types.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a UML class diagram into a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Get the details of the transformation from a UML class diagram model to a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML Class Diagram to UML Profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation that converts a UML class diagram into a UML profile (source: UML class diagram; target: UML profile).",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML class diagram to UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML class diagram model to UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML class diagram to UML profile, including source model type and target model type.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation from UMLClassDiagram to UMLProfile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a UML class diagram to a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML class diagram model to UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from UML class diagram to UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from UML class diagram to UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the transformation details from a UML class diagram to a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details for the transformation from a UML class diagram to a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from a model to a model; source: model; target: model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that converts a UML model into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the transformation details for a UML-to-MOF model mapping.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of UML2MOF_2 (transformation from model to model).",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details about the transformation from source model to target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the UML-to-MOF transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation that converts a Model to a Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation that converts a Model to a Model, including the source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the model-to-model transformation (source: model; target: model).",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the UML-to-MOF transformation details.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details for the transformation that converts a UML model into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML-to-MOF transformation that converts a UML model into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from model to MOF model using the input at ./examples/input.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a Model to a Model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the UML-to-MOF transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the UML-to-MOF transformation and its source UML model and target MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the UML to MOF transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the model-to-model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the UML to MOF transformation from a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a source model into a target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Fetch the metadata for the transformation that maps a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a UML model to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation UML2MOF_2 from UML to MOF.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation UML2MOF_2 (UML model \u2192 MOF model).",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me details of the model-to-model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML model to MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the UML-to-MOF model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/UMLExample.xmi into a UML2Measure model at '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.'",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. into a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. into a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. into a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model located at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. into a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/UMLExample.xmi into a UML22Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a UML model into a Measure model in /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./models/UMLExample.xmi into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a UML model into a Measure model and save the result to '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.'",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/UMLExample.xmi into a Measure model at '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.'",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./models/UMLExample.xmi into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model './models/UMLModel.uml' into a Measure model, stored at '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.'",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./models/input.uml into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/UMLExample.xmi into a Measure model at '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.'",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/MyUMLModel.xmi into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. into a UML22Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/UMLExample.xmi into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a UML model into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a UML model into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. into a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.' into a Measure model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a UML model into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/UMLExample.xmi into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/UMLModel.xmi to a Measure model at '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.'",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./models/UMLExample.xmi into MOF model in '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.'",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at '/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.' into a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. into a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/. into a Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform a UML model into a Measure model and output to /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./models/UMLExample.xmi into a Measure model at /Users/zakariahachm/Downloads/atl_zoo/UML22Measure/.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2Measure.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML22Measure/."
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply MOF model from UML to ./examples/input.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model from './examples/input.xmi' into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at './examples/input.xmi' into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi to MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the UML model './examples/input.xmi' to a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply MOF model to ./examples/input.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at './examples/input.xmi' into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model ./examples/input.xmi into MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model ./examples/input.xmi into MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2MOF_2.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the UML2JAVA transformation (source model: UML, target model: Java).",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the UML-to-JAVA transformation details with source as UML model and target as JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the transformation from UML model to Java model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML models to Java models.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from a UML model to a JAVA model, with target type and example input path ./examples/input.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the transformation from a UML model to a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the transformation details from UML to Java, including source and target model types.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the UML to Java transformation; source model: UML model; target model: Java model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details about the transformation from UML to Java.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation from UML model to JAVA model, with source UML model and target JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details about the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Query the details of the UML model to Java model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the UML-to-Java transformation, with source model as UML and target model as Java.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the UML to JAVA transformation; source model: UML; target model: JAVA.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a UML model to a Java model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the UML to JAVA model transformation (source: UML model; target: JAVA model).",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the UML-to-JAVA transformation, including source: UML model and target: JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the UML-to-JAVA transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from UML model to Java model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the UML-to-JAVA transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from UML model to JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation from a UML model to a Java model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the UML model to JAVA model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the UML-to-JAVA model transformation; source: UML model; target: JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2JAVA.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML model to OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation from UML model to OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the UML to OWL model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details for applying the transformation that converts a UML model to an OWL model, using the source at './examples/input.xmi'.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a UML model to an OWL model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the UML-to-OWL transformation from a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the transformation from a UML model to an OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve metadata for the transformation from a UML model to an OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details of the UML2OWL transformation from a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from UML to OWL.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details of the transformation from UML to OWL.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide details of the transformation from a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Reveal the details of the transformation from UML model to OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation that converts a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the UML to OWL transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation from a UML model to an OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a UML model into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details of the transformation converting a UML model to an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show details of the transformation from source model to target model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display details of the transformation from UML model to OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Apply the UML-to-OWL transformation with source UML model and target OWL model using path './examples/input.xmi'.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the UML-to-OWL transformation with source UML model and target OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve details for the UML2OWL transformation from UML model to OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the details of the transformation that converts a UML model into an OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the details for the UML2OWL transformation: source UML model, target OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation from UML model to OWL ontology.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the details for a UML model to OWL model transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2OWL.get_tool",
+        "arguments": ""
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Class Diagram model at ./examples/input.xmi into a UML Profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model './examples/input.xmi' into a UML profile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model ./examples/input.xmi into a UML profile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML class diagram model at ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram at ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model at ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Class Diagram model at ./examples/input.xmi into a UML Profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Class Diagram model at ./examples/input.xmi into a UML Profile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply UMLProfile to './examples/input.xmi'",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model ./examples/input.xmi into a UML profile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Class Diagram model ./examples/input.xmi into a UML Profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model at './examples/input.xmi' into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model at ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the UML class diagram model ./examples/input.xmi to a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML class diagram to UML profile model at ./examples/input.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model from ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model ./examples/input.xmi into a UML profile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Class Diagram model at ./examples/input.xmi into a UMLProfile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML class diagram model at ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model at ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model at ./examples/input.xmi into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML Class Diagram model from ./examples/input.xmi into UML Profile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the UML class diagram model at ./examples/input.xmi to a UMLProfile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model ./examples/input.xmi into a UML profile model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model at './examples/input.xmi' into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Class Diagram model at ./examples/input.xmi into a UML Profile.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML class diagram model at './examples/input.xmi' into a UML profile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the model at ./examples/input.xmi into a MOF model",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Class Diagram model at ./examples/input.xmi into a UMLProfile model.",
+    "relevant_apis": [
+      {
+        "api_name": "UMLCLASSDIAGRAM2UMLPROFILE.apply",
+        "arguments": "./examples/input.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply UML to KM3 model /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply UML-to-KM3 transformation to the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at '/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi' into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply UML model to KM3 model /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the UML model /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi to KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi to a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into a KM3 model.",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi into KM3 model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      }
+    ]
+  }
+]

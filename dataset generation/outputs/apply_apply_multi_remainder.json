@@ -1,0 +1,142 @@
+[
+  {
+    "pattern": "apply>apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi to XML model and then Transform /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi to PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      },
+      {
+        "api_name": "XML2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi to Ant model and then transform /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi to Maven model",
+    "relevant_apis": [
+      {
+        "api_name": "Make2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFileMake.xmi"
+      },
+      {
+        "api_name": "Ant2Maven.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "- Apply /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi \u2192 XML model\n- Apply /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi \u2192 PNML model",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi"
+      },
+      {
+        "api_name": "XML2PNML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/PNML2XML_example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi to produce a KM3 model, and then apply /Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi to produce a Problem model",
+    "relevant_apis": [
+      {
+        "api_name": "DSL2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/DSLBridge/MetamodelBridge/Models/SimpleExample/DSL2EMF/SimpleExampleMM-DSL.xmi"
+      },
+      {
+        "api_name": "KM32Problem.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi to KM3 model\nTransform /Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi to EMF model",
+    "relevant_apis": [
+      {
+        "api_name": "UML2KM3.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/UML2KM3/ExampleUML.xmi"
+      },
+      {
+        "api_name": "KM32EMF.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KM32EMF/Sample-KM3.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "Transform the PathExp model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi into a PetriNet model, and then Convert the PetriNet model at /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi into a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "PathExp2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/pathexp-example.xmi"
+      },
+      {
+        "api_name": "PetriNet2PathExp.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "Transform /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi to XML model\nRestore /Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi to PetriNet model",
+    "relevant_apis": [
+      {
+        "api_name": "PetriNet2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/petrinet-example.xmi"
+      },
+      {
+        "api_name": "XML2PetriNet.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/PathExp2PetriNet/Models/xml-example.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "Transform the PNML model at /Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi to an XML model; then convert the XML model at /Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi to a KML model.",
+    "relevant_apis": [
+      {
+        "api_name": "PNML2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Grafcet2PetriNet/Models/XML2PNML_example.xmi"
+      },
+      {
+        "api_name": "XML2KML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/KMLInjector/InputModels/example-XML.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "- Transform /Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi to an Ant model.\n- Transform /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi to an XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "Maven2Ant.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi"
+      },
+      {
+        "api_name": "Ant2XML.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi"
+      }
+    ]
+  },
+  {
+    "pattern": "apply>apply",
+    "instruction": "Apply /Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml to produce a PrimaryKeyModel, and then apply /Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi to produce an InheritanceCleanedModel.",
+    "relevant_apis": [
+      {
+        "api_name": "PrimaryKey_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/IntroducePrimaryKey/with_context/build_example.xml"
+      },
+      {
+        "api_name": "RedundantInheritance_with_context.apply",
+        "arguments": "/Users/zakariahachm/Downloads/atl_zoo/EliminateRedundantInheritance/with_context/InputModels/example-KM3.xmi"
+      }
+    ]
+  }
+]
