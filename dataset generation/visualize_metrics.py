@@ -38,8 +38,8 @@ def load_data(dataset_type="all"):
         multi_tool_path = subdir / "multi_openRewrite_tool_comparison.csv"
     else:  # all tools (atl_tools)
         subdir = OUTPUT_DIR / "atl_tools"
-        single_tool_path = subdir / "single_tool_comparison.csv"
-        multi_tool_path = subdir / "multi_tool_comparison.csv"
+        single_tool_path = subdir / "single_atl_tool_comparison.csv"
+        multi_tool_path = subdir / "multi_atl_tool_comparison.csv"
     
     single_df = pd.read_csv(single_tool_path)
     multi_df = pd.read_csv(multi_tool_path)
