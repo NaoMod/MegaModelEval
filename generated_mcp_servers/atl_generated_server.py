@@ -3,9 +3,6 @@ import os
 import json
 import subprocess
 from mcp.server.fastmcp import FastMCP
-from fastapi import FastAPI
-import uvicorn
-import threading
 
 SERVER_BASE = "http://localhost:8080"
 
@@ -423,23 +420,7 @@ for t in TRANSFORMATIONS:
         make_get_tool(t_name, description)
 
 if __name__ == "__main__":
-    app = FastAPI()
-
-    @app.get("/tools")
-    def get_tools():
-        tool_manager = mcp._tool_manager
-        tools = []
-        if hasattr(tool_manager, 'tools'):
-            for name, tool in tool_manager.tools.items():
-                tools.append({"name": name, "description": getattr(tool, 'description', '')})
-        elif hasattr(tool_manager, '_tools'):
-            for name, tool in tool_manager._tools.items():
-                tools.append({"name": name, "description": getattr(tool, 'description', '')})
-        return {"tools": tools}
-
-    def run_fastapi():
-        uvicorn.run(app, host="0.0.0.0", port=8081, log_level="info")
-
-    threading.Thread(target=run_fastapi, daemon=True).start()
-
+    # List registered tools using MCP's built-in method
+    print(f"Registered tools: {list(mcp._tool_manager._tools.keys())}")
+    
     mcp.run(transport='stdio')
