@@ -1,14 +1,34 @@
 import os
+import sys
 import json
+import asyncio
 import requests
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 from dataclasses import dataclass
 from openai import OpenAI
 from dotenv import load_dotenv
 
+# Ensure src is on path for imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 from core.am3 import Entity, TransformationModel
+from core.megamodel import MegamodelRegistry
 
 load_dotenv()
+
+
+async def get_artifacts_from_megamodel() -> List[TransformationModel]:
+    """Fetch TransformationModel artifacts from the megamodel registry."""
+    # Import here to avoid circular imports
+    from scripts.run_agent_versions import populate_registry
+    
+    registry = MegamodelRegistry()
+    await populate_registry(registry)
+    
+    # Get all TransformationModel entities from the registry
+    transformations = registry.find_entities_by_type(TransformationModel)
+    return transformations
 
 
 MCP_SERVER_TEMPLATE = '''import sys
@@ -16,6 +36,7 @@ import os
 import json
 import subprocess
 import threading
+import asyncio
 from mcp.server.fastmcp import FastMCP
 from fastapi import FastAPI
 import uvicorn
@@ -42,10 +63,13 @@ if __name__ == "__main__":
         return {{"tools": tools}}
     
     @app.post("/tools/{{tool_name}}")
-    def call_tool(tool_name: str):
+    async def call_tool(tool_name: str, params: dict = None):
         if tool_name in mcp._tool_manager._tools:
             tool = mcp._tool_manager._tools[tool_name]
-            result = tool.fn()
+            if params:
+                result = await tool.fn(**params)
+            else:
+                result = await tool.fn()
             return {{"result": result}}
         return {{"error": f"Tool {{tool_name}} not found"}}
     
@@ -67,13 +91,13 @@ class MCPServerConfig:
 
 
 def fetch_backend_spec(backend_url: str) -> List[Dict[str, Any]]:
-    """Fetch the API spec from the backend server's /metamodel/spec endpoint."""
+    """Fetch the API spec from the backend server's /spec endpoint."""
     try:
-        response = requests.get(f"{backend_url}/metamodel/spec", timeout=5)
+        response = requests.get(f"{backend_url}/spec", timeout=5)
         response.raise_for_status()
         return response.json()
     except Exception as e:
-        print(f"Warning: Could not fetch backend spec from {backend_url}/metamodel/spec: {e}")
+        print(f"Warning: Could not fetch backend spec from {backend_url}/spec: {e}")
         return []
 
 
@@ -121,6 +145,7 @@ CONSTRAINTS - YOU MUST FOLLOW:
 - Use `subprocess.run` with curl (NOT asyncio.create_subprocess_exec)
 - For POST with file upload, use: curl -F 'IN=@{{file_path}}'
 - For GET requests, use: curl -X GET
+- CRITICAL: Always append the URL to the cmd list before subprocess.run! Example: cmd.append(url)
 
 PATTERN TO FOLLOW:
 ```
@@ -129,7 +154,10 @@ ITEMS = [...]  # list of artifacts
 def make_tool_for_endpoint_X(item_name, ...):
     @mcp.tool(name=f"..._{{item_name}}_tool", description="...")
     async def func(...) -> str:
-        cmd = ["curl", "-s", ...]
+        url = f"{{SERVER_BASE}}/endpoint/{{item_name}}"
+        cmd = ["curl", "-s", "-X", "GET"]
+        # ... add any options to cmd ...
+        cmd.append(url)  # IMPORTANT: Always append URL to cmd!
         result = subprocess.run(cmd, capture_output=True, text=True)
         return result.stdout if result.returncode == 0 else f"Error: {{result.stderr}}"
     return func
@@ -140,11 +168,6 @@ for item in ITEMS:
 
 Output ONLY the Python code (list + factory functions + loop). No markdown, no imports, no explanation."""
 
-        print("=" * 60)
-        print("LLM PROMPT:")
-        print("=" * 60)
-        print(prompt)
-        print("=" * 60)
 
         response = self.client.chat.completions.create(
             model="gpt-4.1-nano",
@@ -152,11 +175,6 @@ Output ONLY the Python code (list + factory functions + loop). No markdown, no i
         )
         
         code = response.choices[0].message.content.strip()
-        
-        print("LLM RESPONSE:")
-        print("=" * 60)
-        print(code)
-        print("=" * 60)
         
         if code.startswith("```"):
             code = code.split("\n", 1)[1]
@@ -185,6 +203,28 @@ Output ONLY the Python code (list + factory functions + loop). No markdown, no i
         return server_code
 
 
-def generate_mcp_server(artifacts: List[Entity], config: MCPServerConfig, output_path: str) -> str:
+def generate_mcp_server(config: MCPServerConfig, output_path: str, artifacts: List[Entity] = None) -> str:
+    """Generate an MCP server.
+    
+    Args:
+        config: Server configuration
+        output_path: Path to write the generated server code
+        artifacts: Optional list of entities. If not provided, fetches from megamodel.
+    """
     generator = MCPServerGenerator(config)
+    
+    if artifacts is None:
+        # Fetch artifacts from the megamodel
+        print("Fetching artifacts from megamodel...")
+        artifacts = asyncio.run(get_artifacts_from_megamodel())
+        print(f"Found {len(artifacts)} transformation artifacts in megamodel")
+    
     return generator.generate(artifacts, output_path)
+
+
+if __name__ == "__main__":
+    # Generate an MCP server using artifacts from the megamodel
+    config = MCPServerConfig(name='atl_generated', backend_url='http://localhost:8080', port=8081)
+    output_path = os.path.join(os.path.dirname(__file__), '..', '..', 'generated_mcp_servers', 'atl_generated_server.py')
+    generate_mcp_server(config, output_path)
+    print(f"Server generated at: {output_path}")

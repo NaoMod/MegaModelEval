@@ -3,6 +3,7 @@ import os
 import json
 import subprocess
 import threading
+import asyncio
 from mcp.server.fastmcp import FastMCP
 from fastapi import FastAPI
 import uvicorn
@@ -75,83 +76,62 @@ ARTIFACTS = [
     {"name": "XML2KML", "source_metamodel": "OUT", "target_metamodel": "OUT"}
 ]
 
-def make_transformations_tool(item_name, path, methods):
-    @mcp.tool(name=f"{item_name}_transform", description=f"Transform using {item_name}")
-    def transformation_tool():
-        cmd = ["curl", "-X", "GET", f"{SERVER_BASE}{path}"]
+def make_transform_tool(item_name, description, method="GET"):
+    @mcp.tool(name=f"{item_name}_transformation_tool", description=description)
+    async def transformation_tool(*, input_model_path=None) -> str:
+        url = f"{SERVER_BASE}/transformation/{item_name}"
+        cmd = ["curl", "-s"]
+        if method.upper() == "GET":
+            cmd.extend(["-X", "GET"])
+        elif method.upper() == "POST":
+            cmd.extend(["-X", "POST"])
+        if input_model_path:
+            cmd.extend(["-F", f"IN=@{input_model_path}"])
+        cmd.append(url)
         result = subprocess.run(cmd, capture_output=True, text=True)
         return result.stdout if result.returncode == 0 else f"Error: {result.stderr}"
     return transformation_tool
 
-def make_enabled_tool(item_name):
-    @mcp.tool(name=f"{item_name}_enabled", description=f"Check if {item_name} transformation is enabled")
-    def enabled_tool():
-        cmd = ["curl", "-X", "GET", f"{SERVER_BASE}/transformations/enabled"]
+def make_apply_tool(item_name, description):
+    @mcp.tool(name=f"{item_name}_apply_tool", description=description)
+    async def apply_tool(input_files=None) -> str:
+        url = f"{SERVER_BASE}/transformation/{item_name}/apply"
+        cmd = ["curl", "-s", "-X", "POST"]
+        if input_files:
+            for file_path in input_files:
+                cmd.extend(["-F", f"IN=@{file_path}"])
+        cmd.append(url)
         result = subprocess.run(cmd, capture_output=True, text=True)
         return result.stdout if result.returncode == 0 else f"Error: {result.stderr}"
-    return enabled_tool
+    return apply_tool
 
-def make_samples_tool(item_name):
-    @mcp.tool(name=f"{item_name}_samples", description=f"Get samples for {item_name}")
-    def samples_tool():
-        cmd = ["curl", "-X", "GET", f"{SERVER_BASE}/transformations/samples"]
+def make_search_by_input_metamodel_tool(item_name, description):
+    @mcp.tool(name=f"{item_name}_search_input_metamodel_tool", description=description)
+    async def search_input_metamodel(input_metamodel) -> str:
+        url = f"{SERVER_BASE}/transformation/hasTransformation"
+        # Normally, implement with query params, but curl command here can be adapted as needed
+        cmd = ["curl", "-G", f"{SERVER_BASE}/transformation/hasTransformation", "--data-urlencode", f"inputMetamodel={input_metamodel}"]
         result = subprocess.run(cmd, capture_output=True, text=True)
         return result.stdout if result.returncode == 0 else f"Error: {result.stderr}"
-    return samples_tool
-
-def make_has_transformation_tool(item_name):
-    @mcp.tool(name=f"{item_name}_hasTransformation", description=f"Check if {item_name} has transformation")
-    def has_transformation():
-        cmd = ["curl", "-X", "GET", f"{SERVER_BASE}/transformation/hasTransformation"]
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        return result.stdout if result.returncode == 0 else f"Error: {result.stderr}"
-    return has_transformation
-
-def make_get_transformation_by_name_tool(item_name):
-    @mcp.tool(name=f"{item_name}_getTransformation", description=f"Get {item_name} transformation details")
-    def get_transformation():
-        cmd = ["curl", "-X", "GET", f"{SERVER_BASE}/transformation/{item_name}"]
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        return result.stdout if result.returncode == 0 else f"Error: {result.stderr}"
-    return get_transformation
-
-def make_apply_transformation_tool(item_name):
-    @mcp.tool(name=f"{item_name}_apply", description=f"Apply {item_name} transformation")
-    def apply_transformation():
-        cmd = ["curl", "-X", "POST", f"{SERVER_BASE}/transformation/{item_name}/apply"]
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        return result.stdout if result.returncode == 0 else f"Error: {result.stderr}"
-    return apply_transformation
-
-def make_add_transformation_tool(item_name):
-    @mcp.tool(name=f"{item_name}_add", description=f"Add {item_name} transformation")
-    def add_transformation():
-        cmd = ["curl", "-X", "POST", f"{SERVER_BASE}/transformation/add"]
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        return result.stdout if result.returncode == 0 else f"Error: {result.stderr}"
-    return add_transformation
+    return search_input_metamodel
 
 for artifact in ARTIFACTS:
     name = artifact["name"]
-    source = artifact["source_metamodel"]
-    target = artifact["target_metamodel"]
+    src_mm = artifact["source_metamodel"]
+    tgt_mm = artifact["target_metamodel"]
+    
+    # Assign description text based on possible endpoints
+    description_transform = f"Run transformation for {name}"
+    description_apply = f"Apply transformation {name}"
+    description_search_input = f"Search transformations by input metamodel {src_mm}"
 
-    # Determine applicable endpoints
-    # For GET /transformations: all
-    make_transformations_tool(name, "/transformations", "[GET]")
-    # For GET /transformations/enabled: depending on source or target?
-    # For simplicity, associate with all artifacts
-    make_enabled_tool(name)
-    # For GET /transformations/samples
-    make_samples_tool(name)
-    # For GET /transformation/hasTransformation
-    make_has_transformation_tool(name)
-    # For GET /transformation/:idOrName
-    make_get_transformation_by_name_tool(name)
-    # For POST /transformation/:idOrName/apply
-    make_apply_transformation_tool(name)
-    # For POST /transformation/add
-    make_add_transformation_tool(name)
+    # Check which endpoints are relevant based on API spec analysis
+    # For simplicity, assume transformations and apply are generally applicable
+    globals()[f"{name}_transformation"] = make_transform_tool(name, description_transform)
+    globals()[f"{name}_apply"] = make_apply_tool(name, description_apply)
+    # For transformations that support inputMetamodel search
+    if src_mm in {"IN", "UML", "Table", "JavaSource"}:
+        globals()[f"{name}_search_by_input_metamodel"] = make_search_by_input_metamodel_tool(name, description_search_input)
 
 if __name__ == "__main__":
     # List registered tools using MCP's built-in method
@@ -169,11 +149,13 @@ if __name__ == "__main__":
         return {"tools": tools}
     
     @app.post("/tools/{tool_name}")
-    def call_tool(tool_name: str):
+    async def call_tool(tool_name: str, params: dict = None):
         if tool_name in mcp._tool_manager._tools:
             tool = mcp._tool_manager._tools[tool_name]
-            # Call the tool function
-            result = tool.fn()
+            if params:
+                result = await tool.fn(**params)
+            else:
+                result = await tool.fn()
             return {"result": result}
         return {"error": f"Tool {tool_name} not found"}
     
