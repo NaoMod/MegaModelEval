@@ -1,9 +1,5 @@
-import sys
-import os
-import json
 import subprocess
 import threading
-import asyncio
 from mcp.server.fastmcp import FastMCP
 from fastapi import FastAPI
 import uvicorn
@@ -130,8 +126,8 @@ for artifact in ARTIFACTS:
     globals()[f"{name}_transformation"] = make_transform_tool(name, description_transform)
     globals()[f"{name}_apply"] = make_apply_tool(name, description_apply)
     # For transformations that support inputMetamodel search
-    if src_mm in {"IN", "UML", "Table", "JavaSource"}:
-        globals()[f"{name}_search_by_input_metamodel"] = make_search_by_input_metamodel_tool(name, description_search_input)
+    # if src_mm in {"IN", "UML", "Table", "JavaSource"}:
+    #     globals()[f"{name}_search_by_input_metamodel"] = make_search_by_input_metamodel_tool(name, description_search_input)
 
 if __name__ == "__main__":
     # List registered tools using MCP's built-in method
