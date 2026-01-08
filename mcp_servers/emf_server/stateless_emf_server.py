@@ -193,7 +193,7 @@ async def list_features(session_id: str, class_name: str) -> str:
 
 
 @mcp.tool(name="inspect_instance",
-          description="Inspect an instance's values using stateless introspection. Provide session_id, class_name, object_id.")
+          description="Inspect an instance's values. Provide session_id, class_name, object_id.")
 async def inspect_instance(session_id: str, class_name: str, object_id: str) -> str:
     try:
         if session_id not in active_sessions:
@@ -240,21 +240,21 @@ async def get_session_info(session_id: str) -> str:
     return json.dumps(info, indent=2)
 
 
-@mcp.tool(name="debug_tools",
-          description="List all registered MCP tools in this process.")
-async def debug_tools() -> str:
-    try:
-        tool_manager = getattr(mcp, '_tool_manager', None)
-        names: List[str] = []
-        if tool_manager is not None:
-            if hasattr(tool_manager, 'tools') and isinstance(tool_manager.tools, dict):
-                names = list(tool_manager.tools.keys())
-            elif hasattr(tool_manager, '_tools') and isinstance(tool_manager._tools, dict):
-                names = list(tool_manager._tools.keys())
-        names.sort()
-        return "\n".join([f"Found {len(names)} tools:"] + names)
-    except Exception as e:
-        return f"Error: {e}"
+# @mcp.tool(name="debug_tools",
+#           description="List all registered MCP tools in this process.")
+# async def debug_tools() -> str:
+#     try:
+#         tool_manager = getattr(mcp, '_tool_manager', None)
+#         names: List[str] = []
+#         if tool_manager is not None:
+#             if hasattr(tool_manager, 'tools') and isinstance(tool_manager.tools, dict):
+#                 names = list(tool_manager.tools.keys())
+#             elif hasattr(tool_manager, '_tools') and isinstance(tool_manager._tools, dict):
+#                 names = list(tool_manager._tools.keys())
+#         names.sort()
+#         return "\n".join([f"Found {len(names)} tools:"] + names)
+#     except Exception as e:
+#         return f"Error: {e}"
 
 
 if __name__ == "__main__":

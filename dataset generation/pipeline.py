@@ -19,9 +19,9 @@ if str(SRC_DIR) not in sys.path:
 from src.core.megamodel import MegamodelRegistry
 import random
 # Single-tool instruction seed examples
-from seeds.all_tools.single_tool_seeds import SingleToolSeeds
+from seeds.model_transformation_seeds.all_tools.single_tool_seeds import SingleToolSeeds
 # Multi-tool instruction seed examples
-from seeds.all_tools.multi_tool_seeds import MultiToolSeeds
+from seeds.model_transformation_seeds.all_tools.multi_tool_seeds import MultiToolSeeds
     
 
 # --- 1) Start with a megamodel repository (populate registry) ---
