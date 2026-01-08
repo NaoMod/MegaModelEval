@@ -274,21 +274,41 @@ def main(dataset_type="single"):
     # Create output directory if it doesn't exist
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
-    # Define file paths based on dataset type
+    # Define file paths based on dataset type - EMF datasets
     if dataset_type == "multi":
-        #uml files
-        seed_file_path = SCRIPT_DIR / "seeds" / "all_tools" / "multi_tool_seeds.py"
-        generated_file_path = SCRIPT_DIR / "outputs" / "atl_tools" / "multi_500_dataset.json"
+        seed_file_path = SCRIPT_DIR / "seeds" / "model_management_seeds" / "multi_tool_seeds.py"
+        generated_file_path = SCRIPT_DIR / "outputs" / "emf_multi_250_dataset.json"
     else:  # default to single
-        seed_file_path = SCRIPT_DIR / "seeds" / "all_tools" / "single_tool_seeds.py"
-        generated_file_path = SCRIPT_DIR / "outputs" / "atl_tools" / "simple_500_dataset.json"
+        seed_file_path = SCRIPT_DIR / "seeds" / "model_management_seeds" / "single_tool_seeds.py"
+        generated_file_path = SCRIPT_DIR / "outputs" / "emf_single_250_dataset.json"
+    
+    # Verify files exist
+    if not seed_file_path.exists():
+        print(f"Seed file not found: {seed_file_path}")
+        return
+    if not generated_file_path.exists():
+        print(f"Generated file not found: {generated_file_path}")
+        return
+    
+    print(f"Loading {dataset_type}-tool EMF datasets...")
+    print(f"Seeds from: {seed_file_path}")
+    print(f"Generated from: {generated_file_path}")
     
     # Load datasets
     seed_instructions = load_seed_instructions(seed_file_path, dataset_type)
     generated_instructions = load_generated_instructions(generated_file_path)
     
+    print(f"Seed instructions: {len(seed_instructions)}")
+    print(f"Generated instructions: {len(generated_instructions)}")
+    
+    if not seed_instructions or not generated_instructions:
+        print("Error: Could not load instructions")
+        return
+    
     # Get embeddings
+    print("Computing embeddings for seed dataset...")
     seed_embeddings = get_embeddings(seed_instructions)
+    print("Computing embeddings for generated dataset...")
     generated_embeddings = get_embeddings(generated_instructions)
     
     # Initialize metrics dictionary
@@ -296,6 +316,8 @@ def main(dataset_type="single"):
         "Seed Dataset": {},
         "Generated Dataset": {}
     }
+    
+    print("Computing diversity metrics...")
     
     # Compute metrics for seed dataset
     metrics["Seed Dataset"]["Distance"] = compute_distance(seed_embeddings)
@@ -339,14 +361,25 @@ def main(dataset_type="single"):
     # Convert to DataFrame for easier display and export
     df_results = pd.DataFrame(results)
     
-    # Save results with dataset-specific filename
-    atl_dir = OUTPUT_DIR / "atl_tools"
-    atl_dir.mkdir(parents=True, exist_ok=True)
-    csv_path = atl_dir / f"{dataset_type}_atl_tool_comparison.csv"
+    # Print results
+    print("\n" + "="*60)
+    print(f"EMF {dataset_type.upper()}-TOOL DATASET DIVERSITY ANALYSIS")
+    print("="*60)
+    print(df_results.to_string(index=False))
+    print("="*60 + "\n")
+    
+    # Save results with EMF-specific filename
+    emf_dir = OUTPUT_DIR / "emf_analysis"
+    emf_dir.mkdir(parents=True, exist_ok=True)
+    csv_path = emf_dir / f"emf_{dataset_type}_tool_diversity.csv"
     df_results.to_csv(csv_path, index=False)
     print(f"Results saved to {csv_path}")
 
 if __name__ == "__main__":
-    # Run analysis for both single and multi-tool datasets
-    single_tool_results = main("single")
-    multi_tool_results = main("multi")
+    # Run analysis for both single and multi-tool EMF datasets
+    print("\n" + "="*60)
+    print("EMF DATASET DIVERSITY ANALYSIS")
+    print("="*60 + "\n")
+    
+    main("single")
+    main("multi")

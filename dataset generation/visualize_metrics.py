@@ -28,7 +28,11 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 
 def load_data(dataset_type="all"):
     """Load the CSV data files for specified dataset type"""
-    if dataset_type == "uml":
+    if dataset_type == "emf":
+        subdir = OUTPUT_DIR / "emf_analysis"
+        single_tool_path = subdir / "emf_single_tool_diversity.csv"
+        multi_tool_path = subdir / "emf_multi_tool_diversity.csv"
+    elif dataset_type == "uml":
         subdir = OUTPUT_DIR / "uml"
         single_tool_path = subdir / "single_uml_tool_comparison.csv"
         multi_tool_path = subdir / "multi_uml_tool_comparison.csv"
@@ -230,8 +234,9 @@ def create_selected_metrics_comparison(single_df, multi_df, dataset_label="ATL T
 def create_summary_dashboard():
     """Generate all visualizations in a single dashboard"""
     
-    # Generate graphs for all three dataset types
+    # Generate graphs for all dataset types
     datasets = [
+        ("emf", "EMF"),
         ("all", "ATL Tools"),
         ("uml", "UML"), 
         ("openrewrite", "OpenRewrite")

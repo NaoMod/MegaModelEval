@@ -1,0 +1,3248 @@
+[
+  {
+    "instruction": "Show the features available for Component in session sess101, then show the features available for Connector in session sess202.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess101', class_name='Component'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess202', class_name='Connector'"
+      }
+    ]
+  },
+  {
+    "instruction": "First inspect the Sensor instance with id A12 in session s101, then inspect the Controller instance with id B34 in session s202.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='s101', class_name='Sensor', object_id='A12'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='s202', class_name='Controller', object_id='B34'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Device object with id 42 in session sessA, then create a new Package object in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA, Device, 42"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB, Package"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the available features for the current model, then update a specific feature named FeatureX to enabled in a separate update action.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id=sessB34, feature_name=FeatureX, value=enabled"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature f1 on the Package object with id 3 in session sessA1, then clear the feature f2 on the Attribute object with id 8 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1, Package, 3, f1"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessB2, Attribute, 8, f2"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Class object in session sessA and then create a new Interface object in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA', class_name='Class'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB', class_name='Interface'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the color feature for Attribute object with id 7 to blue in session sessA, then clear the size feature of the DataType object with id 9 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA', class_name='Attribute', object_id='7', feature='color', value='blue'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB', class_name='DataType', object_id='9', feature='size'"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Delete the Attribute object with id 7 from session abc123. Step 2: Delete the Operation object with id 2 from session def456.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "abc123, Attribute, 7"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "def456, Operation, 2"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of the Package object with id 5 to public in session sessA, then delete the Component object with id 10 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id=sessA, class_name=Package, object_id=5, feature_name=visibility, value=public"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id=sessB, class_name=Component, object_id=10"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Inspect the object with id 10 of class Package in session sessA. Step 2: List features for the object with id 20 of class Class in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA', class_name='Package', object_id='10'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB', class_name='Class', object_id='20'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect features of class Widget in session sess1, then create a new Gadget object in session sess2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess1, Widget"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sess2, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the abstract feature of the Class with id 3 in session session_01 to true, then update the visibility feature of the Package with id 5 in session session_02 to public",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='session_01', class_name='Class', object_id='3', feature_name='abstract', value='true'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='session_02', class_name='Package', object_id='5', feature_name='visibility', value='public'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new DeviceA object in session s1, then delete the DeviceB object with id 99 from session s2",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='s1', class_name='DeviceA'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='s2', class_name='DeviceB', object_id='99'"
+      }
+    ]
+  },
+  {
+    "instruction": "List features of the Package object with id 5 in session abc123, then delete the Order object with id 12 in session def456",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "abc123, Package, 5"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "def456, Order, 12"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature size from the object objA of class Gadget in session sessA1, then inspect the instance of class Widget with object objB in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1, Gadget, objA, size"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, Widget, objB"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the firmwareVersion on the Device with id D100 in session sessA1 to 2.0.1, then inspect the Gateway instance with id G200 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Device, D100, firmwareVersion, 2.0.1"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, Gateway, G200"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'description' feature on object 12 of class Widget in session sesA, then list all features for object 34 of class Gadget in session sesB",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sesA', class_name='Widget', object_id='12', feature_name='description'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sesB', class_name='Gadget', object_id='34'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Package object with id obj-007 in session del-session-7 and then inspect the Class object with id obj-009 in session inspect-session-9",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "del-session-7, Package, obj-007"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "inspect-session-9, Class, obj-009"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature for class Actuator in session sessA1 for object 45, then update the feature for class Controller in session sessB2 for object 46.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA1', class_name='Actuator', object_id='45'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB2', class_name='Controller', object_id='46'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Operation object in session sessA123, then clear the defaultValue feature of the Attribute class in a different session sessB456.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA123', class_name='Operation'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB456', class_name='Attribute', feature_name='defaultValue'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Package object with id 5 in session sesA1, then update the abstract property of the Class instance with id 3 to true in session sesB2",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sesA1, Package, 5"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sesB2, Class, 3, abstract, true"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the color feature on object obj777 in session sess904, then create a new Package object in session sess999.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess904, obj777, color"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sess999, Package"
+      }
+    ]
+  },
+  {
+    "instruction": "In session sessA1, delete the object with id objA1 of type Package, then in session sessB2, clear the feature named 'description' from the object with id objB2 of type Classified.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA1', object_id='objA1', class_name='Package'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB2', object_id='objB2', class_name='Classified', feature_name='description'"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Delete the Component object with id C001 in session sessA. Step 2: List all available features for the Attribute class in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Component', object_id='C001'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB', class_name='Attribute'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the active feature of the Component with id 7 to true in session sessA1, then create a new Package object in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Component, 7, active, true"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB2, Package"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with ID obj_del_A in session sessA01, then update the color feature to blue on object ID obj_up_B in session sessB02.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA01, obj_del_A, WidgetTypeA"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sessB02, obj_up_B, color, blue"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the available features for Association in session sessA1, then clear the feature AttributeVersion for the Attribute class in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA1', class_name='Association'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB2', class_name='Attribute', feature_name='AttributeVersion'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the enabled feature of the Device with id 42 in session sessA1, then delete the Component with id 77 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1, Device, 42, enabled"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB2, Component, 77"
+      }
+    ]
+  },
+  {
+    "instruction": "List features for the Component class in session sA12, then inspect the Class instance with id 3 in session sB34.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sA12', class_name='Component'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sB34', class_name='Class', object_id='3'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Device object with id objA in session sessA1, then delete the Component object with id objB in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA1, Device, objA"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB2, objB"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session sessA, then update the 'enabled' feature of object objB1 in session sessB to true.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA', class_name='Widget'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB', class_name='Gadget', object_id='objB1', feature_name='enabled', new_value='true'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Class object with id 101 in session s1a2b3 and then inspect its current value",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "s1a2b3, Class"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "s1a2b3, Class, 101"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Sensor object in session sessA, then show the features available for Camera in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA', class_name='Sensor'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB', class_name='Camera'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the exposure feature of the Camera class in session sessA to 0.75, then list all available features for the Light class in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA, Camera, exposure, 0.75"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB, Light"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget with id 101 in session sessA, then create a new Gadget in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Widget', object_id='101'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB', class_name='Gadget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the object objA of class Class in session sess001 to review its current state, then clear the feature 'status' from the object objB of class Attribute in session sess002.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sess001', class_name='Class', object_id='objA'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sess002', class_name='Attribute', object_id='objB', feature_name='status'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the features available for Attribute in session abc123, then inspect the features available for Operation in session xyz789.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='abc123', class_name='Attribute'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='xyz789', class_name='Operation'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Package instance with id 1 in session sessA1, then inspect the Class instance with id 3 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA1, Package, 1"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, Class, 3"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect object 10 of class AClass in session sessA, and then create a new object of class BClass in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA', class_name='AClass', object_id='10'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB', class_name='BClass'"
+      }
+    ]
+  },
+  {
+    "instruction": "List all features for class Attribute in session sess1, then update the feature 'color' to 'blue' for object obj777 of class Entity in session sess2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess1, Attribute"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sess2, Entity, obj777, color, blue"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'description' on the Attribute object with id 10 in session sessA, then clear the feature 'returnType' on the Operation object with id 22 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA', class_name='Attribute', object_id='10', feature_name='description'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB', class_name='Operation', object_id='22', feature_name='returnType'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Component object in session xyz101 and then create a new Artifact object in session uvw202",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='xyz101', class_name='Component'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='uvw202', class_name='Artifact'"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Update the name feature of the Package object pkgA1 in session sess1 to AlphaPkg. Step 2: Clear the name feature of the PackageContainer object pkgB2 in session sess2.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sess1', class_name='Package', object_id='pkgA1', feature_name='name', new_value='AlphaPkg'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sess2', class_name='PackageContainer', object_id='pkgB2', feature_name='name'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Message object with id 101 in session sessA, then delete the Event object with id 202 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Message', object_id='101'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB', class_name='Event', object_id='202'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the 'status' feature of the Customer class in session sess_update_01 to 'active', then delete the Order object with ID order_042 in session sess_delete_99",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sess_update_01', class_name='Customer', feature_name='status', new_value='active'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sess_delete_99', class_name='Order', object_id='order_042'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Package object with id 7 in session sessA, then list the features of the Component object with id 9 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA, Package, 7"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB, Component, 9"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for Association in session sessA01, then create a new Attribute object",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA01', class_name='Association'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB02', class_name='Attribute'"
+      }
+    ]
+  },
+  {
+    "instruction": "Set the visibility of the Package object with id 10 in session sessA to 'private', then set the abstract property of the Class object with id 3 in session sessB to 'true'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA', class_name='Package', object_id='10', feature_name='visibility', value='private'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB', class_name='Class', object_id='3', feature_name='abstract', value='true'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session srvc-401 with id 17, then delete this Widget from the session",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='srvc-401', class_name='Widget'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='srvc-401', class_name='Widget', object_id='17'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the features of DataType in session sess_EMF1, then delete the Attribute object with id 42 from session sess_EMF2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess_EMF1', class_name='DataType'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sess_EMF2', class_name='Attribute', object_id='42'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'status' of the Alpha class object with id 101 in session sessA, then inspect the Beta class object with id 202 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA, Alpha, 101, status, cleared"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB, Beta, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the abstract property of the Class object with id 3 in session sessA to true, then inspect the same Class instance to verify the change.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA, Class, 3, abstract, true"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA, Class, 3"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'description' feature on object Obj001 in session sessA-001, then list all features for class PackageB in session sessB-002",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA-001, Obj001, description"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB-002, PackageB"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Order object with id 101 from session sessA, then inspect the Customer object with id 202 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA, Order, 101"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB, Customer, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Clear the notes feature on object objA789 in session s1X. Step 2: Update the notes feature on object objB999 in session s2Y to 'Initial setup complete'.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "s1X, objA789, notes"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "s2Y, objB999, notes, Initial setup complete"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Class object in session s1a2b3, then clear the abstract feature of object objB7 in session s4d5e6 for class ClassB",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "s1a2b3, ClassA"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "s4d5e6, ClassB, objB7, abstract"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Module instance with id 12 in session abc123, then update its visibility feature to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "abc123, Module, 12"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "abc123, Module, 12, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the eAnnotations feature of the Package in session sessA1, then create a new Association object in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA1', class_name='Package', feature_name='eAnnotations'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB2', class_name='Association'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object with ID obj001 in session sessA1, then clear the features for the Gadget class in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA1', class_name='Widget', object_id='obj001'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB2', class_name='Gadget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Attribute object with ID 7 in session abc123, then inspect the features available for the Association in session xyz789.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "abc123, Attribute, 7"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "xyz789, Association"
+      }
+    ]
+  },
+  {
+    "instruction": "Update feature ENERGY_MONITOR in session sessA to enabled, then create a new DeviceProfile object with id 42 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id=sessA, feature_name=ENERGY_MONITOR, value=enabled"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id=sessB, class_name=DeviceProfile, object_id=42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Operation object with id 7 in session sessD1, then update the description feature of the Class object with id 12 in session sessU2 to 'Updated after deletion'.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessD1', class_name='Operation', object_id='7'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessU2', class_name='Class', object_id='12', feature_name='description', feature_value='Updated after deletion'"
+      }
+    ]
+  },
+  {
+    "instruction": "List the features for DataType in session sessA12, then clear the 'nullable' feature for object 1001 in class Property in session sessB34.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA12, DataType"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessB34, Property, 1001, nullable"
+      }
+    ]
+  },
+  {
+    "instruction": "First, clear feature featureX for ClassAlpha in session sessA. Then delete the object with ID obj999 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA, ClassAlpha, featureX"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB, obj999"
+      }
+    ]
+  },
+  {
+    "instruction": "First, list the features available for DataType in session sessA1. Then inspect the object instC3 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA1', class_name='DataType'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessB2', object_id='instC3'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Component instance in session sessA1, then delete the Operation object with ID op-42 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA1', class_name='Component'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB2', class_name='Operation', object_id='op-42'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Car object in session sessA100, then update the color feature of a Truck object in session sessB200.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA100', class_name='Car'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB200', class_name='Truck', object_id='objTruck010', feature_name='color', new_value='blue'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Component object with the id 1 in session session_X9 and then inspect its current value",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='session_X9', class_name='Component'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='session_X9', class_name='Component', object_id='1'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Attribute object in session sessA1, then list features for Association in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA1', class_name='Attribute'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB2', class_name='Association'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the 'size' feature of EntityX to 42 in session sessA, then inspect the features available for EntityY in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA', class_name='EntityX', feature_name='size', new_value='42'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB', class_name='EntityY'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object with id 101 in session sessA, then create a Gadget object in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Widget', object_id='101'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB', class_name='Gadget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget object with id 12 in session alpha1, then clear the visibility feature of the Gadget object with id 34 in session beta2",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='alpha1', class_name='Widget', object_id='12'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='beta2', class_name='Gadget', object_id='34', feature_name='visibility', value='hidden'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the features for Attribute in session abc123, then inspect the features for Association in session def456.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='abc123', class_name='Attribute'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='def456', class_name='Association'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the current value of object 101 in session sessA for ClassA, then inspect the current value of object 202 in session sessB for ClassB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA', class_name='ClassA', object_id='101'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessB', class_name='ClassB', object_id='202'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the current value of the Widget object with id 101 in session sessA, then create a new Gadget object in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA', class_name='Widget', object_id='101'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB', class_name='Gadget'"
+      }
+    ]
+  },
+  {
+    "instruction": "List features for object with id '1' in session sessA, then update the feature named 'version' to '2.0' for object with id '10' in class 'EClass' in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA', class_name='Package', object_id='1'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB', class_name='EClass', object_id='10', feature_name='version', new_value='2.0'"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Clear the feature DataType_feature1 from the object DataType_obj_01 in session sess_datatype_01. Step 2: Clear the feature Class_feature2 from the object Class_obj_02 in session sess_class_02.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess_datatype_01, DataType_obj_01, DataType_feature1"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess_class_02, Class_obj_02, Class_feature2"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Create a new Package object in session sessA001. Step 2: Create a new Widget object in session sessB002.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA001', class_name='Package'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB002', class_name='Widget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of the Package object with id 5 in session abc123 to 'public', then clear the visibility feature for the Document object with id 10 in session def456.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "abc123, Package, 5, visibility, public"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "def456, Document, 10, visibility"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Component object with ID 101 in session sessA, then delete the Attribute object with ID 202 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Component', object_id='101'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB', class_name='Attribute', object_id='202'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the 'visibility' feature of the Component object with id c42 in session sess_upd_001 to 'private', then delete the Package object with id p77 in session sess_del_002.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess_upd_001, Component, c42, visibility, private"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sess_del_002, Package, p77"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the ClassA instance with id obj42 in session sessA1. Then list features for the ClassB instance with id obj99 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA1, ClassA, obj42"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB2, ClassB, obj99"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for Device in session sessA, then create a new Attribute object in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA, Device"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB, Attribute"
+      }
+    ]
+  },
+  {
+    "instruction": "In session sess_s1, update the visibility feature of the Package with id 5 to public; then in session sess_s2, update the abstract feature of the Class with id 3 to true",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess_s1, Package, 5, visibility, public"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sess_s2, Class, 3, abstract, true"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Device object in session ses001, then delete this Device from the session",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='ses001', class_name='Device'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='ses001', class_name='Device', object_id='999'"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for Device in session sessA1, then delete a Component object with id 128 from session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA1, Device"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB2, Component, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'status' feature of a Package object with id 10 in session sessA1, then inspect the Device object with id 27 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1, Package, 10, status"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, Device, 27"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the abstract property of ClassA instance 101 to true in session sessA1, then inspect the ClassB instance 202 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, ClassA, 101, abstract, true"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, ClassB, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'version' feature from the Package in session sessA, then list all features for the Component in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA', class_name='Package', feature_name='version'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB', class_name='Component'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Package object with ID pkg-001 in session sessA, then inspect the Attribute object with ID attr-005 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Package', object_id='pkg-001'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessB', object_id='attr-005'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the value of the feature 'status' for the Device object with id 12 in session sessA1, then update the feature 'mode' to 'auto' for the Sensor object with id 7 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1, Device, 12, status"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sessB2, Sensor, 7, mode, auto"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Class object in session abc123 and then clear the name feature of that object.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "abc123, Class"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "abc123, Class, 1, name"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Device instance with id 101 in session sA1, then update the visibility of the Component instance with id 202 in session sB2 to public",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sA1, Device, 101"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sB2, Component, 202, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear feature EMFFeature1 in session sessA, then create a new AttributeX object in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA', feature_name='EMFFeature1'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB', class_name='AttributeX'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the DataType object with id t123 in session s1, then clear the visibility feature of the Package object with id p456 in session s2",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='s1', class_name='DataType', object_id='t123'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='s2', class_name='Package', object_id='p456', feature_name='visibility'"
+      }
+    ]
+  },
+  {
+    "instruction": "First delete the object with id obj01 in session sessA, then list the features of the object with id obj02 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', object_id='obj01'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB', object_id='obj02'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the 'status' feature of object with id 42 in session sessA1 to 'enabled', then create a new Task object in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA1', object_id='42', feature_name='status', value='enabled'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB2', class_name='Task'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object with id 10 in session sessA, then update the status feature of the Gadget object with id 20 in session sessB to 'active'.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA, Widget, 10"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sessB, Gadget, 20, status, active"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Inspect the features of the Component object with id 12 in session sess01. Step 2: Clear the 'visibility' feature of the Subsystem object with id 34 in session sess02.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess01', class_name='Component', object_id='12'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sess02', class_name='Subsystem', object_id='34', feature_name='visibility'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'version' feature from Package in session sessX, then delete the Operation object with ID 7 in session sessY",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessX', class_name='Package', feature_name='version'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessY', class_name='Operation', object_id='7'"
+      }
+    ]
+  },
+  {
+    "instruction": "First list the available features for DeviceType in session sessA1, then inspect a WidgetType instance with id objC3 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA1, DeviceType"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, WidgetType, objC3"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect a Package object with id 001 in session s1a, then delete an object with id 002 in session s2b.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='s1a', class_name='Package', object_id='001'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='s2b', object_id='002'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Class object in session sA with id 11, then update the status feature of the Attribute object with id 22 in session sB to 'enabled'.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sA', class_name='Class'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sB', class_name='Attribute', object_id='22', feature_name='status', feature_value='enabled'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Device object with id 2 in session sess901 and then inspect its current value",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sess901', class_name='Device'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sess901', class_name='Device', object_id='2'"
+      }
+    ]
+  },
+  {
+    "instruction": "First, create a new DataType in session sessA3 and then inspect the features available for DataType",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA3, DataType"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessA3, DataType"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the threshold feature for Sensor in session sessA1 to 75, then list the features available for Actuator in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Sensor, threshold, 75"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB2, Actuator"
+      }
+    ]
+  },
+  {
+    "instruction": "In session session_s1, delete the Widget object with id obj_101, then in session session_s2, create a new Gadget object.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='session_s1', class_name='Widget', object_id='obj_101'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='session_s2', class_name='Gadget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the instance with id 101 of class Widget in session sessA, then clear the feature 'enabled' for the instance with id 202 of class Gadget in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA', class_name='Widget', object_id='101'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB', class_name='Gadget', object_id='202', feature_name='enabled'"
+      }
+    ]
+  },
+  {
+    "instruction": "List features for DataType in session sessA1, then list features for Package in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA1', class_name='DataType'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB2', class_name='Package'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the ClassA instance with id 3 in session sessA, then inspect the PackageB instance with id 7 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA, ClassA, 3"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB, PackageB, 7"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Device object with id obj-100 in session sessA1, and then create a new Component object in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA1', class_name='Device', object_id='obj-100'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB2', class_name='Component'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the features in session sess001, then update the feature named color in session sess002 to green.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id=sess001"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id=sess002, feature_name=color, new_value=green"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the documentation feature of object 42 in session sessA, and then clear the constraints feature of object 37 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA, 42, documentation"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessB, 37, constraints"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Class object in session abc123, then create a new Operation object in session def456",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='abc123', class_name='Class'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='def456', class_name='Operation'"
+      }
+    ]
+  },
+  {
+    "instruction": "First, in session sess_alpha update the 'name' feature of the Class object ClassObj001 (class EmployeeClass) to 'Employee'; then, in session sess_beta clear the 'documentation' feature of the Class object ClassObj002 (class ProductClass).",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sess_alpha', object_id='ClassObj001', feature_name='name', value='Employee'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sess_beta', object_id='ClassObj002', feature_name='documentation'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Attribute object with id 7 from session abc123, then delete the Operation object with id 2 from session def456",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "abc123, Attribute, 7"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "def456, Operation, 2"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the abstract property to true for the Class with id 12 in session sax321, then delete the Attribute with id 9 in session qwe987.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sax321, Class, 12, abstract, true"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "qwe987, Attribute, 9"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the instance obj007 in session sessA, then list features for class Measurement in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA, obj007"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB, Measurement"
+      }
+    ]
+  },
+  {
+    "instruction": "First inspect the available features for Package in session sessA01, then create a new Attribute object in session sessB02.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA01, Package"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB02, Attribute"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the abstract feature of the Class with id 3 in session S_A1 to true, then update the visibility feature of the Package with id 5 in session S_B2 to public",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "S_A1, Class, 3, abstract, true"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "S_B2, Package, 5, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Attribute object in session abc123 with id 7, then delete this Attribute from the session",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='abc123', class_name='Attribute'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='abc123', class_name='Attribute', object_id='7'"
+      }
+    ]
+  },
+  {
+    "instruction": "List features for ComponentModel in session sessA1, then delete the PackageObject with id obj42 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA1', class_name='ComponentModel'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB2', class_name='PackageObject', object_id='obj42'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'annotations' of object objA1 in session sess101, then inspect the instance objB2 in session sess202.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sess101', object_id='objA1', feature_name='annotations'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sess202', object_id='objB2'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of the Package object with id 5 in session sessA1 to 'public', then inspect the Module instance with id 12 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Package, 5, visibility, public"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, Module, 12"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature named 'price' for the Product class in session sess_update_42, then list the available features for the Inventory class in session sess_inspect_77",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sess_update_42', class_name='Product', feature_name='price'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess_inspect_77', class_name='Inventory'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with id delObj42 in session sessA (Component), then inspect the object with id inspectObj99 in session sessB (Widget).",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA, delObj42"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB, Widget, inspectObj99"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature enabled for object O100 in session S1, then set the feature enabled to true for object O200 in session S2.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "S1, WidgetA, O100, enabled"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "S2, WidgetB, O200, enabled, true"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Create a new Widget object in session sessA. Step 2: Clear the size feature of the created Widget object in the same session.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA', class_name='Widget'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA', object_id='widgetA01', feature_name='size'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Device instance with id 42 in session sessA1, then update the Module instance with id 77 in session sessB2 to set its status to enabled",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA1', class_name='Device', object_id='42'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB2', class_name='Module', object_id='77', feature_name='status', value='enabled'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'status' feature of the Document object with id 42 in session sessA, then create a new Entity object in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA, Document, 42, status"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB, Entity"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object with id 101 in session sessA1, then clear the status feature of the Gadget object with id 202 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA1, Widget, 101"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessB2, Gadget, 202, status"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with id objA in session s1, then list all available features for the Gadget class in session s2",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "s1, objA"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "s2, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the feature 'visibility' of object obj404 in session s_v1 to 'private', then create a new EntityRecord in session s_c2.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='s_v1', object_id='obj404', feature_name='visibility', new_value='private'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='s_c2', class_name='EntityRecord'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Device object with id D100 in session sessA. Then update the status feature of the Network object with id N200 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Device', object_id='D100'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB', class_name='Network', object_id='N200', feature_name='status', new_value='operational'"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for Widget in session s1, then clear feature ft001 in session s2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='s1', class_name='Widget'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='s2', feature_id='ft001'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the abstract feature of the Class instance with id 7 in session sessA12, then delete the Operation object with id 12 in session sessB34.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA12, Class, 7, abstract"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB34, Operation, 12"
+      }
+    ]
+  },
+  {
+    "instruction": "List features of the class Package in session s1, then inspect the instance with id objX in session s2",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "Package, s1"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "s2, objX"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the instance of class Person with object ID objA in session sess1, then delete the object with ID objB in session sess2.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess1, objA, Person"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sess2, objB"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Sensor object in session sessA1, then update the sampling_rate feature of object objC3 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA1', class_name='Sensor'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB2', class_name='Controller', object_id='objC3', feature_name='sampling_rate', value='1000'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Sensor object with the id 7 in session ab12c and then inspect its current value",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='ab12c', class_name='Sensor'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='ab12c', class_name='Sensor', object_id='7'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new DataType object in session sessA, then show the features available for Association in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA, DataType"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB, Association"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the feature length to 5 for Attribute in session sess_upd_01, then inspect available features for Association in session sess_inspect_02.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sess_upd_01', class_name='Attribute', feature_name='length', new_value='5'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess_inspect_02', class_name='Association'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object with id 10 in session ses001, then create a new Gadget object in session ses002.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "ses001, Widget, 10"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "ses002, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "First, inspect the Device object with id 100 in session sessA. Then clear the 'threshold' feature of the Sensor object with id 200 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA', class_name='Device', object_id='100'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB', class_name='Sensor', object_id='200', feature_name='threshold'"
+      }
+    ]
+  },
+  {
+    "instruction": "First, list available features for Package in session abc123, then list available features for Association in session def456.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "abc123, Package"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "def456, Association"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the ClassA instance with id 10 in session sess01, then inspect the ClassB instance with id 20 in session sess02",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess01, ClassA, 10"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess02, ClassB, 20"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the object with id 123 of class Device in session sessA, and then create a new Package object in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA, Device, 123"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB, Package"
+      }
+    ]
+  },
+  {
+    "instruction": "List features of the Widget object with id 101 in session sess_alpha, then update the 'enabled' feature of the Gadget object with id 202 in session sess_beta to 'true'.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess_alpha', class_name='Widget', object_id='101'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sess_beta', class_name='Gadget', object_id='202', feature_name='enabled', value='true'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the priority feature of the Task object with id 7 in session alpha001, then clear the visibility feature of the Package object with id 12 in session beta002.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "alpha001, Task, 7, priority"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "beta002, Package, 12, visibility"
+      }
+    ]
+  },
+  {
+    "instruction": "In step 1, create a new DeviceType in session sessA789, then in step 2, create a new Widget in session sessB456.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA789, DeviceType, objA1"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB456, Widget, objB2"
+      }
+    ]
+  },
+  {
+    "instruction": "In session sessA, update the feature firmwareVersion of the Device 101 to 2.1, then in session sessB, clear the feature firmwareVersion of the Sensor 202.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA, Device, 101, firmwareVersion, 2.1"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessB, Sensor, 202, firmwareVersion"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Attribute with id 7 in session abc123, then delete the Operation with id 2 in session xyz789.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "abc123, Attribute, 7"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "xyz789, Operation, 2"
+      }
+    ]
+  },
+  {
+    "instruction": "In session sessA, update the abstract feature of object 101 in ClassA to true, then in session sessB delete object 202 in ClassB.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA, ClassA, 101, abstract, true"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB, ClassB, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Module instance with id 7 in session abc123, then list the features available for DataType",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "abc123, Module, 7"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "def456, DataType"
+      }
+    ]
+  },
+  {
+    "instruction": "List all features for Device in session sessA111, then create a new DataType object in session sessB222.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA111', class_name='Device'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB222', class_name='DataType'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of the Package object with id 5 in session sessA1 to 'public', then update the abstract feature of the Class object with id 7 in session sessB2 to 'true'.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Package, 5, visibility, public"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sessB2, Class, 7, abstract, true"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Operation object in session S1, then delete it.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='S1', class_name='Operation'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='S1', class_name='Operation', object_id='2'"
+      }
+    ]
+  },
+  {
+    "instruction": "List features of the Package object with id 11 in session sessA, then delete the Attribute object with id 22 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA', class_name='Package', object_id='11'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB', class_name='Attribute', object_id='22'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' of the Package object with id 1 in session sess001, then inspect the Package object with id 1 in the same session to verify the change",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess001, Package, 1, version"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess001, Package, 1"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the status feature of the Device object with id 101 in session sess001 to 'active', then inspect the Sensor object with id 202 in session sess002",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sess001', class_name='Device', object_id='101', feature_name='status', value='active'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sess002', class_name='Sensor', object_id='202'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'version' feature from the Package in session sessA, and then list features for the Operation with object 7 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA', class_name='Package', feature_name='version'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB', class_name='Operation', object_id='7'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Task object with ID 12 in session sessA, then inspect the object with ID 34 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Task', object_id='12'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessB', object_id='34'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the description feature of the Document object with id 12 in session def456. Then update the visibility feature to private for the Package object with id 34 in session uvw789.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "def456, Document, 12, description"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "uvw789, Package, 34, visibility, private"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session sessA1, then clear the obsoleteFlag feature of the Gadget object obj-002 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA1', class_name='Widget'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB2', class_name='Gadget', object_id='obj-002', feature_name='obsoleteFlag'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Class instance with id 3 in session sessX9, then update the visibility feature of the Package object with id 5 in session sessZ3 to 'public'.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessX9', class_name='Class', object_id='3'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessZ3', class_name='Package', object_id='5', feature_name='visibility', value='public'"
+      }
+    ]
+  },
+  {
+    "instruction": "First, clear the visibility feature of the Attribute class in session s1. Then, create a new Operation object in session s2.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='s1', class_name='Attribute', feature_name='visibility'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='s2', class_name='Operation'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Attribute object with id 7 from session abc123, then clear the abstract feature of the Class with id 3 in session def456.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='abc123', class_name='Attribute', object_id='7'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='def456', class_name='Class', object_id='3', feature_name='abstract'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object with ID OID1 in session S1, then inspect the features available for class Gadget in session S2",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='S1', class_name='Widget', object_id='OID1'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='S2', class_name='Gadget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the abstract property of the Class instance with id 7 in session sessA1 to true. Then create a new DataType in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Class, 7, abstract, true"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB2, DataType"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Product object with id 101 in session sess_del_001, then update the status feature to shipped in session sess_upd_002 for class Order.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess_del_001, Product, 101"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sess_upd_002, Order, status, shipped"
+      }
+    ]
+  },
+  {
+    "instruction": "List the features available for Attribute in session sessA12, then clear feature 20 of Association in session sessB34.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA12, Attribute"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessB34, Association, 20"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'bandwidthLimit' on the object 'objA1' of class 'RouterConfig' in session 'sessA1', then delete the object 'objB2' of class 'SwitchConfig' in session 'sessB2'.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA1', class_name='RouterConfig', object_id='objA1', feature_name='bandwidthLimit'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB2', class_name='SwitchConfig', object_id='objB2'"
+      }
+    ]
+  },
+  {
+    "instruction": "List features for DataType in session sessA, then inspect the Package object with id 101 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA, DataType"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB, Package, 101"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Book object with id 101 in session sessA, then delete the Document object with id 202 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA, Book, 101"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB, Document, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Package in session sA1, then update the version feature of object objC9 in session sB2 to 2.0",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sA1', class_name='Package'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sB2', class_name='Component', object_id='objC9', feature_name='version', value='2.0'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object with id 9 in session sess2024 and then inspect its current value",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sess2024', class_name='Widget'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sess2024', class_name='Widget', object_id='9'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Gadget object in session sessionA, then show the features available for Widget.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessionA', class_name='Gadget'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessionB', class_name='Widget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the feature 'creditLimit' of the 'Customer' class in session sessA12 to 5000, then inspect the features available for the 'Order' class in session sessB34.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA12', class_name='Customer', feature_name='creditLimit', new_value='5000'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB34', class_name='Order'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Device object with ID D-002 in session sessA1, then create a new Attribute object in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA1, Device, D-002"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB2, Attribute"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect instance objA12 in session sess101 to review its features, then clear the feature named 'status' from object objB34 in session sess202.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sess101', object_id='objA12'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sess202', object_id='objB34', feature_name='status'"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for Association in session sessA1, then show the features available for Attribute in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA1', class_name='Association'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB2', class_name='Attribute'"
+      }
+    ]
+  },
+  {
+    "instruction": "First, inspect the ClassA instance with id 101 in session alpha01. Then, inspect the ClassB instance with id 202 in session beta02.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "alpha01, ClassA, 101"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "beta02, ClassB, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the value of object obj42 in session sess_inspect_01 for class EntityA, then create a new EntityB object in session sess_create_02.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess_inspect_01, EntityA, obj42"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sess_create_02, EntityB"
+      }
+    ]
+  },
+  {
+    "instruction": "List available features in session sessA and then enable feature featB in session sessB by updating its value to enabled.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id=sessA"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id=sessB, feature_id=featB, new_value=enabled"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature abstract for the object with id 1 in class ClassA within session sessA, then clear the feature visibility for the object with id 2 in class ClassB within session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA, ClassA, 1, abstract"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessB, ClassB, 2, visibility"
+      }
+    ]
+  },
+  {
+    "instruction": "In session sessA, create a new DataType and in session sessB, create a new Class",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA, DataType"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB, Class"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of the Package object with id 5 in session sessA123 to 'public', then clear the version feature of the DataType object with id 9 in session sessB456.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA123', class_name='Package', object_id='5', feature_name='visibility', value='public'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB456', class_name='DataType', object_id='9', feature_name='version'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Attribute object with id 7 from session sessA1, then delete the Operation object with id 2 from session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA1', class_name='Attribute', object_id='7'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB2', class_name='Operation', object_id='2'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the feature 'version' to '2.0' on the DataType object with ID 10 in session s123, then delete the Operation object with ID 20 in session s456.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "s123, DataType, 10, version, 2.0"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "s456, Operation, 20"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Person object with id 10 in session S1, then list all features for the Order class in session S2.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "S1, Person, 10"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "S2, Order"
+      }
+    ]
+  },
+  {
+    "instruction": "List the features available for Router in session sessA1, then create a new Policy object in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA1', class_name='Router'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB2', class_name='Policy'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of the Package object with id 8 in session abc123 to 'public', then update the abstract feature of the Class object with id 3 in session def456 to 'true'.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "abc123, Package, 8, visibility, public"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "def456, Class, 3, abstract, true"
+      }
+    ]
+  },
+  {
+    "instruction": "First, create a new Operation object in session sessA01; then delete an Attribute object in session sessB02",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA01, Operation"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB02, Attribute, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for FeatureSetA in session sessAlpha, then delete the object with ID objDelta in session sessBeta",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessAlpha', class_name='FeatureSetA'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessBeta', object_id='objDelta'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'firmware_version' on the object 101 of class Device in session sessA01, then inspect the object 202 of class Gateway in session sessB02 to verify the change.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA01', class_name='Device', object_id='101', feature_name='firmware_version'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessB02', class_name='Gateway', object_id='202'"
+      }
+    ]
+  },
+  {
+    "instruction": "In session sessA1, update the visibility feature of the Package object with id 12 to public, then in session sessB2 inspect the Class instance with id 3.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Package, 12, visibility, public"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, Class, 3"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear feature FeatureAlpha from session sessA, then list features in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA', feature_name='FeatureAlpha'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with id 101 of class Widget in session sesA and then inspect its current value",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sesA, Widget, 101"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sesA, Widget, 101"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'visibility' on the PackageA object pkgA01 in session sA11, then update the feature 'length' to 42 on the DataTypeB object dtB77 in session sB22.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sA11, PackageA, pkgA01, visibility"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sB22, DataTypeB, dtB77, length, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Employee object in session sessA1, then clear the 'name' feature of object 210 in the Department class.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA1', class_name='Employee'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB2', class_name='Department', object_id='210', feature_name='name', value='null'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Package object with id 5 in session alpha001, then update the abstract feature of the Class object with id 9 in session beta002 to 'true'",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "alpha001, Package, 5"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "beta002, Class, 9, abstract, true"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Clear feature 'size' of object 'w123' (class Widget) in session 'sessA'. Step 2: Create a new object of class Attribute in session 'sessB'.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA', class_name='Widget', object_id='w123', feature_name='size'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB', class_name='Attribute'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with id docA in session sess_delete_01 for class Document, and then clear the feature notes for object id sumX in session sess_update_02 for class Summary.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess_delete_01, Document, docA"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess_update_02, Summary, sumX, notes"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Delete the object with ID obj100 from session sessA for class Widget. Step 2: List features for class Gadget in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Widget', object_id='obj100'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB', class_name='Gadget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update feature 'TraceLogging' to enabled in session sessA, then create a new WidgetBeta object in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA', feature_name='TraceLogging', new_value='enabled'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB', class_name='WidgetBeta'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with ID obj_del_24 in session sessA7, then update the feature 'name' to 'UpdatedName' for object obj_update_58 in session sessB9.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA7', object_id='obj_del_24'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB9', object_id='obj_update_58', feature_name='name', new_value='UpdatedName'"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Inspect features for DataTypeA in session sessA12 to review available attributes. Step 2: Clear the feature named feature_B from DataTypeB in session sessB34 to update the model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA12', class_name='DataTypeA'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB34', class_name='DataTypeB', feature_name='feature_B'"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Clear feature calibration on Sensor obj987 in session sessA1. Step 2: Delete object obj654 of class Device in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1, Sensor, calibration, obj987"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB2, Device, obj654"
+      }
+    ]
+  },
+  {
+    "instruction": "In session s1, list features for ClassA, then inspect instance of ClassB with id 42 in session s2",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "s1, ClassA"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "s2, ClassB, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Package object with id 101 in session sessA, then delete the Association object with id 202 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA, Package, 101"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB, Association, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Create a new Attribute object in session abc123. Step 2: Update the 'enabled' feature of the Operation object with ID 42 to true in session def456.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='abc123', class_name='Attribute'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='def456', class_name='Operation', object_id='42', feature_name='enabled', value='true'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Device object with id 1 in session sess_A1 and then inspect its value",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess_A1, Device"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess_A1, Device, 1"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new AlphaPart in session sessA1, then list features for BetaPart in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA1', class_name='AlphaPart'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB2', class_name='BetaPart'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the 'color' feature of the Package object with id 1 in session sess101 and then list all available features for the Attribute class.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sess101', class_name='Package', object_id='1', feature_name='color', value='red'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess202', class_name='Attribute'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object in session sess1a, then create a Gadget object in session sess2b.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sess1a', class_name='Widget', object_id='obj101'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sess2b', class_name='Gadget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Package object with id 5 in session abc123, then clear the visibility feature of the Resource object with id 9 in session def456",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "abc123, Package, 5"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "def456, Resource, 9, visibility"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the features available for Association in session sess100, then inspect the features available for Package in session sess200.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess100', class_name='Association'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess200', class_name='Package'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the User object with id 7 in session alpha9, then inspect the Product object with id 3 in session beta8",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "alpha9, User, 7"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "beta8, Product, 3"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the current value of object 101 for class Widget in session sessA1 and then create a new Package object in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA1, Widget, 101"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "sessB2, Package"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the features available in session sessA, then update the feature 'maxConnections' to 100 for object 42 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB', feature_name='maxConnections', new_value='100', object_id='42'"
+      }
+    ]
+  },
+  {
+    "instruction": "First clear the 'label' feature of the Node N100 in session s1a, then clear the 'weight' feature of the Edge E200 in session s2b.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='s1a', class_name='Node', object_id='N100', feature_name='label'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='s2b', class_name='Edge', object_id='E200', feature_name='weight'"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Create a new Class object in session sessA12. Step 2: Create a new Operation object in session sessB34",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA12', class_name='Class'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB34', class_name='Operation'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the color feature of the Attribute object with id 7 in session sessA to blue, then clear the color feature of the Operation object with id 9 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA', class_name='Attribute', object_id='7', feature_name='color', value='blue'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessB', class_name='Operation', object_id='9', feature_name='color'"
+      }
+    ]
+  },
+  {
+    "instruction": "In session sessA11, delete the Widget object with ID 10, then in session sessB22, delete the Gadget object with ID 20.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA11', class_name='Widget', object_id='10'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB22', class_name='Gadget', object_id='20'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the status feature of object obj_001 in session sess_update_001 to active, then delete object obj_002 in session sess_delete_002.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sess_update_001', class_name='Widget', object_id='obj_001', feature_name='status', new_value='active'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sess_delete_002', class_name='Gadget', object_id='obj_002'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect a Package instance in a new session using session sess_A1 and object obj_101, then list the features of a separate object in session sess_B2.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sess_A1', class_name='Package', object_id='obj_101'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sess_B2', class_name='ClassB', object_id='obj_202'"
+      }
+    ]
+  },
+  {
+    "instruction": "List the available features for ProductFeature in session sessA01, then create a new Association object in session sessB02.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA01', class_name='ProductFeature'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessB02', class_name='Association'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the abstract property of the Class with id 12 in session sessA1 to true, then update the visibility property of the Package with id 9 in session sessB2 to public",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Class, 12, abstract, true"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "sessB2, Package, 9, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Operation object in session xyz789, then delete it",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "xyz789, Operation"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "xyz789, Operation, 6"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect features of the Package object with id 5 in session sessA1, then delete the Operation object with id 9 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA1, Package, 5"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "sessB2, Operation, 9"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'enabled' on the Device with id 7 in session sessA, then inspect the User instance with id 42 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA, Device, 7, enabled"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB, User, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the enabled feature to true for the Entity instance with id 1 in session sessA1, then inspect the Component instance with id 2 in session sessB2",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Entity, 1, enabled, true"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, Component, 2"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'email' on object 101 in session sessA and then list features of object 202 in session sessB.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA, Customer, 101, email"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB, Order, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Attribute object with id 7 in session sessA, then inspect the Class instance with id 4 in session sessB",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA, Attribute, 7"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB, Class, 4"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the visibility feature on the Package object with id 5 in session abc123, then set the state feature to 'active' on the Widget object with id 12 in session def987",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "abc123, Package, 5, visibility"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "def987, Widget, 12, state, active"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Create a new Package object in session sess001. Step 2: Clear the 'name' feature of object id id2002 in session sess002.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sess001', class_name='Package'"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sess002', class_name='PackageModel', object_id='id2002', feature_name='name'"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Package object with id 5 in session sessA, then update the abstract property of the Class object with id 3 in session sessB to true",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessA', class_name='Package', object_id='5'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB', class_name='Class', object_id='3', feature_name='abstract', value='true'"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the description feature of the Operation object 2 in session abc123, then create a new Activity object in session def456.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='abc123', class_name='Operation', object_id='2', feature_name='description'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='def456', class_name='Activity'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Device object with id obj_001 in session sess_A1, then clear the firmware_version feature for the Gateway object with id gw_77 in session sess_B2",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess_A1, Device, obj_001"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess_B2, Gateway, gw_77, firmware_version"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete object objA9 in session sessA1, then inspect the features available for class Gadget in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA1, Widget, objA9"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "sessB2, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the version feature of the Package object with id objA in session sesA, then create a new Component object with id objB in session sesB",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sesA', class_name='Package', object_id='objA', feature_name='version', new_value='2.0'"
+      },
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sesB', class_name='Component', object_id='objB'"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object with id 101 in session sessA, then update the color feature of the Gadget object with id 202 in session sessB to blue.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessA', class_name='Widget', object_id='101'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessB', class_name='Gadget', object_id='202', feature_name='color', new_value='blue'"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for Package in session abc123, then clear the dependencies feature for Module in session def456.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "abc123, Package"
+      },
+      {
+        "api_name": "clear_feature",
+        "arguments": "def456, Module, dependencies"
+      }
+    ]
+  },
+  {
+    "instruction": "First, clear the feature 'version' on the Package object with id pkg-42 in session sessA1, then delete the Device object with id dev-77 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_id='sessA1', class_name='Package', object_id='pkg-42', feature_name='version'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessB2', class_name='Device', object_id='dev-77'"
+      }
+    ]
+  },
+  {
+    "instruction": "List features for the Model object with id 101 in session sessA1, then inspect the Instance object with id 202 in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA1, Model, 101"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessB2, Instance, 202"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Processor object with id objA9 in session sessX9, then delete that object in the same session.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessX9', class_name='Processor', object_id='objA9'"
+      },
+      {
+        "api_name": "delete_object",
+        "arguments": "session_id='sessX9', class_name='Processor', object_id='objA9'"
+      }
+    ]
+  },
+  {
+    "instruction": "Step 1: Create a new Attribute object in session sesA01. Step 2: Update the value feature of that Attribute to blue.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sesA01', class_name='Attribute'"
+      },
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sesA01', object_id='7', feature_name='value', feature_value='blue'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Device object with the id 5 in session sessEMF01 and then inspect its value",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessEMF01', class_name='Device'"
+      },
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_id='sessEMF01', class_name='Device', object_id='5'"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget in session sessA1 and then show the features available for Widget",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id='sessA1', class_name='Widget'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessA1', class_name='Widget'"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the 'description' feature of the Attribute class in session sessA1, then list all features for the Operation class in session sessB2.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_id='sessA1', class_name='Attribute', feature_name='description', new_value='Updated'"
+      },
+      {
+        "api_name": "list_features",
+        "arguments": "session_id='sessB2', class_name='Operation'"
+      }
+    ]
+  }
+]
