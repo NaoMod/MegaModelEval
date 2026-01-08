@@ -1,0 +1,2252 @@
+[
+  {
+    "instruction": "Create a new Shipment object in session sessionG7r9Q1",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessionG7r9Q1, Shipment"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session sess987ghij654",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess987ghij654, Widget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Invoice object in session sess9ZxQ4",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess9ZxQ4, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Artifact object in session S1G9X2P4Q7",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "S1G9X2P4Q7, Artifact"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Shipment object in session sessQ4n7v8l9",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessQ4n7v8l9, Shipment"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Invoice object in session sess_9f8a7b6c",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess_9f8a7b6c, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Gadget object in session sess9a7K3",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess9a7K3, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Invoice object in session sess_7f9b2d5a",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess_7f9b2d5a, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new DeliveryNote object in session s9f8e7d6a5b4",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "s9f8e7d6a5b4, DeliveryNote"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Invoice object in session session_4e7a9c.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_4e7a9c, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Invoice object in session sG7k9Q2e",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sG7k9Q2e, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Shipment object in session sessG7h3L9",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessG7h3L9, Shipment"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new WidgetPro object in session sessA9x3L",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA9x3L, WidgetPro"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Module object in session sessA9fB3",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA9fB3, Module"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new DeliveryNote object in session s3c92fZ9",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "s3c92fZ9, DeliveryNote"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Shipment object in session sess_A7k9Qx3",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess_A7k9Qx3, Shipment"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Container object in session sessX9Y7Z0",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessX9Y7Z0, Container"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Gadget object in session sess-7Lq9XvZ",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess-7Lq9XvZ, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Shipment object in session sessA7b9cD",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA7b9cD, Shipment"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session sessA1b2C3",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessD4e5F6, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session session7hQ2Z9",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session7hQ2Z9, Widget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session sessA9B8C7",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA9B8C7, Widget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Gadget object in session sessJ7k2l9",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_id: sessJ7k2l9, class_name: Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Order object in session session_7gH8KZ.",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_7gH8KZ, Order"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Delivery object in session session_7H3x9Q",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "session_7H3x9Q, Delivery"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session sess7891011",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess7891011, Widget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Gadget object in session sessA7k8Qz",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA7k8Qz, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Gadget object in session sessA1b2C3",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA1b2C3, Gadget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session sessX9Y8Z7",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessX9Y8Z7, Widget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Widget object in session sess9aQ7",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess9aQ7, Widget"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new QuantaBox object in session uvx742zqL9",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "uvx742zqL9, QuantaBox"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Parcel object in session s7q9t4e2l8",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "s7q9t4e2l8, Parcel"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Gizmo object in session sessQ7rL2N9",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessQ7rL2N9, Gizmo"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Container object in session sessA9b2C3",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA9b2C3, Container"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new DeliveryBox object in session sessA9b3C6",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sessA9b3C6, DeliveryBox"
+      }
+    ]
+  },
+  {
+    "instruction": "Create a new Order object in session sess9Q8tVw2",
+    "relevant_apis": [
+      {
+        "api_name": "create_object",
+        "arguments": "sess9Q8tVw2, Order"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a metamodel session by uploading the file ./ecore/Aircraft.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Aircraft.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/Device.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Device.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a new metamodel session on the stateless EMF server by uploading the file ./ecore/Library.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Library.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a metamodel session by uploading the file ./ecore/Financial.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Financial.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/SmartHome.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/SmartHome.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a new stateless metamodel session by uploading the file ./ecore/Logistics.ecore. Create the root class named 'LogisticsNetworkView' for this session, and also define a supporting component called 'RoutePlanModel'. The server will return a sessionId for this run; reference it as 'sess-LQ7'. For internal tracking, assign the root object the ID 'root-0824'. Do not reuse any of these identifiers in subsequent steps.",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Logistics.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a metamodel session by uploading the file ./ecore/Planet.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Planet.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "- Start a metamodel session by uploading the file ./ecore/City.ecore | ClassName: UrbanModel | SessionID: sess-4u9L | ObjectID: obj-7pC2. - Initialize a metamodel session with the file ./ecore/Author.ecore | ClassName: VillageModel | SessionID: sess-5zX3 | ObjectID: obj-2dQ9",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/City.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/BankSystem.ecore. The metamodel defines a class AccountLedger; a new session with ID sess_9Zq3 will be created and an initial object with ID obj_7Xf1 may be instantiated during setup.",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/BankSystem.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a new stateless metamodel session by uploading the file ./ecore/Commerce.ecore to the EMF server (the server will return a sessionId for subsequent requests).",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Commerce.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "- Start a metamodel session by uploading the file ./ecore/DomainModel.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/DomainModel.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "- Start a metamodel session by uploading the file ./ecore/Vehicle.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Vehicle.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a new stateless metamodel session by uploading the file ./ecore/IndustrialAutomation.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/IndustrialAutomation.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/SmartHome.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/SmartHome.ecore, initialize"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/CityTransport.ecore. The session defines a class named CityHub. After initialization, you will receive a sessionId such as sess_A3k9. You can reference a root element with objectId obj_F7r4 in subsequent requests.",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/CityTransport.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a new metamodel session by uploading the file ./ecore/SmartFactory.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/SmartFactory.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a stateless metamodel session by uploading the file ./ecore/Logistics.ecore. After submission, a sessionId will be returned. For this session, reference the root class 'DeliveryRoute' and the object ID 'OID-57Z'. Use unique identifiers for class names and IDs; do not reuse values from prior sessions.",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Logistics.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/DeltaEntity.ecore to the stateless EMF server (DeltaEntity metamodel). The server will return a unique sessionId for this session.",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/DeltaEntity.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/Robot.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Robot.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a stateless metamodel session by uploading the file ./ecore/SmartWorkflow.ecore. Use a unique class name WorkflowRoot, a distinct sessionId s-ALPHA-001, and an objectId obj-1001 to track this operation.",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/SmartWorkflow.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a metamodel session by uploading the file ./ecore/Vehicle.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Vehicle.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/StoreInventory.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/StoreInventory.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/ProductCatalog.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/ProductCatalog.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a stateless metamodel session by uploading the file ./ecore/Inventory.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Inventory.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/Library.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Library.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/Vehicle.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Vehicle.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/Inventory.ecore (class: InventoryRoot).",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Inventory.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a stateless metamodel session by uploading the file ./ecore/DomainModel.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/DomainModel.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a metamodel session by uploading the file ./ecore/Organization.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Organization.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/Constellation.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Constellation.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a metamodel session by uploading the file ./ecore/VehicleSystem.ecore. Ensure the model defines distinct classes such as Vehicle, Engine, and Wheel. A new sessionId will be generated and returned by the server.",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/VehicleSystem.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Initialize a new stateless metamodel session by uploading the file ./ecore/SmartHome.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/SmartHome.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/FinanceModel.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/FinanceModel.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/Inventory.ecore. The exercise defines distinct classes ProductInventory and WarehouseStock, and the server will return a unique session identifier for this run.",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Inventory.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/Vehicle.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/Vehicle.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Start a metamodel session by uploading the file ./ecore/SmartHome.ecore",
+    "relevant_apis": [
+      {
+        "api_name": "start_metamodel_session_stateless",
+        "arguments": "./ecore/SmartHome.ecore"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Component object id 7 in session sess9b7c to 'private'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess9b7c, Component, 7, visibility, private"
+      }
+    ]
+  },
+  {
+    "instruction": "Set the abstract property to true for Interface object id 7 in session sess_9xF7rZ",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess_9xF7rZ, Interface, 7, abstract, True"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 7 in session sessA1B2C3 to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1B2C3, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature to 'public' for Interface object id 7 in session sessA1",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature to 'public' for Interface object id 42 in session sess_Q9x7Z2",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "{\"session_id\": \"sess_Q9x7Z2\", \"class_name\": \"Interface\", \"object_id\": \"42\", \"feature_name\": \"visibility\", \"value\": \"public\"}, EMF_update_feature"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Widget object id 101 in session session_A1X9 to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "{\"session_id\": \"session_A1X9\", \"class_name\": \"Widget\", \"object_id\": \"101\", \"feature_name\": \"visibility\", \"value\": \"public\"}, "
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Gadget object id 42 in session sessA9X to 'private'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA9X, Gadget, 42, visibility, private"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Class object id 42 in session s7f8g9h to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "s7f8g9h, Class, 42, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 12 in session sessA1b2c3 to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1b2c3, Interface, 12, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 7 in session sess_X9yZ1Q to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess_X9yZ1Q, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature to 'public' for Interface object id 42 in session sX9pQ4l",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sX9pQ4l, Interface, 42, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature to 'private' for Interface object id 42 in session sess987zyx654",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess987zyx654, Interface, 42, visibility, private"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature to 'public' for Interface object id 7 in session sessNwY7",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessNwY7, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Widget object id 7 in session sN4rT9Qe to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sN4rT9Qe, Widget, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 7 in session session_k8M9l to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session_k8M9l, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 7 in session sess40a7b to public",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess40a7b, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Module object id 7 in session sessA9B8C7 to public",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA9B8C7, {\"class_name\":\"Module\",\"object_id\":\"7\",\"feature_name\":\"visibility\",\"value\":\"public\"}"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 42 in session sess789ABC to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess789ABC, Interface, 42, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature to 'public' for Interface object id 7 in session sessionA9x0",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessionA9x0, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Component object id 42 in session sess-9aB7Qz to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess-9aB7Qz, Component, 42, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 42 in session sess9a8b7c to 'private'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess9a8b7c, Interface, 42, visibility, private"
+      }
+    ]
+  },
+  {
+    "instruction": "Set the visibility feature to public for Widget object id 42 in session sessA9aB",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA9aB, Widget, 42, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Class object id 7 in session S-9fK3-GL to 'private'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "S-9fK3-GL, Class, 7, visibility, private"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 42 in session session_789 to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "{\"session_id\": \"session_789\", \"class_name\": \"Interface\", \"object_id\": \"42\", \"feature_name\": \"visibility\", \"value\": \"public\"}, "
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 7 in session session987xyz to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "session987xyz, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Set the visibility feature to 'public' for Component object id 42 in session sess_k9pLm3",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess_k9pLm3, Component, 42, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of a Component object id 42 in session sessA9F7 to 'public'.",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA9F7, Component, 42, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature to public for Interface object id 103 in session sess_uvw123XYZ",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess_uvw123XYZ, Interface, 103, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 7 in session s9a8d1b2C to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "{'session_id': 's9a8d1b2C', 'class_name': 'Interface', 'object_id': '7', 'feature_name': 'visibility', 'value': 'public'}, "
+      }
+    ]
+  },
+  {
+    "instruction": "Update the abstract feature to true for Interface object id 7 in session sessionQ3rT9",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessionQ3rT9, Interface, 7, abstract, true"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Widget object id 7 in session sessA1B2C3 to public",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA1B2C3, Widget, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Set the visibility feature to 'public' for Interface object id 42 in session sess9alpha",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "{\"session_id\":\"sess9alpha\",\"class_name\":\"Interface\",\"object_id\":\"42\",\"feature_name\":\"visibility\",\"value\":\"public\"}, Set the visibility feature to public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature to 'private' for Enum object id 7 in session sess987ghi654",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sess987ghi654, Enum, 7, visibility, private"
+      }
+    ]
+  },
+  {
+    "instruction": "Set the visibility feature to public for Interface object id 7 in session S-9f7a2b",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "S-9f7a2b, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of ModelClass object id 7 in session sessA9b8 to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA9b8, ModelClass, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Update the visibility feature of Interface object id 7 in session sessA9B8C7 to 'public'",
+    "relevant_apis": [
+      {
+        "api_name": "update_feature",
+        "arguments": "sessA9B8C7, Interface, 7, visibility, public"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the ProductBundle object with id 42 in session secX9aB7",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "secX9aB7, ProductBundle, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Order object with id 7 in session sess9d8f7g6h5",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess9d8f7g6h5, Order, 7"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Document instance with id 12 in session sessMNO456",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessMNO456, Document, 12"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 128 in session sessA1B2C3",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA1B2C3, Invoice, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Customer object with id 7 in session sessA1B2C3",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA1B2C3, Customer, 7"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget instance with id 7 in session sessA9x3Qz",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA9x3Qz, Widget, 7"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Order object with id 12 in session sessA9x7Q",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA9x7Q, Order, 12"
+      }
+    ]
+  },
+  {
+    "instruction": "- Inspect the Shipment object with id 42 in session sessA1B2C3",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA1B2C3, Shipment, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Customer instance with id 42 in session session_kL9m4tQz",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_kL9m4tQz, Customer, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Device object with id 1024 in session session_A7x9L12",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_A7x9L12, Device, 1024"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 42 in session sun987rah",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sun987rah, Invoice, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the InventoryItem object with id 42 in session q9Zx3tN8lV",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "q9Zx3tN8lV, InventoryItem, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 128 in session nxv983meq7",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "nxv983meq7, Invoice, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Order object with id 77 in session sessA9x4Q",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA9x4Q, Order, 77"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 77 in session session_X9qL4a",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_X9qL4a, Invoice, 77"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget object with id 7 in session jkl987uvw654",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "jkl987uvw654, Widget, 7"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Module object with id 128 in session sN4r8LqV3",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sN4r8LqV3, Module, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the DeliveryNote object with id 42 in session sN4kL9q2",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sN4kL9q2, DeliveryNote, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Order object with id 128 in session sessA9f6Jk",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA9f6Jk, Order, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Shipment object with id 512 in session q9t7v2mL",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "q9t7v2mL, Shipment, 512"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget object with id 42 in session sessionX9k2Q",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessionX9k2Q, Widget, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget object with id 42 in session sessA9d4f1",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA9d4f1, Widget, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 42 in session sess9q7rL3",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess9q7rL3, {\"class_name\":\"Invoice\",\"object_id\":\"42\"}"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget instance with id 128 in session sessionQ9Zx7Aa",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessionQ9Zx7Aa, Widget, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Show details of the Class instance Invoice with id 42 in session ses-9f4a7c",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "ses-9f4a7c, Invoice, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget object with id 42 in session s9f7qL2mN4",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "s9f7qL2mN4, Widget, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 42 in session session_q7r8n1",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "session_q7r8n1, Invoice, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 1024 in session s7q9l2m8",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "s7q9l2m8, Invoice-1024"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget object with id 314159 in session sess9fjK2lA4",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess9fjK2lA4, Widget, 314159"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Order object with id 7 in session sessionX7k8Qe",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessionX7k8Qe, Order, 7"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Customer instance with id 42 in session sessX9y8Z",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessX9y8Z, Customer, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 101 in session sessX9Y8Z7",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessX9Y8Z7, Invoice, 101"
+      }
+    ]
+  },
+  {
+    "instruction": "Show details of the Module instance with id 1024 in session sessA9K.",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessA9K, Module, 1024"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Invoice object with id 128 in session sessX9b3Qz",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessX9b3Qz, Invoice, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Show details of the Order instance with id 42 in session sess9x7qz",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sess9x7qz, Order, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Inspect the Widget object with id 1024 in session sessionX1Y2Z",
+    "relevant_apis": [
+      {
+        "api_name": "inspect_instance",
+        "arguments": "sessionX1Y2Z, Widget, 1024"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'version' feature of the Module object with id 42 in session sessA1B2C3",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1B2C3, Module, 42, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the feature 'status' on the Invoice object with ID '42' in session 'sessA1B2C3'.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1B2C3, Invoice, 42, status"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'deprecated' on the Interface object with id 42 in session sessX9a4P",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessX9a4P, Interface, 42, deprecated"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the feature 'description' from the Library object with ID 128 in session sXx8qP77.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sXx8qP77, Library, 128, description"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'buildVersion' feature on the Module object with id 42 in session session_ghI4kL",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_ghI4kL, Module, 42, buildVersion"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' on the Package object with id 17 in session sessA9xZ7",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA9xZ7, Package, 17, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'version' feature on object 42 of class Package within session sessA9fY3.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "{\"session_id\":\"sessA9fY3\",\"class_name\":\"Package\",\"object_id\":\"42\",\"feature_name\":\"version\"}, Clear the feature without affecting other features."
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'version' feature on the Library object with id 42 in session abc123-xyz",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "abc123-xyz, Library, 42, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' from the Package object with ID pkgObj0042 in session sessZ9a8K.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessZ9a8K, Package, pkgObj0042, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' on the Package object with id 87 in session sess_7gKpQ1",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess_7gKpQ1, Package, 87, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'status' feature on the Invoice object with id 42 in session sessA7a9D",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "{\"session_id\":\"sessA7a9D\",\"class_name\":\"Invoice\",\"object_id\":\"42\",\"feature_name\":\"status\"}, operation=clear"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' for the Interface object with id 42 in session m0n0p1q2r3s4",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "m0n0p1q2r3s4, Interface, 42, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'dueDate' on the Invoice object with id 42 in session sess_7d9b2a",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess_7d9b2a, Invoice, 42, dueDate"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'version' feature from object 42 of class Package in session sess987654321.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "{\"session_id\":\"sess987654321\",\"class_name\":\"Package\",\"object_id\":\"42\",\"feature_name\":\"version\"}, "
+      }
+    ]
+  },
+  {
+    "instruction": "In session sessQ9r7t2, clear (unset) the feature 'version' on the object with ID 42 of the class 'Package'.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessQ9r7t2, Package, 42, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'name' feature for the Package object id 1001 in session sessA1B2C3",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1B2C3, Package, 1001, name"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'version' feature of Package object id 42 in session sess9a8b7c",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess9a8b7c, Package, 42, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the buildVersion feature on the Component object with id 1024 in session sess777aaa999",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess777aaa999, Component, 1024, buildVersion"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' from the Package object with ID 3021 in session sesA1B2C3",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sesA1B2C3, Package, 3021, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'abstract' feature on the EClass object with ID 42 in session sess789xyz.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess789xyz, EClass, 42, abstract"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the feature 'version' on the object with ID obj_0047 of class Package in session sess_7a9cB2.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess_7a9cB2, Package, obj_0047, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'name' on the object with ID 42 of class 'Package' in session sess987xyz.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess987xyz, Package, 42, name"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the feature 'version' on the object with ID 'obj-308' of class 'Module' in session 'sessA7f9B'.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA7f9B, Module, obj-308, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' from the object with id 42 of class 'Package' in session session_7gH9Xz",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_7gH9Xz, Package, 42, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the 'status' feature from the Document object with id 42 in session sessX9z7",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessX9z7, Document, 42, status"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' on the Package object with id 77 in session sess987xyz.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sess987xyz, Package, 77, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'version' feature of the Widget object with id 1024 in session sessA1B2C3.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "{\"session_id\": \"sessA1B2C3\", \"class_name\": \"Widget\", \"object_id\": \"1024\", \"feature_name\": \"version\"}, unused"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the version feature of the Package object with id 7 in session def456ghi789.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "def456ghi789, Package, 7, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the feature 'version' on the Module instance with id 101 in session srs987uvw654.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "srs987uvw654, Module, 101, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'name' on the Package object with ID object_A9B4 in session session_Q1N2O3",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_Q1N2O3, Package, object_A9B4, name"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the feature 'version' on the Package object with id 42 in session sessA7b9C3",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA7b9C3, Package, 42, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the 'version' feature on the object with id 7 in session sessA9kLm for class Package.",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA9kLm, Package, 7, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the version feature of Class object id 77 in session session_72a8f9d1",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "session_72a8f9d1, Class, 77, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the enabled feature for the Component object with id 7 in session sessA9b6F",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA9b6F, Component, 7, enabled"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear (unset) the feature 'version' on the ClassNameX object with id 42 in session sessionA1B2C3",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessionA1B2C3, ClassNameX, 42, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Clear the version feature of Package object id 7 in session sessA1B2",
+    "relevant_apis": [
+      {
+        "api_name": "clear_feature",
+        "arguments": "sessA1B2, Package, 7, version"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Order object with id ORD-8241 in session sessA9b7xQ4",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA9b7xQ4, Order, ORD-8241"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Device object with ID 42 in session sess9A7B4.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess9A7B4, Device, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with ID objJ3kL of class Operation in session sessionX9a7",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessionX9a7, Operation, objJ3kL"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Package object with id 77 in session session_7a9f5d",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_7a9f5d, Package, 77"
+      }
+    ]
+  },
+  {
+    "instruction": "Use delete_object to remove the object of class 'Package' with id 42 from session sessA9d.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA9d, Package, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with ID 0042 in the class Document within the EMF session sessZ9Q8.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessZ9Q8, Document, 0042"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the EAttribute object with id 7 in session sessA1b2C3 to remove the obsolete feature",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA1b2C3, EAttribute, 7"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Document object with id 77 in session sess987xyz654",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess987xyz654, Document, 77"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Gadget object with id 77 in session session_xyz987",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_xyz987, Gadget, 77"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with id 108 of class Device in session sessG91tQ7",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessG91tQ7, {\"class_name\": \"Device\", \"object_id\": \"108\"}"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Event object with id 42 in session session_k9l2p3",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_k9l2p3, Event, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object of class 'Person' with ID '7' in session 'sess002'.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess002, Person, 7"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with id 42 of class Order in session sessA1b2",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA1b2, Order, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "- Delete the object with id 42 for class Interface in session sessA9b8c7",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA9b8c7, Interface, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Asset object with id 128 in session sess9a8b7c6",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess9a8b7c6, Asset, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Enumeration object with id obj-42 in session sesA7kLm.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sesA7kLm, Enumeration, obj-42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with id 42 of class Person in session sess_84hJq",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess_84hJq, Person, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Device object with id 3042 in session sessionA1B2C3",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessionA1B2C3, Device, 3042"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Interface object with id 42 in session sess-7B2z",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess-7B2z, Interface, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with ID 3041 of class 'Invoice' in session 'session_P7x6Qv'.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_P7x6Qv, Invoice, 3041"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Product object with id 42 in session sess9aZ7kL",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess9aZ7kL, Product, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object of class Entity with id 77 in session sessA1b2C3X",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA1b2C3X, Entity, 77"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Class instance with id 42 from session sessA1b2.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA1b2, Class, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Person object with ID obj-0427 in session sess987Gq4.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess987Gq4, Person, obj-0427"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with ID obj-42 of class Experiment in session sessA9B8C7",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA9B8C7, Experiment, obj-42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Interface object with id 42 in session sess_r9a8b7",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess_r9a8b7, Interface, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with id 42 of class Sensor in session sess_9pQ3Xz.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess_9pQ3Xz, Sensor, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Widget object with id 42 in session sessX9",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessX9, Widget, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Interface object with id 42 in session session_ghij7890",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "session_ghij7890, Interface, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Entity object with id 42 in session sess789xyz",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess789xyz, Entity, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the object with ID 73 from class Widget in session sess9a7f6b",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess9a7f6b, Widget, 73"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Association object with id 1024 in session sessA9kLm3",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessA9kLm3, Association, 1024"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Sensor object with id 128 in session sessX9y8Z7.",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sessX9y8Z7, Sensor, 128"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Motor object with id 1024 in session sess9Qw7",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess9Qw7, Motor, 1024"
+      }
+    ]
+  },
+  {
+    "instruction": "Delete the Process object with id 42 in session sess789ghi012",
+    "relevant_apis": [
+      {
+        "api_name": "delete_object",
+        "arguments": "sess789ghi012, Process, 42"
+      }
+    ]
+  },
+  {
+    "instruction": "List all features for the InventoryItem class in session session_7a9b6c2d",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "session_7a9b6c2d, InventoryItem"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for a NetworkDevice class in session sessN64b9k1",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessN64b9k1, NetworkDevice"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for a Product class in session sessA9m2t7",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA9m2t7, Product"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for an Invoice class in session sess_d4R9m8Qp2Z",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess_d4R9m8Qp2Z, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for an Invoice class in session sess9K8m2Q",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess9K8m2Q, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for the ProductInventory class in session a1b2c3d4e5",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "a1b2c3d4e5, ProductInventory"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the Widget class using the stateless introspection endpoint of the EMF tool in session sessQw3r9n.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessQw3r9n, Widget"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the Sensor class in session p9x7q4z1",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "p9x7q4z1, Sensor"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for a WidgetModel class in session sessA1B2C3D",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA1B2C3D, WidgetModel"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the Entity class in session sessA9b8C7",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA9b8C7, Entity"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the Vehicle class in session sessG7h3Q9",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessG7h3Q9, Vehicle"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for a Payment class in session sess7a9b8c6d",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess7a9b8c6d, Payment"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for the Widget class using the stateless introspection endpoint in session s9b8c7d6e5",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "s9b8c7d6e5, Widget"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the State class in session sesS4t9u8",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sesS4t9u8, State"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for a Shipment class in session s5a9d7e2c1",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "s5a9d7e2c1, Shipment"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for a Product class in session s9aT4q8L",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "s9aT4q8L, Product"
+      }
+    ]
+  },
+  {
+    "instruction": "List all features available for the Invoice class in session sessionNQ7e4w9",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessionNQ7e4w9, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "- List the features available for the InventoryItem class in session sessX9y8Z0",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessX9y8Z0, InventoryItem"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for an Invoice class using the stateless introspection endpoint in session ses987uvw654",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "ses987uvw654, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for an Invoice class in session sessR7q9t2",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessR7q9t2, Invoice"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the Entity class in session sessA1b2C3",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA1b2C3, Entity"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the Entity class in session sess987ghi654",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess987ghi654, Entity"
+      }
+    ]
+  },
+  {
+    "instruction": "- List all available features for the Product entity in session s9a8b7c6",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "s9a8b7c6, Product"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the Product class using the stateless introspection endpoint in session sess_A9b8C3",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess_A9b8C3, Product"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the Vehicle class in session sessG4T9kQ2",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessG4T9kQ2, Vehicle"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the NetworkInterface class in session sessM9n4Q7",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessM9n4Q7, NetworkInterface"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the InventoryItem class in session sessA1b2C3",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessA1b2C3, InventoryItem"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for an Entity class in session sess999888777",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess999888777, Entity"
+      }
+    ]
+  },
+  {
+    "instruction": "List all available features for the InventoryItem class in session s8L2pQ3r",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "s8L2pQ3r, InventoryItem"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for the CustomerProfile class in the current session.",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "s4k8n2Qw7x9, CustomerProfile"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for the Order class in session sessQ4r8t1",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessQ4r8t1, Order"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for the Payment class in session sess9a8b7c6",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess9a8b7c6, Payment"
+      }
+    ]
+  },
+  {
+    "instruction": "Show the features available for the Product class in session sess987qwe654",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sess987qwe654, Product"
+      }
+    ]
+  },
+  {
+    "instruction": "List all features available for the OrderLine class in session sessZ9x8w7v6",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "sessZ9x8w7v6, OrderLine"
+      }
+    ]
+  },
+  {
+    "instruction": "Provide a request to list the features for the ProductCategory class using the stateless introspection endpoint via the list_features tool in session s7n2k8v4",
+    "relevant_apis": [
+      {
+        "api_name": "list_features",
+        "arguments": "s7n2k8v4, ProductCategory"
+      }
+    ]
+  }
+]
