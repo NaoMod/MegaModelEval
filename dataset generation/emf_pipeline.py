@@ -98,18 +98,20 @@ def build_emf_workflows(tool_names: List[str]) -> List[List[str]]:
     return workflows
 
 
-def _get_tool_arguments_template(tool_name: str) -> Dict[str, str]:
-    """Get argument template for each tool type."""
+def _get_tool_arguments_template(tool_name: str) -> List[str]:
+    """Get required argument names for each tool type."""
     templates = {
-        "start_metamodel_session_stateless": {"metamodel_file_path": "e.g., './ecore/Family.ecore'"},
-        "create_object": {"session_id": "abc123", "class_name": "e.g., Package"},
-        "update_feature": {"session_id": "abc123", "class_name": "e.g., Class", "object_id": "1", "feature_name": "e.g., visibility", "value": "e.g., public"},
-        "inspect_instance": {"session_id": "abc123", "class_name": "e.g., Package", "object_id": "1"},
-        "list_features": {"session_id": "abc123", "class_name": "e.g., Class"},
-        "clear_feature": {"session_id": "abc123", "class_name": "e.g., Package", "object_id": "1", "feature_name": "e.g., version"},
-        "delete_object": {"session_id": "abc123", "class_name": "e.g., Class", "object_id": "1"},
+        "start_metamodel_session_stateless": ["metamodel_file_path"],
+        "create_object": ["session_id", "class_name"],
+        "update_feature": ["session_id", "class_name", "object_id", "feature_name", "value"],
+        "inspect_instance": ["session_id", "class_name", "object_id"],
+        "list_features": ["session_id", "class_name"],
+        "clear_feature": ["session_id", "class_name", "object_id", "feature_name"],
+        "delete_object": ["session_id", "class_name", "object_id"],
+        "list_session_objects": ["session_id"],
+        "get_session_info": ["session_id"],
     }
-    return templates.get(tool_name, {})
+    return templates.get(tool_name, [])
 
 
 def generate_emf_single_tool_instructions(
@@ -151,7 +153,6 @@ def generate_emf_single_tool_instructions(
             
             # Get argument template for this tool
             arg_template = _get_tool_arguments_template(name)
-            arg_desc = json.dumps(arg_template, indent=2)
             
             # Get seeds matching this specific tool
             all_seeds = EMFSingleToolSeeds.get_seeds()
@@ -165,13 +166,19 @@ def generate_emf_single_tool_instructions(
             # Build seed examples with diverse values
             seed_examples = "\n".join([f"- {s.instruction}" for s in selected_seeds])
             
+            # Build argument names list for the prompt
+            arg_names = list(arg_template.keys())
+            arg_names_str = ", ".join(arg_names)
+            
             p = prompt or (
                 f"Generate an INSTRUCTION for this EMF tool.\n\n"
                 f"Tool: {name}\n"
                 f"Description: {desc}\n\n"
                 f"Example instructions:\n{seed_examples}\n\n"
-                f"Required Arguments (provide as JSON):\n{arg_desc}\n\n"
-                f"RULE: Use different values for class names, session IDs, and object IDs. Do not repeat the same values.\n\n"
+                f"RULES:\n"
+                f"1. Use ONLY these arguments (no extra fields): {arg_names_str}\n"
+                f"2. Use different values for session IDs, class names, and object IDs. Do not repeat.\n"
+                f"3. Arguments should be simple strings or values, not nested objects or arrays.\n\n"
                 f"OUTPUT FORMAT - Return ONLY valid JSON (no extra text, no trailing commas, no garbage after the closing brace):\n"
                 f'{{"instruction": "your instruction here", "arguments": {{"arg1": "value1", "arg2": "value2"}}}}\n\n'
                 f"IMPORTANT: Output ONLY the JSON object. No explanation, no extra text before or after.\n\n"
@@ -215,9 +222,9 @@ def generate_emf_single_tool_instructions(
                     if isinstance(arguments, dict):
                         args_list = [str(v) for v in arguments.values()]
                     
-                    # If arguments weren't properly parsed as dict, use template
+                    # If arguments weren't properly parsed as dict, use empty (LLM should provide)
                     if not args_list:
-                        args_list = [str(v) for v in arg_template.values()]
+                        args_list = []
                     
                     arguments_str = ", ".join(args_list)
                     
@@ -297,35 +304,43 @@ def generate_emf_multi_tool_instructions(
                 f"Step 1 Tool: {tool_a}\n"
                 f"Step 2 Tool: {tool_b}\n"
                 f"Workflow Type: {combined_pattern}\n\n"
-                f"Guidelines:\n"
-                "1. The instruction should logically chain two EMF operations\n"
-                "2. Use concrete session IDs and object identifiers\n"
-                "3. Make the workflow sequence realistic and practical\n"
-                "4. Include relevant class names and property details\n"
-                "5. Do not mention tool names\n\n"
                 f"Example 2-step workflows:\n{seed_examples}\n\n"
-                "Generate one cohesive instruction for this 2-step workflow:"
+                f"RULES:\n"
+                "1. Use ONLY the required arguments for each tool. No extra fields or properties.\n"
+                "2. Use different values for session IDs, class names, and object IDs. Do not repeat.\n"
+                "3. Arguments should be simple strings or values, not nested objects or arrays.\n"
+                "4. Do not mention tool names or function names in the instruction.\n\n"
+                f"OUTPUT FORMAT - Return ONLY valid JSON (no extra text, no trailing commas, no garbage after the closing brace):\n"
+                f'{{"instruction": "your instruction here", "relevant_apis": [{{"api_name": "{tool_a}", "arguments": "val1, val2, val3"}}, {{"api_name": "{tool_b}", "arguments": "val1, val2"}}]}}\n\n'
+                f"IMPORTANT: Output ONLY the JSON object. No explanation, no extra text before or after.\n\n"
+                f"Generate one 2-step workflow:"
             )
-            
-            # Pick a random seed pattern for the actual function calls
-            seed_pattern = random.choice(selected_seeds).pattern if selected_seeds else f"{tool_a}(...), {tool_b}(...)"
+            print("-"*40)
+            print(p)
             
             try:
                 msg = llm.invoke(p)
-                instruction = getattr(msg, "content", str(msg)).strip()
+                response_text = getattr(msg, "content", str(msg)).strip()
+                
+                # Try to parse JSON from response
+                try:
+                    parsed = json.loads(response_text)
+                    instruction = parsed.get("instruction", "").strip()
+                    relevant_apis = parsed.get("relevant_apis", [])
+                except json.JSONDecodeError:
+                    # Fallback
+                    instruction = f"Use {tool_a} followed by {tool_b}"
+                    relevant_apis = []
+                
                 llm_calls += 1
+                
+                if instruction and relevant_apis:
+                    items.append({
+                        "instruction": instruction,
+                        "relevant_apis": relevant_apis,
+                    })
             except Exception:
-                instruction = f"Use {tool_a} followed by {tool_b}"
-
-            items.append({
-                "pattern": seed_pattern,  # Actual function calls with arguments
-                "instruction": instruction,
-                "relevant_apis": [
-                    {"api_name": tool_a, "tool_id": _derive_emf_pattern(tool_a)[0]},
-                    {"api_name": tool_b, "tool_id": _derive_emf_pattern(tool_b)[0]}
-                ],
-                "workflow_type": combined_pattern,
-            })
+                continue
     
     return items
 
