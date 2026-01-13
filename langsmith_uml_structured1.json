@@ -1,0 +1,843 @@
+{
+  "execution_traces": [
+    {
+      "trace_steps": [
+        {
+          "tool_name": "apply_Class2Relational_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"file_path\": \"/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "prompt": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'list_transformation_Class2Relational_tool' without any input.\n2. APPLYING TRANSFORMATIONS:\n   - Tool: apply_<transformation_name>_transformation_tool\n   - Input format: ONLY the file path, as file_path\n ",
+      "tools": [
+    {
+      "name": "extract_input_metamodel_name",
+      "description": "Extracts the metamodel name from an XMI file. The input should be a file path to an XMI file. Returns the metamodel name (like 'Class', 'Grafcet', 'ECORE', or 'KM3').",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_samples_tool",
+      "description": "List sample source model paths for enabled transformations. Optionally provide a transformation_name to filter the results.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_KM32DSL_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: DSL. This tool transforms KM3 model into DSL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_KM32DSL_tool",
+      "description": "Displays details of transformation KM32DSL that transforms KM3 model into DSL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_KM32EMF_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: EMF. This tool transforms KM3 model into EMF model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_KM32EMF_tool",
+      "description": "Displays details of transformation KM32EMF that transforms KM3 model into EMF model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PNML2XML_transformation_tool",
+      "description": "Input metamodel: PNML, Output metamodel: XML. This tool transforms PNML model into XML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PNML2XML_tool",
+      "description": "Displays details of transformation PNML2XML that transforms PNML model into XML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Mantis2XML_transformation_tool",
+      "description": "Input metamodel: Mantis, Output metamodel: XML. This tool transforms Mantis model into XML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Mantis2XML_tool",
+      "description": "Displays details of transformation Mantis2XML that transforms Mantis model into XML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2Ant_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: Ant. This tool transforms XML model into Ant model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2Ant_tool",
+      "description": "Displays details of transformation XML2Ant that transforms XML model into Ant model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+      "description": "Input metamodel: SimpleClass, Output metamodel: SimpleRDBMS. This tool transforms SimpleClass model into SimpleRDBMS model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_SimpleClass2SimpleRDBMS_tool",
+      "description": "Displays details of transformation SimpleClass2SimpleRDBMS that transforms SimpleClass model into SimpleRDBMS model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2XSLT_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: XSLT. This tool transforms XML model into XSLT model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2XSLT_tool",
+      "description": "Displays details of transformation XML2XSLT that transforms XML model into XSLT model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Families2Persons_transformation_tool",
+      "description": "Input metamodel: Families, Output metamodel: Persons. This tool transforms Families model into Persons model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Families2Persons_tool",
+      "description": "Displays details of transformation Families2Persons that transforms Families model into Persons model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_MySQL2KM3_transformation_tool",
+      "description": "Input metamodel: MySQL, Output metamodel: KM3. This tool transforms MySQL model into KM3 model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_MySQL2KM3_tool",
+      "description": "Displays details of transformation MySQL2KM3 that transforms MySQL model into KM3 model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Ant2Maven_transformation_tool",
+      "description": "Input metamodel: Ant, Output metamodel: MavenMaven. This tool transforms Ant model into MavenMaven model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Ant2Maven_tool",
+      "description": "Displays details of transformation Ant2Maven that transforms Ant model into MavenMaven model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_UML2MOF_transformation_tool",
+      "description": "Input metamodel: , Output metamodel: . This tool transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_UML2MOF_tool",
+      "description": "Displays details of transformation UML2MOF that transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_KM32OWL_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: OWL. This tool transforms KM3 model into OWL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_KM32OWL_tool",
+      "description": "Displays details of transformation KM32OWL that transforms KM3 model into OWL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Grafcet2PetriNet_transformation_tool",
+      "description": "Input metamodel: Grafcet, Output metamodel: PetriNet. This tool transforms Grafcet model into PetriNet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Grafcet2PetriNet_tool",
+      "description": "Displays details of transformation Grafcet2PetriNet that transforms Grafcet model into PetriNet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PathExp2PetriNet_transformation_tool",
+      "description": "Input metamodel: PathExp, Output metamodel: PetriNet. This tool transforms PathExp model into PetriNet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PathExp2PetriNet_tool",
+      "description": "Displays details of transformation PathExp2PetriNet that transforms PathExp model into PetriNet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2MySQL_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: MySQL. This tool transforms XML model into MySQL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2MySQL_tool",
+      "description": "Displays details of transformation XML2MySQL that transforms XML model into MySQL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_RedundantInheritance_with_context_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: KM3target. This tool transforms KM3 model into KM3target model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_RedundantInheritance_with_context_tool",
+      "description": "Displays details of transformation RedundantInheritance_with_context that transforms KM3 model into KM3target model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_ATOM2RSS_transformation_tool",
+      "description": "Input metamodel: ATOM, Output metamodel: RSS. This tool transforms ATOM model into RSS model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_ATOM2RSS_tool",
+      "description": "Displays details of transformation ATOM2RSS that transforms ATOM model into RSS model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_UML2KM3_transformation_tool",
+      "description": "Input metamodel: UML, Output metamodel: KM3. This tool transforms UML model into KM3 model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_UML2KM3_tool",
+      "description": "Displays details of transformation UML2KM3 that transforms UML model into KM3 model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_A2B_transformation_tool",
+      "description": "Input metamodel: A, Output metamodel: B. This tool transforms A model into B model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_A2B_tool",
+      "description": "Displays details of transformation A2B that transforms A model into B model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Make2Ant_transformation_tool",
+      "description": "Input metamodel: Make, Output metamodel: Ant. This tool transforms Make model into Ant model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Make2Ant_tool",
+      "description": "Displays details of transformation Make2Ant that transforms Make model into Ant model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PNML2PetriNet_transformation_tool",
+      "description": "Input metamodel: PNML, Output metamodel: PetriNet. This tool transforms PNML model into PetriNet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PNML2PetriNet_tool",
+      "description": "Displays details of transformation PNML2PetriNet that transforms PNML model into PetriNet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Table2SVGBarChart_transformation_tool",
+      "description": "Input metamodel: Table, Output metamodel: SVGBarChart. This tool transforms Table model into SVGBarChart model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Table2SVGBarChart_tool",
+      "description": "Displays details of transformation Table2SVGBarChart that transforms Table model into SVGBarChart model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_TextualPathExp2PathExp_transformation_tool",
+      "description": "Input metamodel: TextualPathExp, Output metamodel: PathExp. This tool transforms TextualPathExp model into PathExp model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_TextualPathExp2PathExp_tool",
+      "description": "Displays details of transformation TextualPathExp2PathExp that transforms TextualPathExp model into PathExp model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2R2ML_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: r2ml. This tool transforms XML model into r2ml model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2R2ML_tool",
+      "description": "Displays details of transformation XML2R2ML that transforms XML model into r2ml model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_KM32Problem_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: Problem. This tool transforms KM3 model into Problem model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_KM32Problem_tool",
+      "description": "Displays details of transformation KM32Problem that transforms KM3 model into Problem model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Ant2XML_transformation_tool",
+      "description": "Input metamodel: Ant, Output metamodel: XML. This tool transforms Ant model into XML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Ant2XML_tool",
+      "description": "Displays details of transformation Ant2XML that transforms Ant model into XML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Class2Relational_transformation_tool",
+      "description": "Input metamodel: Class, Output metamodel: Relational. This tool transforms Class model into Relational model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Class2Relational_tool",
+      "description": "Displays details of transformation Class2Relational that transforms Class model into Relational model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2DSL_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: DSL. This tool transforms XML model into DSL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2DSL_tool",
+      "description": "Displays details of transformation XML2DSL that transforms XML model into DSL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_UMLDI2SVG_transformation_tool",
+      "description": "Input metamodel: , Output metamodel: . This tool transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_UMLDI2SVG_tool",
+      "description": "Displays details of transformation UMLDI2SVG that transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Uml2Amble_transformation_tool",
+      "description": "Input metamodel: UMLDI, Output metamodel: Amble. This tool transforms UMLDI model into Amble model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Uml2Amble_tool",
+      "description": "Displays details of transformation Uml2Amble that transforms UMLDI model into Amble model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2SpreadsheetMLSimplified_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: MSOfficeExcel_SpreadsheetMLSimplified. This tool transforms XML model into MSOfficeExcel_SpreadsheetMLSimplified model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2SpreadsheetMLSimplified_tool",
+      "description": "Displays details of transformation XML2SpreadsheetMLSimplified that transforms XML model into MSOfficeExcel_SpreadsheetMLSimplified model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2PNML_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: PNML. This tool transforms XML model into PNML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2PNML_tool",
+      "description": "Displays details of transformation XML2PNML that transforms XML model into PNML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_R2ML2WSDL_transformation_tool",
+      "description": "Input metamodel: R2ML, Output metamodel: WSDL. This tool transforms R2ML model into WSDL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_R2ML2WSDL_tool",
+      "description": "Displays details of transformation R2ML2WSDL that transforms R2ML model into WSDL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PathExp2TextualPathExp_transformation_tool",
+      "description": "Input metamodel: PathExp, Output metamodel: TextualPathExp. This tool transforms PathExp model into TextualPathExp model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PathExp2TextualPathExp_tool",
+      "description": "Displays details of transformation PathExp2TextualPathExp that transforms PathExp model into TextualPathExp model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Partial2totalRoleB_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: KM3target. This tool transforms KM3 model into KM3target model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Partial2totalRoleB_tool",
+      "description": "Displays details of transformation Partial2totalRoleB that transforms KM3 model into KM3target model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Partial2totalRoleA_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: KM3target. This tool transforms KM3 model into KM3target model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Partial2totalRoleA_tool",
+      "description": "Displays details of transformation Partial2totalRoleA that transforms KM3 model into KM3target model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_UMLCLASSDIAGRAM2UMLPROFILE_transformation_tool",
+      "description": "Input metamodel: , Output metamodel: . This tool transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_UMLCLASSDIAGRAM2UMLPROFILE_tool",
+      "description": "Displays details of transformation UMLCLASSDIAGRAM2UMLPROFILE that transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2Book_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: Book. This tool transforms XML model into Book model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2Book_tool",
+      "description": "Displays details of transformation XML2Book that transforms XML model into Book model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Table2SpreadsheetMLSimplified_transformation_tool",
+      "description": "Input metamodel: Table, Output metamodel: MSOfficeExcel_SpreadsheetMLSimplified. This tool transforms Table model into MSOfficeExcel_SpreadsheetMLSimplified model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Table2SpreadsheetMLSimplified_tool",
+      "description": "Displays details of transformation Table2SpreadsheetMLSimplified that transforms Table model into MSOfficeExcel_SpreadsheetMLSimplified model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2Make_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: Make. This tool transforms XML model into Make model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2Make_tool",
+      "description": "Displays details of transformation XML2Make that transforms XML model into Make model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PetriNet2XML_transformation_tool",
+      "description": "Input metamodel: PetriNet, Output metamodel: XML. This tool transforms PetriNet model into XML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PetriNet2XML_tool",
+      "description": "Displays details of transformation PetriNet2XML that transforms PetriNet model into XML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Activity2BPMN_transformation_tool",
+      "description": "Input metamodel: UML, Output metamodel: BPMN. This tool transforms UML model into BPMN model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Activity2BPMN_tool",
+      "description": "Displays details of transformation Activity2BPMN that transforms UML model into BPMN model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Table2SVGPieChart_transformation_tool",
+      "description": "Input metamodel: Table, Output metamodel: SVGPieChart. This tool transforms Table model into SVGPieChart model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Table2SVGPieChart_tool",
+      "description": "Displays details of transformation Table2SVGPieChart that transforms Table model into SVGPieChart model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Table2TabularHTML_transformation_tool",
+      "description": "Input metamodel: Table, Output metamodel: HTML. This tool transforms Table model into HTML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Table2TabularHTML_tool",
+      "description": "Displays details of transformation Table2TabularHTML that transforms Table model into HTML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2GeoTrans_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: GeoTrans. This tool transforms XML model into GeoTrans model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2GeoTrans_tool",
+      "description": "Displays details of transformation XML2GeoTrans that transforms XML model into GeoTrans model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Book2Publication_transformation_tool",
+      "description": "Input metamodel: Book, Output metamodel: Publication. This tool transforms Book model into Publication model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Book2Publication_tool",
+      "description": "Displays details of transformation Book2Publication that transforms Book model into Publication model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_KM32Metrics_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: Metrics. This tool transforms KM3 model into Metrics model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_KM32Metrics_tool",
+      "description": "Displays details of transformation KM32Metrics that transforms KM3 model into Metrics model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_DSL2KM3_transformation_tool",
+      "description": "Input metamodel: DSL, Output metamodel: KM3. This tool transforms DSL model into KM3 model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_DSL2KM3_tool",
+      "description": "Displays details of transformation DSL2KM3 that transforms DSL model into KM3 model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XSLT2XQuery_transformation_tool",
+      "description": "Input metamodel: XSLT, Output metamodel: XQuery. This tool transforms XSLT model into XQuery model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XSLT2XQuery_tool",
+      "description": "Displays details of transformation XSLT2XQuery that transforms XSLT model into XQuery model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_UML2JAVA_transformation_tool",
+      "description": "Input metamodel: UML, Output metamodel: JAVA. This tool transforms UML model into JAVA model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_UML2JAVA_tool",
+      "description": "Displays details of transformation UML2JAVA that transforms UML model into JAVA model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_UML2OWL_transformation_tool",
+      "description": "Input metamodel: , Output metamodel: . This tool transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_UML2OWL_tool",
+      "description": "Displays details of transformation UML2OWL that transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2WSDL_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: WSDL. This tool transforms XML model into WSDL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2WSDL_tool",
+      "description": "Displays details of transformation XML2WSDL that transforms XML model into WSDL model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2PetriNet_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: PetriNet. This tool transforms XML model into PetriNet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2PetriNet_tool",
+      "description": "Displays details of transformation XML2PetriNet that transforms XML model into PetriNet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Maven2Ant_transformation_tool",
+      "description": "Input metamodel: MavenMaven, Output metamodel: Ant. This tool transforms MavenMaven model into Ant model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Maven2Ant_tool",
+      "description": "Displays details of transformation Maven2Ant that transforms MavenMaven model into Ant model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PetriNet2PNML_transformation_tool",
+      "description": "Input metamodel: PetriNet, Output metamodel: PNML. This tool transforms PetriNet model into PNML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PetriNet2PNML_tool",
+      "description": "Displays details of transformation PetriNet2PNML that transforms PetriNet model into PNML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_UML2MOF_2_transformation_tool",
+      "description": "Input metamodel: , Output metamodel: . This tool transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_UML2MOF_2_tool",
+      "description": "Displays details of transformation UML2MOF_2 that transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_Measure2Table_transformation_tool",
+      "description": "Input metamodel: Measure, Output metamodel: Table. This tool transforms Measure model into Table model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Measure2Table_tool",
+      "description": "Displays details of transformation Measure2Table that transforms Measure model into Table model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PetriNet2Grafcet_transformation_tool",
+      "description": "Input metamodel: PetriNet, Output metamodel: Grafcet. This tool transforms PetriNet model into Grafcet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PetriNet2Grafcet_tool",
+      "description": "Displays details of transformation PetriNet2Grafcet that transforms PetriNet model into Grafcet model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PetriNet2PathExp_transformation_tool",
+      "description": "Input metamodel: PetriNet, Output metamodel: PathExp. This tool transforms PetriNet model into PathExp model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PetriNet2PathExp_tool",
+      "description": "Displays details of transformation PetriNet2PathExp that transforms PetriNet model into PathExp model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_PrimaryKey_with_context_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: KM3. This tool transforms KM3 model into KM3 model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_PrimaryKey_with_context_tool",
+      "description": "Displays details of transformation PrimaryKey_with_context that transforms KM3 model into KM3 model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2RSS_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: RSS. This tool transforms XML model into RSS model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2RSS_tool",
+      "description": "Displays details of transformation XML2RSS that transforms XML model into RSS model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2DXF_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: DXF. This tool transforms XML model into DXF model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2DXF_tool",
+      "description": "Displays details of transformation XML2DXF that transforms XML model into DXF model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_METAH2ACME_transformation_tool",
+      "description": "Input metamodel: METAH, Output metamodel: ACME. This tool transforms METAH model into ACME model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_METAH2ACME_tool",
+      "description": "Displays details of transformation METAH2ACME that transforms METAH model into ACME model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_KM32DOT_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: DOT. This tool transforms KM3 model into DOT model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_KM32DOT_tool",
+      "description": "Displays details of transformation KM32DOT that transforms KM3 model into DOT model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_UML2Measure_transformation_tool",
+      "description": "Input metamodel: , Output metamodel: . This tool transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_UML2Measure_tool",
+      "description": "Displays details of transformation UML2Measure that transforms  model into  model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_JavaSource2Table_transformation_tool",
+      "description": "Input metamodel: JavaSource, Output metamodel: Table. This tool transforms JavaSource model into Table model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_JavaSource2Table_tool",
+      "description": "Displays details of transformation JavaSource2Table that transforms JavaSource model into Table model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "apply_XML2KML_transformation_tool",
+      "description": "Input metamodel: XML, Output metamodel: KML. This tool transforms XML model into KML model.",
+      "parameters": {},
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_XML2KML_tool",
+      "description": "Displays details of transformation XML2KML that transforms XML model into KML model.",
+      "parameters": {},
+      "server_name": null
+    }
+      ]
+    }
+  ],
+  "models": []
+}

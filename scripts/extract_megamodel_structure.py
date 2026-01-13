@@ -11,13 +11,11 @@ runs = list(client.list_runs(project_name="pr-blank-sticker-58"))
 structured_data = {
     "execution_traces": [],
     "agents": [],
-    "tools": [],
     "models": []
 }
 
 # Track unique agents and tools to avoid duplicates
 agents_map = {}
-tools_set = set()
 execution_traces_set = set()
 
 # Process each run
@@ -63,7 +61,8 @@ for run in runs:
             agent = {
                 "model": model_name,
                 "prompt": prompt_text[:500] if prompt_text else "",
-                "tools": []
+                "tools": [],
+                "_tool_names_set": set()  # Track tool names to avoid duplicates
             }
             agents_map[agent_key] = agent
             structured_data["agents"].append(agent)
@@ -71,10 +70,11 @@ for run in runs:
     # Extract tool map with descriptions (if available)
     tool_map = run.inputs.get("tool_map", {})
     
-    # Create tool entries for any run with tools (regardless of agent)
-    if tool_names:
+    # Add tool entries directly to agent
+    if tool_names and model_name and model_name != "unknown":
+        agent_key = model_name
         for tool_name in tool_names:
-            if tool_name not in tools_set:
+            if tool_name not in agents_map[agent_key]["_tool_names_set"]:
                 # Get description from tool_map if available, otherwise leave empty
                 tool_description = ""
                 if tool_name in tool_map and isinstance(tool_map[tool_name], dict):
@@ -86,15 +86,8 @@ for run in runs:
                     "parameters": {},
                     "server_name": None
                 }
-                structured_data["tools"].append(tool)
-                tools_set.add(tool_name)
-        
-        # Add tools to the agent if one was created for this run
-        if model_name and model_name != "unknown":
-            agent_key = model_name
-            for tool_name in tool_names:
-                if tool_name not in agents_map[agent_key]["tools"]:
-                    agents_map[agent_key]["tools"].append(tool_name)
+                agents_map[agent_key]["tools"].append(tool)
+                agents_map[agent_key]["_tool_names_set"].add(tool_name)
     
     # Extract execution trace steps from the run
     trace_steps = []
@@ -151,6 +144,11 @@ for run in runs:
 
 # (Metamodels and transformation models removed per user request)
 
+# Clean up temporary tracking sets before writing
+for agent in structured_data["agents"]:
+    if "_tool_names_set" in agent:
+        del agent["_tool_names_set"]
+
 # Write the structured JSON to file
 with open("langsmith_uml_structured.json", "w", encoding="utf-8") as f:
     json.dump(structured_data, f, indent=2, ensure_ascii=False)
@@ -158,4 +156,5 @@ with open("langsmith_uml_structured.json", "w", encoding="utf-8") as f:
 print("Structured UML JSON generated and written to langsmith_uml_structured.json")
 print(f"Total execution traces: {len(structured_data['execution_traces'])}")
 print(f"Total agents: {len(structured_data['agents'])}")
-print(f"Total tools: {len(structured_data['tools'])}")
+total_tools = sum(len(agent['tools']) for agent in structured_data['agents'])
+print(f"Total tools across all agents: {total_tools}")
