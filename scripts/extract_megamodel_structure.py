@@ -5,33 +5,19 @@ load_dotenv()
 
 client = Client()
 
-# Fetch the complete trace
-parent_runs = list(client.list_runs(project_name="pr-blank-sticker-58", limit=1))
+# Number of traces to fetch
+NUM_TRACES = 12
+
+# Fetch the last NUM_TRACES parent runs
+parent_runs = list(client.list_runs(project_name="pr-blank-sticker-58", limit=NUM_TRACES))
 
 if not parent_runs:
     print("No runs found!")
     exit()
 
-parent_run = parent_runs[0]
-trace_id = parent_run.trace_id if hasattr(parent_run, 'trace_id') else parent_run.id
+print(f"Found {len(parent_runs)} parent runs to process")
 
-# Get all runs in the trace
-all_runs = list(client.list_runs(
-    project_name="pr-blank-sticker-58",
-    trace_id=trace_id
-))
-
-print(f"Found {len(all_runs)} runs in trace {trace_id}")
-
-# Save complete trace for reference
-with open("complete_trace_final.txt", "w", encoding="utf-8") as f:
-    for i, run in enumerate(all_runs):
-        f.write(f"\n{'='*80}\n")
-        f.write(f"RUN {i+1}: {run.name} ({run.run_type})\n")
-        f.write(f"{'='*80}\n")
-        f.write(str(run))
-        f.write("\n")
-
+# Global structured data - will accumulate unique entities
 structured_data = {
     "execution_traces": [],
     "workflows": [],
@@ -40,194 +26,237 @@ structured_data = {
     "models": []
 }
 
+# Maps to track unique entities across all traces
 agents_map = {}
 tools_map = {}
 workflows_map = {}
-
-print("\n" + "="*80)
-print("PROCESSING TRACE")
-print("="*80)
-
-# Find the LLM run with tool definitions in invocation_params
-llm_run = None
-for run in all_runs:
-    if run.run_type == "llm" and hasattr(run, 'extra'):
-        if 'invocation_params' in run.extra and 'tools' in run.extra['invocation_params']:
-            llm_run = run
-            print(f"Found LLM run with tool definitions: {run.name}")
-            break
-
-if not llm_run:
-    print("WARNING: No LLM run with tool definitions found!")
-    exit()
-
-# Extract model name and agent prompt
-model_name = None
-agent_prompt = ""
-user_instruction = ""
-
-# Get model name from invocation_params
-if 'invocation_params' in llm_run.extra:
-    model_name = llm_run.extra['invocation_params'].get('model_name')
-
-# Get messages from inputs
-if hasattr(llm_run, 'inputs') and 'messages' in llm_run.inputs:
-    messages = llm_run.inputs['messages']
-    if messages and len(messages) > 0:
-        # Messages are in LangChain format with nested structure
-        for msg_list in messages:
-            if isinstance(msg_list, list):
-                for msg in msg_list:
-                    if isinstance(msg, dict):
-                        msg_type = msg.get('kwargs', {}).get('type')
-                        msg_content = msg.get('kwargs', {}).get('content', '')
-                        
-                        if msg_type == 'system':
-                            agent_prompt = msg_content
-                            print(f"  Found agent prompt: {len(msg_content)} chars")
-                        elif msg_type == 'human':
-                            user_instruction = msg_content
-                            print(f"  Found user instruction: {user_instruction}")
-
-print(f"  Model: {model_name}")
-
-# Extract tools from invocation_params
-tools_from_schema = {}
-if 'invocation_params' in llm_run.extra and 'tools' in llm_run.extra['invocation_params']:
-    tool_list = llm_run.extra['invocation_params']['tools']
-    print(f"  Found {len(tool_list)} tool schemas in invocation_params")
-    
-    for tool_def in tool_list:
-        if 'function' in tool_def:
-            func = tool_def['function']
-            tool_name = func.get('name')
-            if tool_name:
-                tools_from_schema[tool_name] = {
-                    "name": tool_name,
-                    "description": func.get('description', ''),
-                    "parameters": func.get('parameters', {}),
-                    "server_name": None  # Not in the schema
-                }
-
-print(f"  Extracted {len(tools_from_schema)} tool schemas")
-
-# Create agent (without tool_refs)
-agent_id = None
-if model_name:
-    agent_id = f"agent_{model_name.replace('/', '_').replace('-', '_')}"
-    agent = {
-        "id": agent_id,
-        "model": model_name,
-        "prompt": agent_prompt
-    }
-    agents_map[agent_id] = agent
-    structured_data["agents"].append(agent)
-    print(f"  Created agent: {agent_id}")
-
-# Create tools (without id, just name)
-for tool_name, tool_info in tools_from_schema.items():
-    tool = {
-        "name": tool_name,
-        "description": tool_info["description"],
-        "parameters": tool_info["parameters"],
-        "server_name": tool_info["server_name"]
-    }
-    tools_map[tool_name] = tool
-    structured_data["tools"].append(tool)
-
-print(f"  Created {len(structured_data['tools'])} tools")
-
-# Extract unique models from tool descriptions
 models_set = set()
-for tool_name, tool_info in tools_from_schema.items():
-    description = tool_info["description"]
-    
-    # Parse "Input metamodel: X, Output metamodel: Y" pattern
-    if "Input metamodel:" in description and "Output metamodel:" in description:
-        # Extract input metamodel
-        input_part = description.split("Input metamodel:")[1].split(",")[0].strip()
-        if input_part and input_part != "":
-            models_set.add(input_part)
+
+# Save all traces for reference
+with open("complete_trace_final.txt", "w", encoding="utf-8") as f:
+    for trace_idx, parent_run in enumerate(parent_runs):
+        trace_id = parent_run.trace_id if hasattr(parent_run, 'trace_id') else parent_run.id
         
-        # Extract output metamodel
-        output_part = description.split("Output metamodel:")[1].split(".")[0].strip()
-        if output_part and output_part != "":
-            models_set.add(output_part)
+        # Get all runs in this trace
+        all_runs = list(client.list_runs(
+            project_name="pr-blank-sticker-58",
+            trace_id=trace_id
+        ))
+        
+        f.write(f"\n{'#'*80}\n")
+        f.write(f"TRACE {trace_idx + 1}/{len(parent_runs)} - ID: {trace_id}\n")
+        f.write(f"{'#'*80}\n")
+        
+        for i, run in enumerate(all_runs):
+            f.write(f"\n{'='*80}\n")
+            f.write(f"RUN {i+1}: {run.name} ({run.run_type})\n")
+            f.write(f"{'='*80}\n")
+            f.write(str(run))
+            f.write("\n")
 
-# Convert to sorted list for consistent output
-for model_name in sorted(models_set):
-    structured_data["models"].append({"name": model_name})
+print(f"\nSaved all traces to complete_trace_final.txt")
 
-print(f"  Extracted {len(structured_data['models'])} unique models")
-
-# Extract execution trace from tool runs
-tool_runs = [r for r in all_runs if r.run_type == "tool"]
-print(f"  Found {len(tool_runs)} tool execution runs")
-
-trace_steps = []
-for tool_run in tool_runs:
-    tool_name = tool_run.name
+# Process each trace
+for trace_idx, parent_run in enumerate(parent_runs):
+    trace_id = parent_run.trace_id if hasattr(parent_run, 'trace_id') else parent_run.id
     
-    # Create invocation from inputs
-    invocation = {
-        "content": json.dumps(tool_run.inputs) if tool_run.inputs else "",
-        "is_error": tool_run.status != "success" if hasattr(tool_run, 'status') else False
-    }
+    # Get all runs in this trace
+    all_runs = list(client.list_runs(
+        project_name="pr-blank-sticker-58",
+        trace_id=trace_id
+    ))
     
-    trace_step = {
-        "tool_ref": tool_name,  # Just the name, not prefixed with "tool_"
-        "success": tool_run.status == "success" if hasattr(tool_run, 'status') else False,
-        "invocations": [invocation]
-    }
-    trace_steps.append(trace_step)
-    print(f"    {tool_name} - {'SUCCESS' if trace_step['success'] else 'FAILED'}")
+    print("\n" + "="*80)
+    print(f"PROCESSING TRACE {trace_idx + 1}/{len(parent_runs)} - {len(all_runs)} runs")
+    print("="*80)
 
-# Create workflow
-workflow_id = None
-if agent_id:
-    workflow_id = f"workflow_{agent_id}"
-    workflow = {
-        "id": workflow_id,
-        "instruction": agent_prompt[:300] if agent_prompt else "",
-        "agent_ref": agent_id,
-        "plan_steps": []
-    }
-    
-    for trace_step in trace_steps:
-        step = {
-            "tool_ref": trace_step["tool_ref"],
-            "server_name": None,
-            "parameters": []
+    # Find the LLM run with tool definitions in invocation_params
+    llm_run = None
+    for run in all_runs:
+        if run.run_type == "llm" and hasattr(run, 'extra'):
+            if 'invocation_params' in run.extra and 'tools' in run.extra['invocation_params']:
+                llm_run = run
+                print(f"  Found LLM run with tool definitions: {run.name}")
+                break
+
+    if not llm_run:
+        print("  WARNING: No LLM run with tool definitions found, skipping this trace")
+        continue
+
+    # Extract model name and agent prompt
+    model_name = None
+    agent_prompt = ""
+    user_instruction = ""
+
+    # Get model name from invocation_params
+    if 'invocation_params' in llm_run.extra:
+        model_name = llm_run.extra['invocation_params'].get('model_name')
+
+    # Get messages from inputs
+    if hasattr(llm_run, 'inputs') and 'messages' in llm_run.inputs:
+        messages = llm_run.inputs['messages']
+        if messages and len(messages) > 0:
+            # Messages are in LangChain format with nested structure
+            for msg_list in messages:
+                if isinstance(msg_list, list):
+                    for msg in msg_list:
+                        if isinstance(msg, dict):
+                            msg_type = msg.get('kwargs', {}).get('type')
+                            msg_content = msg.get('kwargs', {}).get('content', '')
+                            
+                            if msg_type == 'system':
+                                agent_prompt = msg_content
+                                print(f"    Found agent prompt: {len(msg_content)} chars")
+                            elif msg_type == 'human':
+                                user_instruction = msg_content
+                                print(f"    Found user instruction: {user_instruction[:80]}...")
+
+    print(f"    Model: {model_name}")
+
+    # Extract tools from invocation_params
+    tools_from_schema = {}
+    if 'invocation_params' in llm_run.extra and 'tools' in llm_run.extra['invocation_params']:
+        tool_list = llm_run.extra['invocation_params']['tools']
+        print(f"    Found {len(tool_list)} tool schemas in invocation_params")
+        
+        for tool_def in tool_list:
+            if 'function' in tool_def:
+                func = tool_def['function']
+                tool_name = func.get('name')
+                if tool_name:
+                    tools_from_schema[tool_name] = {
+                        "name": tool_name,
+                        "description": func.get('description', ''),
+                        "parameters": func.get('parameters', {}),
+                        "server_name": None  # Not in the schema
+                    }
+
+    print(f"    Extracted {len(tools_from_schema)} tool schemas")
+
+    # Create or reuse agent (unique by id)
+    agent_id = None
+    if model_name:
+        agent_id = f"agent_{model_name.replace('/', '_').replace('-', '_')}"
+        if agent_id not in agents_map:
+            agent = {
+                "id": agent_id,
+                "model": model_name,
+                "prompt": agent_prompt
+            }
+            agents_map[agent_id] = agent
+            print(f"    Created new agent: {agent_id}")
+        else:
+            print(f"    Reusing existing agent: {agent_id}")
+
+    # Create tools (unique by name)
+    new_tools_count = 0
+    for tool_name, tool_info in tools_from_schema.items():
+        if tool_name not in tools_map:
+            tool = {
+                "name": tool_name,
+                "description": tool_info["description"],
+                "parameters": tool_info["parameters"],
+                "server_name": tool_info["server_name"]
+            }
+            tools_map[tool_name] = tool
+            new_tools_count += 1
+
+    print(f"    Added {new_tools_count} new tools (total unique: {len(tools_map)})")
+
+    # Extract unique models from tool descriptions
+    for tool_name, tool_info in tools_from_schema.items():
+        description = tool_info["description"]
+        
+        # Parse "Input metamodel: X, Output metamodel: Y" pattern
+        if "Input metamodel:" in description and "Output metamodel:" in description:
+            # Extract input metamodel
+            input_part = description.split("Input metamodel:")[1].split(",")[0].strip()
+            if input_part and input_part != "":
+                models_set.add(input_part)
+            
+            # Extract output metamodel
+            output_part = description.split("Output metamodel:")[1].split(".")[0].strip()
+            if output_part and output_part != "":
+                models_set.add(output_part)
+
+    # Extract execution trace from tool runs
+    tool_runs = [r for r in all_runs if r.run_type == "tool"]
+    print(f"    Found {len(tool_runs)} tool execution runs")
+
+    trace_steps = []
+    for tool_run in tool_runs:
+        tool_name = tool_run.name
+        
+        # Create invocation from inputs
+        invocation = {
+            "content": json.dumps(tool_run.inputs) if tool_run.inputs else "",
+            "is_error": tool_run.status != "success" if hasattr(tool_run, 'status') else False
         }
-        workflow["plan_steps"].append(step)
-    
-    workflows_map[workflow_id] = workflow
-    structured_data["workflows"].append(workflow)
-    print(f"  Created workflow with {len(workflow['plan_steps'])} steps")
+        
+        trace_step = {
+            "tool_ref": tool_name,  # Just the name, not prefixed with "tool_"
+            "success": tool_run.status == "success" if hasattr(tool_run, 'status') else False,
+            "invocations": [invocation]
+        }
+        trace_steps.append(trace_step)
 
-# Create execution trace
-if trace_steps and workflow_id:
-    execution_trace = {
-        "instruction": user_instruction,
-        "workflow_ref": workflow_id,
-        "trace_steps": trace_steps
-    }
-    structured_data["execution_traces"].append(execution_trace)
-    print(f"  Created execution trace")
+    # Create workflow (unique by instruction hash to avoid duplicates)
+    workflow_id = None
+    if agent_id and trace_steps:
+        # Create a unique workflow id based on the tools used
+        tools_signature = "_".join(sorted([s["tool_ref"] for s in trace_steps[:3]]))[:50]
+        workflow_id = f"workflow_{trace_idx}_{tools_signature}"
+        
+        if workflow_id not in workflows_map:
+            workflow = {
+                "id": workflow_id,
+                "instruction": agent_prompt[:300] if agent_prompt else "",
+                "agent_ref": agent_id,
+                "plan_steps": []
+            }
+            
+            for trace_step in trace_steps:
+                step = {
+                    "tool_ref": trace_step["tool_ref"],
+                    "server_name": None,
+                    "parameters": []
+                }
+                workflow["plan_steps"].append(step)
+            
+            workflows_map[workflow_id] = workflow
+            print(f"    Created workflow with {len(workflow['plan_steps'])} steps")
+        else:
+            print(f"    Reusing existing workflow: {workflow_id}")
+
+    # Create execution trace (each trace is unique)
+    if trace_steps and workflow_id:
+        execution_trace = {
+            "instruction": user_instruction,
+            "workflow_ref": workflow_id,
+            "trace_steps": trace_steps
+        }
+        structured_data["execution_traces"].append(execution_trace)
+        print(f"    Created execution trace with {len(trace_steps)} steps")
+
+# After processing all traces, populate structured_data with unique entities
+structured_data["agents"] = list(agents_map.values())
+structured_data["tools"] = list(tools_map.values())
+structured_data["workflows"] = list(workflows_map.values())
+structured_data["models"] = [{"name": name} for name in sorted(models_set)]
 
 # Write the structured JSON to file
 with open("langsmith_final_output.json", "w", encoding="utf-8") as f:
     json.dump(structured_data, f, indent=2, ensure_ascii=False)
 
 print("\n" + "="*80)
-print("FINAL RESULTS")
+print("FINAL RESULTS (MERGED FROM {} TRACES)".format(NUM_TRACES))
 print("="*80)
 print(f"JSON written to: langsmith_final_output.json")
 print(f"Execution traces: {len(structured_data['execution_traces'])}")
-print(f"Workflows: {len(structured_data['workflows'])}")
-print(f"Agents: {len(structured_data['agents'])}")
-print(f"Tools: {len(structured_data['tools'])}")
-print(f"Models: {len(structured_data['models'])}")
+print(f"Unique Workflows: {len(structured_data['workflows'])}")
+print(f"Unique Agents: {len(structured_data['agents'])}")
+print(f"Unique Tools: {len(structured_data['tools'])}")
+print(f"Unique Models: {len(structured_data['models'])}")
 
 # Print sample data
 if structured_data['agents']:
