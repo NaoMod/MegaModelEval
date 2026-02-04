@@ -8,14 +8,26 @@ client = Client()
 # Number of traces to fetch
 NUM_TRACES = 12
 
-# Fetch the last NUM_TRACES parent runs
-parent_runs = list(client.list_runs(project_name="pr-blank-sticker-58", limit=NUM_TRACES))
+# Fetch runs and deduplicate by trace_id to get unique traces
+all_runs = list(client.list_runs(project_name="pr-blank-sticker-58", limit=200))
 
-if not parent_runs:
+if not all_runs:
     print("No runs found!")
     exit()
 
-print(f"Found {len(parent_runs)} parent runs to process")
+# Deduplicate by trace_id - keep only first run from each trace
+seen_traces = {}
+for run in all_runs:
+    trace_id = str(run.trace_id if hasattr(run, 'trace_id') else run.id)
+    if trace_id not in seen_traces:
+        seen_traces[trace_id] = run
+    if len(seen_traces) >= NUM_TRACES:
+        break
+
+parent_runs = list(seen_traces.values())[:NUM_TRACES]
+
+print(f"Found {len(parent_runs)} unique traces to process")
+print(f"Trace IDs: {[str(run.trace_id if hasattr(run, 'trace_id') else run.id)[:8] + '...' for run in parent_runs]}")
 
 # Global structured data - will accumulate unique entities
 structured_data = {
@@ -68,6 +80,7 @@ for trace_idx, parent_run in enumerate(parent_runs):
     
     print("\n" + "="*80)
     print(f"PROCESSING TRACE {trace_idx + 1}/{len(parent_runs)} - {len(all_runs)} runs")
+    print(f"Trace ID: {trace_id}")
     print("="*80)
 
     # Find the LLM run with tool definitions in invocation_params
@@ -200,12 +213,12 @@ for trace_idx, parent_run in enumerate(parent_runs):
         }
         trace_steps.append(trace_step)
 
-    # Create workflow (unique by instruction hash to avoid duplicates)
+    # Create workflow (unique by tool sequence to avoid duplicates)
     workflow_id = None
     if agent_id and trace_steps:
-        # Create a unique workflow id based on the tools used
-        tools_signature = "_".join(sorted([s["tool_ref"] for s in trace_steps[:3]]))[:50]
-        workflow_id = f"workflow_{trace_idx}_{tools_signature}"
+        # Create a unique workflow id based on the tools used (without trace_idx for proper deduplication)
+        tools_signature = "_".join([s["tool_ref"] for s in trace_steps])
+        workflow_id = f"workflow_{tools_signature}"
         
         if workflow_id not in workflows_map:
             workflow = {
@@ -295,4 +308,5 @@ if structured_data['execution_traces']:
     print(f"Workflow: {trace['workflow_ref']}")
     print(f"Trace steps: {len(trace['trace_steps'])}")
     for step in trace['trace_steps']:
-        print(f"  - {step['tool_ref']} ({' ' if step['success'] else '✗'})")
+        status_symbol = '✓' if step['success'] else '✗'
+        print(f"  - {step['tool_ref']} ({status_symbol})")

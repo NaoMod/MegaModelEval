@@ -1,8 +1,162 @@
 {
   "execution_traces": [
     {
+      "instruction": "Apply the transformation KM32DOT to this file: /Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi",
+      "workflow_ref": "workflow_apply_KM32DOT_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_KM32DOT_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Apply the transformation XML2Make to this file: /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi",
+      "workflow_ref": "workflow_apply_XML2Make_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_XML2Make_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Apply the transformation Ant2XML to this file: /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi",
+      "workflow_ref": "workflow_apply_Ant2XML_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_Ant2XML_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Apply the transformation KM32Problem to this file: /Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi",
+      "workflow_ref": "workflow_apply_KM32Problem_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_KM32Problem_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Apply the transformation KM32OWL to this file: /Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi",
+      "workflow_ref": "workflow_apply_KM32OWL_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_KM32OWL_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Apply the transformation Maven2Ant to this file: /Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi",
+      "workflow_ref": "workflow_apply_Maven2Ant_transformation_tool_apply_Maven2Ant_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_Maven2Ant_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "apply_Maven2Ant_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Apply the transformation XML2Make to this file: /Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi",
+      "workflow_ref": "workflow_apply_XML2Make_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_XML2Make_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Apply the transformation Book2Publication to this file: /Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi",
+      "workflow_ref": "workflow_apply_Book2Publication_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_Book2Publication_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Apply the transformation Ant2Maven to this file: /Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
+      "workflow_ref": "workflow_apply_Ant2Maven_transformation_tool",
+      "trace_steps": [
+        {
+          "tool_ref": "apply_Ant2Maven_transformation_tool",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_0_apply_Ant2Maven_transformation_tool_apply_Class2Re",
+      "workflow_ref": "workflow_apply_Ant2Maven_transformation_tool_apply_Class2Relational_transformation_tool",
       "trace_steps": [
         {
           "tool_ref": "apply_Ant2Maven_transformation_tool",
@@ -27,285 +181,25 @@
       ]
     },
     {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_1_apply_Ant2Maven_transformation_tool_apply_Class2Re",
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_create_object_start_metamodel_session_stateless",
       "trace_steps": [
         {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
+          "tool_ref": "create_object",
           "success": true,
           "invocations": [
             {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
               "is_error": false
             }
           ]
         },
         {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
+          "tool_ref": "start_metamodel_session_stateless",
           "success": true,
           "invocations": [
             {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_2_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_3_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_4_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_5_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_6_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_7_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_8_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_9_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_10_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "instruction": "Apply the transformation Class2Realational to this file: /Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
-      "workflow_ref": "workflow_11_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "trace_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'file_path': '/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi'}\"}",
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
               "is_error": false
             }
           ]
@@ -315,7 +209,108 @@
   ],
   "workflows": [
     {
-      "id": "workflow_0_apply_Ant2Maven_transformation_tool_apply_Class2Re",
+      "id": "workflow_apply_KM32DOT_transformation_tool",
+      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
+      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "plan_steps": [
+        {
+          "tool_ref": "apply_KM32DOT_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_apply_XML2Make_transformation_tool",
+      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
+      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "plan_steps": [
+        {
+          "tool_ref": "apply_XML2Make_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_apply_Ant2XML_transformation_tool",
+      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
+      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "plan_steps": [
+        {
+          "tool_ref": "apply_Ant2XML_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_apply_KM32Problem_transformation_tool",
+      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
+      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "plan_steps": [
+        {
+          "tool_ref": "apply_KM32Problem_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_apply_KM32OWL_transformation_tool",
+      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
+      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "plan_steps": [
+        {
+          "tool_ref": "apply_KM32OWL_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_apply_Maven2Ant_transformation_tool_apply_Maven2Ant_transformation_tool",
+      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
+      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "plan_steps": [
+        {
+          "tool_ref": "apply_Maven2Ant_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "apply_Maven2Ant_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_apply_Book2Publication_transformation_tool",
+      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
+      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "plan_steps": [
+        {
+          "tool_ref": "apply_Book2Publication_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_apply_Ant2Maven_transformation_tool",
+      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
+      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "plan_steps": [
+        {
+          "tool_ref": "apply_Ant2Maven_transformation_tool",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_apply_Ant2Maven_transformation_tool_apply_Class2Relational_transformation_tool",
       "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
       "agent_ref": "agent_gpt_5_nano_2025_08_07",
       "plan_steps": [
@@ -332,187 +327,17 @@
       ]
     },
     {
-      "id": "workflow_1_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
+      "id": "workflow_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
       "plan_steps": [
         {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
+          "tool_ref": "create_object",
           "server_name": null,
           "parameters": []
         },
         {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_2_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_3_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_4_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_5_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_6_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_7_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_8_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_9_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_10_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "id": "workflow_11_apply_Ant2Maven_transformation_tool_apply_Class2Re",
-      "instruction": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'lis",
-      "agent_ref": "agent_gpt_5_nano_2025_08_07",
-      "plan_steps": [
-        {
-          "tool_ref": "apply_Ant2Maven_transformation_tool",
-          "server_name": null,
-          "parameters": []
-        },
-        {
-          "tool_ref": "apply_Class2Relational_transformation_tool",
+          "tool_ref": "start_metamodel_session_stateless",
           "server_name": null,
           "parameters": []
         }
@@ -524,6 +349,11 @@
       "id": "agent_gpt_5_nano_2025_08_07",
       "model": "gpt-5-nano-2025-08-07",
       "prompt": "You are a transformation handler agent. Follow these rules strictly:\n1. LISTING TRANSFORMATIONS:\n   - SINGLE transformation: Use list_transformation_<transformation_name>_tool\n     Input: NONE (leave input blank)\n     Example: To get, list or show the details of 'Class2Relational', use the tool 'list_transformation_Class2Relational_tool' without any input.\n2. APPLYING TRANSFORMATIONS:\n   - Tool: apply_<transformation_name>_transformation_tool\n   - Input format: ONLY the file path, as file_path\n"
+    },
+    {
+      "id": "agent_gpt_4o_mini",
+      "model": "gpt-4o-mini",
+      "prompt": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Returns sessionId.\n- create_object: Create a new object instance. Provide session_id and class_name.\n- update_feature: Update a feature on an object. Provide session_id, class_name, object_id, feature_name, value (string or JSON).\n- clear_feature: Clear (unset) a feature on an object. Provide session_id, class_name, object_id, feature_name.\n- delete_object: Delete an object. Provide session_id, class_name, object_id.\n- list_features: List features of a class using the stateless introspection endpoint. Provide session_id and class_name.\n- inspect_instance: Inspect an instance's values. Provide session_id, class_name, object_id.\n- list_session_objects: List all locally tracked objects for a session (IDs captured when creating objects via this client).\n- get_session_info: Get stored info about a session in this client (metamodel path, routes summary).\n\n\nCRITICAL INSTRUCTIONS:\n1. ALWAYS call start_metamodel_session_stateless FIRST with the metamodel file path\n2. Use the returned sessionId for ALL subsequent operations\n3. Call create_object with session_id and class_name (e.g., \"EClass\", \"EAttribute\", etc.)\n4. NEVER refuse or explain - ALWAYS call the appropriate tool\n\nExample workflow:\n- User asks to upload metamodel and create EClass\n- You MUST call: start_metamodel_session_stateless(metamodel_file_path=\"/path/to/file.ecore\")\n- Then call: create_object(session_id=\"returned_id\", class_name=\"EClass\")\n\nIMPORTANT: You have the tools to do this. USE THEM."
     }
   ],
   "tools": [
@@ -1906,6 +1736,34 @@
       "server_name": null
     },
     {
+      "name": "apply_KM32DOT_transformation_tool",
+      "description": "Input metamodel: KM3, Output metamodel: DOT. This tool transforms KM3 model into DOT model.",
+      "parameters": {
+        "properties": {
+          "file_path": {
+            "title": "File Path",
+            "type": "string"
+          }
+        },
+        "required": [
+          "file_path"
+        ],
+        "title": "apply_transformationArguments",
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_KM32DOT_tool",
+      "description": "Displays details of transformation KM32DOT that transforms KM3 model into DOT model.",
+      "parameters": {
+        "properties": {},
+        "title": "get_transformation_infoArguments",
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
       "name": "apply_XSLT2XQuery_transformation_tool",
       "description": "Input metamodel: XSLT, Output metamodel: XQuery. This tool transforms XSLT model into XQuery model.",
       "parameters": {
@@ -1929,6 +1787,230 @@
       "parameters": {
         "properties": {},
         "title": "get_transformation_infoArguments",
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "apply_Maven2Ant_transformation_tool",
+      "description": "Input metamodel: MavenMaven, Output metamodel: Ant. This tool transforms MavenMaven model into Ant model.",
+      "parameters": {
+        "properties": {
+          "file_path": {
+            "title": "File Path",
+            "type": "string"
+          }
+        },
+        "required": [
+          "file_path"
+        ],
+        "title": "apply_transformationArguments",
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "list_transformation_Maven2Ant_tool",
+      "description": "Displays details of transformation Maven2Ant that transforms MavenMaven model into Ant model.",
+      "parameters": {
+        "properties": {},
+        "title": "get_transformation_infoArguments",
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "start_metamodel_session_stateless",
+      "description": "Start a new session by uploading a .ecore file to the stateless EMF server. Returns sessionId.",
+      "parameters": {
+        "properties": {
+          "metamodel_file_path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "metamodel_file_path"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "create_object",
+      "description": "Create a new object instance. Provide session_id and class_name.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "update_feature",
+      "description": "Update a feature on an object. Provide session_id, class_name, object_id, feature_name, value (string or JSON).",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "feature_name": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name",
+          "object_id",
+          "feature_name",
+          "value"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "clear_feature",
+      "description": "Clear (unset) a feature on an object. Provide session_id, class_name, object_id, feature_name.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "feature_name": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name",
+          "object_id",
+          "feature_name"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "delete_object",
+      "description": "Delete an object. Provide session_id, class_name, object_id.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name",
+          "object_id"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "list_features",
+      "description": "List features of a class using the stateless introspection endpoint. Provide session_id and class_name.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "inspect_instance",
+      "description": "Inspect an instance's values. Provide session_id, class_name, object_id.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name",
+          "object_id"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "list_session_objects",
+      "description": "List all locally tracked objects for a session (IDs captured when creating objects via this client).",
+      "parameters": {
+        "properties": {
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "get_session_info",
+      "description": "Get stored info about a session in this client (metamodel path, routes summary).",
+      "parameters": {
+        "properties": {
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id"
+        ],
         "type": "object"
       },
       "server_name": null
@@ -1958,6 +2040,9 @@
     },
     {
       "name": "Class"
+    },
+    {
+      "name": "DOT"
     },
     {
       "name": "DSL"
