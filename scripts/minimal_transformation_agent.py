@@ -189,7 +189,34 @@ PROMPT = (
 
 INSTRUCTION = (
     "Apply the transformation Class2Realational to this file: "
-    "/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi"
+    "/Users/zakariahachm/Documents/Phd_Zakaria/Scripts/atl-server/sample sources/Class.xmi and then Apply the transformation Ant2Maven to this file:/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
+    "Apply the transformation Ant2Maven to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/Ant2Maven/example/build1Ant.xmi",
+
+    "Apply the transformation Book2Publication to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/Book2Publication/Book/modelBook.xmi",
+
+     "Apply the transformation XML2Make to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi",
+
+     "Apply the transformation Maven2Ant to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/Maven2Ant/example/mavenFile.xmi",
+
+     "Apply the transformation KM32OWL to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/KM32OWL/Samples/KM3-KM3.xmi",
+
+     "Apply the transformation KM32Problem to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/KM32Problem/Models/test-KM3.xmi",
+
+     "Apply the transformation Ant2XML to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/antFile.xmi",
+
+     "Apply the transformation XML2Make to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/Make2Ant/example/makeFile.xmi",
+
+     "Apply the transformation KM32DOT to this file: "
+    "/Users/zakariahachm/Downloads/atl_zoo/KM32DOT/KM32DOT/Models/KM3-KM3.xmi"
+
 )
 
 ATL_SERVER_SCRIPT = "mcp_servers/atl_server/atl_mcp_server.py"
@@ -198,8 +225,6 @@ async def main():
     client = MCPClient()
     try:
         await client.connect_to_server(ATL_SERVER_SCRIPT)
-        
-        print(f"\nInstruction: {INSTRUCTION}\n")
         
         # Create the agent
         agent = ATLAgent(client)
@@ -211,24 +236,41 @@ async def main():
         # Import message types
         from langchain_core.messages import HumanMessage
         
-        # Run the agent with the instruction
-        result = await graph.ainvoke({
-            "messages": [HumanMessage(content=INSTRUCTION)],
-            "selected_tools": [],  # Agent will select tools dynamically
-            "metamodel_name": None,
-            "file_paths": []
-        })
-        
-        # Print the response
-        print("\nAgent Response:")
-        for msg in result["messages"]:
-            if hasattr(msg, 'content'):
-                print(f"\nRole: {msg.__class__.__name__}")
-                print(f"Content: {msg.content}")
-                if hasattr(msg, 'tool_calls') and msg.tool_calls:
-                    print(f"Tool Calls: {msg.tool_calls}")
-            else:
-                print(f"\n{msg}")
+        # Run each instruction one by one
+        for i, instruction in enumerate(INSTRUCTION, 1):
+            print(f"\n{'='*60}")
+            print(f"INSTRUCTION {i}/{len(INSTRUCTION)}")
+            print(f"{'='*60}")
+            print(f"\n{instruction}\n")
+            
+            try:
+                # Run the agent with the current instruction
+                result = await graph.ainvoke({
+                    "messages": [HumanMessage(content=instruction)],
+                    "selected_tools": [],  # Agent will select tools dynamically
+                    "metamodel_name": None,
+                    "file_paths": []
+                })
+                
+                # Print the response
+                print("\nAgent Response:")
+                for msg in result["messages"]:
+                    if hasattr(msg, 'content'):
+                        print(f"\nRole: {msg.__class__.__name__}")
+                        print(f"Content: {msg.content}")
+                        if hasattr(msg, 'tool_calls') and msg.tool_calls:
+                            print(f"Tool Calls: {msg.tool_calls}")
+                    else:
+                        print(f"\n{msg}")
+                        
+            except Exception as e:
+                print(f"Error processing instruction {i}: {e}")
+                import traceback
+                traceback.print_exc()
+            
+            print(f"\n{'='*60}")
+            print(f"END OF INSTRUCTION {i}")
+            print(f"{'='*60}\n")
         
     except Exception as e:
         print(f"Error: {e}")
