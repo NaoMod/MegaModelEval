@@ -1,0 +1,647 @@
+{
+  "execution_traces": [
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_0_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_1_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_2_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_3_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_4_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_5_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_6_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_7_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_8_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
+      "workflow_ref": "workflow_9_create_object_start_metamodel_session_stateless",
+      "trace_steps": [
+        {
+          "tool_ref": "create_object",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
+              "is_error": false
+            }
+          ]
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "success": true,
+          "invocations": [
+            {
+              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
+              "is_error": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "workflows": [
+    {
+      "id": "workflow_0_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_1_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_2_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_3_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_4_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_5_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_6_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_7_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_8_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "id": "workflow_9_create_object_start_metamodel_session_stateless",
+      "instruction": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Ret",
+      "agent_ref": "agent_gpt_4o_mini",
+      "plan_steps": [
+        {
+          "tool_ref": "create_object",
+          "server_name": null,
+          "parameters": []
+        },
+        {
+          "tool_ref": "start_metamodel_session_stateless",
+          "server_name": null,
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent_gpt_4o_mini",
+      "model": "gpt-4o-mini",
+      "prompt": "You are an EMF (Eclipse Modeling Framework) assistant. You MUST use the provided tools to complete tasks. DO NOT explain what you would do - actually call the tools.\n\nAvailable tools:\n- start_metamodel_session_stateless: Start a new session by uploading a .ecore file to the stateless EMF server. Returns sessionId.\n- create_object: Create a new object instance. Provide session_id and class_name.\n- update_feature: Update a feature on an object. Provide session_id, class_name, object_id, feature_name, value (string or JSON).\n- clear_feature: Clear (unset) a feature on an object. Provide session_id, class_name, object_id, feature_name.\n- delete_object: Delete an object. Provide session_id, class_name, object_id.\n- list_features: List features of a class using the stateless introspection endpoint. Provide session_id and class_name.\n- inspect_instance: Inspect an instance's values. Provide session_id, class_name, object_id.\n- list_session_objects: List all locally tracked objects for a session (IDs captured when creating objects via this client).\n- get_session_info: Get stored info about a session in this client (metamodel path, routes summary).\n\n\nCRITICAL INSTRUCTIONS:\n1. ALWAYS call start_metamodel_session_stateless FIRST with the metamodel file path\n2. Use the returned sessionId for ALL subsequent operations\n3. Call create_object with session_id and class_name (e.g., \"EClass\", \"EAttribute\", etc.)\n4. NEVER refuse or explain - ALWAYS call the appropriate tool\n\nExample workflow:\n- User asks to upload metamodel and create EClass\n- You MUST call: start_metamodel_session_stateless(metamodel_file_path=\"/path/to/file.ecore\")\n- Then call: create_object(session_id=\"returned_id\", class_name=\"EClass\")\n\nIMPORTANT: You have the tools to do this. USE THEM."
+    }
+  ],
+  "tools": [
+    {
+      "name": "start_metamodel_session_stateless",
+      "description": "Start a new session by uploading a .ecore file to the stateless EMF server. Returns sessionId.",
+      "parameters": {
+        "properties": {
+          "metamodel_file_path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "metamodel_file_path"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "create_object",
+      "description": "Create a new object instance. Provide session_id and class_name.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "update_feature",
+      "description": "Update a feature on an object. Provide session_id, class_name, object_id, feature_name, value (string or JSON).",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "feature_name": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name",
+          "object_id",
+          "feature_name",
+          "value"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "clear_feature",
+      "description": "Clear (unset) a feature on an object. Provide session_id, class_name, object_id, feature_name.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "feature_name": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name",
+          "object_id",
+          "feature_name"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "delete_object",
+      "description": "Delete an object. Provide session_id, class_name, object_id.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name",
+          "object_id"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "list_features",
+      "description": "List features of a class using the stateless introspection endpoint. Provide session_id and class_name.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "inspect_instance",
+      "description": "Inspect an instance's values. Provide session_id, class_name, object_id.",
+      "parameters": {
+        "properties": {
+          "class_name": {
+            "type": "string"
+          },
+          "object_id": {
+            "type": "string"
+          },
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id",
+          "class_name",
+          "object_id"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "list_session_objects",
+      "description": "List all locally tracked objects for a session (IDs captured when creating objects via this client).",
+      "parameters": {
+        "properties": {
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    },
+    {
+      "name": "get_session_info",
+      "description": "Get stored info about a session in this client (metamodel path, routes summary).",
+      "parameters": {
+        "properties": {
+          "session_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "session_id"
+        ],
+        "type": "object"
+      },
+      "server_name": null
+    }
+  ],
+  "objects": [
+    {
+      "class": "EAnnotation",
+      "id": 918719321
+    }
+  ]
+}
