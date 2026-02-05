@@ -9,8 +9,8 @@ import random
 from pathlib import Path
 from typing import List
 
-DATASET_GEN_DIR = Path(__file__).resolve().parents[2]  # dataset generation/
-PROJECT_ROOT = Path(__file__).resolve().parents[3]  # project root
+DATASET_GEN_DIR = Path(__file__).resolve().parents[2] 
+PROJECT_ROOT = Path(__file__).resolve().parents[3]  
 sys.path.insert(0, str(DATASET_GEN_DIR))
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
