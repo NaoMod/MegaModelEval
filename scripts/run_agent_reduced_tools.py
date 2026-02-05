@@ -1,5 +1,9 @@
 import sys
 import os
+# Add project root and src to path first
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
 import asyncio
 import json
 import argparse
@@ -8,15 +12,10 @@ from pathlib import Path
 import datetime
 from typing import List
 from dotenv import load_dotenv
-from run_agent_versions import populate_registry
+from scripts.run_agent_versions import populate_registry
 from src.agents.workflow import WorkflowPlan
 # Load environment variables from .env file
-load_dotenv(Path(__file__).parent / '.env')
-# Add project root to path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-# Add src to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+load_dotenv(Path(__file__).parent.parent / '.env')
 
 # Import project modules
 from src.core.megamodel import MegamodelRegistry
@@ -254,7 +253,7 @@ if __name__ == "__main__":
                 print("--- End Execution ---")
 
             if all_execution_results:
-                outputs_dir = Path(__file__).parent.parent / "outputs" / "ablation_test"
+                outputs_dir = Path(__file__).parent.parent / "dataset generation" / "ablation_test"
                 outputs_dir.mkdir(parents=True, exist_ok=True)
                 try:
                     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")

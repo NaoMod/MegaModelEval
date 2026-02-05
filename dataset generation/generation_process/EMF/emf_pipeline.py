@@ -5,9 +5,12 @@ import json
 import os
 import random
 
-WORKDIR = Path(__file__).resolve().parents[1]
-if str(WORKDIR) not in sys.path:
-    sys.path.insert(0, str(WORKDIR))
+DATASET_GEN_DIR = Path(__file__).resolve().parents[2]  # dataset generation/
+PROJECT_ROOT = Path(__file__).resolve().parents[3]  # project root
+if str(DATASET_GEN_DIR) not in sys.path:
+    sys.path.insert(0, str(DATASET_GEN_DIR))
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from collections import Counter
 ROOT = Path(__file__).resolve().parent
@@ -19,7 +22,7 @@ load_dotenv()
 
 from langchain_openai import ChatOpenAI
 
-SRC_DIR = WORKDIR / "src"
+SRC_DIR = PROJECT_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 

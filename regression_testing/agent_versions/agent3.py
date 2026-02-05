@@ -1,12 +1,17 @@
 """code:5b1922c feat: migrate to OpenAI and add RAG-based planning; update docs and deps."""
+import sys
+import os
+# Add project root and src to path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'src')))
 
 import os
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import DocArrayInMemorySearch
-from core.megamodel import MegamodelRegistry
-from agents.workflow import WorkflowExecutor
-from agents.planning import WorkflowPlan, PlanStep, AgentGoal
+from src.core.megamodel import MegamodelRegistry
+from src.agents.workflow import WorkflowExecutor
+from src.agents.planning import WorkflowPlan, PlanStep, AgentGoal
 import json
 
 load_dotenv()

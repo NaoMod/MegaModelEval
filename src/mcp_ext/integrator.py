@@ -1,7 +1,7 @@
 
 from typing import Dict, List, Any, Optional
 
-from mcp_ext.infrastructure import MCPServer, MCPCapability
+from src.mcp_ext.infrastructure import MCPServer, MCPCapability
 
 class MCPServerIntegrator:
     """Simple integrator for MCP servers"""

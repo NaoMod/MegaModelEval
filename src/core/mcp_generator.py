@@ -8,12 +8,12 @@ from dataclasses import dataclass
 from openai import OpenAI
 from dotenv import load_dotenv
 
-# Ensure src is on path for imports
+# Ensure project root and src are on path for imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from core.am3 import Entity, TransformationModel
-from core.megamodel import MegamodelRegistry
+from src.core.am3 import Entity, TransformationModel
+from src.core.megamodel import MegamodelRegistry
 
 load_dotenv()
 

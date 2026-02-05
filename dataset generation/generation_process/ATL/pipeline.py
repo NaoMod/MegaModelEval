@@ -3,9 +3,13 @@ import os
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 import sys
-WORKDIR = Path(__file__).resolve().parents[1]
-if str(WORKDIR) not in sys.path:
-    sys.path.insert(0, str(WORKDIR))
+# WORKDIR points to 'dataset generation' folder for relative imports of seeds
+DATASET_GEN_DIR = Path(__file__).resolve().parents[2]  # dataset generation/
+PROJECT_ROOT = Path(__file__).resolve().parents[3]  # project root
+if str(DATASET_GEN_DIR) not in sys.path:
+    sys.path.insert(0, str(DATASET_GEN_DIR))
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 from collections import Counter
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "outputs"
@@ -13,7 +17,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 from dotenv import load_dotenv
 load_dotenv()
 from langchain_openai import ChatOpenAI
-SRC_DIR = WORKDIR / "src"
+SRC_DIR = PROJECT_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 from src.core.megamodel import MegamodelRegistry

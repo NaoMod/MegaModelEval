@@ -5,11 +5,11 @@ from pathlib import Path
 WORKDIR = Path(__file__).resolve().parents[1]
 if str(WORKDIR) not in sys.path:
     sys.path.insert(0, str(WORKDIR))
-from pipeline import write_final_dataset
+from generation_process.ATL.pipeline import write_final_dataset
 from src.core.megamodel import MegamodelRegistry
 from scripts.run_agent_versions import populate_registry
 from src.agents.agent import MCPAgent
-from pipeline import (
+from generation_process.ATL.pipeline import (
     _serialize_historical_executions,
     _infer_capabilities_from_registry,
     discover_patterns,

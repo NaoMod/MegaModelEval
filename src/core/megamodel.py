@@ -1,8 +1,8 @@
 from typing import Dict, List, Optional, Any
 import uuid
-from agents.execution import AgentSession
-from core.am3 import Entity, Relationship, Model
-from agents.planning import WorkflowPlan
+from src.agents.execution import AgentSession
+from src.core.am3 import Entity, Relationship, Model
+from src.agents.planning import WorkflowPlan
 
 class MegamodelRegistry:
     """Central registry for the extended AM3 megamodel"""

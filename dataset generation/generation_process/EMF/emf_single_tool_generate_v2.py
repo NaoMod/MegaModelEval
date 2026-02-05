@@ -10,12 +10,14 @@ import random
 from pathlib import Path
 
 # Add paths
-WORKDIR = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(WORKDIR))
+DATASET_GEN_DIR = Path(__file__).resolve().parents[2]  # dataset generation/
+PROJECT_ROOT = Path(__file__).resolve().parents[3]  # project root
+sys.path.insert(0, str(DATASET_GEN_DIR))
+sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # Add src to path before imports
-SRC_DIR = WORKDIR / "src"
+SRC_DIR = PROJECT_ROOT / "src"
 sys.path.insert(0, str(SRC_DIR))
 
 from src.core.megamodel import MegamodelRegistry

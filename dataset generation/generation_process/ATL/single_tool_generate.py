@@ -10,8 +10,10 @@ import random
 from pathlib import Path
 
 # Add paths
-WORKDIR = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(WORKDIR))
+DATASET_GEN_DIR = Path(__file__).resolve().parents[2]  # dataset generation/
+PROJECT_ROOT = Path(__file__).resolve().parents[3]  # project root
+sys.path.insert(0, str(DATASET_GEN_DIR))
+sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from src.core.megamodel import MegamodelRegistry
@@ -66,11 +68,9 @@ async def main():
 
         # Get all OpenRewrite tools
         or_tools = registry.tools_by_server.get("openrewrite_server", [])
-        # Filter: only include tools that are not utility/meta tools (minimal change: keep all for now)
         openrewrite_tools = []
         for t in or_tools:
             tool_name = getattr(t, "name", "")
-            # Example: skip meta/utility tools if needed (customize as needed)
             if tool_name.startswith("list_") or tool_name.startswith("extract_"):
                 continue
             openrewrite_tools.append({"name": tool_name, "description": getattr(t, "description", "")})

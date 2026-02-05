@@ -2,6 +2,7 @@ import sys
 import os
 # Ensure src is on sys.path for imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import asyncio
 import json
 import subprocess
@@ -11,22 +12,17 @@ import datetime
 import importlib.util
 from typing import List
 from dotenv import load_dotenv
-from agents.workflow import WorkflowPlan
+from src.agents.workflow import WorkflowPlan
 # Load environment variables from .env file
-load_dotenv(Path(__file__).parent / '.env')
-# Add project root to path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-# Add src to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
+load_dotenv(Path(__file__).parent.parent / '.env')
 
 # Import project modules
 from mcp_servers.atl_server.atl_mcp_server import fetch_transformations
-from core.megamodel import MegamodelRegistry
-from core.am3 import ReferenceModel, TransformationModel
-from mcp_ext.integrator import MCPServerIntegrator
-from mcp_ext.client import MCPClient
-from agents.execution import MCPInvocation
+from src.core.megamodel import MegamodelRegistry
+from src.core.am3 import ReferenceModel, TransformationModel
+from src.mcp_ext.integrator import MCPServerIntegrator
+from src.mcp_ext.client import MCPClient
+from src.agents.execution import MCPInvocation
 
 async def populate_registry(registry):
     integrator = MCPServerIntegrator(registry)
@@ -207,7 +203,7 @@ if __name__ == "__main__":
             
         script_path = atl_server.metadata.get("script_path")
         
-        agents_dir = Path(__file__).parent.parent / "evaluation" / "agent_versions"
+        agents_dir = Path(__file__).parent.parent / "regression_testing" / "agent_versions"
         agent_names = [f"agent{i}" for i in range(7, 8)]
         agent_files = [agents_dir / f"{name}.py" for name in agent_names if (agents_dir / f"{name}.py").is_file()]
         if not agent_files:
@@ -356,7 +352,7 @@ if __name__ == "__main__":
                         if all_execution_results:
                             # Extract version number from agent name (e.g., agent1 -> version_1)
                             version_num = agent_name.replace('agent', '')
-                            outputs_dir = Path(__file__).parent.parent / "outputs" / "agent_version_logs" / f"version_{version_num}"
+                            outputs_dir = Path(__file__).parent.parent / "regression_testing" / "agent_version_logs" / f"version_{version_num}"
                             outputs_dir.mkdir(parents=True, exist_ok=True)
                             try:
                                 # Save results with a unique prefix for seedsdataset

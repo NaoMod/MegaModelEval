@@ -2,9 +2,9 @@ import os
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import DocArrayInMemorySearch
-from core.megamodel import MegamodelRegistry
-from agents.workflow import WorkflowExecutor
-from agents.planning import WorkflowPlan, PlanStep, AgentGoal
+from src.core.megamodel import MegamodelRegistry
+from src.agents.workflow import WorkflowExecutor
+from src.agents.planning import WorkflowPlan, PlanStep, AgentGoal
 import json
 
 load_dotenv()

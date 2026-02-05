@@ -1,5 +1,6 @@
 import sys
 import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
 import os
@@ -17,7 +18,7 @@ from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode, tools_condition
 from langchain_mcp_adapters.tools import load_mcp_tools
 
-from mcp_ext.client import MCPClient
+from src.mcp_ext.client import MCPClient
 
 load_dotenv()
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5-nano-2025-08-07")
@@ -174,7 +175,7 @@ class ATLAgent:
         return builder.compile()
 
 import asyncio
-from mcp_ext.client import MCPClient
+from src.mcp_ext.client import MCPClient
 
 PROMPT = (
     "You are a transformation handler agent. Follow these rules strictly:\n"

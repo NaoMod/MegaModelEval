@@ -81,8 +81,10 @@ def main():
     print(f"Analyzing {num_instructions} instructions across 2 versions")
     print("-" * 60)
 
-    # Create CSV report in agent_version_logs directory
-    agent_logs_dir = os.path.join(os.path.dirname(current_dir), 'agent_version_logs')
+    # Create CSV report in regression_testing/agent_version_logs directory
+    # current_dir is dataset generation/ablation_test, so go up 2 levels to project root
+    project_root = os.path.dirname(os.path.dirname(current_dir))
+    agent_logs_dir = os.path.join(project_root, 'regression_testing', 'agent_version_logs')
     csv_file = os.path.join(agent_logs_dir, 'seeds_report_generation.csv')
 
     with open(csv_file, 'w', newline='') as csvfile:
@@ -179,7 +181,9 @@ if __name__ == "__main__":
 
     # --- Minimal coverage calculation and chart ---
     # Parse ALL_MISSING_TOOLS from CSV
-    csv_file = os.path.join(os.path.dirname(__file__), '..', 'agent_version_logs', 'seeds_report_generation.csv')
+    # __file__ is dataset generation/ablation_test/instruction_analysis.py, go up 2 levels to project root
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+    csv_file = os.path.join(project_root, 'regression_testing', 'agent_version_logs', 'seeds_report_generation.csv')
     all_missing_tools = set()
     with open(csv_file, 'r') as f:
         reader = csv.DictReader(f)
@@ -270,7 +274,7 @@ if __name__ == "__main__":
     print(f"\nCoverage chart saved to: {chart_path}")
 
     # Minimal: Parse TOOLS_TO_REMOVE directly from file
-    tools_file = os.path.join(os.path.dirname(__file__), '../scripts/run_agent_reduced_tools.py')
+    tools_file = os.path.join(os.path.dirname(__file__), '../../scripts/run_agent_reduced_tools.py')
     TOOLS_TO_REMOVE = []
     with open(tools_file, 'r') as f:
         in_tools = False
@@ -286,7 +290,9 @@ if __name__ == "__main__":
                     TOOLS_TO_REMOVE.append(line)
 
     # Parse ALL_MISSING_TOOLS from CSV
-    csv_file = os.path.join(os.path.dirname(__file__), '..', 'agent_version_logs', 'seeds_report_generation.csv')
+    # __file__ is dataset generation/ablation_test/instruction_analysis.py, go up 2 levels to project root
+    project_root2 = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+    csv_file = os.path.join(project_root2, 'regression_testing', 'agent_version_logs', 'seeds_report_generation.csv')
     all_missing_tools = set()
     with open(csv_file, 'r') as f:
         reader = csv.DictReader(f)

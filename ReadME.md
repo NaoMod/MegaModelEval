@@ -97,24 +97,24 @@ Validates dataset diversity using six metrics from dataset augmentation research
 
 Evaluates seven agent versions (representing different architectural improvements and model choices) against both the augmented dataset and the original seed dataset.
 
-- **Agent versions**: `evaluation/agent_versions/` (agent1.py through agent7.py)
+- **Agent versions**: `regression_testing/agent_versions/` (agent1.py through agent7.py)
 - **Execution script**: `scripts/run_agent_versions.py`
-- **Results**: `outputs/agent_version_logs/`
+- **Results**: `regression_testing/agent_version_logs/`
   - `version_1/` through `version_7/` - Execution logs per agent version
   - `report_generation.csv` - Augmented dataset results
   - `seeds_report_generation.csv` - Seed dataset results
-- **Evaluation**: `outputs/evaluate_accuracy.py`
-- **Visualization**: `outputs/visualize_accuracy_comparison.py`
-- **Output plots**: `outputs/plots/agent_accuracy_comparison.png`
+- **Evaluation**: `regression_testing/evaluate_accuracy.py`
+- **Visualization**: `regression_testing/visualize_accuracy_comparison.py`
+- **Output plots**: `regression_testing/agent_accuracy_comparison.png`
 
 ## 5. Ablation Test
 
 Tests agent performance with reduced tool availability.
 
 - **Script**: `scripts/run_agent_reduced_tools.py`
-- **Analysis**: `outputs/ablation_test/instruction_analysis.py`
-- **Results**: `outputs/ablation_test/`
-- **Coverage charts**: `outputs/plots/coverage_chart_seeds.png`
+- **Analysis**: `dataset generation/ablation_test/instruction_analysis.py`
+- **Results**: `dataset generation/ablation_test/`
+- **Coverage charts**: `dataset generation/ablation_test/plots/`
 
 ## 6. MCP Servers
 

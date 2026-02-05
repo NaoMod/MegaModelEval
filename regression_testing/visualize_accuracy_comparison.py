@@ -65,7 +65,7 @@ def get_agent_code_label(agent_index: int) -> str:
     """Extract the commit code from the first line of the agent file.
     Falls back to f"agent{index}" if not found.
     """
-    agent_path = Path(__file__).parent.parent / "evaluation" / "agent_versions" / f"agent{agent_index}.py"
+    agent_path = Path(__file__).parent / "agent_versions" / f"agent{agent_index}.py"
     try:
         with open(agent_path, 'r') as f:
             first_line = f.readline().strip().strip('"').strip("'")
@@ -99,7 +99,7 @@ def create_comparison_plot():
     seeds_data = compute_agent_accuracies(is_seeds=True)
     
     if not regular_data and not seeds_data:
-        raise RuntimeError("No matching agent execution result files found in outputs/agent_version_logs/version_*/")
+        raise RuntimeError("No matching agent execution result files found in regression_testing/agent_version_logs/version_*/")
     
     # Sort by agent index and convert to separate lists
     regular_data.sort(key=lambda x: x[2])

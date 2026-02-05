@@ -3,7 +3,7 @@
 Visualization script for agent accuracy progression
 Discovers outputs named agent_execution_results_agentX_*.json (X in 1..7),
 computes accuracy per agent, labels each agent by its commit code declared
-as the first line docstring of evaluation/agent_versions/agentX.py, and draws a
+as the first line docstring of regression_testing/agent_versions/agentX.py, and draws a
 line chart ordered by agent index.
 """
 
@@ -62,7 +62,7 @@ def get_agent_code_label(agent_index: int) -> str:
     """Extract the commit code from the first line of the agent file.
     Falls back to f"agent{index}" if not found.
     """
-    agent_path = Path(__file__).parent.parent / "evaluation" / "agent_versions" / f"agent{agent_index}.py"
+    agent_path = Path(__file__).parent.parent / "agent_versions" / f"agent{agent_index}.py"
     try:
         with open(agent_path, 'r') as f:
             first_line = f.readline().strip().strip('"').strip("'")

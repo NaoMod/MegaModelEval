@@ -1,12 +1,13 @@
 import sys
 import os
 import asyncio
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from core.am3 import ReferenceModel, TransformationModel
-from core.megamodel import MegamodelRegistry
-from core.mcp_generator import MCPServerGenerator, MCPServerConfig, generate_mcp_server
-from run_agent_versions import populate_registry
+from src.core.am3 import ReferenceModel, TransformationModel
+from src.core.megamodel import MegamodelRegistry
+from src.core.mcp_generator import MCPServerGenerator, MCPServerConfig, generate_mcp_server
+from scripts.run_agent_versions import populate_registry
 
 async def main():
     print("=== Loading transformations from Megamodel ===")

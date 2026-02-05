@@ -9,9 +9,11 @@ import random
 from pathlib import Path
 from typing import List
 
-WORKDIR = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(WORKDIR))
-sys.path.insert(0, str(WORKDIR / "src"))  # Add src directory for relative imports in megamodel.py
+DATASET_GEN_DIR = Path(__file__).resolve().parents[2]  # dataset generation/
+PROJECT_ROOT = Path(__file__).resolve().parents[3]  # project root
+sys.path.insert(0, str(DATASET_GEN_DIR))
+sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PROJECT_ROOT / "src"))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from src.core.megamodel import MegamodelRegistry

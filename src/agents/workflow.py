@@ -7,10 +7,10 @@ import asyncio
 from typing import Dict, Any, Optional
 import time
 
-from core.megamodel import MegamodelRegistry
-from mcp_ext.client import MCPClient
-from agents.execution import MCPInvocation
-from agents.planning import WorkflowPlan, PlanStep
+from src.core.megamodel import MegamodelRegistry
+from src.mcp_ext.client import MCPClient
+from src.agents.execution import MCPInvocation
+from src.agents.planning import WorkflowPlan, PlanStep
 
 # TODO: perform an Object grounding. Check the feasability to cover other LLM planning criteria
 class WorkflowExecutor:
