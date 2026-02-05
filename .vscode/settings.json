@@ -2,6 +2,7 @@
     "python.analysis.extraPaths": [
         "./src",
         "./dataset generation/seeds/all_tools",
-        "./dataset generation/seeds/model_transformation_"
+        "./dataset generation/seeds/model_transformation_",
+        "./dataset generation/generation_process/ATL"
     ]
 }

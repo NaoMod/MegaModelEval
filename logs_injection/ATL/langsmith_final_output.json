@@ -179,32 +179,6 @@
           ]
         }
       ]
-    },
-    {
-      "instruction": "Upload the metamodel from /Users/zakariahachm/Documents/Ecore.ecore, then Create and register a fresh EAnnotation object within the session.",
-      "workflow_ref": "workflow_create_object_start_metamodel_session_stateless",
-      "trace_steps": [
-        {
-          "tool_ref": "create_object",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'session_id': '0e817bea-49c6-4ad9-8030-00f0fd80b9cb', 'class_name': 'EAnnotation'}\"}",
-              "is_error": false
-            }
-          ]
-        },
-        {
-          "tool_ref": "start_metamodel_session_stateless",
-          "success": true,
-          "invocations": [
-            {
-              "content": "{\"input\": \"{'metamodel_file_path': '/Users/zakariahachm/Documents/Ecore.ecore'}\"}",
-              "is_error": false
-            }
-          ]
-        }
-      ]
     }
   ],
   "workflows": [

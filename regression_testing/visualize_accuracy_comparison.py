@@ -11,7 +11,7 @@ from typing import List, Tuple
 
 # Reuse the evaluator that understands how to score execution results
 try:
-    from evaluate_accuracy import evaluate_file
+    from regression_testing.evaluate_accuracy import evaluate_file
 except Exception:
     # Fallback if relative import fails when run differently
     import importlib.util as _ilu
