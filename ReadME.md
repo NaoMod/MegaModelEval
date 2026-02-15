@@ -44,7 +44,6 @@ Extracts megamodel structure from LLM execution traces to populate the registry 
 
 Generates synthetic instruction-API datasets from domain-specific seeds using LLM augmentation.
 
-![Dataset Generation Process](images/dataset_generation.png)
 
 - **Generation Scripts**: `dataset generation/generation_process/`
   - `ATL/pipeline.py` - ATL dataset generation pipeline
