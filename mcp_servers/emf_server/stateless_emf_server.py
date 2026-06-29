@@ -10,7 +10,7 @@ import requests
 from mcp.server.fastmcp import FastMCP
 
 # Constants
-EMF_SERVER_BASE = os.environ.get("EMF_SERVER_BASE", "http://localhost:8080")
+EMF_SERVER_BASE = os.environ.get("EMF_SERVER_BASE", "http://localhost:8096")
 
 # Configure logging
 logging.basicConfig(

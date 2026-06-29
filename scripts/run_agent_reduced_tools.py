@@ -1,6 +1,5 @@
 import sys
 import os
-# Add project root and src to path first
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
@@ -14,86 +13,88 @@ from typing import List
 from dotenv import load_dotenv
 from scripts.run_agent_versions import populate_registry
 from src.agents.workflow import WorkflowPlan
-# Load environment variables from .env file
 load_dotenv(Path(__file__).parent.parent / '.env')
 
-# Import project modules
 from src.core.megamodel import MegamodelRegistry
 from src.mcp_ext.client import MCPClient
 from src.agents.execution import MCPInvocation
 from src.agents.agent import MCPAgent
 
-# Define 10 tools to remove (you can modify this list)
+# UNCHANGED from run_agent_reduced_tools.py -- same 10 tools, same ablation.
 TOOLS_TO_REMOVE = [
     "list_transformation_KM32EMF_tool",
     "apply_KM32EMF_transformation_tool",
     "list_transformation_MySQL2KM3_tool",
-    "apply_MySQL2KM3_transformation_tool",*
+    "apply_MySQL2KM3_transformation_tool",
     "list_transformation_Families2Persons_tool",
     "apply_Families2Persons_transformation_tool",
-    "list_transformation_XML2Ant_tool",*
+    "list_transformation_XML2Ant_tool",
     "apply_XML2Ant_transformation_tool",
     "list_transformation_Make2Ant_tool",
     "apply_Make2Ant_transformation_tool"
 ]
 
 
+def load_toolllm_dataset_split(file_name: str = "toolllm_1000_dataset.json") -> tuple[List[dict], List[dict]]:
 
-
-def load_dataset(file_name: str) -> List[dict]:
-    """Load a dataset file from dataset generation/outputs."""
     base_outputs = Path(__file__).parent.parent / "dataset generation" / "outputs"
     fpath = base_outputs / file_name
     try:
         with open(fpath, 'r') as f:
             data = json.load(f)
-            if isinstance(data, list):
-                print(f"Loaded {len(data)} items from {fpath}")
-                return data
-            else:
-                print(f"Warning: dataset at {fpath} is not a list; returning empty list")
-                return []
     except Exception as e:
         print(f"Error loading dataset file {fpath}: {e}")
-        return []
+        return [], []
+
+    if not isinstance(data, list):
+        print(f"Warning: dataset at {fpath} is not a list; returning empty lists")
+        return [], []
+
+    single_items, multi_items = [], []
+    for item in data:
+        if not item.get("instruction"):
+            continue
+        if "," in item.get("pattern", ""):
+            multi_items.append(item)
+        else:
+            single_items.append(item)
+
+    print(f"Loaded {len(data)} total items from {fpath} -> "
+          f"{len(single_items)} single-tool, {len(multi_items)} multi-tool")
+    return single_items, multi_items
 
 
-def sample_dataset(single_dataset: List[dict], multi_dataset: List[dict], 
-                   single_count: int = 100, multi_count: int = 100, 
+def sample_dataset(single_dataset: List[dict], multi_dataset: List[dict],
+                   single_count: int = 100, multi_count: int = 100,
                    seed: int = 42) -> List[dict]:
-    """
-    Randomly sample items from single and multi datasets.
-    
-    Args:
-        single_dataset: List of single-tool instructions
-        multi_dataset: List of multi-tool instructions
-    
-    Returns:
-        Combined list of sampled items
-    """
+    """UNCHANGED from run_agent_reduced_tools.py (this function already existed there but
+    was never called in __main__ -- it is now actually used, see main() below)."""
     random.seed(seed)
-    
-    # Sample from single dataset
+
     if len(single_dataset) >= single_count:
         sampled_single = random.sample(single_dataset, single_count)
     else:
         print(f"Warning: Only {len(single_dataset)} single-tool items available, using all")
         sampled_single = single_dataset
-    
-    # Sample from multi dataset
+
     if len(multi_dataset) >= multi_count:
         sampled_multi = random.sample(multi_dataset, multi_count)
     else:
         print(f"Warning: Only {len(multi_dataset)} multi-tool items available, using all")
         sampled_multi = multi_dataset
-    
+
     return sampled_single + sampled_multi
 
 
-
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run agent evaluation with reduced tools on seeds dataset")
+    parser = argparse.ArgumentParser(description="Run agent evaluation with reduced tools on the ToolLLM-baseline dataset")
     parser.add_argument("--agent", type=str, default="agent2", help="Agent version to evaluate (e.g., agent2, agent3)")
+    parser.add_argument("--single-count", type=int, default=100)
+    parser.add_argument("--multi-count", type=int, default=100)
+    parser.add_argument("--sample-seed", type=int, default=42,
+                         help="IMPORTANT: confirm this matches the seed used when sampling "
+                              "the seeds/megamodel ablation runs, or the three results are not "
+                              "a controlled comparison.")
     args = parser.parse_args()
 
     async def main():
@@ -106,7 +107,7 @@ if __name__ == "__main__":
             return
         script_path = atl_server.metadata.get("script_path")
 
-        print(f"\n=== Evaluating MCPAgent baseline on seeds dataset ===\n")
+        print(f"\n=== Evaluating MCPAgent (reduced tools) on ToolLLM-baseline dataset ===\n")
         agent_name = "MCPAgent"
         all_execution_results: List[dict] = []
         agent = None
@@ -115,6 +116,8 @@ if __name__ == "__main__":
             client = MCPClient()
             await client.connect_to_server(script_path)
             agent.executor.mcp_clients["atl_server"] = client
+
+            # Same removal logic as run_agent_reduced_tools.py, unchanged.
             atl_tools = registry.tools_by_server.get("atl_server", [])
             original_atl_count = len(atl_tools)
             atl_tools = [tool for tool in atl_tools if getattr(tool, 'name', '') not in TOOLS_TO_REMOVE]
@@ -126,28 +129,29 @@ if __name__ == "__main__":
             print(f"Tools removed: {TOOLS_TO_REMOVE}")
             print("=" * 50 + "\n")
 
-            # Load seeds dataset only
-            seeds_dataset_path = Path(__file__).parent.parent / "dataset generation" / "outputs" / "seedsdataset.json"
-            try:
-                with open(seeds_dataset_path, 'r') as f:
-                    seeds_dataset = json.load(f)
-                print(f"Loaded {len(seeds_dataset)} items from {seeds_dataset_path}")
-            except Exception as e:
-                print(f"Error loading seeds dataset: {e}")
+            # CHANGED: load and sample the ToolLLM-baseline dataset instead of seedsdataset.json
+            single_items, multi_items = load_toolllm_dataset_split("toolllm_1000_dataset.json")
+            if not single_items and not multi_items:
+                print("ERROR: No entries found in ToolLLM-baseline dataset, nothing to run.")
                 return
 
-            if not seeds_dataset:
-                print("ERROR: No entries found in seeds dataset, nothing to run.")
-                return
+            sampled_dataset = sample_dataset(
+                single_items, multi_items,
+                single_count=args.single_count, multi_count=args.multi_count,
+                seed=args.sample_seed
+            )
+            print(f"Sampled {len(sampled_dataset)} instructions "
+                  f"({args.single_count} single-tool + {args.multi_count} multi-tool target, "
+                  f"seed={args.sample_seed})")
 
-            print(f"\n-- Running {len(seeds_dataset)} instructions from seeds dataset --")
-            for i, item in enumerate(seeds_dataset):
+            print(f"\n-- Running {len(sampled_dataset)} sampled instructions from ToolLLM-baseline dataset --")
+            for i, item in enumerate(sampled_dataset):
                 instruction = item.get("instruction", "")
                 pattern = item.get("pattern", "")
                 apis = item.get("relevant_apis", [])
                 api_names = [api.get("api_name", "") for api in apis]
 
-                print(f"\n[{i+1}/{len(seeds_dataset)}] Running instruction: {instruction}")
+                print(f"\n[{i+1}/{len(sampled_dataset)}] Running instruction: {instruction}")
                 print(f"  Expected APIs: {api_names}")
 
                 try:
@@ -257,7 +261,7 @@ if __name__ == "__main__":
                 outputs_dir.mkdir(parents=True, exist_ok=True)
                 try:
                     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-                    output_filename = f"agent_execution_results_{agent_name}_seeds_baseline_{timestamp}.json"
+                    output_filename = f"agent_execution_results_{agent_name}_toolllm_reduced_{timestamp}.json"
                     output_path = outputs_dir / output_filename
                     with open(output_path, 'w') as f:
                         json_str = json.dumps(all_execution_results, indent=2, default=lambda o: list(o) if isinstance(o, set) else str(o))
