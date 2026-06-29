@@ -1,0 +1,2734 @@
+[
+  {
+    "pattern": "get",
+    "instruction": "Display the full metadata for the PetriNet2PathExp transformation that converts a PetriNet model into a PathExp model, including transformation name, source/target formats, version, authors, dependencies, input/output schemas, parameters (if any), constraints, and a representative element-to-element mapping example.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PetriNet2PathExp_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the full metadata and configuration details for the transformation UMLCLASSDIAGRAM2UMLPROFILE that converts a UMLClassDiagram model into a UMLProfile model, including input/output metamodels, transformation rules, dependencies, version, authors, limitations, and any pre/post conditions.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UMLCLASSDIAGRAM2UMLPROFILE_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the PNML model at /home/alice/projects/pnml/warehouse_robot_navigation.pnml into its XML representation for integration with the XML-based workflow engine.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PNML2XML_transformation_tool",
+        "arguments": "/home/alice/projects/pnml/warehouse_robot_navigation.pnml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model at /workspace/projects/mde/tables/InventoryTable.xmi into an HTML document with a semantic table structure (thead, tbody) and inline CSS using the apply_Table2TabularHTML_transformation_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2TabularHTML_transformation_tool",
+        "arguments": "file_path: /workspace/projects/mde/tables/InventoryTable.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Display the details of the transformation XML2Ant_tool that transforms an XML model into an Ant model, followed by the details of the transformation UMLCLASSDIAGRAM2UMLPROFILE_tool that transforms a UML class diagram into a UML profile.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2Ant_tool",
+        "arguments": "get"
+      },
+      {
+        "api_name": "list_transformation_UMLCLASSDIAGRAM2UMLPROFILE_tool",
+        "arguments": "get"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the XML model at ./examples/xml_to_wsdl/input_model.xml to a WSDL model using apply_XML2WSDL_transformation_tool and then transform the resulting WSDL model at ./examples/xml_to_wsdl/input_model.wsdl to a B model using apply_A2B_transformation_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2WSDL_transformation_tool",
+        "arguments": "file_path: ./examples/xml_to_wsdl/input_model.xml"
+      },
+      {
+        "api_name": "apply_A2B_transformation_tool",
+        "arguments": "file_path: ./examples/xml_to_wsdl/input_model.wsdl"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show me the details of the XML2Make transformation that converts XML models to Make models, and then apply the XML2PetriNet transformation to the XML model located at /home/user/workspace/models/project1.xml to produce a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2Make_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_XML2PetriNet_transformation_tool",
+        "arguments": "/home/user/workspace/models/project1.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the complete details of the ATOM2RSS transformation that converts an ATOM model into an RSS model, including input/output formats, schema references, transformation steps, and version history.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_ATOM2RSS_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Initiate a Table-to-Spreadsheet transformation for the file at ./models/input/TableModel_Sample.table to produce an MSOfficeExcel_SpreadsheetMLSimplified model, then fetch the full specification/details of the UML2Measure transformation that maps UML models to Measure models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2SpreadsheetMLSimplified_transformation_tool",
+        "arguments": "./models/input/TableModel_Sample.table"
+      },
+      {
+        "api_name": "list_transformation_UML2Measure_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Please display the UML2Measure transformation details that maps any UML model to a target model: reveal input/output metamodels, transformation version and authors, the complete set of mapping rules (with example mappings), constraints, performance notes, and compatible UML profiles.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2Measure_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the PetriNet model at ./models/petri/petriNetModel.xmi to PNML using apply_PetriNet2PNML_transformation_tool and then transform the KM3 model at ./models/km3/partialModel.km3 to KM3target using apply_Partial2totalRoleA_transformation_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PetriNet2PNML_transformation_tool",
+        "arguments": "file_path=./models/petri/petriNetModel.xmi"
+      },
+      {
+        "api_name": "apply_Partial2totalRoleA_transformation_tool",
+        "arguments": "file_path=./models/km3/partialModel.km3"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the SimpleClass model at ./examples/models/SimpleClassSample.xmi into a SimpleRDBMS model using the apply_SimpleClass2SimpleRDBMS_transformation_tool, and then list the details of the Mantis2XML transformation by invoking list_transformation_Mantis2XML_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "arguments": "{\"file_path\": \"./examples/models/SimpleClassSample.xmi\"}"
+      },
+      {
+        "api_name": "list_transformation_Mantis2XML_tool",
+        "arguments": "(none)"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Apply the KM32EMF transformation to the KM3 model at ./atl_zoo/KM32EMF/Sample-KM3.xmi to produce an EMF model, then retrieve details of the transformation PrimaryKey_with_context that maps KM3 models to KM3 models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_KM32EMF_transformation_tool",
+        "arguments": "{\"file_path\": \"./atl_zoo/KM32EMF/Sample-KM3.xmi\"}"
+      },
+      {
+        "api_name": "list_transformation_PrimaryKey_with_context_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the complete metadata for the XML2DSL transformation that converts an XML-based model into a DSL representation, including version, authors, dependencies, supported XML namespaces, input/output schemas, mapping rules, parameter mappings, pre- and post-conditions, constraints, example input XML and corresponding DSL output, as well as any known limitations, performance notes, and typical use cases.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2DSL_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PNML model located at /home/alex/projects/pnml/traffic_signals/intersectionA.pnml into a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PNML2PetriNet_transformation_tool",
+        "arguments": {
+          "file_path": "/home/alex/projects/pnml/traffic_signals/intersectionA.pnml"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Please display the complete details of the XSLT2XQuery transformation that converts an XSLT model into an XQuery model, including input/output types, supported versions, dependencies, and a concise example of how to apply it.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XSLT2XQuery_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the XML2SpreadsheetMLSimplified transformation that converts the XML model at /home/user/projects/xml_models/vehicle_inventory.xml into an MSOfficeExcel_SpreadsheetMLSimplified model at /home/user/outputs/VehicleInventory.xlsx, including input schema, mapping rules, supported elements, preconditions, optional parameters, and a concrete mapping example.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2SpreadsheetMLSimplified_tool",
+        "arguments": "none"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply PrimaryKey with context transformation to the KM3 model at /home/user/projects/km3_models/BankSystem-KM3.xmi to produce a KM3 model with embedded context-aware primary keys.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PrimaryKey_with_context_transformation_tool",
+        "arguments": "file_path=/home/user/projects/km3_models/BankSystem-KM3.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First, show me the details of the transformation that converts a TextualPathExp model into a PathExp model, and then apply the KM3 to DOT transformation to the KM3 model located at /Users/alex/projects/km3_models/sample.km3.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_TextualPathExp2PathExp_tool",
+        "arguments": "(none)"
+      },
+      {
+        "api_name": "apply_KM32DOT_transformation_tool",
+        "arguments": "/Users/alex/projects/km3_models/sample.km3"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the JavaSource2Table transformation to the JavaSource model located at ./example_models/java/BankApp/BankApp_Source.xmi, producing a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_JavaSource2Table_transformation_tool",
+        "arguments": "file_path=./example_models/java/BankApp/BankApp_Source.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show me the details of the UML2OWL transformation that converts a UML model into an OWL model, then apply the Partial2totalRoleA transformation to convert the KM3 model located at /Users/alice/km3/input_model.km3 into a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2OWL_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_Partial2totalRoleA_transformation_tool",
+        "arguments": "/Users/alice/km3/input_model.km3"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Run the ATOM2RSS transformation on the ATOM model located at /home/user/Projects/ATOM/feeds/TechNews.atom to generate an RSS model, and then display the details of the XML2RSS transformation (which converts XML models to RSS) to compare the XML-based mapping with the ATOM-based workflow.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_ATOM2RSS_transformation_tool",
+        "arguments": "file_path: /home/user/Projects/ATOM/feeds/TechNews.atom"
+      },
+      {
+        "api_name": "list_transformation_XML2RSS_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the TextualPathExp model located at ./models/PathExpressions/TextualPathExp_sample.xmi into a corresponding PathExp model by applying the TextualPathExp2PathExp transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_TextualPathExp2PathExp_transformation_tool",
+        "arguments": {
+          "file_path": "./models/PathExpressions/TextualPathExp_sample.xmi"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the full configuration, usage details, and examples for the PNML2XML transformation that converts PNML models into XML models, including input/output schemas, supported PNML constructs (places, transitions, arcs), mapping rules, optional parameters, and a representative PNML-to-XML example.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PNML2XML_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the Maven2Ant transformation that converts a MavenMaven model to an Ant model, and then show me the details of the PetriNet2PathExp transformation that converts a PetriNet model to a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Maven2Ant_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_PetriNet2PathExp_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the XML model at /data/models/xml/input_spec.xml into a WSDL model using the XML2WSDL transformation, and then transform the Measure model at /data/models/measure/input/quarterly_measures.xmi into a Table model using the Measure2Table transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2WSDL_transformation_tool",
+        "arguments": "file_path: /data/models/xml/input_spec.xml"
+      },
+      {
+        "api_name": "apply_Measure2Table_transformation_tool",
+        "arguments": "file_path: /data/models/measure/input/quarterly_measures.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation that converts XML to RSS (XML2RSS) and then show me the details of the transformation that converts XSLT to XQuery (XSLT2XQuery).",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2RSS_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_XSLT2XQuery_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the complete details of the Ant2Maven transformation that converts an Ant build model into a MavenMaven model. Include input/output formats and schemas, transformation version, authorship, dependencies, supported Ant constructs and their Maven equivalents, mapping rules, sample mappings, performance notes, and any known limitations or caveats.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Ant2Maven_tool",
+        "arguments": "none"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the JavaSource model located at /home/user/projects/sample/java_source_model.xmi into a Table model, and then transform the UML model located at /home/user/projects/sample/uml_model.xmi into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_JavaSource2Table_transformation_tool",
+        "arguments": "file_path=/home/user/projects/sample/java_source_model.xmi"
+      },
+      {
+        "api_name": "apply_UML2MOF_transformation_tool",
+        "arguments": "file_path=/home/user/projects/sample/uml_model.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Ant model located at /home/alice/workspace/mde/ant_projects/website-ant-build.xmi into a MavenMaven model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Ant2Maven_transformation_tool",
+        "arguments": "file_path=/home/alice/workspace/mde/ant_projects/website-ant-build.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First display the details of the UML2KM3 transformation that converts a UML model into a KM3 model, and then apply the Make2Ant transformation to the Make model located at /Users/alice/projects/metamodels/MakeModel.xmi to produce an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2KM3_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_Make2Ant_transformation_tool",
+        "arguments": "file_path=/Users/alice/projects/metamodels/MakeModel.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First display the details of the transformation XSLT2XQuery that transforms an XSLT model into an XQuery model, then apply the UML2Measure transformation to the UML model located at /Users/ai_user/llm-mde/models/OrderProcess.uml to produce a corresponding Measure model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XSLT2XQuery_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_UML2Measure_transformation_tool",
+        "arguments": "/Users/ai_user/llm-mde/models/OrderProcess.uml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Show me the details of the Ant2Maven transformation, then apply the A2B transformation to convert the Ant model located at /Users/alice/Projects/ant2maven/input/sample_ant.xmi into a Maven model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Ant2Maven_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_A2B_transformation_tool",
+        "arguments": "{\"file_path\": \"/Users/alice/Projects/ant2maven/input/sample_ant.xmi\"}"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First, display the details of the transformation Partial2totalRoleA that converts KM3 models into KM3target models. Then apply the XML2R2ML transformation to the model located at /home/user/projects/km3/input_models/sample_input.xml to produce an R2ML model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Partial2totalRoleA_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_XML2R2ML_transformation_tool",
+        "arguments": "file_path: /home/user/projects/km3/input_models/sample_input.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the PathExp model at /home/alice/projects/mde/pathexp/processFlow.pathexp into a PetriNet model using PathExp2PetriNet transformation, and then transform the XML model at /home/alice/data/geography/locations.xml into a KML model using XML2KML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PathExp2PetriNet_transformation_tool",
+        "arguments": "file_path=/home/alice/projects/mde/pathexp/processFlow.pathexp"
+      },
+      {
+        "api_name": "apply_XML2KML_transformation_tool",
+        "arguments": "file_path=/home/alice/data/geography/locations.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Please provide the complete specification for the Measure2Table transformation that maps a Measure model located at /data/models/etl/measure.xmi to a Table model, including: source/target model types, element-to-attribute mappings, cardinality constraints, transformation rules (if-then mappings), pre/post conditions, related schemas, and an example input/output snippet.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Measure2Table_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Show me the configuration details for the Uml2Amble transformation (which converts UMLDI to Amble), and then apply the UML2JAVA transformation to the UML model at /Users/alex/projects/uml_bank_account/BankAccount.xmi to generate a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Uml2Amble_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_UML2JAVA_transformation_tool",
+        "arguments": "/Users/alex/projects/uml_bank_account/BankAccount.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Show me the configuration settings of the Ant2XML transformation and then apply the SimpleClass2SimpleRDBMS transformation to the file ./atl_zoo/SimpleClass2SimpleRDBMS/modelsExamples/SimpleClassModel.xmi",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Ant2XML_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "arguments": "file_path=./atl_zoo/SimpleClass2SimpleRDBMS/modelsExamples/SimpleClassModel.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this PetriNet model /home/alice/projects/models/petri/assembly_line_petri.xmi into a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PetriNet2PathExp_transformation_tool",
+        "arguments": "/home/alice/projects/models/petri/assembly_line_petri.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "First transform the XML KM3 sample model at ./atl_zoo/KM32EMF/Sample-KM3.xmi into a DXF model using the XML2DXF transformation tool, then query the available details of the transformation XML2PetriNet by listing its configuration with the PetriNet mapping.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2DXF_transformation_tool",
+        "arguments": "./atl_zoo/KM32EMF/Sample-KM3.xmi"
+      },
+      {
+        "api_name": "list_transformation_XML2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Show me the configuration/details of the Activity2BPMN transformation that converts UML models into BPMN models, and then apply the RedundantInheritance_with_context transformation to the KM3 model at /projects/metamodels/km3/uml_to_bpmn/km3_in_model.km3 to produce a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Activity2BPMN_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_RedundantInheritance_with_context_transformation_tool",
+        "arguments": "file_path: /projects/metamodels/km3/uml_to_bpmn/km3_in_model.km3"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Provide the details of the transformation UML2MOF that converts UML models to MOF models, followed by the details of the transformation PNML2PetriNet that converts PNML models to PetriNet models, in that order.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2MOF_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_PNML2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the Table metamodel stored at ./examples/metamodels/TableModels/SalesTable.xmi into an SVGPieChart representation, preserving all row-level aggregates and category labels in the resulting visualization model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2SVGPieChart_transformation_tool",
+        "arguments": "file_path=./examples/metamodels/TableModels/SalesTable.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the Grafcet2PetriNet transformation (Grafcet -> PetriNet) and then show me the details of the PetriNet2PathExp transformation (PetriNet -> PathExp), in a single combined view that demonstrates the end-to-end chain from Grafcet models through PetriNet models to PathExp models.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Grafcet2PetriNet_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_PetriNet2PathExp_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UMLDI model at /workspace/models/umldi/EnterpriseBanking/BankingSystem.uml_di.xmi into its Amble representation using the Uml2Amble transformation tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Uml2Amble_transformation_tool",
+        "arguments": "{\"file_path\": \"/workspace/models/umldi/EnterpriseBanking/BankingSystem.uml_di.xmi\"}"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Table model located at /home/alice/projects/etl/TableModel_SalesData.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model, preserving all column mappings and row data for seamless import into Excel-based dashboards.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2SpreadsheetMLSimplified_transformation_tool",
+        "arguments": {
+          "file_path": "/home/alice/projects/etl/TableModel_SalesData.xmi"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform ./examples/uml_projects/ecommerce/OrderClassDiagram.xmi using UMLCLASSDIAGRAM2UMLPROFILE_transformation_tool and then transform ./examples/uml_projects/ecommerce/OrderModel.xmi to a JAVA model using UML2JAVA_transformation_tool",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UMLCLASSDIAGRAM2UMLPROFILE_transformation_tool",
+        "arguments": "file_path=./examples/uml_projects/ecommerce/OrderClassDiagram.xmi"
+      },
+      {
+        "api_name": "apply_UML2JAVA_transformation_tool",
+        "arguments": "file_path=./examples/uml_projects/ecommerce/OrderModel.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation UML2Measure that transforms the UML model file /Users/alex/projects/mdt/class.uml into the Measure model file /Users/alex/projects/mdt/class_measure.xml, and then show me the details of the transformation PNML2XML that transforms the PNML file /Users/alex/projects/mdt/processes/flow.pnml into the XML model /Users/alex/projects/mdt/processes/flow.xml",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2Measure_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_PNML2XML_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the KM32OWL transformation that converts the KM3 model located at /Users/alex/Projects/km3/input.km3 into an OWL ontology, including the input/output formats, mapping rules, parameter defaults, and any pre/post-processing steps or dependencies.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_KM32OWL_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the KM32DOT transformation that converts the KM3 model at /home/alice/projects/km3/industrial-system.km3 into a DOT graph.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_KM32DOT_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Retrieve the complete metadata for the Mantis2XML transformation that converts a Mantis model into XML, including input/output formats, element mappings, supported features, and version history.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Mantis2XML_tool",
+        "arguments": "..."
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation that converts a DSL model into a KM3 model, and then show me the details of the transformation that converts a PNML model into a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_DSL2KM3_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_PNML2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PetriNet model at /home/alice/workspace/models/petri/OrderFulfillmentNet.xmi into PNML format by applying the PetriNet to PNML transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PetriNet2PNML_transformation_tool",
+        "arguments": "/home/alice/workspace/models/petri/OrderFulfillmentNet.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the Table model at ./examples/models/TableModel_Table.xmi into an SVGPieChart model and then display the details of the RedundantInheritance_with_context transformation that converts a KM3 model into KM3target.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2SVGPieChart_transformation_tool",
+        "arguments": "file_path=./examples/models/TableModel_Table.xmi"
+      },
+      {
+        "api_name": "list_transformation_RedundantInheritance_with_context_tool",
+        "arguments": "(none)"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation ATOM2RSS that converts an ATOM model into an RSS model, and then also show me the details of the transformation Families2Persons that converts a Families model into a Persons model, in that order, including their source/target models, core steps, and any constraints.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_ATOM2RSS_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_Families2Persons_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the KM3 metamodel at ./models/enterprise/km3/FinancialSystem.km3 into an EMF model using KM3->EMF, and then transform the XML model at ./datasets/ecommerce/order_schema.xml into a MySQL model using XML->MySQL.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_KM32EMF_transformation_tool",
+        "arguments": "./models/enterprise/km3/FinancialSystem.km3"
+      },
+      {
+        "api_name": "apply_XML2MySQL_transformation_tool",
+        "arguments": "./datasets/ecommerce/order_schema.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide the metadata for the XML2XSLT transformation that converts the XML model located at /home/alex/projects/enterprise/xml_models/order.xml into an XSLT stylesheet model, including input/output schemas, version, authors, and any dependencies.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2XSLT_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model located at ./datasets/telecom/km3/NetworkKM3.xmi into an OWL ontology using the KM3-to-OWL transformation, and save the resulting ontology as ./datasets/telecom/km3/NetworkKM3.owl.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_KM32OWL_transformation_tool",
+        "arguments": "./datasets/telecom/km3/NetworkKM3.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the Ant2XML transformation to convert the Ant model located at /Users/alice/dev/ant-projects/build-sample.xmi into its XML model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Ant2XML_transformation_tool",
+        "arguments": "/Users/alice/dev/ant-projects/build-sample.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation PrimaryKey_with_context that transforms a KM3 model into KM3 model, including its source, target, and how it handles keys and context; then, in sequence, show me the details of the transformation Table2SpreadsheetMLSimplified that transforms a Table model into an MSOfficeExcel_SpreadsheetMLSimplified model, including its source, target, mappings, and any configuration parameters.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PrimaryKey_with_context_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_Table2SpreadsheetMLSimplified_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Apply a primary key with context transformation to the KM3 model at ./atl_zoo/KM32EMF/Sample-KM3.xmi to produce an updated KM3 model, then display details of the transformation Table2SpreadsheetMLSimplified that maps a Table model into an MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PrimaryKey_with_context_transformation_tool",
+        "arguments": {
+          "file_path": "./atl_zoo/KM32EMF/Sample-KM3.xmi"
+        }
+      },
+      {
+        "api_name": "list_transformation_Table2SpreadsheetMLSimplified_tool",
+        "arguments": {}
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the XML model /Users/alice/Projects/mde/input/xml_models/network_config.xml into a GeoTrans model and then transform the Table model /Users/alice/Projects/mde/input/table_models/annual_sales.table into a MSOfficeExcel_SpreadsheetMLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2GeoTrans_transformation_tool",
+        "arguments": "file_path=/Users/alice/Projects/mde/input/xml_models/network_config.xml"
+      },
+      {
+        "api_name": "apply_Table2SpreadsheetMLSimplified_transformation_tool",
+        "arguments": "file_path=/Users/alice/Projects/mde/input/table_models/annual_sales.table"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide the full details of the RedundantInheritance_with_context transformation that converts a KM3 model from C:/models/input.km3 to a KM3target model at C:/models/output.km3target, including input/output model definitions, mapping rules for redundant inheritance, required context properties, dependencies, and any known limitations or edge cases.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_RedundantInheritance_with_context_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the full details of the Maven2Ant transformation that converts a MavenMaven model into an Ant model, including input/output formats, the canonical mapping rules between Maven POM elements and Ant build.xml elements, supported Maven namespaces, version compatibility, and any default configurations or parameters.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Maven2Ant_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the Ant2XML transformation (transforms an Ant model into XML) and then show me the details of the PetriNet2PathExp transformation (transforms a PetriNet model into a PathExp model).",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Ant2XML_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_PetriNet2PathExp_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model at ./models/uml/online_store/CheckoutProcess.uml into its MOF representation using the UML2MOF transformation tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UML2MOF_transformation_tool",
+        "arguments": "./models/uml/online_store/CheckoutProcess.uml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at ./atl_zoo/KM32EMF/Sample-KM3.xmi into a KM3target model by applying Redundant Inheritance with Context Transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_RedundantInheritance_with_context_transformation_tool",
+        "arguments": {
+          "file_path": "./atl_zoo/KM32EMF/Sample-KM3.xmi"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the METAH model at /home/alice/projects/metamodels/ExampleMETAH.xmi into an ACME model, and then retrieve the details of the transformation that converts a Measure model into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_METAH2ACME_transformation_tool",
+        "arguments": "\"file_path\": \"/home/alice/projects/metamodels/ExampleMETAH.xmi\""
+      },
+      {
+        "api_name": "list_transformation_Measure2Table_tool",
+        "arguments": "no arguments"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Make model at /home/alice/projects/buildsystem/MakeModel.xmi into an equivalent Ant model, ensuring all targets, prerequisite rules, variables, and patterns are preserved; if any Make features (like pattern rules, automatic variables, or special directives) cannot be translated, report them and provide a best-effort fallback mapping.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Make2Ant_transformation_tool",
+        "arguments": {
+          "file_path": "/home/alice/projects/buildsystem/MakeModel.xmi"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the full details of the UML2OWL transformation that converts a UML model into an OWL ontology, including input/output formats, mapping rules, transformation steps, supported UML profiles, version history, and any known limitations.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2OWL_tool",
+        "arguments": "..."
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /home/dev/km3_models/SmartFactory/FactorySystemKM3.xmi into the corresponding Problem model using the KM3-to-Problem transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_KM32Problem_transformation_tool",
+        "arguments": "/home/dev/km3_models/SmartFactory/FactorySystemKM3.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the A-model at /Users/sam/Projects/metamodels/A2B/CustomerOrders_A.xmi into a Relational (RDBMS) model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_A2B_transformation_tool",
+        "arguments": "/Users/sam/Projects/metamodels/A2B/CustomerOrders_A.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details and configuration metadata for the R2ML2WSDL transformation that converts R2ML models into WSDL models.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_R2ML2WSDL_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the Table model at /home/alice/mdt/models/tables/SalesOrders.table into HTML using apply_Table2TabularHTML_transformation_tool, and then retrieve the details of the ATOM2RSS transformation that converts ATOM models into RSS models using list_transformation_ATOM2RSS_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2TabularHTML_transformation_tool",
+        "arguments": "file_path=/home/alice/mdt/models/tables/SalesOrders.table"
+      },
+      {
+        "api_name": "list_transformation_ATOM2RSS_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show the configuration details of the KM32OWL transformation that converts KM3 models to OWL, and then apply the UML2OWL transformation to the UML model at ./models/uml/SampleModel.uml.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_KM32OWL_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_UML2OWL_transformation_tool",
+        "arguments": "./models/uml/SampleModel.uml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the PetriNet model at /workspace/projects/models/PetriNet/SimplePN.xmi into a PathExp model, then display details of the Partial2totalRoleB transformation that maps KM3 models to KM3target models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PetriNet2PathExp_transformation_tool",
+        "arguments": "/workspace/projects/models/PetriNet/SimplePN.xmi"
+      },
+      {
+        "api_name": "list_transformation_Partial2totalRoleB_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "First, show me the details of the transformation that converts an XML model into a DXF model (XML2DXF). Then show me the details of the transformation that converts a DSL model into a KM3 model (DSL2KM3). After retrieving both, provide a brief note on any overlapping configuration parameters.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2DXF_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_DSL2KM3_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the SimpleClass model /home/alice/projects/metamodels/UniversityDomain.xmi into a SimpleRDBMS model",
+    "relevant_apis": [
+      {
+        "api_name": "apply_SimpleClass2SimpleRDBMS_transformation_tool",
+        "arguments": {
+          "file_path": "/home/alice/projects/metamodels/UniversityDomain.xmi"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the full details for the Activity2BPMN transformation that converts UML models to BPMN diagrams, including input/output formats, supported UML constructs (class, sequence, activity, state machine), mapping rules between UML elements and BPMN primitives, configuration options, versioning, and any known limitations or pitfalls I should be aware of when integrating into a CI pipeline.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Activity2BPMN_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /home/james/km3/ExampleBankKM3.xmi into a KM3target metamodel using the Partial to total RoleA transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Partial2totalRoleA_transformation_tool",
+        "arguments": "{\"file_path\": \"/home/james/km3/ExampleBankKM3.xmi\"}"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the XML model describing the web UI flow located at /home/aria/projects/mdm/xml_models/webui_flow.xml into an XSLT stylesheet using apply_XML2XSLT_transformation_tool so it can be integrated into our site generator.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2XSLT_transformation_tool",
+        "arguments": "/home/aria/projects/mdm/xml_models/webui_flow.xml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply XML2Ant transformation to /home/alex/workspace/models/XML/CI_Pipeline.xml to generate the Ant build model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2Ant_transformation_tool",
+        "arguments": {
+          "file_path": "/home/alex/workspace/models/XML/CI_Pipeline.xml"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation METAH2ACME that converts a METAH model into an ACME model, and then show me the details of the transformation PathExp2PetriNet that converts a PathExp model into a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_METAH2ACME_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_PathExp2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model at ./projects/eco_system/XMLModels/SmartHomeSystem.xml into a DSL model using apply_XML2DSL_transformation_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2DSL_transformation_tool",
+        "arguments": "./projects/eco_system/XMLModels/SmartHomeSystem.xml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the XML2MySQL transformation that converts the XML model at /var/data/models/ecommerce/order_catalog.xml into a MySQL relational schema, including source structure, target tables, field mappings, datatype conversions, and any custom rules.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2MySQL_tool",
+        "arguments": "none"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the DSL model located at /MetamodelBridge/Models/BankExample/DSL2KM3/BankDomain.dsl to KM3 using the DSL2KM3 transformation, and then display the details of the UML2MOF_2 transformation that converts UML models into MOF so I can compare their configurations.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_DSL2KM3_transformation_tool",
+        "arguments": "file_path: /MetamodelBridge/Models/BankExample/DSL2KM3/BankDomain.dsl"
+      },
+      {
+        "api_name": "list_transformation_UML2MOF_2_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PathExp model ./projects/PathExpModels/OrderProcessPathExp.xmi into a PetriNet model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PathExp2PetriNet_transformation_tool",
+        "arguments": "{\"file_path\": \"./projects/PathExpModels/OrderProcessPathExp.xmi\"}"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this Book model /home/alice/workspace/models/BookModel_final.xmi into a Publication model, preserving author, chapter, and publisher metadata during the transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Book2Publication_transformation_tool",
+        "arguments": "file_path=/home/alice/workspace/models/BookModel_final.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Fetch the full details of the PathExp2PetriNet transformation that converts a PathExp model into a PetriNet model, including input/output specifications, mapping rules, supported PathExp constructs (sequences, choices, loops), version history, configuration options, and any example transformations.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PathExp2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show me the configuration/details of the transformation UMLCLASSDIAGRAM2UMLPROFILE that transforms a Class Diagram into a UML Profile, and then apply the Uml2Amble transformation to the UMLDI model located at ./examples/uml/CustomerUMLDI.xmi to produce an Amble model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UMLCLASSDIAGRAM2UMLPROFILE_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_Uml2Amble_transformation_tool",
+        "arguments": "./examples/uml/CustomerUMLDI.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PathExp model located at /home/aiuser/projects/mde/pathexp/models/ExamplePathExp.xmi into a corresponding TextualPathExp model using apply_PathExp2TextualPathExp_transformation_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PathExp2TextualPathExp_transformation_tool",
+        "arguments": {
+          "file_path": "/home/aiuser/projects/mde/pathexp/models/ExamplePathExp.xmi"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the PetriNet model at /home/alex/models/petri/assembly_line_petri_net.xmi into its Grafcet equivalent using the transformation tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PetriNet2Grafcet_transformation_tool",
+        "arguments": "/home/alex/models/petri/assembly_line_petri_net.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide the complete metadata and configuration details for the XML2PetriNet transformation that converts an XML model into a PetriNet model, including its input XML schema, target PetriNet structure, mapping rules, version history, supported namespaces, default parameters (if any), and example valid input/output snippets.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Show me the details of the transformation XML2Book that converts XML models into Book models, and then apply the PetriNet2PathExp transformation to the PetriNet model located at /Users/alice/Downloads/llm-agents-mde/src/examples/petriNet1.xmi to produce a PathExp model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2Book_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_PetriNet2PathExp_transformation_tool",
+        "arguments": "file_path=/Users/alice/Downloads/llm-agents-mde/src/examples/petriNet1.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show the configuration details of the transformation that converts XML models to DSL models (XML2DSL). Then apply the Make2Ant transformation to the Make model located at /home/user/projects/metamodels/MakeModel.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2DSL_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_Make2Ant_transformation_tool",
+        "arguments": "file_path=/home/user/projects/metamodels/MakeModel.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the PetriNet model at /projects/petri/petri_model.pnml to an XML model using apply_PetriNet2XML_transformation_tool, and then list the details of the KM3 transformation Partial2totalRoleA (KM3 to KM3target) using list_transformation_Partial2totalRoleA_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PetriNet2XML_transformation_tool",
+        "arguments": "file_path: /projects/petri/petri_model.pnml"
+      },
+      {
+        "api_name": "list_transformation_Partial2totalRoleA_tool",
+        "arguments": "(none)"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the KM3 model at ./models/input/sample_km3.km3 into a Problem model using KM3 to Problem transformation, and then transform the JavaSource model at ./models/input/MyProjectJavaSource.xmi into a Table model using JavaSource to Table transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_KM32Problem_transformation_tool",
+        "arguments": "file_path: ./models/input/sample_km3.km3"
+      },
+      {
+        "api_name": "apply_JavaSource2Table_transformation_tool",
+        "arguments": "file_path: ./models/input/MyProjectJavaSource.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Please display the full details of the Class2Relational transformation that converts a UML Class model into a Relational database schema, using the Class model stored at /projects/models/uml/BankSystem.class and outputting the relational schema to /outputs/sql/bank_schema.sql, including mapping rules, attribute-to-column mappings, primary/foreign key handling, and inheritance strategies.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Class2Relational_tool",
+        "arguments": "get"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Display the details of the transformation XSLT2XQuery that converts an XSLT model into an XQuery model, and then display the details of the transformation XML2Ant that converts an XML model into an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XSLT2XQuery_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_XML2Ant_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Apply a PrimaryKey with context transformation to the KM3 model at /home/user/projects/km3/LibraryRoot.km3.xmi, and then apply a Class2Relational transformation to the Class model at /home/user/projects/relational/ClassModel_input.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PrimaryKey_with_context_transformation_tool",
+        "arguments": "file_path: /home/user/projects/km3/LibraryRoot.km3.xmi"
+      },
+      {
+        "api_name": "apply_Class2Relational_transformation_tool",
+        "arguments": "file_path: /home/user/projects/relational/ClassModel_input.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation that converts /Users/alexm/Documents/Models/XML/blog_feed.xml to an RSS model, including input schema, output RSS fields, and mapping rules.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2RSS_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation UML2MOF_2 (transforms a model into a MOF model), and then show me the details of the transformation TextualPathExp2PathExp (transforms a TextualPathExp model into a PathExp model).",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2MOF_2_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_TextualPathExp2PathExp_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Fetch the complete metadata for the XML2Book transformation that converts an XML representation of a Book into the Book model. Provide transformation ID 'XML2Book', version, author, last updated, input schema at /schemas/xml/BookInput.xsd, output schema at /schemas/models/BookModel.json, mapping rules (XML Book fields to Book model fields), default values, supported namespaces, error handling strategy, and a concise execution workflow (pre-validate, transform, post-process) with an example endpoint if applicable.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2Book_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Apply the XML2Make transformation to the XML model at /home/user/projects/metamodels/xml/Input-Inventory.xml to produce a Make model, then display the details of the transformation XML2SpreadsheetMLSimplified that converts XML models into MSOfficeExcel_SpreadsheetMLSimplified models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2Make_transformation_tool",
+        "arguments": "/home/user/projects/metamodels/xml/Input-Inventory.xml"
+      },
+      {
+        "api_name": "list_transformation_XML2SpreadsheetMLSimplified_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the UML model /Users/alice/Projects/uml/OrderProcess.uml.xmi into a Measure model, and then transform the Make model /Users/alice/Projects/models/make/buildMake.xmi into an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UML2Measure_transformation_tool",
+        "arguments": "file_path=/Users/alice/Projects/uml/OrderProcess.uml.xmi"
+      },
+      {
+        "api_name": "apply_Make2Ant_transformation_tool",
+        "arguments": "file_path=/Users/alice/Projects/models/make/buildMake.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Describe the PathExp2TextualPathExp transformation in detail: show the input PathExp model located at /data/models/PathExp/sample_pathexp.json and the resulting TextualPathExp model at /data/models/TextualPathExp/sample_textualpathexp.txt, include the canonical mapping rules between PathExp nodes (Node, Edge, Path) and their TextualPathExp equivalents, list supported constructs (filters, predicates, and aggregations), validation rules, and provide a concrete example converting the sample_pathexp.json to sample_textualpathexp.txt.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "arguments": "get (no arguments required)"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "First transform the PetriNet model at ./models/petriNet_sample.xmi into PNML using the PetriNet2PNML transformation tool, then transform the XML model at ./models/xml/sample_config.xml into an Ant model using the XML2Ant transformation tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PetriNet2PNML_transformation_tool",
+        "arguments": "./models/petriNet_sample.xmi"
+      },
+      {
+        "api_name": "apply_XML2Ant_transformation_tool",
+        "arguments": "./models/xml/sample_config.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Display the details of the transformation UMLDI2SVG_tool that converts a UML diagram model into an SVG visualization, followed by the details of the transformation XML2MySQL_tool that converts an XML model into a MySQL relational model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UMLDI2SVG_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_XML2MySQL_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Apply the JavaSource to Table transformation to the JavaSource model located at /workspace/models/JavaSource/Examples/BookStoreJavaSource.xmi, then retrieve the details of the XML2MySQL transformation that converts XML models to MySQL models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_JavaSource2Table_transformation_tool",
+        "arguments": "file_path=/workspace/models/JavaSource/Examples/BookStoreJavaSource.xmi"
+      },
+      {
+        "api_name": "list_transformation_XML2MySQL_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the transformation XML2WSDL that converts the XML model located at /Users/alex/Projects/xml_models/order_request.xml into a WSDL model, including input/output specifications, mapping rules, namespaces, and compatibility information.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2WSDL_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First, list the details of the transformation that converts XML to DXF (XML2DXF). Then apply the transformation that converts an XML model to an RSS model to the file ./examples/input_model.xml, producing an RSS model output.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2DXF_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_XML2RSS_transformation_tool",
+        "arguments": "file_path: ./examples/input_model.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Request the complete metadata for the XML2PNML transformation that converts the XML model located at /home/projects/pm/xml_models/order_process.xml into PNML. Provide input and output schemas, the current transformation version, the core mapping rules, supported features (e.g., data types, annotations, concurrency constructs), and any external dependencies or plugins required.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2PNML_tool",
+        "arguments": "Transformation name: XML2PNML; example input: /home/projects/pm/xml_models/order_process.xml; request: metadata, schemas, version, mapping rules, features, dependencies."
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation that converts a Table model into an SVGBarChart model, and then show me the details of the transformation that converts an Ant model into a MavenMaven model, in that specific order.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Table2SVGBarChart_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_Ant2Maven_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the KM3 model at ./examples/km3/model1.km3 into a DSL model, and transform the UML model at ./examples/uml/orderProcess.uml into a BPMN model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_KM32DSL_transformation_tool",
+        "arguments": "file_path: ./examples/km3/model1.km3"
+      },
+      {
+        "api_name": "apply_Activity2BPMN_transformation_tool",
+        "arguments": "file_path: ./examples/uml/orderProcess.uml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First apply the XML to PNML transformation on the model file /Users/alex/model_repo/xml_models/invoice.xml to obtain a PNML model, then list details of the transformation SimpleClass2SimpleRDBMS that converts a SimpleClass model to a SimpleRDBMS model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2PNML_transformation_tool",
+        "arguments": "file_path: /Users/alex/model_repo/xml_models/invoice.xml"
+      },
+      {
+        "api_name": "list_transformation_SimpleClass2SimpleRDBMS_tool",
+        "arguments": "(none)"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the R2ML model at /home/analysis/workspace/mde/models/R2ML/ServiceCatalog_R2ML.xmi into the corresponding WSDL model using the R2ML-to-WSDL transformation tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_R2ML2WSDL_transformation_tool",
+        "arguments": "/home/analysis/workspace/mde/models/R2ML/ServiceCatalog_R2ML.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the details of the transformation Table2TabularHTML that converts a Table model into an HTML model, given the input Table model at /Users/jdoe/Documents/models/tables/customer_table.tbl and the desired HTML output at /Users/jdoe/Documents/models/html/customer_table.html.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Table2TabularHTML_tool",
+        "arguments": "input_path=/Users/jdoe/Documents/models/tables/customer_table.tbl; output_path=/Users/jdoe/Documents/models/html/customer_table.html"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the UMLDI model at ./projects/uml/ExampleUMLDI.xmi into an Amble model using apply_Uml2Amble_transformation_tool, then transform the KM3 model at ./projects/km3/ExampleKM3.km3 into a Metrics model using apply_KM32Metrics_transformation_tool. Perform the operations in sequence.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Uml2Amble_transformation_tool",
+        "arguments": "file_path=./projects/uml/ExampleUMLDI.xmi"
+      },
+      {
+        "api_name": "apply_KM32Metrics_transformation_tool",
+        "arguments": "file_path=./projects/km3/ExampleKM3.km3"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the Ant model at /workspace/metamodels/Ant/ExampleAntModel.xmi into a MavenMaven model using the Ant2Maven transformation tool, and then list the details of the JavaSource2Table transformation that converts JavaSource models into Table models using the JavaSource2Table tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Ant2Maven_transformation_tool",
+        "arguments": {
+          "file_path": "/workspace/metamodels/Ant/ExampleAntModel.xmi"
+        }
+      },
+      {
+        "api_name": "list_transformation_JavaSource2Table_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the Table model located at ./demo_models/TableModels/SalesTable.xmi into an SVGBarChart using the apply_Table2SVGBarChart_transformation_tool, then fetch the details of the transformation XML2MySQL that converts XML models into MySQL models via list_transformation_XML2MySQL_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2SVGBarChart_transformation_tool",
+        "arguments": "file_path=./demo_models/TableModels/SalesTable.xmi"
+      },
+      {
+        "api_name": "list_transformation_XML2MySQL_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First display the configuration of the DSL2KM3 transformation (that converts a DSL model into a KM3 model), then apply the XML to MSOffice Excel SpreadsheetMLSimplified transformation to the XML model located at /workspace/models/input_sample.xml to produce a SpreadsheetMLSimplified artifact.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_DSL2KM3_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_XML2SpreadsheetMLSimplified_transformation_tool",
+        "arguments": "file_path=/workspace/models/input_sample.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details for the Make2Ant transformation that converts input MakeModel_v2.json (C:/workspace/models/MakeModel_v2.json) into output AntModel_v1.xml (C:/workspace/models/AntModel_v1.xml), including metadata, input/output schemas, version, authors, dependencies, and example mapping rules.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Make2Ant_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First display the details of transformation KM32OWL that transforms KM3 model into OWL model, and then apply the PetriNet2PNML transformation to the PetriNet model file at /home/user/projects/llm-agents-mde/models/petriNet_example.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_KM32OWL_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_PetriNet2PNML_transformation_tool",
+        "arguments": "file_path=/home/user/projects/llm-agents-mde/models/petriNet_example.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the UML2MOF transformation that converts a UML model into a MOF model, including input/output formats, rules, and example mappings.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2MOF_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show me the details of the transformation Book2Publication that converts a Book model into a Publication model, including its inputs, outputs, and any constraints; then apply the XML2SpreadsheetMLSimplified transformation to the XML model located at /Users/alex/Documents/mlde/projects/library/LibraryBook.xml to produce an MSOffice Excel Spreadsheet MLSimplified model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Book2Publication_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_XML2SpreadsheetMLSimplified_transformation_tool",
+        "arguments": "/Users/alex/Documents/mlde/projects/library/LibraryBook.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me all available details for the Families2Persons transformation that converts a Families model into a Persons model, including input/output types, mapping rules, configuration options, and any supported variants.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Families2Persons_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply Mantis2XML to the Mantis model at /Users/julie/projects/mantis/models/InventorySystem_Mantis.xmi to generate its XML representation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Mantis2XML_transformation_tool",
+        "arguments": {
+          "file_path": "/Users/julie/projects/mantis/models/InventorySystem_Mantis.xmi"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the configuration settings of the SimpleClass2SimpleRDBMS transformation (that converts SimpleClass to SimpleRDBMS), and then show me the configuration settings of the XML2PetriNet transformation (that converts XML to PetriNet).",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_SimpleClass2SimpleRDBMS_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_XML2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply UML2JAVA transformation to convert the UML model located at ./enterprise/erp/PaymentGateway/UML/PaymentGatewaySystem.xmi into the corresponding JAVA model, preserving all classes, interfaces, and package namespaces.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UML2JAVA_transformation_tool",
+        "arguments": "{\"file_path\": \"./enterprise/erp/PaymentGateway/UML/PaymentGatewaySystem.xmi\"}"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation that converts XML models to PNML (XML2PNML) and also show me the details of the transformation RedundantInheritance_with_context that converts KM3 models to KM3target models.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2PNML_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_RedundantInheritance_with_context_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model located at /home/alex/workspace/xml_models/store_catalog.xml into a Book metamodel using the apply_XML2Book_transformation_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2Book_transformation_tool",
+        "arguments": {
+          "file_path": "/home/alex/workspace/xml_models/store_catalog.xml"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Show me the configuration details of the Uml2Amble transformation, and then apply the XML-to-RSS transformation to the XML model located at /Users/guest/workspace/models/diagram.xml.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Uml2Amble_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_XML2RSS_transformation_tool",
+        "arguments": "file_path: /Users/guest/workspace/models/diagram.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the JavaSource model at /home/llm/projects/mdm/java/JavaSourceSample.xmi into a Table model using the JavaSource->Table transformation, and then list the details of the transformation XML2MySQL that converts XML models into MySQL models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_JavaSource2Table_transformation_tool",
+        "arguments": "/home/llm/projects/mdm/java/JavaSourceSample.xmi"
+      },
+      {
+        "api_name": "list_transformation_XML2MySQL_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the DSL model at /Users/alice/projects/DSLModels/InventoryDSL.xmi into a KM3 model, then fetch the details of the transformation that converts MySQL models into KM3 models to compare how field mappings differ between the two transformations.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_DSL2KM3_transformation_tool",
+        "arguments": "file_path=/Users/alice/projects/DSLModels/InventoryDSL.xmi"
+      },
+      {
+        "api_name": "list_transformation_MySQL2KM3_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display comprehensive details for the PetriNet2XML transformation that converts a PetriNet model in PNML format to an XML representation. Include: input type (PNML at /workspace/petri/pn_flow1.pnml), output location and format (XML at /workspace/xml/pn_flow1.xml), transformation version (1.2.0), dependencies (libpn2xml 3.1, libxml 2.x), supported PNML features, mapping rules overview, and a minimal example of a PNML snippet and its corresponding XML snippet.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PetriNet2XML_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model ./projects/systems/OrderFulfillment/XML/OrderProcessModel.xml into a PetriNet model using the XML2PetriNet transformation tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2PetriNet_transformation_tool",
+        "arguments": "./projects/systems/OrderFulfillment/XML/OrderProcessModel.xml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the Table model located at ./examples/metamodels/Table/Sample-Table.xmi into an HTML model using apply_Table2TabularHTML_transformation_tool with file_path ./examples/metamodels/Table/Sample-Table.xmi, and then display details of the PathExp2PetriNet transformation that converts PathExp models to PetriNet models using list_transformation_PathExp2PetriNet_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2TabularHTML_transformation_tool",
+        "arguments": "./examples/metamodels/Table/Sample-Table.xmi"
+      },
+      {
+        "api_name": "list_transformation_PathExp2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model at /home/alice/km3_models/enterprise_warehouse.km3.xmi into a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Partial2totalRoleB_transformation_tool",
+        "arguments": "/home/alice/km3_models/enterprise_warehouse.km3.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the XML2WSDL transformation to convert the XML model at /Users/anna/projects/integration/xml_models/ecommerce_order.xml into a WSDL model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2WSDL_transformation_tool",
+        "arguments": "/Users/anna/projects/integration/xml_models/ecommerce_order.xml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the XML metamodel file at /home/user/ml/metamodels/XML/EnterpriseNetwork-XML.xmi into a GeoTrans model using the apply_XML2GeoTrans_transformation_tool, then retrieve and display the details of the PetriNet2PNML transformation that converts PetriNet models into PNML models by calling list_transformation_PetriNet2PNML_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2GeoTrans_transformation_tool",
+        "arguments": "file_path=/home/user/ml/metamodels/XML/EnterpriseNetwork-XML.xmi"
+      },
+      {
+        "api_name": "list_transformation_PetriNet2PNML_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the ATOM model at /var/data/atom_feeds/weblog_feed.atom into an RSS model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_ATOM2RSS_transformation_tool",
+        "arguments": {
+          "file_path": "/var/data/atom_feeds/weblog_feed.atom"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the MavenMaven model located at /workspace/models/MavenMaven/ExampleProject-MM.xmi into an Ant model, and then display the details of the Grafcet2PetriNet transformation that converts Grafcet models into PetriNet models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Maven2Ant_transformation_tool",
+        "arguments": "{\"file_path\": \"/workspace/models/MavenMaven/ExampleProject-MM.xmi\"}"
+      },
+      {
+        "api_name": "list_transformation_Grafcet2PetriNet_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the DSL model at ./models/sample-model.dsl into KM3 using the DSL2KM3 transformation, producing a KM3 model, and then display the details of the XML2DSL transformation that converts XML models to DSL so I can compare how both pipelines map structures.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_DSL2KM3_transformation_tool",
+        "arguments": "file_path"
+      },
+      {
+        "api_name": "list_transformation_XML2DSL_tool",
+        "arguments": "(none)"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show the details of the transformation Partial2totalRoleB that converts a KM3 model into a KM3target model, then apply the Maven2Ant transformation to the Maven model file at /home/alice/projects/mde/maven_input.xmi to produce an Ant model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Partial2totalRoleB_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_Maven2Ant_transformation_tool",
+        "arguments": "file_path: /home/alice/projects/mde/maven_input.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform this UML model located at /home/alex/workspace/uml_models/electronics_catalog.uml into a MOF model to enable downstream MOF-based code generation and cross-tool interoperability",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UML2MOF_2_transformation_tool",
+        "arguments": "/home/alex/workspace/uml_models/electronics_catalog.uml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the KM3 model located at /home/julien/km3/AssetManagement.km3 into its EMF representation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_KM32EMF_transformation_tool",
+        "arguments": {
+          "file_path": "/home/julien/km3/AssetManagement.km3"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "List me the details of the transformation PetriNet2PNML that converts the PetriNet model stored at /home/research/petri/petriModel1.xmi into its PNML representation.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PetriNet2PNML_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "First, show me the details of the transformation PathExp2TextualPathExp that converts a PathExp model into a TextualPathExp model, including input/output types and any constraints, and then show me the details of the UML2OWL transformation that converts a UML model into an OWL model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PathExp2TextualPathExp_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_UML2OWL_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the model at /home/ai/workspace/metamodels/Finance/BankingSystem-XML.xmi into a DSL model using the apply_XML2DSL_transformation_tool, and then display the details of the transformation named Table2TabularHTML that converts a Table model into an HTML model using list_transformation_Table2TabularHTML_tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2DSL_transformation_tool",
+        "arguments": "/home/ai/workspace/metamodels/Finance/BankingSystem-XML.xmi"
+      },
+      {
+        "api_name": "list_transformation_Table2TabularHTML_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /home/alice/projects/erp/models/OrderProcess.xml into an R2ML representation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2R2ML_transformation_tool",
+        "arguments": "/home/alice/projects/erp/models/OrderProcess.xml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML Class Diagram model ./models/uml/ClassDiagram_Server.xmi into a UML Profile model, mapping each Class to a stereotyped element in the profile and preserving attributes as tagged values.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UMLCLASSDIAGRAM2UMLPROFILE_transformation_tool",
+        "arguments": "./models/uml/ClassDiagram_Server.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UMLDI model /home/alice/umldi/models/FlightReservation.uml into an SVG diagram using the UMLDI2SVG transformation tool.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UMLDI2SVG_transformation_tool",
+        "arguments": "/home/alice/umldi/models/FlightReservation.uml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation that converts an XML model into a Book model, and then show me the details of the transformation that converts a UML model into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2Book_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_UML2MOF_2_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation that converts an XML model into a MySQL model (XML2MySQL), and then show me the details of the transformation that converts a KM3 model into a KM3target model (Partial2totalRoleA).",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2MySQL_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_Partial2totalRoleA_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Perform a two-step workflow: first apply the UMLDI to Amble transformation on the UML model file /Users/zhang/mlde/projects/UML/OrderProcess.uml_di.xmi; then retrieve the details of the transformation MySQL2KM3 that converts a MySQL model to KM3.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Uml2Amble_transformation_tool",
+        "arguments": "file_path=/Users/zhang/mlde/projects/UML/OrderProcess.uml_di.xmi"
+      },
+      {
+        "api_name": "list_transformation_MySQL2KM3_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Please retrieve the complete metadata for the transformation MySQL2KM3 that converts a MySQL database schema into a KM3 model. Include input dialect and file format (e.g., MySQL 8.0 schema SQL file at '/data/mysql/schema_v8.sql'), output KM3 model version (e.g., KM3 v1.2), datatype mappings, handling of primary/foreign keys and indexes, supported constraints (NOT NULL, UNIQUE, CHECK), transformation rules, and any configurable options or post-processing steps. Use concrete example paths: input '/data/mysql/schema_v8.sql', output '/data/km3/models/db_v8.km3'.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_MySQL2KM3_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the Ant2XML transformation that converts the Ant model located at /home/alice/projects/ant-models/order-processing/build.ant into its corresponding XML model, including input/output types, transformation steps, version, and any configurable options.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Ant2XML_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the Table model located at ./data/models/TableModel/SampleTableModel.table.xmi into an HTML model using the Table-to-HTML transformation, and then display details of the transformation XML2WSDL that converts XML models into WSDL models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2TabularHTML_transformation_tool",
+        "arguments": "{\"file_path\": \"./data/models/TableModel/SampleTableModel.table.xmi\"}"
+      },
+      {
+        "api_name": "list_transformation_XML2WSDL_tool",
+        "arguments": "{}"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the UML2Measure transformation to convert the UML model at /Users/charlie/Projects/UMLModels/BankingSystem.uml into a corresponding Measure model, preserving package hierarchy and mapping each UML class to a Measure entity with attributes translated to Measure properties.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UML2Measure_transformation_tool",
+        "arguments": "/Users/charlie/Projects/UMLModels/BankingSystem.uml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform Grafcet model at /home/alex/projects/grafcet_models/plant_process.xmi into a PetriNet model using the Grafcet2PetriNet transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Grafcet2PetriNet_transformation_tool",
+        "arguments": "{\"file_path\":\"/home/alex/projects/grafcet_models/plant_process.xmi\"}"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First display the details of the transformation UML2MOF_2 that converts a UML model into a MOF model, then apply the Partial2totalRoleB transformation to the KM3 model located at /home/user/km3/input_model_A.km3 to produce a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2MOF_2_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_Partial2totalRoleB_transformation_tool",
+        "arguments": "/home/user/km3/input_model_A.km3"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the UML model at ./example_models/uml/Sample-UML.xmi into its MOF representation using the UML2MOF transformation, then display details of the XSLT2XQuery transformation that converts an XSLT model into an XQuery model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UML2MOF_transformation_tool",
+        "arguments": "file_path: ./example_models/uml/Sample-UML.xmi"
+      },
+      {
+        "api_name": "list_transformation_XSLT2XQuery_tool",
+        "arguments": "(none)"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Apply the Table2SVGPieChart transformation to ./demo_data/table_models/SalesTable.xmi to produce an SVGPieChart, and then display details of the Grafcet2PetriNet transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2SVGPieChart_transformation_tool",
+        "arguments": {
+          "file_path": "./demo_data/table_models/SalesTable.xmi"
+        }
+      },
+      {
+        "api_name": "list_transformation_Grafcet2PetriNet_tool",
+        "arguments": {}
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Apply the XML2KML transformation to the XML model at /data/projects/urban_map/CityRoutes.xml and save the resulting KML model as /data/projects/urban_map/CityRoutes.kml.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2KML_transformation_tool",
+        "arguments": "file_path: /data/projects/urban_map/CityRoutes.xml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the UML model located at /Users/llm/Projects/MDE/Models/UML2MOF/LibrarySystem-MM-XML.xmi into its MOF representation using the UML2MOF transformation, then display the details of the UML2MOF transformation that converts a UML model into a MOF model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_UML2MOF_transformation_tool",
+        "arguments": "file_path=/Users/llm/Projects/MDE/Models/UML2MOF/LibrarySystem-MM-XML.xmi"
+      },
+      {
+        "api_name": "list_transformation_UML2MOF_tool",
+        "arguments": "none"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show me the details of the A2B transformation that converts an A model into a B model. Then apply the UML to JAVA transformation to convert the UML model located at /home/alice/work/models/diagram.uml into a JAVA model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_A2B_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_UML2JAVA_transformation_tool",
+        "arguments": "/home/alice/work/models/diagram.uml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show detailed information about the Partial2totalRoleA transformation that converts a KM3 model into a KM3target model, including input/output metamodels, mapping rules, dependencies, and example traces.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Partial2totalRoleA_tool",
+        "arguments": null
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Fetch the full metadata for the METAH2ACME transformation that converts a METAH model to an ACME model, including: input/output formats, the exact mapping rules from METAH constructs to ACME constructs, supported METAH versions, any constraints or prerequisites, and a concise example of a transformation from a sample METAH snippet to its ACME equivalent, all as documented in the latest release notes.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_METAH2ACME_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide the full details of the UML2JAVA transformation that converts a UML model into a Java model: include input UML meta-model, target Java meta-model, mapping rules/guidelines, transformation version, any configuration options, and any pre/post processing steps or constraints.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2JAVA_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Apply the R2ML to WSDL transformation to the model at /workspace/projects/metamodels/R2ML/CustomerOrder_R2ML.xml to generate a WSDL model, and then display details of the UML2KM3 transformation that converts UML models into KM3 models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_R2ML2WSDL_transformation_tool",
+        "arguments": "/workspace/projects/metamodels/R2ML/CustomerOrder_R2ML.xml"
+      },
+      {
+        "api_name": "list_transformation_UML2KM3_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the UMLDI model of the ERP system at /Users/alex/Projects/uml_diagrams/erp_system.uml into an Amble model, and then transform the XML model at /Users/alex/Projects/xml_data/invoices.xml into a Book model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Uml2Amble_transformation_tool",
+        "arguments": "/Users/alex/Projects/uml_diagrams/erp_system.uml"
+      },
+      {
+        "api_name": "apply_XML2Book_transformation_tool",
+        "arguments": "/Users/alex/Projects/xml_data/invoices.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation that converts a Measure model into a Table model, and then show me the details of the transformation that converts an XML model into an XSLT model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Measure2Table_tool",
+        "arguments": "get"
+      },
+      {
+        "api_name": "list_transformation_XML2XSLT_tool",
+        "arguments": "get"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the Ant model /Users/alice/llm-agents-mde/src/examples/Ant/build.xmi into a MavenMaven model, and then transform the resulting MavenMaven model /Users/alice/llm-agents-mde/outputs/build_ant_to_maven.xmi into a B model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Ant2Maven_transformation_tool",
+        "arguments": "\"file_path\": \"/Users/alice/llm-agents-mde/src/examples/Ant/build.xmi\""
+      },
+      {
+        "api_name": "apply_A2B_transformation_tool",
+        "arguments": "\"file_path\": \"/Users/alice/llm-agents-mde/outputs/build_ant_to_maven.xmi\""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the Measure model at /home/alex/projects/quality/MeasureModel.xmi into a Table model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Measure2Table_transformation_tool",
+        "arguments": {
+          "file_path": "/home/alex/projects/quality/MeasureModel.xmi"
+        }
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "List the details of the UML2MOF_2 transformation that converts the UML model located at /home/alice/projects/uml/BankSystem.uml into a MOF model at /home/alice/projects/mof/BankSystem.mof.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2MOF_2_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the XML model at ./data/feeds/news.xml into an RSS model and then transform the XML model at ./data/archives/contents.xml into a Book model.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2RSS_transformation_tool",
+        "arguments": "{\"file_path\": \"./data/feeds/news.xml\"}"
+      },
+      {
+        "api_name": "apply_XML2Book_transformation_tool",
+        "arguments": "{\"file_path\": \"./data/archives/contents.xml\"}"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First display the details of the transformation that converts a Table model to an SVGBarChart model (Table2SVGBarChart), then apply the Table-to-HTML transformation to the Table model located at /home/user/models/TableModel_example.xmi to generate an HTML model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Table2SVGBarChart_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_Table2TabularHTML_transformation_tool",
+        "arguments": "/home/user/models/TableModel_example.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "Display details of the PetriNet2XML transformation that converts a PetriNet model to XML, then apply the UML2MOF transformation to the UML model located at /Users/alice/projects/mde/models/MyUMLModel.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PetriNet2XML_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_UML2MOF_transformation_tool",
+        "arguments": "/Users/alice/projects/mde/models/MyUMLModel.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Provide the full details for the XML2Ant transformation that converts an XML model into an Ant build script. Include the input XML schema, the output Ant structure, element-to-target mappings, attribute handling rules, supported Ant tasks, version compatibility notes, and a concrete example translating a minimal project.xml into build.xml.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2Ant_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Fetch the complete metadata for the Uml2Amble transformation that converts UMLDI models into Amble models. Include: supported UMLDI constructs (classes, interfaces, associations, generalizations, diagrams, notes), their Amble equivalents, the precise transformation rules, pre/post-conditions, constraints, version history and authors, and a small example mapping snippet.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Uml2Amble_tool",
+        "arguments": null
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Show me the details of the transformation Table2TabularHTML that transforms a Table model into an HTML model, and then show me the details of the transformation Partial2totalRoleA that transforms a KM3 model into a KM3target model.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Table2TabularHTML_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_Partial2totalRoleA_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First retrieve the details of the transformation that converts XML models to DXF models, then apply the XML2DSL transformation to the XML model located at /home/user/projects/models/sample.xml.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2DXF_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_XML2DSL_transformation_tool",
+        "arguments": "file_path=/home/user/projects/models/sample.xml"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Please list the details of the transformation PrimaryKey_with_context that transforms a KM3 model into a KM3 model. Include the input and output KM3 definitions, how the context around primary keys is handled, any mapping rules, and an example of a typical transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_PrimaryKey_with_context_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, get",
+    "instruction": "Retrieve and compare the transformation details for two mappings: (1) XML to Make: the transformation that converts an XML model into a Make model; (2) KM3 to EMF: the transformation that converts a KM3 model into an EMF model. Return the full transformation details for both in order, and include a concise comparison of their input types, output types, and any notable steps or rules within each transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2Make_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "list_transformation_KM32EMF_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Request a complete specification of the XML2R2ML transformation that converts an XML model into an r2ml model, including the input XML schema and namespaces accepted, the element-to-r2ml mappings for core constructs (classes, properties, relationships, and annotations), handling of cross-document references, cardinalities and data types, error handling and validation rules, a minimal working example showing sample input XML and the corresponding r2ml output, and the transformation's version history and change log.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2R2ML_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML sitemap located at /home/alice/projects/xml/site_map.xml into an RSS 2.0 feed structure for ingestion by our podcast aggregator, ensuring each URL maps to an RSS item with title, link, pubDate, and guid, and that channel metadata (title, link, description) is populated from the XML root.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2RSS_transformation_tool",
+        "arguments": "/home/alice/projects/xml/site_map.xml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me all details for the KM32Metrics transformation that converts a KM3 model into a Metrics model, including the transformation steps, input KM3 requirements, output Metrics schema, and any mapping rules or constraints.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_KM32Metrics_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Transform the Table model at /workspace/metamodels/TableModel-MM.xmi into an SVGPieChart model using the appropriate transformation, and then retrieve the details of the transformation Mantis2XML that converts a Mantis model into XML.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2SVGPieChart_transformation_tool",
+        "arguments": "{\"file_path\": \"/workspace/metamodels/TableModel-MM.xmi\"}"
+      },
+      {
+        "api_name": "list_transformation_Mantis2XML_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the complete metadata for the UML2KM3 transformation that converts UML models into KM3 models, including input/output metamodels, version, authors, dependencies, core mapping rules (Class, Attribute, Operation, Association, Generalization, Package), constraints, supported UML profiles, and any known limitations.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UML2KM3_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the XML model /data/xml_models/erp_system/inventory_domain.xml into a MySQL relational model using the apply_XML2MySQL_transformation_tool. Output should be a MySQL schema suitable for deployment on MySQL 8.0 with normalized 3NF structure, including primary keys, foreign keys, and appropriate indexes.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_XML2MySQL_transformation_tool",
+        "arguments": "file_path: /data/xml_models/erp_system/inventory_domain.xml"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get, apply",
+    "instruction": "First show me the configuration of the transformation that transforms XML to MS Office Spreadsheet MLSimplified, then apply the PNML2PetriNet transformation to the PNML model at /Users/alice/projects/models/sample.pnml.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_XML2SpreadsheetMLSimplified_tool",
+        "arguments": ""
+      },
+      {
+        "api_name": "apply_PNML2PetriNet_transformation_tool",
+        "arguments": "{\"file_path\": \"/Users/alice/projects/models/sample.pnml\"}"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show me the details of the A2B transformation that converts a UML class diagram into an OWL ontology, including mapping rules, supported input formats (XMI, UML-XMI), and outputs (RDF/XML, Turtle), version compatibility, and any configurable parameters.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_A2B_tool",
+        "arguments": null
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, apply",
+    "instruction": "Transform the Table model at ./data/Table_models/sample_table_table.xmi into an MSOfficeExcel_SpreadsheetMLSimplified model using the Table2SpreadsheetMLSimplified transformation, and then transform the PathExp model at ./data/PathExp_models/sample_pathexp_path.xmi into a PetriNet model using the PathExp2PetriNet transformation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Table2SpreadsheetMLSimplified_transformation_tool",
+        "arguments": "file_path: ./data/Table_models/sample_table_table.xmi"
+      },
+      {
+        "api_name": "apply_PathExp2PetriNet_transformation_tool",
+        "arguments": "file_path: ./data/PathExp_models/sample_pathexp_path.xmi"
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the UML model /home/alex/projects/uml/OrderFulfillment.uml into a BPMN model suitable for deployment in the workflow automation platform.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Activity2BPMN_transformation_tool",
+        "arguments": "{\"file_path\": \"/home/alex/projects/uml/OrderFulfillment.uml\"}"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Transform the PetriNet model into XML by applying the PetriNet2XML transformation to the file at /home/alice/petri/petri_models/OrderFulfillment_PetriNet.xmi.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_PetriNet2XML_transformation_tool",
+        "arguments": "{\"file_path\": \"/home/alice/petri/petri_models/OrderFulfillment_PetriNet.xmi\"}"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Display the full details of the transformation SimpleClass2SimpleRDBMS, including input SimpleClass model, output SimpleRDBMS model, mapping rules, and any associated configuration settings.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_SimpleClass2SimpleRDBMS_tool",
+        "arguments": "..."
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply, get",
+    "instruction": "Apply the UML-to-BPMN transformation to the UML model at ./uml_models/SampleUMLModel.xmi to produce a BPMN model, and then display the details of the XML2MySQL transformation that converts XML models into MySQL models.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_Activity2BPMN_transformation_tool",
+        "arguments": "file_path: ./uml_models/SampleUMLModel.xmi"
+      },
+      {
+        "api_name": "list_transformation_XML2MySQL_tool",
+        "arguments": ""
+      }
+    ],
+    "sampled_group_size": 2,
+    "_sample_category": "multi"
+  },
+  {
+    "pattern": "get",
+    "instruction": "List me the details of the transformation UMLDI2SVG that converts a UML Diagram Intermediate (UMLDI) model into an SVG visualization.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_UMLDI2SVG_tool",
+        "arguments": ""
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "apply",
+    "instruction": "Convert the KM3 model located at /home/jordan/workspace/km3_models/NetworkTopologyKM3.xmi into a DOT graph representation.",
+    "relevant_apis": [
+      {
+        "api_name": "apply_KM32DOT_transformation_tool",
+        "arguments": "/home/jordan/workspace/km3_models/NetworkTopologyKM3.xmi"
+      }
+    ],
+    "_sample_category": "single"
+  },
+  {
+    "pattern": "get",
+    "instruction": "Show the complete metadata for the Partial2totalRoleB transformation that converts a KM3 model into a KM3target model, including input/output schemas, mapping rules, role bindings, version tags, constraints, and any known limitations, so I can audit its behavior in KM3-to-KM3target migrations.",
+    "relevant_apis": [
+      {
+        "api_name": "list_transformation_Partial2totalRoleB_tool",
+        "arguments": "..."
+      }
+    ],
+    "_sample_category": "single"
+  }
+]
