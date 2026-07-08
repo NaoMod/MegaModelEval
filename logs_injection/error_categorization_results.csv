@@ -1,0 +1,8 @@
+Error Category,Count,Percentage
+"Correct (right tool, right sequence, all succeeded)",1055,80.2%
+Redundant tool calls (same tool invoked >1× unnecessarily),83,6.3%
+Planning failure (agent produced no steps),1,0.1%
+Execution failure (tool invocation returned error),1,0.1%
+Wrong tool selected,175,13.3%
+"Correct tools, wrong execution sequence",0,0.0%
+TOTAL,1315,100.0%
