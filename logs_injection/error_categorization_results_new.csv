@@ -52,3 +52,29 @@ Steps,Traces
 11,1
 12,1
 16,1
+
+=== TYPED ARTIFACT GRAPH ===
+Metric,Value
+Apply tools with typed source/target,48
+Unique metamodels referenced,46
+Full Cartesian product (apply x apply),2256
+Type-compatible chains,88
+Reduction from type filtering,96.1%
+Chains exercised in real traces,7
+Chain coverage,8.0%
+
+=== HUB METAMODELS ===
+Metamodel,Chains through it,% of all chains
+XML,40,45.5%
+KM3,27,30.7%
+Ant,6,6.8%
+PetriNet,3,3.4%
+DSL,2,2.3%
+PathExp,2,2.3%
+PNML,2,2.3%
+XSLT,1,1.1%
+MavenMaven,1,1.1%
+MySQL,1,1.1%
+TextualPathExp,1,1.1%
+Book,1,1.1%
+Make,1,1.1%

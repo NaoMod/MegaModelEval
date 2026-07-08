@@ -38,8 +38,6 @@ def _safe_invoke(llm: ChatOpenAI, prompt: str) -> str:
 
 
 def _try_parse_json_instruction(response_text: str) -> Dict[str, Any]:
-    """Best-effort JSON parsing, mirroring the fallback behavior in pipeline.py /
-    emf_pipeline.py so generated items have a consistent shape even on malformed output."""
     try:
         parsed = json.loads(response_text)
         if isinstance(parsed, dict):
@@ -51,12 +49,6 @@ def _try_parse_json_instruction(response_text: str) -> Dict[str, Any]:
 
 
 class IncrementalWriter:
-    """Holds the growing list of generated items in memory AND writes the full list to
-    `path` after every single append, so a crash, Ctrl+C, or API outage at item 850/1000
-    still leaves outputs/<path> containing all 850 already-generated items, not zero.
-
-    Also prints a one-line progress update per item so a long run isn't silent."""
-
     def __init__(self, path: Path, target_total: int, label: str = ""):
         self.path = path
         self.target_total = target_total
@@ -66,7 +58,7 @@ class IncrementalWriter:
         self._install_signal_handler()
 
     def _install_signal_handler(self):
-        def _handler(signum, frame):
+        def _handler():
             self._interrupted = True
             print(
                 f"\n[{self.label}] Ctrl+C received -- saving {len(self.items)} items "
@@ -134,8 +126,6 @@ def generate_single_tool_instructions(
             selected_seeds = random.sample(pattern_seeds, min(3, len(pattern_seeds))) if pattern_seeds else []
             seed_examples = "\n".join(f"- {_get(s, 'instruction')}" for s in selected_seeds)
 
-            # Tight paraphrase of ToolLLM Appendix A.7 "Task Description of Single-tool
-            # Instructions" -- each clause appears once, no restatement.
             prompt = (
                 f"You will be provided with a tool, its description, and its required parameters. "
                 f"Your task is to create ONE varied, innovative, detailed user query that uses this "
@@ -343,22 +333,13 @@ def generate_toolllm_dataset(
     if len(combined) != target_total:
         print(
             f"[toolllm_baseline] WARNING: generated {len(combined)} validated/deduplicated "
-            f"instructions, target was {target_total} (single: requested "
-            f"{len(tools) * n_single_per_tool}, got {len(single_items)}; multi: requested "
-            f"{n_multi_instructions}, got {len(multi_items)}). LLM failures, validation "
-            f"rejects, or duplicate collisions account for the gap -- re-run with a higher "
-            f"llm_max_calls or inspect the raw (pre-validation) items if the gap is large, "
-            f"rather than silently reporting a smaller dataset as if it were volume-matched."
         )
 
     return combined
 
-
 def write_dataset(examples: List[Dict[str, Any]], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(examples, indent=2))
-
-
 
 
 if __name__ == "__main__":
